@@ -1,0 +1,3 @@
+python main.py --name arithmetic_low --num_questions 200 --contexts Default Code Explain Impersonation Restorying --experiment Arithmetic --range 1 100;
+python main.py --name arithmetic_high --num_questions 200 --contexts Default Code Explain Impersonation Restorying --experiment Arithmetic --range 1000 10000;
+python main.py --name puzzle --num_questions 200 --contexts Default Code Explain Impersonation Restorying --experiment Puzzle --range 1 100;

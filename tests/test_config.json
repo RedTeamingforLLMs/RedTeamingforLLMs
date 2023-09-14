@@ -1,0 +1,8 @@
+{
+    "model": "gpt-3.5-turbo",
+    "parameters": {
+        "max_tokens": 500,
+        "top_p": 0.2
+    },
+    "key_file": "tests/test_key.txt"
+}
