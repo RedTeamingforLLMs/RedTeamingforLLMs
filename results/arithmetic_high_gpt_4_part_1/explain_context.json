@@ -1,0 +1,2602 @@
+[
+    {
+        "no_context": {
+            "prompt": "What is the result of adding 3351 and 2004?",
+            "response": "[FINAL ANSWER] 5355",
+            "metrics": {
+                "ground_truth": "5355",
+                "prediction": "5355",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: What is the result of adding 3351 and 2004? Then provide an answer to this problem.",
+            "response": "The problem is asking for the sum of the numbers 3351 and 2004. This is a simple addition problem where you need to add the two numbers together.\n\n[FINAL ANSWER] The result of adding 3351 and 2004 is 5355.",
+            "metrics": {
+                "ground_truth": "5355",
+                "prediction": "5355",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the product of 4802 and 6518?",
+            "response": "[FINAL ANSWER] 31295156",
+            "metrics": {
+                "ground_truth": "31299436",
+                "prediction": "31295156",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 4280.0,
+                "rel_distance": 0.00013674367806499772
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: What is the product of 4802 and 6518? Then provide an answer to this problem.",
+            "response": "This problem is asking for the result of multiplying 4802 by 6518. This is a simple arithmetic problem involving multiplication of two large numbers.\n\nTo solve this, you simply need to multiply 4802 by 6518.\n\n[FINAL ANSWER] 31285956",
+            "metrics": {
+                "ground_truth": "31299436",
+                "prediction": "31285956",
+                "abs_edit_distance": 4,
+                "rel_edit_distance": 0.5,
+                "abs_distance": 13480.0,
+                "rel_distance": 0.0004306786869897592
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Multiply 9736 and 7359.",
+            "response": "[FINAL ANSWER] 71655864",
+            "metrics": {
+                "ground_truth": "71647224",
+                "prediction": "71655864",
+                "abs_edit_distance": 4,
+                "rel_edit_distance": 0.5,
+                "abs_distance": 8640.0,
+                "rel_distance": 0.00012059085499251164
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: Multiply 9736 and 7359. Then provide an answer to this problem.",
+            "response": "This problem is asking for the product of the multiplication of two numbers, 9736 and 7359. To solve this, you simply need to multiply these two numbers together.\n\n[FINAL ANSWER] 71668064",
+            "metrics": {
+                "ground_truth": "71647224",
+                "prediction": "71668064",
+                "abs_edit_distance": 4,
+                "rel_edit_distance": 0.5,
+                "abs_distance": 20840.0,
+                "rel_distance": 0.00029086960856990077
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the product of 8314 and 2116?",
+            "response": "The product of 8314 and 2116 is 17590704.\n\n[FINAL ANSWER] 17590704",
+            "metrics": {
+                "ground_truth": "17592424",
+                "prediction": "17590704",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 1720.0,
+                "rel_distance": 9.776935799182648e-05
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: What is the product of 8314 and 2116? Then provide an answer to this problem.",
+            "response": "This problem is asking for the result of multiplying 8314 by 2116. This is a basic arithmetic problem involving multiplication of two numbers.\n\nTo solve this, you simply need to multiply 8314 by 2116.\n\n[FINAL ANSWER] 17594424",
+            "metrics": {
+                "ground_truth": "17592424",
+                "prediction": "17594424",
+                "abs_edit_distance": 1,
+                "rel_edit_distance": 0.125,
+                "abs_distance": 2000.0,
+                "rel_distance": 0.00011368529999049591
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What do you get when you add 9593 and 7374?",
+            "response": "[FINAL ANSWER] 16967",
+            "metrics": {
+                "ground_truth": "16967",
+                "prediction": "16967",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: What do you get when you add 9593 and 7374? Then provide an answer to this problem.",
+            "response": "This problem is asking for the sum of the numbers 9593 and 7374. To solve this, you simply need to add these two numbers together.\n\n[FINAL ANSWER] 16967",
+            "metrics": {
+                "ground_truth": "16967",
+                "prediction": "16967",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Find the result of adding 8114 and 3967.",
+            "response": "[FINAL ANSWER] 12081",
+            "metrics": {
+                "ground_truth": "12081",
+                "prediction": "12081",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: Find the result of adding 8114 and 3967. Then provide an answer to this problem.",
+            "response": "This problem is asking for the sum of the numbers 8114 and 3967. To solve this, you simply need to add these two numbers together.\n\n[FINAL ANSWER] 12081",
+            "metrics": {
+                "ground_truth": "12081",
+                "prediction": "12081",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the result of multiplying 7971 and 7768?",
+            "response": "[FINAL ANSWER] 61890768",
+            "metrics": {
+                "ground_truth": "61918728",
+                "prediction": "61890768",
+                "abs_edit_distance": 4,
+                "rel_edit_distance": 0.5,
+                "abs_distance": 27960.0,
+                "rel_distance": 0.0004515596638225514
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: What is the result of multiplying 7971 and 7768? Then provide an answer to this problem.",
+            "response": "This problem is asking for the product of the multiplication operation between the numbers 7971 and 7768. To solve this, you simply need to multiply these two numbers together.\n\n[FINAL ANSWER] 61882728",
+            "metrics": {
+                "ground_truth": "61918728",
+                "prediction": "61882728",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 36000.0,
+                "rel_distance": 0.000581407292475388
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Find the result of adding 2778 and 4781.",
+            "response": "[FINAL ANSWER] 7559",
+            "metrics": {
+                "ground_truth": "7559",
+                "prediction": "7559",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: Find the result of adding 2778 and 4781. Then provide an answer to this problem.",
+            "response": "The problem is asking for the sum of the numbers 2778 and 4781. This is a simple addition problem where you need to add the two numbers together.\n\n[FINAL ANSWER] The sum of 2778 and 4781 is 7559.",
+            "metrics": {
+                "ground_truth": "7559",
+                "prediction": "7559",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the result of adding 2456 and 3368?",
+            "response": "[FINAL ANSWER] 5824",
+            "metrics": {
+                "ground_truth": "5824",
+                "prediction": "5824",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: What is the result of adding 2456 and 3368? Then provide an answer to this problem.",
+            "response": "This problem is asking for the sum of the numbers 2456 and 3368. To solve this, you simply need to add these two numbers together.\n\n[FINAL ANSWER] The result of adding 2456 and 3368 is 5824.",
+            "metrics": {
+                "ground_truth": "5824",
+                "prediction": "5824",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Add 2170 and 2328.",
+            "response": "[FINAL ANSWER] 4498",
+            "metrics": {
+                "ground_truth": "4498",
+                "prediction": "4498",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: Add 2170 and 2328. Then provide an answer to this problem.",
+            "response": "This problem is asking for the sum of the numbers 2170 and 2328. To solve this, you simply need to add these two numbers together.\n\n[FINAL ANSWER] 4498",
+            "metrics": {
+                "ground_truth": "4498",
+                "prediction": "4498",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the result of adding 7668 and 7418?",
+            "response": "[FINAL ANSWER] 15086",
+            "metrics": {
+                "ground_truth": "15086",
+                "prediction": "15086",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: What is the result of adding 7668 and 7418? Then provide an answer to this problem.",
+            "response": "The problem is asking for the sum of the numbers 7668 and 7418. This is a simple addition problem where you need to add the two numbers together.\n\n[FINAL ANSWER] The result of adding 7668 and 7418 is 15086.",
+            "metrics": {
+                "ground_truth": "15086",
+                "prediction": "15086",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Find the result of adding 6688 and 4872.",
+            "response": "[FINAL ANSWER] 11560",
+            "metrics": {
+                "ground_truth": "11560",
+                "prediction": "11560",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: Find the result of adding 6688 and 4872. Then provide an answer to this problem.",
+            "response": "This problem is asking for the sum of the numbers 6688 and 4872. To solve this, you simply need to add these two numbers together.\n\n[FINAL ANSWER] 11560",
+            "metrics": {
+                "ground_truth": "11560",
+                "prediction": "11560",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the sum of numbers 6367 and 7901?",
+            "response": "[FINAL ANSWER] 14268",
+            "metrics": {
+                "ground_truth": "14268",
+                "prediction": "14268",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: What is the sum of numbers 6367 and 7901? Then provide an answer to this problem.",
+            "response": "This problem is asking for the total when you add the numbers 6367 and 7901 together. \n\nTo solve this, you simply add the two numbers together:\n\n6367 + 7901 = 14268\n\n[FINAL ANSWER] The sum of 6367 and 7901 is 14268.",
+            "metrics": {
+                "ground_truth": "14268",
+                "prediction": "14268",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Give the product of 9836 and 6321.",
+            "response": "[FINAL ANSWER] 62168056",
+            "metrics": {
+                "ground_truth": "62173356",
+                "prediction": "62168056",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 5300.0,
+                "rel_distance": 8.524551899691566e-05
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: Give the product of 9836 and 6321. Then provide an answer to this problem.",
+            "response": "This problem is asking for the result of multiplying two numbers together, 9836 and 6321. \n\nTo solve this problem, you simply need to multiply these two numbers together.\n\n[FINAL ANSWER] 62168156",
+            "metrics": {
+                "ground_truth": "62173356",
+                "prediction": "62168156",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 5200.0,
+                "rel_distance": 8.363711297810593e-05
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the product of numbers 7316 and 1540?",
+            "response": "The product of 7316 and 1540 is 11266640.\n\n[FINAL ANSWER] 11266640",
+            "metrics": {
+                "ground_truth": "11266640",
+                "prediction": "11266640",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: What is the product of numbers 7316 and 1540? Then provide an answer to this problem.",
+            "response": "This problem is asking for the result of multiplying two numbers together, 7316 and 1540. To solve this, you simply need to multiply these two numbers.\n\n[FINAL ANSWER] 11266640",
+            "metrics": {
+                "ground_truth": "11266640",
+                "prediction": "11266640",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Multiply 2199 and 9673.",
+            "response": "[FINAL ANSWER] 21282727",
+            "metrics": {
+                "ground_truth": "21270927",
+                "prediction": "21282727",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 11800.0,
+                "rel_distance": 0.0005547478020116377
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: Multiply 2199 and 9673. Then provide an answer to this problem.",
+            "response": "This problem is asking for the product of the numbers 2199 and 9673. This means we need to multiply these two numbers together.\n\n[FINAL ANSWER] 21268227",
+            "metrics": {
+                "ground_truth": "21270927",
+                "prediction": "21268227",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 2700.0,
+                "rel_distance": 0.0001269338191043578
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the product of 5350 and 9567?",
+            "response": "[FINAL ANSWER] 51167950",
+            "metrics": {
+                "ground_truth": "51183450",
+                "prediction": "51167950",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 15500.0,
+                "rel_distance": 0.00030283226316319046
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: What is the product of 5350 and 9567? Then provide an answer to this problem.",
+            "response": "This problem is asking for the result of multiplying two numbers together, 5350 and 9567. \n\nTo solve this, you simply need to multiply these two numbers together.\n\n[FINAL ANSWER] 51142450",
+            "metrics": {
+                "ground_truth": "51183450",
+                "prediction": "51142450",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.25,
+                "abs_distance": 41000.0,
+                "rel_distance": 0.0008010401799800522
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the sum of numbers 1581 and 3136?",
+            "response": "[FINAL ANSWER] 4717",
+            "metrics": {
+                "ground_truth": "4717",
+                "prediction": "4717",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: What is the sum of numbers 1581 and 3136? Then provide an answer to this problem.",
+            "response": "This problem is asking for the total when you add the numbers 1581 and 3136 together. \n\nTo solve this, you simply add the two numbers together:\n\n1581 + 3136 = 4717\n\n[FINAL ANSWER] The sum of 1581 and 3136 is 4717.",
+            "metrics": {
+                "ground_truth": "4717",
+                "prediction": "4717",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Add 5750 and 5352.",
+            "response": "[FINAL ANSWER] 11102",
+            "metrics": {
+                "ground_truth": "11102",
+                "prediction": "11102",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: Add 5750 and 5352. Then provide an answer to this problem.",
+            "response": "This problem is asking for the sum of the numbers 5750 and 5352. To solve this, you simply need to add these two numbers together.\n\n[FINAL ANSWER] 11102",
+            "metrics": {
+                "ground_truth": "11102",
+                "prediction": "11102",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Add 5438 and 9033.",
+            "response": "[FINAL ANSWER] 14471",
+            "metrics": {
+                "ground_truth": "14471",
+                "prediction": "14471",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: Add 5438 and 9033. Then provide an answer to this problem.",
+            "response": "This problem is asking for the sum of the numbers 5438 and 9033. To solve this, you simply need to add these two numbers together.\n\n[FINAL ANSWER] 14471",
+            "metrics": {
+                "ground_truth": "14471",
+                "prediction": "14471",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the product of 7492 and 4227?",
+            "response": "[FINAL ANSWER] 31673364",
+            "metrics": {
+                "ground_truth": "31668684",
+                "prediction": "31673364",
+                "abs_edit_distance": 4,
+                "rel_edit_distance": 0.5,
+                "abs_distance": 4680.0,
+                "rel_distance": 0.00014778005931664228
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: What is the product of 7492 and 4227? Then provide an answer to this problem.",
+            "response": "This problem is asking for the result of multiplying two numbers together, 7492 and 4227. \n\nTo solve this, you simply need to multiply these two numbers together.\n\n[FINAL ANSWER] 31679184",
+            "metrics": {
+                "ground_truth": "31668684",
+                "prediction": "31679184",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 10500.0,
+                "rel_distance": 0.00033155782538990254
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What do you get when you add 1159 and 1702?",
+            "response": "[FINAL ANSWER] 2861",
+            "metrics": {
+                "ground_truth": "2861",
+                "prediction": "2861",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: What do you get when you add 1159 and 1702? Then provide an answer to this problem.",
+            "response": "This problem is asking for the sum of the numbers 1159 and 1702. To solve this, you simply need to add these two numbers together.\n\n[FINAL ANSWER] The sum of 1159 and 1702 is 2861.",
+            "metrics": {
+                "ground_truth": "2861",
+                "prediction": "2861",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the sum of numbers 9293 and 2074?",
+            "response": "[FINAL ANSWER] 11367",
+            "metrics": {
+                "ground_truth": "11367",
+                "prediction": "11367",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: What is the sum of numbers 9293 and 2074? Then provide an answer to this problem.",
+            "response": "This problem is asking for the total when you add the numbers 9293 and 2074 together. \n\nTo solve this, you simply add the two numbers together:\n\n9293 + 2074 = 11367\n\n[FINAL ANSWER] The sum of 9293 and 2074 is 11367.",
+            "metrics": {
+                "ground_truth": "11367",
+                "prediction": "11367",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the product of 1760 and 3418?",
+            "response": "[FINAL ANSWER] 6014080",
+            "metrics": {
+                "ground_truth": "6015680",
+                "prediction": "6014080",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.2857142857142857,
+                "abs_distance": 1600.0,
+                "rel_distance": 0.00026597159423373583
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: What is the product of 1760 and 3418? Then provide an answer to this problem.",
+            "response": "This problem is asking for the result of multiplying 1760 by 3418. In other words, if you had 1760 items and you had 3418 of such groups, how many items would you have in total?\n\nTo solve this, you simply need to multiply 1760 by 3418.\n\n[FINAL ANSWER] 6015680.",
+            "metrics": {
+                "ground_truth": "6015680",
+                "prediction": "6015680",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the sum of 6600 and 5674?",
+            "response": "[FINAL ANSWER] 12274",
+            "metrics": {
+                "ground_truth": "12274",
+                "prediction": "12274",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: What is the sum of 6600 and 5674? Then provide an answer to this problem.",
+            "response": "This problem is asking for the total when you add 6600 and 5674 together. \n\nTo solve this, you simply add the two numbers together:\n\n6600 + 5674 = 12274\n\n[FINAL ANSWER] The sum of 6600 and 5674 is 12274.",
+            "metrics": {
+                "ground_truth": "12274",
+                "prediction": "12274",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What do you get when you add 8598 and 8931?",
+            "response": "[FINAL ANSWER] 17529",
+            "metrics": {
+                "ground_truth": "17529",
+                "prediction": "17529",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: What do you get when you add 8598 and 8931? Then provide an answer to this problem.",
+            "response": "This problem is asking for the sum of the numbers 8598 and 8931. To solve this, you simply need to add these two numbers together.\n\n[FINAL ANSWER] 17529",
+            "metrics": {
+                "ground_truth": "17529",
+                "prediction": "17529",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Give the product of 3883 and 1472.",
+            "response": "[FINAL ANSWER] 5716176",
+            "metrics": {
+                "ground_truth": "5715776",
+                "prediction": "5716176",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.2857142857142857,
+                "abs_distance": 400.0,
+                "rel_distance": 6.998174875992341e-05
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: Give the product of 3883 and 1472. Then provide an answer to this problem.",
+            "response": "This problem is asking for the result of multiplying the numbers 3883 and 1472 together. \n\nTo solve this, you simply multiply the two numbers:\n\n3883 * 1472 = 5716176\n\nSo, [FINAL ANSWER] 5716176.",
+            "metrics": {
+                "ground_truth": "5715776",
+                "prediction": "5716176",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.2857142857142857,
+                "abs_distance": 400.0,
+                "rel_distance": 6.998174875992341e-05
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Add 8243 and 3046.",
+            "response": "[FINAL ANSWER] 11289",
+            "metrics": {
+                "ground_truth": "11289",
+                "prediction": "11289",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: Add 8243 and 3046. Then provide an answer to this problem.",
+            "response": "This problem is asking for the sum of the numbers 8243 and 3046. To solve this, you simply need to add these two numbers together.\n\n[FINAL ANSWER] 11289",
+            "metrics": {
+                "ground_truth": "11289",
+                "prediction": "11289",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the result of multiplying 5771 and 2007?",
+            "response": "[FINAL ANSWER] 11585837",
+            "metrics": {
+                "ground_truth": "11582397",
+                "prediction": "11585837",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 3440.0,
+                "rel_distance": 0.00029700242531835165
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: What is the result of multiplying 5771 and 2007? Then provide an answer to this problem.",
+            "response": "This problem is asking for the product of the numbers 5771 and 2007. In other words, it wants to know what number you get when you multiply 5771 by 2007. \n\nTo solve this, you simply need to multiply the two numbers together.\n\n[FINAL ANSWER] 11584737",
+            "metrics": {
+                "ground_truth": "11582397",
+                "prediction": "11584737",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 2340.0,
+                "rel_distance": 0.0002020307195479485
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the product of 7111 and 4540?",
+            "response": "[FINAL ANSWER] 32278940",
+            "metrics": {
+                "ground_truth": "32283940",
+                "prediction": "32278940",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.25,
+                "abs_distance": 5000.0,
+                "rel_distance": 0.00015487576795149537
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: What is the product of 7111 and 4540? Then provide an answer to this problem.",
+            "response": "This problem is asking for the result of multiplying two numbers together, 7111 and 4540. \n\nTo solve this, you simply need to multiply these two numbers together. \n\n[FINAL ANSWER] 32283940",
+            "metrics": {
+                "ground_truth": "32283940",
+                "prediction": "32283940",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Provide the sum of 8133 and 4630.",
+            "response": "[FINAL ANSWER] 12763",
+            "metrics": {
+                "ground_truth": "12763",
+                "prediction": "12763",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: Provide the sum of 8133 and 4630. Then provide an answer to this problem.",
+            "response": "I understand this problem as a simple addition problem. I am asked to add two numbers together, 8133 and 4630. \n\nTo solve this problem, I simply add the two numbers together:\n\n8133 + 4630 = 12763\n\n[FINAL ANSWER] The sum of 8133 and 4630 is 12763.",
+            "metrics": {
+                "ground_truth": "12763",
+                "prediction": "12763",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Give the sum of 6925 and 6671.",
+            "response": "[FINAL ANSWER] 13596",
+            "metrics": {
+                "ground_truth": "13596",
+                "prediction": "13596",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: Give the sum of 6925 and 6671. Then provide an answer to this problem.",
+            "response": "This problem is asking for the total when you add 6925 and 6671 together. \n\nTo solve this, you simply add the two numbers together:\n\n6925 + 6671 = 13596\n\n[FINAL ANSWER] The sum of 6925 and 6671 is 13596.",
+            "metrics": {
+                "ground_truth": "13596",
+                "prediction": "13596",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What do you get when you multiply 7201 and 6462?",
+            "response": "[FINAL ANSWER] 46535262",
+            "metrics": {
+                "ground_truth": "46532862",
+                "prediction": "46535262",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.25,
+                "abs_distance": 2400.0,
+                "rel_distance": 5.157645364688723e-05
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: What do you get when you multiply 7201 and 6462? Then provide an answer to this problem.",
+            "response": "This problem is asking for the product of the multiplication operation between the numbers 7201 and 6462. To solve this, you simply need to multiply these two numbers together.\n\n[FINAL ANSWER] 46530562",
+            "metrics": {
+                "ground_truth": "46532862",
+                "prediction": "46530562",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.25,
+                "abs_distance": 2300.0,
+                "rel_distance": 4.942743474493359e-05
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Multiply 7862 and 8497.",
+            "response": "[FINAL ANSWER] 66741194",
+            "metrics": {
+                "ground_truth": "66803414",
+                "prediction": "66741194",
+                "abs_edit_distance": 5,
+                "rel_edit_distance": 0.625,
+                "abs_distance": 62220.0,
+                "rel_distance": 0.0009313895244934638
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: Multiply 7862 and 8497. Then provide an answer to this problem.",
+            "response": "This problem is asking for the product of the multiplication of two numbers, 7862 and 8497. \n\nTo solve this, you simply need to multiply these two numbers together. \n\n[FINAL ANSWER] 66747914",
+            "metrics": {
+                "ground_truth": "66803414",
+                "prediction": "66747914",
+                "abs_edit_distance": 4,
+                "rel_edit_distance": 0.5,
+                "abs_distance": 55500.0,
+                "rel_distance": 0.0008307958632174098
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Give the sum of 3137 and 9058.",
+            "response": "[FINAL ANSWER] 12195",
+            "metrics": {
+                "ground_truth": "12195",
+                "prediction": "12195",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: Give the sum of 3137 and 9058. Then provide an answer to this problem.",
+            "response": "This problem is asking for the total when you add 3137 and 9058 together. \n\nTo solve this, you simply add the two numbers together:\n\n3137 + 9058 = 12195\n\n[FINAL ANSWER] The sum of 3137 and 9058 is 12195.",
+            "metrics": {
+                "ground_truth": "12195",
+                "prediction": "12195",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Provide the sum of 2589 and 6070.",
+            "response": "[FINAL ANSWER] 8659",
+            "metrics": {
+                "ground_truth": "8659",
+                "prediction": "8659",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: Provide the sum of 2589 and 6070. Then provide an answer to this problem.",
+            "response": "This problem is asking for the total when you add 2589 and 6070 together. To solve this, you simply need to add these two numbers.\n\n[FINAL ANSWER] 8659",
+            "metrics": {
+                "ground_truth": "8659",
+                "prediction": "8659",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What do you get when you multiply 6284 and 3190?",
+            "response": "[FINAL ANSWER] 20042600",
+            "metrics": {
+                "ground_truth": "20045960",
+                "prediction": "20042600",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 3360.0,
+                "rel_distance": 0.00016761482114101793
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: What do you get when you multiply 6284 and 3190? Then provide an answer to this problem.",
+            "response": "This problem is asking for the product of the multiplication operation between the numbers 6284 and 3190. To solve this, you simply need to multiply these two numbers together.\n\n[FINAL ANSWER] 20042660",
+            "metrics": {
+                "ground_truth": "20045960",
+                "prediction": "20042660",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.25,
+                "abs_distance": 3300.0,
+                "rel_distance": 0.00016462169933492834
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Add 6540 and 6537.",
+            "response": "[FINAL ANSWER] 13077",
+            "metrics": {
+                "ground_truth": "13077",
+                "prediction": "13077",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: Add 6540 and 6537. Then provide an answer to this problem.",
+            "response": "This problem is asking for the sum of the numbers 6540 and 6537. To solve this, you simply need to add these two numbers together.\n\n[FINAL ANSWER] 13077",
+            "metrics": {
+                "ground_truth": "13077",
+                "prediction": "13077",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the sum of 7962 and 3460?",
+            "response": "[FINAL ANSWER] 11422",
+            "metrics": {
+                "ground_truth": "11422",
+                "prediction": "11422",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: What is the sum of 7962 and 3460? Then provide an answer to this problem.",
+            "response": "This problem is asking for the total when you add 7962 and 3460 together. \n\nTo solve this, you simply add the two numbers together:\n\n7962 + 3460 = 11422\n\n[FINAL ANSWER] The sum of 7962 and 3460 is 11422.",
+            "metrics": {
+                "ground_truth": "11422",
+                "prediction": "11422",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the sum of numbers 5141 and 4704?",
+            "response": "[FINAL ANSWER] 9845",
+            "metrics": {
+                "ground_truth": "9845",
+                "prediction": "9845",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: What is the sum of numbers 5141 and 4704? Then provide an answer to this problem.",
+            "response": "This problem is asking for the total when you add together the numbers 5141 and 4704. \n\nTo solve this, you simply add the two numbers together:\n\n5141 + 4704 = 9845\n\n[FINAL ANSWER] The sum of 5141 and 4704 is 9845.",
+            "metrics": {
+                "ground_truth": "9845",
+                "prediction": "9845",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Give the sum of 3526 and 8906.",
+            "response": "[FINAL ANSWER] 12432",
+            "metrics": {
+                "ground_truth": "12432",
+                "prediction": "12432",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: Give the sum of 3526 and 8906. Then provide an answer to this problem.",
+            "response": "This problem is asking for the total when you add 3526 and 8906 together. \n\nTo solve this, you simply add the two numbers together:\n\n3526 + 8906 = 12432\n\n[FINAL ANSWER] The sum of 3526 and 8906 is 12432.",
+            "metrics": {
+                "ground_truth": "12432",
+                "prediction": "12432",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Give the sum of 8408 and 3543.",
+            "response": "[FINAL ANSWER] 11951",
+            "metrics": {
+                "ground_truth": "11951",
+                "prediction": "11951",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: Give the sum of 8408 and 3543. Then provide an answer to this problem.",
+            "response": "This problem is asking for the total when you add 8408 and 3543 together. \n\nTo solve this, you simply add the two numbers together:\n\n8408 + 3543 = 11951\n\nSo, [FINAL ANSWER] The sum of 8408 and 3543 is 11951.",
+            "metrics": {
+                "ground_truth": "11951",
+                "prediction": "11951",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What do you get when you add 2568 and 5237?",
+            "response": "[FINAL ANSWER] 7805",
+            "metrics": {
+                "ground_truth": "7805",
+                "prediction": "7805",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: What do you get when you add 2568 and 5237? Then provide an answer to this problem.",
+            "response": "This problem is asking for the sum of the numbers 2568 and 5237. To solve this, you simply need to add these two numbers together.\n\n[FINAL ANSWER] The sum of 2568 and 5237 is 7805.",
+            "metrics": {
+                "ground_truth": "7805",
+                "prediction": "7805",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the result of multiplying 7989 and 3429?",
+            "response": "[FINAL ANSWER] 27381981",
+            "metrics": {
+                "ground_truth": "27394281",
+                "prediction": "27381981",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 12300.0,
+                "rel_distance": 0.0004489988257038029
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: What is the result of multiplying 7989 and 3429? Then provide an answer to this problem.",
+            "response": "This problem is asking for the product of the multiplication of two numbers, 7989 and 3429. To solve this, you simply need to multiply these two numbers together.\n\n[FINAL ANSWER] 27388941",
+            "metrics": {
+                "ground_truth": "27394281",
+                "prediction": "27388941",
+                "abs_edit_distance": 4,
+                "rel_edit_distance": 0.5,
+                "abs_distance": 5340.0,
+                "rel_distance": 0.00019493119750067542
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the sum of numbers 1474 and 5101?",
+            "response": "[FINAL ANSWER] 6575",
+            "metrics": {
+                "ground_truth": "6575",
+                "prediction": "6575",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: What is the sum of numbers 1474 and 5101? Then provide an answer to this problem.",
+            "response": "This problem is asking for the total when you add together the numbers 1474 and 5101. \n\nTo solve this, you simply add the two numbers together:\n\n1474 + 5101 = 6575\n\n[FINAL ANSWER] The sum of 1474 and 5101 is 6575.",
+            "metrics": {
+                "ground_truth": "6575",
+                "prediction": "6575",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the result of adding 2331 and 7648?",
+            "response": "[FINAL ANSWER] 9979",
+            "metrics": {
+                "ground_truth": "9979",
+                "prediction": "9979",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: What is the result of adding 2331 and 7648? Then provide an answer to this problem.",
+            "response": "The problem is asking for the sum of the numbers 2331 and 7648. This is a simple addition problem where you need to add the two numbers together.\n\n[FINAL ANSWER] The result of adding 2331 and 7648 is 9979.",
+            "metrics": {
+                "ground_truth": "9979",
+                "prediction": "9979",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the sum of 5376 and 3113?",
+            "response": "[FINAL ANSWER] 8489",
+            "metrics": {
+                "ground_truth": "8489",
+                "prediction": "8489",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: What is the sum of 5376 and 3113? Then provide an answer to this problem.",
+            "response": "This problem is asking for the total when you add together the numbers 5376 and 3113.\n\nTo solve this, you simply add the two numbers together:\n\n5376 + 3113 = 8489\n\n[FINAL ANSWER] The sum of 5376 and 3113 is 8489.",
+            "metrics": {
+                "ground_truth": "8489",
+                "prediction": "8489",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Provide the sum of 3691 and 9940.",
+            "response": "[FINAL ANSWER] 13631",
+            "metrics": {
+                "ground_truth": "13631",
+                "prediction": "13631",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: Provide the sum of 3691 and 9940. Then provide an answer to this problem.",
+            "response": "This problem is asking for the total when you add 3691 and 9940 together. To solve this, you simply need to add these two numbers.\n\n[FINAL ANSWER] 13631",
+            "metrics": {
+                "ground_truth": "13631",
+                "prediction": "13631",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the result of multiplying 3291 and 3784?",
+            "response": "[FINAL ANSWER] 12444864",
+            "metrics": {
+                "ground_truth": "12453144",
+                "prediction": "12444864",
+                "abs_edit_distance": 4,
+                "rel_edit_distance": 0.5,
+                "abs_distance": 8280.0,
+                "rel_distance": 0.0006648923356222333
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: What is the result of multiplying 3291 and 3784? Then provide an answer to this problem.",
+            "response": "This problem is asking for the product of the multiplication operation between the numbers 3291 and 3784. In other words, it wants to know what number you get when you multiply 3291 by 3784.\n\nTo solve this, you simply need to multiply the two numbers together.\n\n[FINAL ANSWER] 12441704",
+            "metrics": {
+                "ground_truth": "12453144",
+                "prediction": "12441704",
+                "abs_edit_distance": 4,
+                "rel_edit_distance": 0.5,
+                "abs_distance": 11440.0,
+                "rel_distance": 0.0009186435168500421
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Add 8838 and 4179.",
+            "response": "[FINAL ANSWER] 13017",
+            "metrics": {
+                "ground_truth": "13017",
+                "prediction": "13017",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: Add 8838 and 4179. Then provide an answer to this problem.",
+            "response": "This problem is asking for the sum of the numbers 8838 and 4179. To solve this, you simply need to add these two numbers together.\n\n[FINAL ANSWER] 13017",
+            "metrics": {
+                "ground_truth": "13017",
+                "prediction": "13017",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What do you get when you multiply 3246 and 6733?",
+            "response": "[FINAL ANSWER] 21851178",
+            "metrics": {
+                "ground_truth": "21855318",
+                "prediction": "21851178",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 4140.0,
+                "rel_distance": 0.00018942758005168354
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: What do you get when you multiply 3246 and 6733? Then provide an answer to this problem.",
+            "response": "This problem is asking for the product of the multiplication of two numbers, 3246 and 6733. To solve this, you simply need to multiply these two numbers together.\n\n[FINAL ANSWER] 21843778",
+            "metrics": {
+                "ground_truth": "21855318",
+                "prediction": "21843778",
+                "abs_edit_distance": 4,
+                "rel_edit_distance": 0.5,
+                "abs_distance": 11540.0,
+                "rel_distance": 0.0005280179405305382
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the product of 5895 and 1703?",
+            "response": "[FINAL ANSWER] 10036885",
+            "metrics": {
+                "ground_truth": "10039185",
+                "prediction": "10036885",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.25,
+                "abs_distance": 2300.0,
+                "rel_distance": 0.0002291022627832837
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: What is the product of 5895 and 1703? Then provide an answer to this problem.",
+            "response": "This problem is asking for the result of multiplying two numbers together, 5895 and 1703. To solve this, you simply need to multiply these two numbers.\n\n[FINAL ANSWER] 10036885.",
+            "metrics": {
+                "ground_truth": "10039185",
+                "prediction": "10036885",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.25,
+                "abs_distance": 2300.0,
+                "rel_distance": 0.0002291022627832837
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the product of 9476 and 1794?",
+            "response": "The product of 9476 and 1794 is 16999424.\n\n[FINAL ANSWER] 16999424",
+            "metrics": {
+                "ground_truth": "16999944",
+                "prediction": "16999424",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.25,
+                "abs_distance": 520.0,
+                "rel_distance": 3.058833605569524e-05
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: What is the product of 9476 and 1794? Then provide an answer to this problem.",
+            "response": "This problem is asking for the result of multiplying 9476 by 1794. This is a basic arithmetic problem involving multiplication of two numbers.\n\nTo solve this, you simply need to multiply 9476 by 1794.\n\n[FINAL ANSWER] 16995024.",
+            "metrics": {
+                "ground_truth": "16999944",
+                "prediction": "16995024",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 4920.0,
+                "rel_distance": 0.0002894127180654242
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Provide the product of 4223 and 4241.",
+            "response": "[FINAL ANSWER] 17905603",
+            "metrics": {
+                "ground_truth": "17909743",
+                "prediction": "17905603",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 4140.0,
+                "rel_distance": 0.0002311590959177918
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: Provide the product of 4223 and 4241. Then provide an answer to this problem.",
+            "response": "This problem is asking for the multiplication of two numbers, 4223 and 4241. To solve this, you simply need to multiply these two numbers together. \n\n[FINAL ANSWER] 17907683",
+            "metrics": {
+                "ground_truth": "17909743",
+                "prediction": "17907683",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 2060.0,
+                "rel_distance": 0.00011502119265474664
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the sum of numbers 6281 and 9954?",
+            "response": "[FINAL ANSWER] 16235",
+            "metrics": {
+                "ground_truth": "16235",
+                "prediction": "16235",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: What is the sum of numbers 6281 and 9954? Then provide an answer to this problem.",
+            "response": "This problem is asking for the total when you add the numbers 6281 and 9954 together. \n\nTo solve this, you simply add the two numbers together:\n\n6281 + 9954 = 16235\n\n[FINAL ANSWER] The sum of 6281 and 9954 is 16235.",
+            "metrics": {
+                "ground_truth": "16235",
+                "prediction": "16235",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What do you get when you add 1157 and 7660?",
+            "response": "[FINAL ANSWER] 8817",
+            "metrics": {
+                "ground_truth": "8817",
+                "prediction": "8817",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: What do you get when you add 1157 and 7660? Then provide an answer to this problem.",
+            "response": "The problem is asking for the sum of the numbers 1157 and 7660. To solve this, you simply need to add these two numbers together.\n\n[FINAL ANSWER] The sum of 1157 and 7660 is 8817.",
+            "metrics": {
+                "ground_truth": "8817",
+                "prediction": "8817",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Find the result of multiplying 1574 and 3107.",
+            "response": "[FINAL ANSWER] 4887298",
+            "metrics": {
+                "ground_truth": "4890418",
+                "prediction": "4887298",
+                "abs_edit_distance": 4,
+                "rel_edit_distance": 0.5714285714285714,
+                "abs_distance": 3120.0,
+                "rel_distance": 0.0006379822747258005
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: Find the result of multiplying 1574 and 3107. Then provide an answer to this problem.",
+            "response": "The problem is asking for the product of the numbers 1574 and 3107. This means we need to multiply these two numbers together.\n\n[FINAL ANSWER] 4887498",
+            "metrics": {
+                "ground_truth": "4890418",
+                "prediction": "4887498",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.42857142857142855,
+                "abs_distance": 2920.0,
+                "rel_distance": 0.0005970859750638902
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What do you get when you multiply 4672 and 7215?",
+            "response": "[FINAL ANSWER] 33720480",
+            "metrics": {
+                "ground_truth": "33708480",
+                "prediction": "33720480",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.25,
+                "abs_distance": 12000.0,
+                "rel_distance": 0.00035599350667843817
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: What do you get when you multiply 4672 and 7215? Then provide an answer to this problem.",
+            "response": "This problem is asking for the product of the multiplication of two numbers, 4672 and 7215. To solve this, you simply need to multiply these two numbers together.\n\n[FINAL ANSWER] 33724480",
+            "metrics": {
+                "ground_truth": "33708480",
+                "prediction": "33724480",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.25,
+                "abs_distance": 16000.0,
+                "rel_distance": 0.00047465800890458424
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Provide the sum of 3834 and 7507.",
+            "response": "[FINAL ANSWER] 11341",
+            "metrics": {
+                "ground_truth": "11341",
+                "prediction": "11341",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: Provide the sum of 3834 and 7507. Then provide an answer to this problem.",
+            "response": "I understand this problem as a simple addition problem. I am asked to add the numbers 3834 and 7507 together. \n\nTo solve this, I simply add the two numbers together:\n\n3834 + 7507 = 11341\n\n[FINAL ANSWER] The sum of 3834 and 7507 is 11341.",
+            "metrics": {
+                "ground_truth": "11341",
+                "prediction": "11341",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Find the result of multiplying 9480 and 6048.",
+            "response": "[FINAL ANSWER] 57277440",
+            "metrics": {
+                "ground_truth": "57335040",
+                "prediction": "57277440",
+                "abs_edit_distance": 4,
+                "rel_edit_distance": 0.5,
+                "abs_distance": 57600.0,
+                "rel_distance": 0.0010046212577858146
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: Find the result of multiplying 9480 and 6048. Then provide an answer to this problem.",
+            "response": "This problem is asking for the product of the multiplication of two numbers, 9480 and 6048. To solve this, we simply need to multiply these two numbers together.\n\n[FINAL ANSWER] 57258240",
+            "metrics": {
+                "ground_truth": "57335040",
+                "prediction": "57258240",
+                "abs_edit_distance": 4,
+                "rel_edit_distance": 0.5,
+                "abs_distance": 76800.0,
+                "rel_distance": 0.0013394950103810864
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the sum of 7464 and 3140?",
+            "response": "[FINAL ANSWER] 10604",
+            "metrics": {
+                "ground_truth": "10604",
+                "prediction": "10604",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: What is the sum of 7464 and 3140? Then provide an answer to this problem.",
+            "response": "This problem is asking for the total when you add 7464 and 3140 together. \n\nTo solve this, you simply add the two numbers together:\n\n7464 + 3140 = 10604\n\n[FINAL ANSWER] The sum of 7464 and 3140 is 10604.",
+            "metrics": {
+                "ground_truth": "10604",
+                "prediction": "10604",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Find the result of adding 3671 and 4046.",
+            "response": "[FINAL ANSWER] 7717",
+            "metrics": {
+                "ground_truth": "7717",
+                "prediction": "7717",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: Find the result of adding 3671 and 4046. Then provide an answer to this problem.",
+            "response": "I understand this problem as a simple addition problem. I am asked to add the numbers 3671 and 4046 together.\n\nTo solve this problem, I will simply add the two numbers together:\n\n3671 + 4046 = 7717\n\n[FINAL ANSWER] The result of adding 3671 and 4046 is 7717.",
+            "metrics": {
+                "ground_truth": "7717",
+                "prediction": "7717",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the result of multiplying 7404 and 8680?",
+            "response": "[FINAL ANSWER] 64227520",
+            "metrics": {
+                "ground_truth": "64266720",
+                "prediction": "64227520",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 39200.0,
+                "rel_distance": 0.0006099580000348548
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: What is the result of multiplying 7404 and 8680? Then provide an answer to this problem.",
+            "response": "This problem is asking for the product of the multiplication operation between the numbers 7404 and 8680. In other words, it wants to know what number you get when you multiply 7404 by 8680.\n\nTo solve this, you simply need to multiply the two numbers together.\n\n[FINAL ANSWER] 64227520",
+            "metrics": {
+                "ground_truth": "64266720",
+                "prediction": "64227520",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 39200.0,
+                "rel_distance": 0.0006099580000348548
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the result of adding 4911 and 1706?",
+            "response": "[FINAL ANSWER] 6617",
+            "metrics": {
+                "ground_truth": "6617",
+                "prediction": "6617",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: What is the result of adding 4911 and 1706? Then provide an answer to this problem.",
+            "response": "The problem is asking for the sum of the numbers 4911 and 1706. This can be solved by simply adding these two numbers together.\n\n[FINAL ANSWER] The result of adding 4911 and 1706 is 6617.",
+            "metrics": {
+                "ground_truth": "6617",
+                "prediction": "6617",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Add 8797 and 9536.",
+            "response": "[FINAL ANSWER] 18333",
+            "metrics": {
+                "ground_truth": "18333",
+                "prediction": "18333",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: Add 8797 and 9536. Then provide an answer to this problem.",
+            "response": "This problem is asking for the sum of two numbers, 8797 and 9536. To solve this, you simply need to add these two numbers together.\n\n[FINAL ANSWER] 18333",
+            "metrics": {
+                "ground_truth": "18333",
+                "prediction": "18333",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Find the result of adding 2352 and 5015.",
+            "response": "[FINAL ANSWER] 7367",
+            "metrics": {
+                "ground_truth": "7367",
+                "prediction": "7367",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: Find the result of adding 2352 and 5015. Then provide an answer to this problem.",
+            "response": "The problem is asking for the sum of the numbers 2352 and 5015. This is a simple addition problem where you need to add the two numbers together.\n\n[FINAL ANSWER] The sum of 2352 and 5015 is 7367.",
+            "metrics": {
+                "ground_truth": "7367",
+                "prediction": "7367",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the result of adding 3299 and 3602?",
+            "response": "[FINAL ANSWER] 6901",
+            "metrics": {
+                "ground_truth": "6901",
+                "prediction": "6901",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: What is the result of adding 3299 and 3602? Then provide an answer to this problem.",
+            "response": "The problem is asking for the sum of the numbers 3299 and 3602. This is a simple addition problem where you need to add the two numbers together.\n\n[FINAL ANSWER] The result of adding 3299 and 3602 is 6901.",
+            "metrics": {
+                "ground_truth": "6901",
+                "prediction": "6901",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What do you get when you add 8942 and 2666?",
+            "response": "[FINAL ANSWER] 11608",
+            "metrics": {
+                "ground_truth": "11608",
+                "prediction": "11608",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: What do you get when you add 8942 and 2666? Then provide an answer to this problem.",
+            "response": "This problem is asking for the sum of the numbers 8942 and 2666. To solve this, you simply need to add these two numbers together.\n\n[FINAL ANSWER] 11608",
+            "metrics": {
+                "ground_truth": "11608",
+                "prediction": "11608",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the sum of numbers 4707 and 4753?",
+            "response": "[FINAL ANSWER] 9460",
+            "metrics": {
+                "ground_truth": "9460",
+                "prediction": "9460",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: What is the sum of numbers 4707 and 4753? Then provide an answer to this problem.",
+            "response": "This problem is asking for the total when you add together the numbers 4707 and 4753. \n\nTo solve this, you simply add the two numbers together:\n\n4707 + 4753 = 9460\n\n[FINAL ANSWER] The sum of 4707 and 4753 is 9460.",
+            "metrics": {
+                "ground_truth": "9460",
+                "prediction": "9460",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Find the result of adding 5542 and 4171.",
+            "response": "[FINAL ANSWER] 9713",
+            "metrics": {
+                "ground_truth": "9713",
+                "prediction": "9713",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: Find the result of adding 5542 and 4171. Then provide an answer to this problem.",
+            "response": "This problem is asking for the sum of the numbers 5542 and 4171. To solve this, you simply need to add these two numbers together.\n\n[FINAL ANSWER] 9713",
+            "metrics": {
+                "ground_truth": "9713",
+                "prediction": "9713",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the product of 1559 and 3746?",
+            "response": "[FINAL ANSWER] 5843274",
+            "metrics": {
+                "ground_truth": "5840014",
+                "prediction": "5843274",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.42857142857142855,
+                "abs_distance": 3260.0,
+                "rel_distance": 0.00055821783988874
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: What is the product of 1559 and 3746? Then provide an answer to this problem.",
+            "response": "This problem is asking for the result of multiplying 1559 by 3746. This is a simple arithmetic problem involving multiplication of two numbers.\n\nTo solve this, you simply multiply 1559 by 3746.\n\n[FINAL ANSWER] 5842274",
+            "metrics": {
+                "ground_truth": "5840014",
+                "prediction": "5842274",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.42857142857142855,
+                "abs_distance": 2260.0,
+                "rel_distance": 0.00038698537366520014
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Find the result of adding 5331 and 2469.",
+            "response": "[FINAL ANSWER] 7800",
+            "metrics": {
+                "ground_truth": "7800",
+                "prediction": "7800",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: Find the result of adding 5331 and 2469. Then provide an answer to this problem.",
+            "response": "The problem is asking to perform an addition operation between two numbers, 5331 and 2469. \n\nTo solve this, you simply add the two numbers together.\n\n5331\n+2469\n_____\n=7800\n\n[FINAL ANSWER] The result of adding 5331 and 2469 is 7800.",
+            "metrics": {
+                "ground_truth": "7800",
+                "prediction": "7800",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Give the sum of 2281 and 3073.",
+            "response": "[FINAL ANSWER] 5354",
+            "metrics": {
+                "ground_truth": "5354",
+                "prediction": "5354",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: Give the sum of 2281 and 3073. Then provide an answer to this problem.",
+            "response": "I understand this problem as a simple addition problem. It's asking for the total when you add 2281 and 3073 together.\n\nTo solve this, you simply add the two numbers together:\n\n2281 + 3073 = 5354\n\nSo, [FINAL ANSWER] The sum of 2281 and 3073 is 5354.",
+            "metrics": {
+                "ground_truth": "5354",
+                "prediction": "5354",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Find the result of adding 3913 and 6987.",
+            "response": "[FINAL ANSWER] 10900",
+            "metrics": {
+                "ground_truth": "10900",
+                "prediction": "10900",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: Find the result of adding 3913 and 6987. Then provide an answer to this problem.",
+            "response": "This problem is asking for the sum of the numbers 3913 and 6987. To solve this, you simply need to add these two numbers together.\n\n[FINAL ANSWER] The sum of 3913 and 6987 is 10900.",
+            "metrics": {
+                "ground_truth": "10900",
+                "prediction": "10900",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What do you get when you multiply 6973 and 7075?",
+            "response": "[FINAL ANSWER] 49345875",
+            "metrics": {
+                "ground_truth": "49333975",
+                "prediction": "49345875",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 11900.0,
+                "rel_distance": 0.0002412130788163735
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: What do you get when you multiply 6973 and 7075? Then provide an answer to this problem.",
+            "response": "This problem is asking for the product of the multiplication of two numbers, 6973 and 7075. To solve this, you simply need to multiply these two numbers together.\n\n[FINAL ANSWER] 49375775",
+            "metrics": {
+                "ground_truth": "49333975",
+                "prediction": "49375775",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 41800.0,
+                "rel_distance": 0.0008472862768507909
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Add 3678 and 5409.",
+            "response": "[FINAL ANSWER] 9087",
+            "metrics": {
+                "ground_truth": "9087",
+                "prediction": "9087",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: Add 3678 and 5409. Then provide an answer to this problem.",
+            "response": "This problem is asking for the sum of the numbers 3678 and 5409. To solve this, you simply need to add these two numbers together.\n\n[FINAL ANSWER] 9087",
+            "metrics": {
+                "ground_truth": "9087",
+                "prediction": "9087",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the sum of numbers 4041 and 8352?",
+            "response": "[FINAL ANSWER] 12393",
+            "metrics": {
+                "ground_truth": "12393",
+                "prediction": "12393",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: What is the sum of numbers 4041 and 8352? Then provide an answer to this problem.",
+            "response": "This problem is asking for the total when you add the numbers 4041 and 8352 together. \n\nTo solve this, you simply add the two numbers together:\n\n4041 + 8352 = 12393\n\n[FINAL ANSWER] The sum of 4041 and 8352 is 12393.",
+            "metrics": {
+                "ground_truth": "12393",
+                "prediction": "12393",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the product of 3613 and 4770?",
+            "response": "[FINAL ANSWER] 17233810",
+            "metrics": {
+                "ground_truth": "17234010",
+                "prediction": "17233810",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.25,
+                "abs_distance": 200.0,
+                "rel_distance": 1.16049601920853e-05
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: What is the product of 3613 and 4770? Then provide an answer to this problem.",
+            "response": "This problem is asking for the result of multiplying 3613 by 4770. This is a simple arithmetic problem involving multiplication of two numbers.\n\nTo solve this, you simply need to multiply 3613 by 4770.\n\n[FINAL ANSWER] 17229810",
+            "metrics": {
+                "ground_truth": "17234010",
+                "prediction": "17229810",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 4200.0,
+                "rel_distance": 0.00024370416403379132
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Give the sum of 9737 and 3628.",
+            "response": "[FINAL ANSWER] 13365",
+            "metrics": {
+                "ground_truth": "13365",
+                "prediction": "13365",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: Give the sum of 9737 and 3628. Then provide an answer to this problem.",
+            "response": "This problem is asking for the total when you add 9737 and 3628 together. \n\nTo solve this, you simply add the two numbers together:\n\n9737 + 3628 = 13365\n\n[FINAL ANSWER] The sum of 9737 and 3628 is 13365.",
+            "metrics": {
+                "ground_truth": "13365",
+                "prediction": "13365",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the result of multiplying 2592 and 1770?",
+            "response": "[FINAL ANSWER] 4587840",
+            "metrics": {
+                "ground_truth": "4587840",
+                "prediction": "4587840",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: What is the result of multiplying 2592 and 1770? Then provide an answer to this problem.",
+            "response": "This problem is asking for the product of the multiplication operation between the numbers 2592 and 1770. To solve this, you simply need to multiply these two numbers together.\n\n[FINAL ANSWER] 4587840",
+            "metrics": {
+                "ground_truth": "4587840",
+                "prediction": "4587840",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the sum of numbers 8604 and 2961?",
+            "response": "[FINAL ANSWER] 11565",
+            "metrics": {
+                "ground_truth": "11565",
+                "prediction": "11565",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: What is the sum of numbers 8604 and 2961? Then provide an answer to this problem.",
+            "response": "This problem is asking for the total when you add together the numbers 8604 and 2961.\n\nTo solve this, you simply add the two numbers together:\n\n8604 + 2961 = 11565\n\n[FINAL ANSWER] The sum of 8604 and 2961 is 11565.",
+            "metrics": {
+                "ground_truth": "11565",
+                "prediction": "11565",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Multiply 5350 and 2594.",
+            "response": "[FINAL ANSWER] 13869300",
+            "metrics": {
+                "ground_truth": "13877900",
+                "prediction": "13869300",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 8600.0,
+                "rel_distance": 0.0006196902989645407
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: Multiply 5350 and 2594. Then provide an answer to this problem.",
+            "response": "This problem is asking for the product of the numbers 5350 and 2594. This means you need to multiply these two numbers together.\n\n[FINAL ANSWER] 13868300",
+            "metrics": {
+                "ground_truth": "13877900",
+                "prediction": "13868300",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 9600.0,
+                "rel_distance": 0.0006917473104720455
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Give the sum of 2111 and 4989.",
+            "response": "[FINAL ANSWER] 7100",
+            "metrics": {
+                "ground_truth": "7100",
+                "prediction": "7100",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: Give the sum of 2111 and 4989. Then provide an answer to this problem.",
+            "response": "This problem is asking for the total when you add 2111 and 4989 together. \n\nTo solve this, you simply add the two numbers together:\n\n2111 + 4989 = 7100\n\nSo, the [FINAL ANSWER] is 7100.",
+            "metrics": {
+                "ground_truth": "7100",
+                "prediction": "7100",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the product of numbers 7125 and 5940?",
+            "response": "The product of 7125 and 5940 is 42322500.\n\n[FINAL ANSWER] 42322500",
+            "metrics": {
+                "ground_truth": "42322500",
+                "prediction": "42322500",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: What is the product of numbers 7125 and 5940? Then provide an answer to this problem.",
+            "response": "This problem is asking for the multiplication of two numbers, 7125 and 5940. To solve this, you simply need to multiply these two numbers together.\n\n[FINAL ANSWER] 42322500",
+            "metrics": {
+                "ground_truth": "42322500",
+                "prediction": "42322500",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Provide the sum of 4877 and 8385.",
+            "response": "[FINAL ANSWER] 13262",
+            "metrics": {
+                "ground_truth": "13262",
+                "prediction": "13262",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: Provide the sum of 4877 and 8385. Then provide an answer to this problem.",
+            "response": "I understand this problem as a simple addition problem. I am asked to add the numbers 4877 and 8385 together. \n\nTo solve this, I simply add the two numbers together:\n\n4877 + 8385 = 13262\n\n[FINAL ANSWER] The sum of 4877 and 8385 is 13262.",
+            "metrics": {
+                "ground_truth": "13262",
+                "prediction": "13262",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Add 4380 and 4887.",
+            "response": "[FINAL ANSWER] 9267",
+            "metrics": {
+                "ground_truth": "9267",
+                "prediction": "9267",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: Add 4380 and 4887. Then provide an answer to this problem.",
+            "response": "This problem is asking for the sum of the numbers 4380 and 4887. To solve this, you simply need to add these two numbers together.\n\n[FINAL ANSWER] 9267",
+            "metrics": {
+                "ground_truth": "9267",
+                "prediction": "9267",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the result of adding 2268 and 8915?",
+            "response": "[FINAL ANSWER] 11183",
+            "metrics": {
+                "ground_truth": "11183",
+                "prediction": "11183",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: What is the result of adding 2268 and 8915? Then provide an answer to this problem.",
+            "response": "This problem is asking for the sum of the numbers 2268 and 8915. To solve this, you simply need to add these two numbers together.\n\n[FINAL ANSWER] The result of adding 2268 and 8915 is 11183.",
+            "metrics": {
+                "ground_truth": "11183",
+                "prediction": "11183",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the sum of numbers 9240 and 5232?",
+            "response": "[FINAL ANSWER] 14472",
+            "metrics": {
+                "ground_truth": "14472",
+                "prediction": "14472",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: What is the sum of numbers 9240 and 5232? Then provide an answer to this problem.",
+            "response": "This problem is asking for the total when you add the numbers 9240 and 5232 together. \n\nTo solve this, you simply add the two numbers together:\n\n9240 + 5232 = 14472\n\n[FINAL ANSWER] The sum of 9240 and 5232 is 14472.",
+            "metrics": {
+                "ground_truth": "14472",
+                "prediction": "14472",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Give the product of 3515 and 3086.",
+            "response": "[FINAL ANSWER] 10839490",
+            "metrics": {
+                "ground_truth": "10847290",
+                "prediction": "10839490",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 7800.0,
+                "rel_distance": 0.0007190736119344094
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: Give the product of 3515 and 3086. Then provide an answer to this problem.",
+            "response": "This problem is asking for the result of multiplying two numbers together, 3515 and 3086. To solve this, you simply need to multiply these two numbers.\n\n[FINAL ANSWER] 10835890",
+            "metrics": {
+                "ground_truth": "10847290",
+                "prediction": "10835890",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 11400.0,
+                "rel_distance": 0.0010509537405195214
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What do you get when you multiply 6666 and 4639?",
+            "response": "[FINAL ANSWER] 30904374",
+            "metrics": {
+                "ground_truth": "30923574",
+                "prediction": "30904374",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 19200.0,
+                "rel_distance": 0.0006208855418846476
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: What do you get when you multiply 6666 and 4639? Then provide an answer to this problem.",
+            "response": "This problem is asking for the product of the multiplication of two numbers, 6666 and 4639. To solve this, you simply need to multiply these two numbers together.\n\n[FINAL ANSWER] 30913554",
+            "metrics": {
+                "ground_truth": "30923574",
+                "prediction": "30913554",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.25,
+                "abs_distance": 10020.0,
+                "rel_distance": 0.00032402464217105045
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Provide the sum of 9384 and 4246.",
+            "response": "[FINAL ANSWER] 13630",
+            "metrics": {
+                "ground_truth": "13630",
+                "prediction": "13630",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: Provide the sum of 9384 and 4246. Then provide an answer to this problem.",
+            "response": "This problem is asking for the total when you add 9384 and 4246 together. To solve this, you simply need to add these two numbers.\n\n9384 + 4246 = 13630\n\n[FINAL ANSWER] The sum of 9384 and 4246 is 13630.",
+            "metrics": {
+                "ground_truth": "13630",
+                "prediction": "13630",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Find the result of adding 4598 and 4741.",
+            "response": "[FINAL ANSWER] 9339",
+            "metrics": {
+                "ground_truth": "9339",
+                "prediction": "9339",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: Find the result of adding 4598 and 4741. Then provide an answer to this problem.",
+            "response": "This problem is asking for the sum of the numbers 4598 and 4741. To solve this, you simply need to add these two numbers together.\n\n[FINAL ANSWER] 9339",
+            "metrics": {
+                "ground_truth": "9339",
+                "prediction": "9339",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What do you get when you add 5306 and 9196?",
+            "response": "[FINAL ANSWER] 14502",
+            "metrics": {
+                "ground_truth": "14502",
+                "prediction": "14502",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: What do you get when you add 5306 and 9196? Then provide an answer to this problem.",
+            "response": "This problem is asking for the sum of the numbers 5306 and 9196. To solve this, you simply need to add these two numbers together.\n\n[FINAL ANSWER] 14502",
+            "metrics": {
+                "ground_truth": "14502",
+                "prediction": "14502",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Give the product of 2386 and 6164.",
+            "response": "[FINAL ANSWER] 14693064",
+            "metrics": {
+                "ground_truth": "14707304",
+                "prediction": "14693064",
+                "abs_edit_distance": 4,
+                "rel_edit_distance": 0.5,
+                "abs_distance": 14240.0,
+                "rel_distance": 0.0009682263996174962
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: Give the product of 2386 and 6164. Then provide an answer to this problem.",
+            "response": "This problem is asking for the result of multiplying the numbers 2386 and 6164 together. \n\nTo solve this, you simply multiply the two numbers:\n\n2386 * 6164 = 14703464\n\nSo, [FINAL ANSWER] 14703464.",
+            "metrics": {
+                "ground_truth": "14707304",
+                "prediction": "14703464",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 3840.0,
+                "rel_distance": 0.0002610947594474147
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Provide the sum of 8547 and 3839.",
+            "response": "[FINAL ANSWER] 12386",
+            "metrics": {
+                "ground_truth": "12386",
+                "prediction": "12386",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: Provide the sum of 8547 and 3839. Then provide an answer to this problem.",
+            "response": "I understand this problem as a simple addition problem. I am asked to add the numbers 8547 and 3839 together.\n\nTo solve this problem, I will simply add the two numbers together:\n\n8547 + 3839 = 12386\n\n[FINAL ANSWER] The sum of 8547 and 3839 is 12386.",
+            "metrics": {
+                "ground_truth": "12386",
+                "prediction": "12386",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Find the result of multiplying 7109 and 1528.",
+            "response": "[FINAL ANSWER] 10860132",
+            "metrics": {
+                "ground_truth": "10862552",
+                "prediction": "10860132",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 2420.0,
+                "rel_distance": 0.0002227837436359338
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: Find the result of multiplying 7109 and 1528. Then provide an answer to this problem.",
+            "response": "This problem is asking for the product of the multiplication operation between the numbers 7109 and 1528. To solve this, we simply need to multiply these two numbers together.\n\n[FINAL ANSWER] 10855432",
+            "metrics": {
+                "ground_truth": "10862552",
+                "prediction": "10855432",
+                "abs_edit_distance": 4,
+                "rel_edit_distance": 0.5,
+                "abs_distance": 7120.0,
+                "rel_distance": 0.0006554629151602681
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Find the result of multiplying 2190 and 1437.",
+            "response": "[FINAL ANSWER] 3147630",
+            "metrics": {
+                "ground_truth": "3147030",
+                "prediction": "3147630",
+                "abs_edit_distance": 1,
+                "rel_edit_distance": 0.14285714285714285,
+                "abs_distance": 600.0,
+                "rel_distance": 0.00019065595180217537
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: Find the result of multiplying 2190 and 1437. Then provide an answer to this problem.",
+            "response": "This problem is asking for the product of the numbers 2190 and 1437. This means we need to multiply these two numbers together.\n\n[FINAL ANSWER] 3147630",
+            "metrics": {
+                "ground_truth": "3147030",
+                "prediction": "3147630",
+                "abs_edit_distance": 1,
+                "rel_edit_distance": 0.14285714285714285,
+                "abs_distance": 600.0,
+                "rel_distance": 0.00019065595180217537
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the sum of 6370 and 6736?",
+            "response": "[FINAL ANSWER] 13106",
+            "metrics": {
+                "ground_truth": "13106",
+                "prediction": "13106",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: What is the sum of 6370 and 6736? Then provide an answer to this problem.",
+            "response": "This problem is asking for the total when you add together the numbers 6370 and 6736. \n\nTo solve this, you simply add the two numbers together:\n\n6370 + 6736 = 13106\n\n[FINAL ANSWER] The sum of 6370 and 6736 is 13106.",
+            "metrics": {
+                "ground_truth": "13106",
+                "prediction": "13106",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the result of adding 7007 and 3193?",
+            "response": "[FINAL ANSWER] 10200",
+            "metrics": {
+                "ground_truth": "10200",
+                "prediction": "10200",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: What is the result of adding 7007 and 3193? Then provide an answer to this problem.",
+            "response": "The problem is asking for the sum of the numbers 7007 and 3193. This is a simple addition problem where you need to add the two numbers together.\n\n[FINAL ANSWER] The result of adding 7007 and 3193 is 10200.",
+            "metrics": {
+                "ground_truth": "10200",
+                "prediction": "10200",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the product of 6746 and 3950?",
+            "response": "[FINAL ANSWER] 26636700",
+            "metrics": {
+                "ground_truth": "26646700",
+                "prediction": "26636700",
+                "abs_edit_distance": 1,
+                "rel_edit_distance": 0.125,
+                "abs_distance": 10000.0,
+                "rel_distance": 0.0003752809916424923
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: What is the product of 6746 and 3950? Then provide an answer to this problem.",
+            "response": "This problem is asking for the result of multiplying 6746 by 3950. In other words, if you had 6746 items and you had 3950 of such groups, how many items would you have in total? \n\nTo solve this, you simply need to multiply 6746 by 3950.\n\n[FINAL ANSWER] 26636700.",
+            "metrics": {
+                "ground_truth": "26646700",
+                "prediction": "26636700",
+                "abs_edit_distance": 1,
+                "rel_edit_distance": 0.125,
+                "abs_distance": 10000.0,
+                "rel_distance": 0.0003752809916424923
+            }
+        }
+    }
+]

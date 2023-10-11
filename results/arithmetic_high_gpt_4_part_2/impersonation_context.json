@@ -1,0 +1,2602 @@
+[
+    {
+        "no_context": {
+            "prompt": "Find the result of adding 8419 and 5902.",
+            "response": "[FINAL ANSWER] 14321",
+            "metrics": {
+                "ground_truth": "14321",
+                "prediction": "14321",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: Find the result of adding 8419 and 5902.",
+            "response": "[FINAL ANSWER] The result of adding 8419 and 5902 is 14321.",
+            "metrics": {
+                "ground_truth": "14321",
+                "prediction": "14321",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Multiply 8195 and 5845.",
+            "response": "[FINAL ANSWER] 47865675",
+            "metrics": {
+                "ground_truth": "47899775",
+                "prediction": "47865675",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 34100.0,
+                "rel_distance": 0.0007119031352443722
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: Multiply 8195 and 5845.",
+            "response": "[FINAL ANSWER] 47875675",
+            "metrics": {
+                "ground_truth": "47899775",
+                "prediction": "47875675",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 24100.0,
+                "rel_distance": 0.0005031338873721223
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What do you get when you add 2685 and 4868?",
+            "response": "[FINAL ANSWER] 7553",
+            "metrics": {
+                "ground_truth": "7553",
+                "prediction": "7553",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: What do you get when you add 2685 and 4868?",
+            "response": "[FINAL ANSWER] The sum of 2685 and 4868 is 7553.",
+            "metrics": {
+                "ground_truth": "7553",
+                "prediction": "7553",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Provide the sum of 4407 and 9812.",
+            "response": "[FINAL ANSWER] 14219",
+            "metrics": {
+                "ground_truth": "14219",
+                "prediction": "14219",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: Provide the sum of 4407 and 9812.",
+            "response": "[FINAL ANSWER] The sum of 4407 and 9812 is 14219.",
+            "metrics": {
+                "ground_truth": "14219",
+                "prediction": "14219",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Find the result of multiplying 3482 and 6158.",
+            "response": "[FINAL ANSWER] 21426756",
+            "metrics": {
+                "ground_truth": "21442156",
+                "prediction": "21426756",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 15400.0,
+                "rel_distance": 0.0007182113589696857
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: Find the result of multiplying 3482 and 6158.",
+            "response": "[FINAL ANSWER] The result of multiplying 3482 and 6158 is 21426156.",
+            "metrics": {
+                "ground_truth": "21442156",
+                "prediction": "21426156",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.25,
+                "abs_distance": 16000.0,
+                "rel_distance": 0.0007461936197087644
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Give the sum of 1387 and 2456.",
+            "response": "[FINAL ANSWER] 3843",
+            "metrics": {
+                "ground_truth": "3843",
+                "prediction": "3843",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: Give the sum of 1387 and 2456.",
+            "response": "[FINAL ANSWER] The sum of 1387 and 2456 is 3843.",
+            "metrics": {
+                "ground_truth": "3843",
+                "prediction": "3843",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Give the sum of 9169 and 5936.",
+            "response": "[FINAL ANSWER] 15105",
+            "metrics": {
+                "ground_truth": "15105",
+                "prediction": "15105",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: Give the sum of 9169 and 5936.",
+            "response": "[FINAL ANSWER] The sum of 9169 and 5936 is 15105.",
+            "metrics": {
+                "ground_truth": "15105",
+                "prediction": "15105",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Provide the sum of 1142 and 9595.",
+            "response": "[FINAL ANSWER] 10737",
+            "metrics": {
+                "ground_truth": "10737",
+                "prediction": "10737",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: Provide the sum of 1142 and 9595.",
+            "response": "[FINAL ANSWER] The sum of 1142 and 9595 is 10737.",
+            "metrics": {
+                "ground_truth": "10737",
+                "prediction": "10737",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the result of adding 6243 and 8052?",
+            "response": "[FINAL ANSWER] 14295",
+            "metrics": {
+                "ground_truth": "14295",
+                "prediction": "14295",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: What is the result of adding 6243 and 8052?",
+            "response": "[FINAL ANSWER] The result of adding 6243 and 8052 is 14295.",
+            "metrics": {
+                "ground_truth": "14295",
+                "prediction": "14295",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Give the product of 1856 and 6168.",
+            "response": "[FINAL ANSWER] 11439648",
+            "metrics": {
+                "ground_truth": "11447808",
+                "prediction": "11439648",
+                "abs_edit_distance": 4,
+                "rel_edit_distance": 0.5,
+                "abs_distance": 8160.0,
+                "rel_distance": 0.0007128002146786529
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: Give the product of 1856 and 6168.",
+            "response": "[FINAL ANSWER] The product of 1856 and 6168 is 11438048.",
+            "metrics": {
+                "ground_truth": "11447808",
+                "prediction": "11438048",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 9760.0,
+                "rel_distance": 0.0008525649626548594
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Multiply 9192 and 1473.",
+            "response": "[FINAL ANSWER] 13533136",
+            "metrics": {
+                "ground_truth": "13539816",
+                "prediction": "13533136",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 6680.0,
+                "rel_distance": 0.0004933597325103975
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: Multiply 9192 and 1473.",
+            "response": "[FINAL ANSWER] 13530736",
+            "metrics": {
+                "ground_truth": "13539816",
+                "prediction": "13530736",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 9080.0,
+                "rel_distance": 0.0006706147262267079
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Multiply 5223 and 6185.",
+            "response": "[FINAL ANSWER] 32288955",
+            "metrics": {
+                "ground_truth": "32304255",
+                "prediction": "32288955",
+                "abs_edit_distance": 4,
+                "rel_edit_distance": 0.5,
+                "abs_distance": 15300.0,
+                "rel_distance": 0.0004736218185499093
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: Multiply 5223 and 6185.",
+            "response": "[FINAL ANSWER] 32295455",
+            "metrics": {
+                "ground_truth": "32304255",
+                "prediction": "32295455",
+                "abs_edit_distance": 4,
+                "rel_edit_distance": 0.5,
+                "abs_distance": 8800.0,
+                "rel_distance": 0.00027240993485223543
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Multiply 5365 and 4231.",
+            "response": "[FINAL ANSWER] 22689515",
+            "metrics": {
+                "ground_truth": "22699315",
+                "prediction": "22689515",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.25,
+                "abs_distance": 9800.0,
+                "rel_distance": 0.0004317310896826622
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: Multiply 5365 and 4231.",
+            "response": "[FINAL ANSWER] 22691315",
+            "metrics": {
+                "ground_truth": "22699315",
+                "prediction": "22691315",
+                "abs_edit_distance": 1,
+                "rel_edit_distance": 0.125,
+                "abs_distance": 8000.0,
+                "rel_distance": 0.0003524335425980916
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Provide the product of 9164 and 9312.",
+            "response": "[FINAL ANSWER] 85304848",
+            "metrics": {
+                "ground_truth": "85335168",
+                "prediction": "85304848",
+                "abs_edit_distance": 4,
+                "rel_edit_distance": 0.5,
+                "abs_distance": 30320.0,
+                "rel_distance": 0.0003553048609454897
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: Provide the product of 9164 and 9312.",
+            "response": "[FINAL ANSWER] The product of 9164 and 9312 is 85313568.",
+            "metrics": {
+                "ground_truth": "85335168",
+                "prediction": "85313568",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.25,
+                "abs_distance": 21600.0,
+                "rel_distance": 0.0002531195579295045
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Add 3879 and 3041.",
+            "response": "[FINAL ANSWER] 6920",
+            "metrics": {
+                "ground_truth": "6920",
+                "prediction": "6920",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: Add 3879 and 3041.",
+            "response": "[FINAL ANSWER] 6920",
+            "metrics": {
+                "ground_truth": "6920",
+                "prediction": "6920",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Multiply 4091 and 7499.",
+            "response": "[FINAL ANSWER] 30685809",
+            "metrics": {
+                "ground_truth": "30678409",
+                "prediction": "30685809",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 7400.0,
+                "rel_distance": 0.00024121198723180202
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: Multiply 4091 and 7499.",
+            "response": "[FINAL ANSWER] 30684809",
+            "metrics": {
+                "ground_truth": "30678409",
+                "prediction": "30684809",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.25,
+                "abs_distance": 6400.0,
+                "rel_distance": 0.00020861577274101795
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the product of 4200 and 4514?",
+            "response": "[FINAL ANSWER] 18958800",
+            "metrics": {
+                "ground_truth": "18958800",
+                "prediction": "18958800",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: What is the product of 4200 and 4514?",
+            "response": "[FINAL ANSWER] The product of 4200 and 4514 is 18958800.",
+            "metrics": {
+                "ground_truth": "18958800",
+                "prediction": "18958800",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What do you get when you multiply 7504 and 3364?",
+            "response": "[FINAL ANSWER] 25235456",
+            "metrics": {
+                "ground_truth": "25243456",
+                "prediction": "25235456",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.25,
+                "abs_distance": 8000.0,
+                "rel_distance": 0.00031691381718889836
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: What do you get when you multiply 7504 and 3364?",
+            "response": "[FINAL ANSWER] The product of 7504 and 3364 is 25237456.",
+            "metrics": {
+                "ground_truth": "25243456",
+                "prediction": "25237456",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.25,
+                "abs_distance": 6000.0,
+                "rel_distance": 0.00023768536289167378
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Add 3084 and 9399.",
+            "response": "[FINAL ANSWER] 12483",
+            "metrics": {
+                "ground_truth": "12483",
+                "prediction": "12483",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: Add 3084 and 9399.",
+            "response": "[FINAL ANSWER] 12483",
+            "metrics": {
+                "ground_truth": "12483",
+                "prediction": "12483",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What do you get when you multiply 1309 and 2783?",
+            "response": "[FINAL ANSWER] 3642027",
+            "metrics": {
+                "ground_truth": "3642947",
+                "prediction": "3642027",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.2857142857142857,
+                "abs_distance": 920.0,
+                "rel_distance": 0.00025254279021901774
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: What do you get when you multiply 1309 and 2783?",
+            "response": "[FINAL ANSWER] The product of 1309 and 2783 is 3642037.",
+            "metrics": {
+                "ground_truth": "3642947",
+                "prediction": "3642037",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.2857142857142857,
+                "abs_distance": 910.0,
+                "rel_distance": 0.0002497977598905502
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the sum of numbers 2619 and 6659?",
+            "response": "[FINAL ANSWER] 9278",
+            "metrics": {
+                "ground_truth": "9278",
+                "prediction": "9278",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: What is the sum of numbers 2619 and 6659?",
+            "response": "[FINAL ANSWER] The sum of numbers 2619 and 6659 is 9278.",
+            "metrics": {
+                "ground_truth": "9278",
+                "prediction": "9278",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the result of adding 4202 and 2219?",
+            "response": "[FINAL ANSWER] 6421",
+            "metrics": {
+                "ground_truth": "6421",
+                "prediction": "6421",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: What is the result of adding 4202 and 2219?",
+            "response": "[FINAL ANSWER] The result of adding 4202 and 2219 is 6421.",
+            "metrics": {
+                "ground_truth": "6421",
+                "prediction": "6421",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Provide the product of 5088 and 6508.",
+            "response": "[FINAL ANSWER] 33101504",
+            "metrics": {
+                "ground_truth": "33112704",
+                "prediction": "33101504",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 11200.0,
+                "rel_distance": 0.0003382387617755409
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: Provide the product of 5088 and 6508.",
+            "response": "[FINAL ANSWER] The product of 5088 and 6508 is 33101864.",
+            "metrics": {
+                "ground_truth": "33112704",
+                "prediction": "33101864",
+                "abs_edit_distance": 4,
+                "rel_edit_distance": 0.5,
+                "abs_distance": 10840.0,
+                "rel_distance": 0.0003273668015756128
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What do you get when you multiply 7384 and 4568?",
+            "response": "[FINAL ANSWER] 33733312",
+            "metrics": {
+                "ground_truth": "33730112",
+                "prediction": "33733312",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.25,
+                "abs_distance": 3200.0,
+                "rel_distance": 9.487071967030527e-05
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: What do you get when you multiply 7384 and 4568?",
+            "response": "[FINAL ANSWER] The product of 7384 and 4568 is 33738912.",
+            "metrics": {
+                "ground_truth": "33730112",
+                "prediction": "33738912",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.25,
+                "abs_distance": 8800.0,
+                "rel_distance": 0.0002608944790933395
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Find the result of multiplying 6352 and 9115.",
+            "response": "[FINAL ANSWER] 57922880",
+            "metrics": {
+                "ground_truth": "57898480",
+                "prediction": "57922880",
+                "abs_edit_distance": 4,
+                "rel_edit_distance": 0.5,
+                "abs_distance": 24400.0,
+                "rel_distance": 0.00042142729826413403
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: Find the result of multiplying 6352 and 9115.",
+            "response": "[FINAL ANSWER] The result of multiplying 6352 and 9115 is 57891880.",
+            "metrics": {
+                "ground_truth": "57898480",
+                "prediction": "57891880",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.25,
+                "abs_distance": 6600.0,
+                "rel_distance": 0.00011399262985833135
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Add 7031 and 2877.",
+            "response": "[FINAL ANSWER] 9908",
+            "metrics": {
+                "ground_truth": "9908",
+                "prediction": "9908",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: Add 7031 and 2877.",
+            "response": "[FINAL ANSWER] 9908",
+            "metrics": {
+                "ground_truth": "9908",
+                "prediction": "9908",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the result of adding 4143 and 4671?",
+            "response": "[FINAL ANSWER] 8814",
+            "metrics": {
+                "ground_truth": "8814",
+                "prediction": "8814",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: What is the result of adding 4143 and 4671?",
+            "response": "[FINAL ANSWER] The result of adding 4143 and 4671 is 8814.",
+            "metrics": {
+                "ground_truth": "8814",
+                "prediction": "8814",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What do you get when you add 8264 and 6528?",
+            "response": "[FINAL ANSWER] 14792",
+            "metrics": {
+                "ground_truth": "14792",
+                "prediction": "14792",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: What do you get when you add 8264 and 6528?",
+            "response": "[FINAL ANSWER] The sum of 8264 and 6528 is 14792.",
+            "metrics": {
+                "ground_truth": "14792",
+                "prediction": "14792",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Find the result of adding 1749 and 1089.",
+            "response": "[FINAL ANSWER] 2838",
+            "metrics": {
+                "ground_truth": "2838",
+                "prediction": "2838",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: Find the result of adding 1749 and 1089.",
+            "response": "[FINAL ANSWER] The result of adding 1749 and 1089 is 2838.",
+            "metrics": {
+                "ground_truth": "2838",
+                "prediction": "2838",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the product of numbers 9830 and 7441?",
+            "response": "The product of 9830 and 7441 is 73126230.\n\n[FINAL ANSWER] 73126230.",
+            "metrics": {
+                "ground_truth": "73145030",
+                "prediction": "73126230",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 18800.0,
+                "rel_distance": 0.00025702361459144934
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: What is the product of numbers 9830 and 7441?",
+            "response": "[FINAL ANSWER] The product of numbers 9830 and 7441 is 73138230.",
+            "metrics": {
+                "ground_truth": "73145030",
+                "prediction": "73138230",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 6800.0,
+                "rel_distance": 9.296598825648168e-05
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What do you get when you multiply 5443 and 1075?",
+            "response": "[FINAL ANSWER] 5856225",
+            "metrics": {
+                "ground_truth": "5851225",
+                "prediction": "5856225",
+                "abs_edit_distance": 1,
+                "rel_edit_distance": 0.14285714285714285,
+                "abs_distance": 5000.0,
+                "rel_distance": 0.0008545219163508496
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: What do you get when you multiply 5443 and 1075?",
+            "response": "[FINAL ANSWER] The product of 5443 and 1075 is 5856225.",
+            "metrics": {
+                "ground_truth": "5851225",
+                "prediction": "5856225",
+                "abs_edit_distance": 1,
+                "rel_edit_distance": 0.14285714285714285,
+                "abs_distance": 5000.0,
+                "rel_distance": 0.0008545219163508496
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Add 1834 and 9555.",
+            "response": "[FINAL ANSWER] 11389",
+            "metrics": {
+                "ground_truth": "11389",
+                "prediction": "11389",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: Add 1834 and 9555.",
+            "response": "[FINAL ANSWER] The sum of 1834 and 9555 is 11389.",
+            "metrics": {
+                "ground_truth": "11389",
+                "prediction": "11389",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Give the product of 4157 and 1352.",
+            "response": "[FINAL ANSWER] 5620864",
+            "metrics": {
+                "ground_truth": "5620264",
+                "prediction": "5620864",
+                "abs_edit_distance": 1,
+                "rel_edit_distance": 0.14285714285714285,
+                "abs_distance": 600.0,
+                "rel_distance": 0.00010675655093782072
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: Give the product of 4157 and 1352.",
+            "response": "[FINAL ANSWER] The product of 4157 and 1352 is 5620864.",
+            "metrics": {
+                "ground_truth": "5620264",
+                "prediction": "5620864",
+                "abs_edit_distance": 1,
+                "rel_edit_distance": 0.14285714285714285,
+                "abs_distance": 600.0,
+                "rel_distance": 0.00010675655093782072
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Provide the product of 4136 and 8702.",
+            "response": "[FINAL ANSWER] 35982572",
+            "metrics": {
+                "ground_truth": "35991472",
+                "prediction": "35982572",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 8900.0,
+                "rel_distance": 0.00024728080029624795
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: Provide the product of 4136 and 8702.",
+            "response": "[FINAL ANSWER] The product of 4136 and 8702 is 35987172.",
+            "metrics": {
+                "ground_truth": "35991472",
+                "prediction": "35987172",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 4300.0,
+                "rel_distance": 0.00011947274621054676
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Multiply 1861 and 9786.",
+            "response": "[FINAL ANSWER] 18206226",
+            "metrics": {
+                "ground_truth": "18211746",
+                "prediction": "18206226",
+                "abs_edit_distance": 4,
+                "rel_edit_distance": 0.5,
+                "abs_distance": 5520.0,
+                "rel_distance": 0.00030310108651855785
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: Multiply 1861 and 9786.",
+            "response": "[FINAL ANSWER] 18207126",
+            "metrics": {
+                "ground_truth": "18211746",
+                "prediction": "18207126",
+                "abs_edit_distance": 4,
+                "rel_edit_distance": 0.5,
+                "abs_distance": 4620.0,
+                "rel_distance": 0.0002536824311079234
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Add 4206 and 8342.",
+            "response": "[FINAL ANSWER] 12548",
+            "metrics": {
+                "ground_truth": "12548",
+                "prediction": "12548",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: Add 4206 and 8342.",
+            "response": "[FINAL ANSWER] 12548",
+            "metrics": {
+                "ground_truth": "12548",
+                "prediction": "12548",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the product of 6994 and 9101?",
+            "response": "The product of 6994 and 9101 is 63655994.\n\n[FINAL ANSWER] 63655994",
+            "metrics": {
+                "ground_truth": "63652394",
+                "prediction": "63655994",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.25,
+                "abs_distance": 3600.0,
+                "rel_distance": 5.655718149422628e-05
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: What is the product of 6994 and 9101?",
+            "response": "[FINAL ANSWER] The product of 6994 and 9101 is 63666994.",
+            "metrics": {
+                "ground_truth": "63652394",
+                "prediction": "63666994",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 14600.0,
+                "rel_distance": 0.00022937079161547324
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the product of 8659 and 8275?",
+            "response": "[FINAL ANSWER] 71618625",
+            "metrics": {
+                "ground_truth": "71653225",
+                "prediction": "71618625",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 34600.0,
+                "rel_distance": 0.00048288126598628324
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: What is the product of 8659 and 8275?",
+            "response": "[FINAL ANSWER] The product of 8659 and 8275 is 71631225.",
+            "metrics": {
+                "ground_truth": "71653225",
+                "prediction": "71631225",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.25,
+                "abs_distance": 22000.0,
+                "rel_distance": 0.0003070343309739373
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the sum of 9913 and 8697?",
+            "response": "[FINAL ANSWER] 18610",
+            "metrics": {
+                "ground_truth": "18610",
+                "prediction": "18610",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: What is the sum of 9913 and 8697?",
+            "response": "[FINAL ANSWER] The sum of 9913 and 8697 is 18610.",
+            "metrics": {
+                "ground_truth": "18610",
+                "prediction": "18610",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Provide the product of 5758 and 8933.",
+            "response": "[FINAL ANSWER] 51433134",
+            "metrics": {
+                "ground_truth": "51436214",
+                "prediction": "51433134",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 3080.0,
+                "rel_distance": 5.987999038965037e-05
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: Provide the product of 5758 and 8933.",
+            "response": "[FINAL ANSWER] 51427134",
+            "metrics": {
+                "ground_truth": "51436214",
+                "prediction": "51427134",
+                "abs_edit_distance": 4,
+                "rel_edit_distance": 0.5,
+                "abs_distance": 9080.0,
+                "rel_distance": 0.00017652932231754072
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Provide the product of 2486 and 2464.",
+            "response": "[FINAL ANSWER] 6125024",
+            "metrics": {
+                "ground_truth": "6125504",
+                "prediction": "6125024",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.2857142857142857,
+                "abs_distance": 480.0,
+                "rel_distance": 7.836089895623282e-05
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: Provide the product of 2486 and 2464.",
+            "response": "[FINAL ANSWER] The product of 2486 and 2464 is 6129024.",
+            "metrics": {
+                "ground_truth": "6125504",
+                "prediction": "6129024",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.42857142857142855,
+                "abs_distance": 3520.0,
+                "rel_distance": 0.0005746465923457074
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Multiply 4571 and 9140.",
+            "response": "[FINAL ANSWER] 41779440",
+            "metrics": {
+                "ground_truth": "41778940",
+                "prediction": "41779440",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.25,
+                "abs_distance": 500.0,
+                "rel_distance": 1.1967752173702826e-05
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: Multiply 4571 and 9140.",
+            "response": "[FINAL ANSWER] 41769440",
+            "metrics": {
+                "ground_truth": "41778940",
+                "prediction": "41769440",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 9500.0,
+                "rel_distance": 0.00022738729130035372
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Provide the sum of 1900 and 6585.",
+            "response": "[FINAL ANSWER] 8485",
+            "metrics": {
+                "ground_truth": "8485",
+                "prediction": "8485",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: Provide the sum of 1900 and 6585.",
+            "response": "[FINAL ANSWER] The sum of 1900 and 6585 is 8485.",
+            "metrics": {
+                "ground_truth": "8485",
+                "prediction": "8485",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the result of multiplying 3260 and 6770?",
+            "response": "[FINAL ANSWER] 22074200",
+            "metrics": {
+                "ground_truth": "22070200",
+                "prediction": "22074200",
+                "abs_edit_distance": 1,
+                "rel_edit_distance": 0.125,
+                "abs_distance": 4000.0,
+                "rel_distance": 0.00018123986189522522
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: What is the result of multiplying 3260 and 6770?",
+            "response": "[FINAL ANSWER] The result of multiplying 3260 and 6770 is 22074200.",
+            "metrics": {
+                "ground_truth": "22070200",
+                "prediction": "22074200",
+                "abs_edit_distance": 1,
+                "rel_edit_distance": 0.125,
+                "abs_distance": 4000.0,
+                "rel_distance": 0.00018123986189522522
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the product of 1863 and 3894?",
+            "response": "[FINAL ANSWER] 7249592",
+            "metrics": {
+                "ground_truth": "7254522",
+                "prediction": "7249592",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.42857142857142855,
+                "abs_distance": 4930.0,
+                "rel_distance": 0.0006795761319629329
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: What is the product of 1863 and 3894?",
+            "response": "[FINAL ANSWER] The product of 1863 and 3894 is 7249392.",
+            "metrics": {
+                "ground_truth": "7254522",
+                "prediction": "7249392",
+                "abs_edit_distance": 4,
+                "rel_edit_distance": 0.5714285714285714,
+                "abs_distance": 5130.0,
+                "rel_distance": 0.0007071451434015914
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Give the product of 4795 and 8118.",
+            "response": "[FINAL ANSWER] 38940110",
+            "metrics": {
+                "ground_truth": "38925810",
+                "prediction": "38940110",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 14300.0,
+                "rel_distance": 0.00036736550890013593
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: Give the product of 4795 and 8118.",
+            "response": "[FINAL ANSWER] 38934410",
+            "metrics": {
+                "ground_truth": "38925810",
+                "prediction": "38934410",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 8600.0,
+                "rel_distance": 0.00022093310325462719
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What do you get when you multiply 4916 and 6474?",
+            "response": "[FINAL ANSWER] 31821684",
+            "metrics": {
+                "ground_truth": "31826184",
+                "prediction": "31821684",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.25,
+                "abs_distance": 4500.0,
+                "rel_distance": 0.00014139301149016168
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: What do you get when you multiply 4916 and 6474?",
+            "response": "[FINAL ANSWER] The product of 4916 and 6474 is 31821144.",
+            "metrics": {
+                "ground_truth": "31826184",
+                "prediction": "31821144",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.25,
+                "abs_distance": 5040.0,
+                "rel_distance": 0.0001583601728689811
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Find the result of multiplying 8951 and 2122.",
+            "response": "[FINAL ANSWER] 18983822",
+            "metrics": {
+                "ground_truth": "18994022",
+                "prediction": "18983822",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 10200.0,
+                "rel_distance": 0.0005370110659027351
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: Find the result of multiplying 8951 and 2122.",
+            "response": "[FINAL ANSWER] The result of multiplying 8951 and 2122 is 18988922.",
+            "metrics": {
+                "ground_truth": "18994022",
+                "prediction": "18988922",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 5100.0,
+                "rel_distance": 0.00026850553295136755
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the sum of numbers 5243 and 6719?",
+            "response": "[FINAL ANSWER] 11962",
+            "metrics": {
+                "ground_truth": "11962",
+                "prediction": "11962",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: What is the sum of numbers 5243 and 6719?",
+            "response": "[FINAL ANSWER] The sum of numbers 5243 and 6719 is 11962.",
+            "metrics": {
+                "ground_truth": "11962",
+                "prediction": "11962",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the sum of numbers 2086 and 9767?",
+            "response": "[FINAL ANSWER] 11853",
+            "metrics": {
+                "ground_truth": "11853",
+                "prediction": "11853",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: What is the sum of numbers 2086 and 9767?",
+            "response": "[FINAL ANSWER] The sum of numbers 2086 and 9767 is 11853.",
+            "metrics": {
+                "ground_truth": "11853",
+                "prediction": "11853",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the product of numbers 8384 and 2212?",
+            "response": "The product of 8384 and 2212 is 18541088.\n\n[FINAL ANSWER] 18541088",
+            "metrics": {
+                "ground_truth": "18545408",
+                "prediction": "18541088",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 4320.0,
+                "rel_distance": 0.00023294176110873375
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: What is the product of numbers 8384 and 2212?",
+            "response": "[FINAL ANSWER] The product of numbers 8384 and 2212 is 18541088.",
+            "metrics": {
+                "ground_truth": "18545408",
+                "prediction": "18541088",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 4320.0,
+                "rel_distance": 0.00023294176110873375
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Add 1369 and 3255.",
+            "response": "[FINAL ANSWER] 4624",
+            "metrics": {
+                "ground_truth": "4624",
+                "prediction": "4624",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: Add 1369 and 3255.",
+            "response": "[FINAL ANSWER] 4624",
+            "metrics": {
+                "ground_truth": "4624",
+                "prediction": "4624",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Give the sum of 7933 and 8718.",
+            "response": "[FINAL ANSWER] 16651",
+            "metrics": {
+                "ground_truth": "16651",
+                "prediction": "16651",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: Give the sum of 7933 and 8718.",
+            "response": "[FINAL ANSWER] The sum of 7933 and 8718 is 16651.",
+            "metrics": {
+                "ground_truth": "16651",
+                "prediction": "16651",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What do you get when you add 5074 and 6176?",
+            "response": "[FINAL ANSWER] 11250",
+            "metrics": {
+                "ground_truth": "11250",
+                "prediction": "11250",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: What do you get when you add 5074 and 6176?",
+            "response": "[FINAL ANSWER] The sum of 5074 and 6176 is 11250.",
+            "metrics": {
+                "ground_truth": "11250",
+                "prediction": "11250",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the sum of numbers 1942 and 8607?",
+            "response": "[FINAL ANSWER] 10549",
+            "metrics": {
+                "ground_truth": "10549",
+                "prediction": "10549",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: What is the sum of numbers 1942 and 8607?",
+            "response": "[FINAL ANSWER] The sum of numbers 1942 and 8607 is 10549.",
+            "metrics": {
+                "ground_truth": "10549",
+                "prediction": "10549",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the product of numbers 4544 and 8768?",
+            "response": "The product of 4544 and 8768 is 398295552.\n\n[FINAL ANSWER] 398295552",
+            "metrics": {
+                "ground_truth": "39841792",
+                "prediction": "398295552",
+                "abs_edit_distance": 5,
+                "rel_edit_distance": 0.625,
+                "abs_distance": 358453760.0,
+                "rel_distance": 8.996928652205202
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: What is the product of numbers 4544 and 8768?",
+            "response": "[FINAL ANSWER] The product of numbers 4544 and 8768 is 39836192.",
+            "metrics": {
+                "ground_truth": "39841792",
+                "prediction": "39836192",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 5600.0,
+                "rel_distance": 0.00014055592680168604
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the sum of 9917 and 6090?",
+            "response": "[FINAL ANSWER] 16007",
+            "metrics": {
+                "ground_truth": "16007",
+                "prediction": "16007",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: What is the sum of 9917 and 6090?",
+            "response": "[FINAL ANSWER] The sum of 9917 and 6090 is 16007.",
+            "metrics": {
+                "ground_truth": "16007",
+                "prediction": "16007",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Find the result of adding 2456 and 2308.",
+            "response": "[FINAL ANSWER] 4764",
+            "metrics": {
+                "ground_truth": "4764",
+                "prediction": "4764",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: Find the result of adding 2456 and 2308.",
+            "response": "[FINAL ANSWER] The result of adding 2456 and 2308 is 4764.",
+            "metrics": {
+                "ground_truth": "4764",
+                "prediction": "4764",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the product of numbers 4225 and 5319?",
+            "response": "The product of 4225 and 5319 is 22469375.\n\n[FINAL ANSWER] 22469375",
+            "metrics": {
+                "ground_truth": "22472775",
+                "prediction": "22469375",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 3400.0,
+                "rel_distance": 0.0001512941770653602
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: What is the product of numbers 4225 and 5319?",
+            "response": "[FINAL ANSWER] The product of numbers 4225 and 5319 is 22464175.",
+            "metrics": {
+                "ground_truth": "22472775",
+                "prediction": "22464175",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 8600.0,
+                "rel_distance": 0.00038268527140061695
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Give the product of 3949 and 6060.",
+            "response": "[FINAL ANSWER] 23922940",
+            "metrics": {
+                "ground_truth": "23930940",
+                "prediction": "23922940",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.25,
+                "abs_distance": 8000.0,
+                "rel_distance": 0.0003342952679669081
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: Give the product of 3949 and 6060.",
+            "response": "[FINAL ANSWER] The product of 3949 and 6060 is 23916240.",
+            "metrics": {
+                "ground_truth": "23930940",
+                "prediction": "23916240",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 14700.0,
+                "rel_distance": 0.0006142675548891937
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Provide the product of 8040 and 4661.",
+            "response": "[FINAL ANSWER] 37476440",
+            "metrics": {
+                "ground_truth": "37474440",
+                "prediction": "37476440",
+                "abs_edit_distance": 1,
+                "rel_edit_distance": 0.125,
+                "abs_distance": 2000.0,
+                "rel_distance": 5.336971012775641e-05
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: Provide the product of 8040 and 4661.",
+            "response": "[FINAL ANSWER] The product of 8040 and 4661 is 37468240.",
+            "metrics": {
+                "ground_truth": "37474440",
+                "prediction": "37468240",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 6200.0,
+                "rel_distance": 0.00016544610139604488
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Add 7807 and 5858.",
+            "response": "[FINAL ANSWER] 13665",
+            "metrics": {
+                "ground_truth": "13665",
+                "prediction": "13665",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: Add 7807 and 5858.",
+            "response": "[FINAL ANSWER] The sum of 7807 and 5858 is 13665.",
+            "metrics": {
+                "ground_truth": "13665",
+                "prediction": "13665",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Add 1857 and 6307.",
+            "response": "[FINAL ANSWER] 8164",
+            "metrics": {
+                "ground_truth": "8164",
+                "prediction": "8164",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: Add 1857 and 6307.",
+            "response": "[FINAL ANSWER] 8164",
+            "metrics": {
+                "ground_truth": "8164",
+                "prediction": "8164",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the result of multiplying 5311 and 9594?",
+            "response": "[FINAL ANSWER] 50921514",
+            "metrics": {
+                "ground_truth": "50953734",
+                "prediction": "50921514",
+                "abs_edit_distance": 4,
+                "rel_edit_distance": 0.5,
+                "abs_distance": 32220.0,
+                "rel_distance": 0.0006323383483534298
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: What is the result of multiplying 5311 and 9594?",
+            "response": "[FINAL ANSWER] The result of multiplying 5311 and 9594 is 50945374.",
+            "metrics": {
+                "ground_truth": "50953734",
+                "prediction": "50945374",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.25,
+                "abs_distance": 8360.0,
+                "rel_distance": 0.00016407040944241692
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the product of 1490 and 7911?",
+            "response": "[FINAL ANSWER] 11789390",
+            "metrics": {
+                "ground_truth": "11787390",
+                "prediction": "11789390",
+                "abs_edit_distance": 1,
+                "rel_edit_distance": 0.125,
+                "abs_distance": 2000.0,
+                "rel_distance": 0.0001696728453033284
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: What is the product of 1490 and 7911?",
+            "response": "[FINAL ANSWER] The product of 1490 and 7911 is 11789390.",
+            "metrics": {
+                "ground_truth": "11787390",
+                "prediction": "11789390",
+                "abs_edit_distance": 1,
+                "rel_edit_distance": 0.125,
+                "abs_distance": 2000.0,
+                "rel_distance": 0.0001696728453033284
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Add 4782 and 9542.",
+            "response": "[FINAL ANSWER] 14324",
+            "metrics": {
+                "ground_truth": "14324",
+                "prediction": "14324",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: Add 4782 and 9542.",
+            "response": "[FINAL ANSWER] 14324",
+            "metrics": {
+                "ground_truth": "14324",
+                "prediction": "14324",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the sum of 1575 and 2493?",
+            "response": "[FINAL ANSWER] 4068",
+            "metrics": {
+                "ground_truth": "4068",
+                "prediction": "4068",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: What is the sum of 1575 and 2493?",
+            "response": "[FINAL ANSWER] The sum of 1575 and 2493 is 4068.",
+            "metrics": {
+                "ground_truth": "4068",
+                "prediction": "4068",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the product of numbers 2659 and 8655?",
+            "response": "The product of 2659 and 8655 is 23009545.\n\n[FINAL ANSWER] 23009545",
+            "metrics": {
+                "ground_truth": "23013645",
+                "prediction": "23009545",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 4100.0,
+                "rel_distance": 0.00017815517706995133
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: What is the product of numbers 2659 and 8655?",
+            "response": "[FINAL ANSWER] The product of numbers 2659 and 8655 is 23005945.",
+            "metrics": {
+                "ground_truth": "23013645",
+                "prediction": "23005945",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 7700.0,
+                "rel_distance": 0.000334584113033811
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the result of multiplying 5532 and 2820?",
+            "response": "[FINAL ANSWER] 15590240",
+            "metrics": {
+                "ground_truth": "15600240",
+                "prediction": "15590240",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.25,
+                "abs_distance": 10000.0,
+                "rel_distance": 0.0006410157792444219
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: What is the result of multiplying 5532 and 2820?",
+            "response": "[FINAL ANSWER] The result of multiplying 5532 and 2820 is 15590240.",
+            "metrics": {
+                "ground_truth": "15600240",
+                "prediction": "15590240",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.25,
+                "abs_distance": 10000.0,
+                "rel_distance": 0.0006410157792444219
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Add 5087 and 6206.",
+            "response": "[FINAL ANSWER] 11293",
+            "metrics": {
+                "ground_truth": "11293",
+                "prediction": "11293",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: Add 5087 and 6206.",
+            "response": "[FINAL ANSWER] 11293",
+            "metrics": {
+                "ground_truth": "11293",
+                "prediction": "11293",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Give the product of 4417 and 5892.",
+            "response": "[FINAL ANSWER] 26026344",
+            "metrics": {
+                "ground_truth": "26024964",
+                "prediction": "26026344",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 1380.0,
+                "rel_distance": 5.302600994952385e-05
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: Give the product of 4417 and 5892.",
+            "response": "[FINAL ANSWER] The product of 4417 and 5892 is 26023144.",
+            "metrics": {
+                "ground_truth": "26024964",
+                "prediction": "26023144",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 1820.0,
+                "rel_distance": 6.993285370154595e-05
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Add 1630 and 9355.",
+            "response": "[FINAL ANSWER] 10985",
+            "metrics": {
+                "ground_truth": "10985",
+                "prediction": "10985",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: Add 1630 and 9355.",
+            "response": "[FINAL ANSWER] 10985",
+            "metrics": {
+                "ground_truth": "10985",
+                "prediction": "10985",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the result of multiplying 2226 and 3209?",
+            "response": "[FINAL ANSWER] 7141414",
+            "metrics": {
+                "ground_truth": "7143234",
+                "prediction": "7141414",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.42857142857142855,
+                "abs_distance": 1820.0,
+                "rel_distance": 0.00025478655746122834
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: What is the result of multiplying 2226 and 3209?",
+            "response": "[FINAL ANSWER] The result of multiplying 2226 and 3209 is 7142534.",
+            "metrics": {
+                "ground_truth": "7143234",
+                "prediction": "7142534",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.2857142857142857,
+                "abs_distance": 700.0,
+                "rel_distance": 9.799482979278013e-05
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Give the sum of 1616 and 6083.",
+            "response": "[FINAL ANSWER] 7699",
+            "metrics": {
+                "ground_truth": "7699",
+                "prediction": "7699",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: Give the sum of 1616 and 6083.",
+            "response": "[FINAL ANSWER] The sum of 1616 and 6083 is 7699.",
+            "metrics": {
+                "ground_truth": "7699",
+                "prediction": "7699",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Give the product of 9181 and 5373.",
+            "response": "[FINAL ANSWER] 49309333",
+            "metrics": {
+                "ground_truth": "49329513",
+                "prediction": "49309333",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 20180.0,
+                "rel_distance": 0.00040908573332155133
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: Give the product of 9181 and 5373.",
+            "response": "[FINAL ANSWER] The product of 9181 and 5373 is 49320933.",
+            "metrics": {
+                "ground_truth": "49329513",
+                "prediction": "49320933",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 8580.0,
+                "rel_distance": 0.00017393238810202728
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Provide the sum of 1076 and 7575.",
+            "response": "[FINAL ANSWER] 8651",
+            "metrics": {
+                "ground_truth": "8651",
+                "prediction": "8651",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: Provide the sum of 1076 and 7575.",
+            "response": "[FINAL ANSWER] The sum of 1076 and 7575 is 8651.",
+            "metrics": {
+                "ground_truth": "8651",
+                "prediction": "8651",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Give the sum of 7281 and 9173.",
+            "response": "[FINAL ANSWER] 16454",
+            "metrics": {
+                "ground_truth": "16454",
+                "prediction": "16454",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: Give the sum of 7281 and 9173.",
+            "response": "[FINAL ANSWER] The sum of 7281 and 9173 is 16454.",
+            "metrics": {
+                "ground_truth": "16454",
+                "prediction": "16454",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Give the sum of 2883 and 9854.",
+            "response": "[FINAL ANSWER] 12737",
+            "metrics": {
+                "ground_truth": "12737",
+                "prediction": "12737",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: Give the sum of 2883 and 9854.",
+            "response": "[FINAL ANSWER] The sum of 2883 and 9854 is 12737.",
+            "metrics": {
+                "ground_truth": "12737",
+                "prediction": "12737",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the result of adding 6143 and 4946?",
+            "response": "[FINAL ANSWER] 11089",
+            "metrics": {
+                "ground_truth": "11089",
+                "prediction": "11089",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: What is the result of adding 6143 and 4946?",
+            "response": "[FINAL ANSWER] The result of adding 6143 and 4946 is 11089.",
+            "metrics": {
+                "ground_truth": "11089",
+                "prediction": "11089",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the result of adding 3941 and 5184?",
+            "response": "[FINAL ANSWER] 9125",
+            "metrics": {
+                "ground_truth": "9125",
+                "prediction": "9125",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: What is the result of adding 3941 and 5184?",
+            "response": "[FINAL ANSWER] The result of adding 3941 and 5184 is 9125.",
+            "metrics": {
+                "ground_truth": "9125",
+                "prediction": "9125",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Find the result of multiplying 9272 and 9641.",
+            "response": "[FINAL ANSWER] 89372632",
+            "metrics": {
+                "ground_truth": "89391352",
+                "prediction": "89372632",
+                "abs_edit_distance": 4,
+                "rel_edit_distance": 0.5,
+                "abs_distance": 18720.0,
+                "rel_distance": 0.00020941623077811822
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: Find the result of multiplying 9272 and 9641.",
+            "response": "[FINAL ANSWER] The result of multiplying 9272 and 9641 is 89376312.",
+            "metrics": {
+                "ground_truth": "89391352",
+                "prediction": "89376312",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 15040.0,
+                "rel_distance": 0.00016824893754823172
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Find the result of multiplying 8113 and 7683.",
+            "response": "[FINAL ANSWER] 62339539",
+            "metrics": {
+                "ground_truth": "62332179",
+                "prediction": "62339539",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 7360.0,
+                "rel_distance": 0.00011807705294563824
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: Find the result of multiplying 8113 and 7683.",
+            "response": "[FINAL ANSWER] The result of multiplying 8113 and 7683 is 62351139.",
+            "metrics": {
+                "ground_truth": "62332179",
+                "prediction": "62351139",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 18960.0,
+                "rel_distance": 0.0003041767559577855
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the product of 1379 and 4589?",
+            "response": "[FINAL ANSWER] 6334121",
+            "metrics": {
+                "ground_truth": "6328231",
+                "prediction": "6334121",
+                "abs_edit_distance": 4,
+                "rel_edit_distance": 0.5714285714285714,
+                "abs_distance": 5890.0,
+                "rel_distance": 0.000930749841464384
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: What is the product of 1379 and 4589?",
+            "response": "[FINAL ANSWER] The product of 1379 and 4589 is 6335241.",
+            "metrics": {
+                "ground_truth": "6328231",
+                "prediction": "6335241",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.42857142857142855,
+                "abs_distance": 7010.0,
+                "rel_distance": 0.001107734531182569
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Multiply 9420 and 8623.",
+            "response": "[FINAL ANSWER] 81184260",
+            "metrics": {
+                "ground_truth": "81228660",
+                "prediction": "81184260",
+                "abs_edit_distance": 4,
+                "rel_edit_distance": 0.5,
+                "abs_distance": 44400.0,
+                "rel_distance": 0.0005466051021893012
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: Multiply 9420 and 8623.",
+            "response": "[FINAL ANSWER] 81214260",
+            "metrics": {
+                "ground_truth": "81228660",
+                "prediction": "81214260",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 14400.0,
+                "rel_distance": 0.00017727733043977335
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What do you get when you multiply 9840 and 7789?",
+            "response": "[FINAL ANSWER] 76632160",
+            "metrics": {
+                "ground_truth": "76643760",
+                "prediction": "76632160",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 11600.0,
+                "rel_distance": 0.0001513495684449719
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: What do you get when you multiply 9840 and 7789?",
+            "response": "[FINAL ANSWER] The product of 9840 and 7789 is 76610560.",
+            "metrics": {
+                "ground_truth": "76643760",
+                "prediction": "76610560",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 33200.0,
+                "rel_distance": 0.00043317290279078164
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Provide the product of 2462 and 8378.",
+            "response": "[FINAL ANSWER] 20621356",
+            "metrics": {
+                "ground_truth": "20626636",
+                "prediction": "20621356",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 5280.0,
+                "rel_distance": 0.000255979695380284
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: Provide the product of 2462 and 8378.",
+            "response": "[FINAL ANSWER] 20626756",
+            "metrics": {
+                "ground_truth": "20626636",
+                "prediction": "20626756",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.25,
+                "abs_distance": 120.0,
+                "rel_distance": 5.817720349551909e-06
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the sum of 8695 and 8851?",
+            "response": "[FINAL ANSWER] 17546",
+            "metrics": {
+                "ground_truth": "17546",
+                "prediction": "17546",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: What is the sum of 8695 and 8851?",
+            "response": "[FINAL ANSWER] The sum of 8695 and 8851 is 17546.",
+            "metrics": {
+                "ground_truth": "17546",
+                "prediction": "17546",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Find the result of multiplying 9883 and 3340.",
+            "response": "[FINAL ANSWER] 33013520",
+            "metrics": {
+                "ground_truth": "33009220",
+                "prediction": "33013520",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 4300.0,
+                "rel_distance": 0.00013026663459481927
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: Find the result of multiplying 9883 and 3340.",
+            "response": "[FINAL ANSWER] The result of multiplying 9883 and 3340 is 33001320.",
+            "metrics": {
+                "ground_truth": "33009220",
+                "prediction": "33001320",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.25,
+                "abs_distance": 7900.0,
+                "rel_distance": 0.00023932707286024934
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Add 6804 and 1574.",
+            "response": "[FINAL ANSWER] 8378",
+            "metrics": {
+                "ground_truth": "8378",
+                "prediction": "8378",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: Add 6804 and 1574.",
+            "response": "[FINAL ANSWER] 8378",
+            "metrics": {
+                "ground_truth": "8378",
+                "prediction": "8378",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Multiply 5084 and 6207.",
+            "response": "[FINAL ANSWER] 31552548",
+            "metrics": {
+                "ground_truth": "31556388",
+                "prediction": "31552548",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 3840.0,
+                "rel_distance": 0.0001216869307095603
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: Multiply 5084 and 6207.",
+            "response": "[FINAL ANSWER] 31544228",
+            "metrics": {
+                "ground_truth": "31556388",
+                "prediction": "31544228",
+                "abs_edit_distance": 4,
+                "rel_edit_distance": 0.5,
+                "abs_distance": 12160.0,
+                "rel_distance": 0.0003853419472469409
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the result of multiplying 5184 and 5705?",
+            "response": "[FINAL ANSWER] 29578680",
+            "metrics": {
+                "ground_truth": "29574720",
+                "prediction": "29578680",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 3960.0,
+                "rel_distance": 0.00013389814003310935
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: What is the result of multiplying 5184 and 5705?",
+            "response": "[FINAL ANSWER] The result of multiplying 5184 and 5705 is 29579520.",
+            "metrics": {
+                "ground_truth": "29574720",
+                "prediction": "29579520",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.25,
+                "abs_distance": 4800.0,
+                "rel_distance": 0.00016230077579770832
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Give the product of 8832 and 1872.",
+            "response": "The product of 8832 and 1872 is 16538224.\n\n[FINAL ANSWER] 16538224",
+            "metrics": {
+                "ground_truth": "16533504",
+                "prediction": "16538224",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 4720.0,
+                "rel_distance": 0.0002854809240678806
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: Give the product of 8832 and 1872.",
+            "response": "[FINAL ANSWER] The product of 8832 and 1872 is 16534224.",
+            "metrics": {
+                "ground_truth": "16533504",
+                "prediction": "16534224",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 720.0,
+                "rel_distance": 4.35479375696767e-05
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What do you get when you add 5842 and 4743?",
+            "response": "[FINAL ANSWER] 10585",
+            "metrics": {
+                "ground_truth": "10585",
+                "prediction": "10585",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: What do you get when you add 5842 and 4743?",
+            "response": "[FINAL ANSWER] The sum of 5842 and 4743 is 10585.",
+            "metrics": {
+                "ground_truth": "10585",
+                "prediction": "10585",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Find the result of adding 4466 and 9166.",
+            "response": "[FINAL ANSWER] 13632",
+            "metrics": {
+                "ground_truth": "13632",
+                "prediction": "13632",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: Find the result of adding 4466 and 9166.",
+            "response": "[FINAL ANSWER] The result of adding 4466 and 9166 is 13632.",
+            "metrics": {
+                "ground_truth": "13632",
+                "prediction": "13632",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Provide the sum of 6161 and 5796.",
+            "response": "[FINAL ANSWER] 11957",
+            "metrics": {
+                "ground_truth": "11957",
+                "prediction": "11957",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: Provide the sum of 6161 and 5796.",
+            "response": "[FINAL ANSWER] The sum of 6161 and 5796 is 11957.",
+            "metrics": {
+                "ground_truth": "11957",
+                "prediction": "11957",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What do you get when you add 8320 and 1366?",
+            "response": "[FINAL ANSWER] 9686",
+            "metrics": {
+                "ground_truth": "9686",
+                "prediction": "9686",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: What do you get when you add 8320 and 1366?",
+            "response": "[FINAL ANSWER] The sum of 8320 and 1366 is 9686.",
+            "metrics": {
+                "ground_truth": "9686",
+                "prediction": "9686",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Provide the sum of 1566 and 4005.",
+            "response": "[FINAL ANSWER] 5571",
+            "metrics": {
+                "ground_truth": "5571",
+                "prediction": "5571",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: Provide the sum of 1566 and 4005.",
+            "response": "[FINAL ANSWER] The sum of 1566 and 4005 is 5571.",
+            "metrics": {
+                "ground_truth": "5571",
+                "prediction": "5571",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the sum of 4926 and 5468?",
+            "response": "[FINAL ANSWER] 10394",
+            "metrics": {
+                "ground_truth": "10394",
+                "prediction": "10394",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: What is the sum of 4926 and 5468?",
+            "response": "[FINAL ANSWER] The sum of 4926 and 5468 is 10394.",
+            "metrics": {
+                "ground_truth": "10394",
+                "prediction": "10394",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the sum of numbers 4986 and 1701?",
+            "response": "[FINAL ANSWER] 6687",
+            "metrics": {
+                "ground_truth": "6687",
+                "prediction": "6687",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: What is the sum of numbers 4986 and 1701?",
+            "response": "[FINAL ANSWER] The sum of numbers 4986 and 1701 is 6687.",
+            "metrics": {
+                "ground_truth": "6687",
+                "prediction": "6687",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Give the product of 1439 and 5317.",
+            "response": "[FINAL ANSWER] 7647243",
+            "metrics": {
+                "ground_truth": "7651163",
+                "prediction": "7647243",
+                "abs_edit_distance": 4,
+                "rel_edit_distance": 0.5714285714285714,
+                "abs_distance": 3920.0,
+                "rel_distance": 0.0005123404115165237
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: Give the product of 1439 and 5317.",
+            "response": "[FINAL ANSWER] 7649043",
+            "metrics": {
+                "ground_truth": "7651163",
+                "prediction": "7649043",
+                "abs_edit_distance": 4,
+                "rel_edit_distance": 0.5714285714285714,
+                "abs_distance": 2120.0,
+                "rel_distance": 0.00027708205928954853
+            }
+        }
+    }
+]

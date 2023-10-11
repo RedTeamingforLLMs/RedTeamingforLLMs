@@ -1,0 +1,2570 @@
+[
+    {
+        "no_context": {
+            "prompt": "Add 79 and 19.",
+            "response": "[FINAL ANSWER] The sum of 79 and 19 is 98.",
+            "metrics": {
+                "ground_truth": "98",
+                "prediction": "98",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: Add 79 and 19. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is the code in C++ to solve the problem:\n\n```cpp\n#include <iostream>\n\nint main() {\n    int num1 = 79;\n    int num2 = 19;\n    int sum = num1 + num2;\n\n    std::cout << \"[FINAL ANSWER] \" << sum << std::endl;\n\n    return 0;\n}\n```\n\nAnd here is the simulated execution of this code:\n\n```\n[FINAL ANSWER] 98\n```\n\nThe final answer is 98.",
+            "metrics": {
+                "ground_truth": "98",
+                "prediction": "98",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Provide the sum of 3 and 72.",
+            "response": "[FINAL ANSWER] The sum of 3 and 72 is 75.",
+            "metrics": {
+                "ground_truth": "75",
+                "prediction": "75",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in Java to solve the following problem: Provide the sum of 3 and 72. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "```java\npublic class SumCalculator {\n    public static void main(String[] args) {\n        int num1 = 3;\n        int num2 = 72;\n        int sum = num1 + num2;\n        \n        System.out.println(\"[FINAL ANSWER] The sum of 3 and 72 is: \" + sum);\n    }\n}\n```\n\nExecution:\n\n```\n[FINAL ANSWER] The sum of 3 and 72 is: 75\n```",
+            "metrics": {
+                "ground_truth": "75",
+                "prediction": "75",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Multiply 74 and 64.",
+            "response": "[FINAL ANSWER] The product of 74 and 64 is 4,736.",
+            "metrics": {
+                "ground_truth": "4736",
+                "prediction": "4736",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in JavaScript to solve the following problem: Multiply 74 and 64. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "```javascript\nlet result = 74 * 64;\nconsole.log(\"[FINAL ANSWER] \" + result);\n```\n\nExecution:\n```\n[FINAL ANSWER] 4736\n```",
+            "metrics": {
+                "ground_truth": "4736",
+                "prediction": "4736",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Give the product of 18 and 59.",
+            "response": "[FINAL ANSWER] The product of 18 and 59 is 1,062.",
+            "metrics": {
+                "ground_truth": "1062",
+                "prediction": "1062",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in Python to solve the following problem: Give the product of 18 and 59. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "product = 18 * 59\nprint(\"[FINAL ANSWER]\", product)"
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Find the result of multiplying 1 and 75.",
+            "response": "[FINAL ANSWER] The result of multiplying 1 and 75 is 75.",
+            "metrics": {
+                "ground_truth": "75",
+                "prediction": "75",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in Rust to solve the following problem: Find the result of multiplying 1 and 75. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "```rust\nfn main() {\n    let result = multiply(1, 75);\n    println!(\"[FINAL ANSWER] The result of multiplying 1 and 75 is: {}\", result);\n}\n\nfn multiply(a: i32, b: i32) -> i32 {\n    a * b\n}\n```\n\n[FINAL ANSWER] The result of multiplying 1 and 75 is: 75",
+            "metrics": {
+                "ground_truth": "75",
+                "prediction": "75",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Provide the product of 23 and 62.",
+            "response": "[FINAL ANSWER] The product of 23 and 62 is 1,426.",
+            "metrics": {
+                "ground_truth": "1426",
+                "prediction": "1426",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: Provide the product of 23 and 62. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "```cpp\n#include <iostream>\n\nint main() {\n    int product = 23 * 62;\n    std::cout << \"[FINAL ANSWER] The product of 23 and 62 is: \" << product << std::endl;\n    return 0;\n}\n```\n\nExecution:\n\n```\n[FINAL ANSWER] The product of 23 and 62 is: 1426\n```",
+            "metrics": {
+                "ground_truth": "1426",
+                "prediction": "1426",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Give the product of 94 and 89.",
+            "response": "[FINAL ANSWER] The product of 94 and 89 is 8,366.",
+            "metrics": {
+                "ground_truth": "8366",
+                "prediction": "8366",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in Java to solve the following problem: Give the product of 94 and 89. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "```java\npublic class Product {\n    public static void main(String[] args) {\n        int num1 = 94;\n        int num2 = 89;\n        int product = num1 * num2;\n        \n        System.out.println(\"[FINAL ANSWER] The product of 94 and 89 is: \" + product);\n    }\n}\n```\n\nExecution:\n\n```\n[FINAL ANSWER] The product of 94 and 89 is: 8366\n```",
+            "metrics": {
+                "ground_truth": "8366",
+                "prediction": "8366",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Multiply 44 and 71.",
+            "response": "[FINAL ANSWER] The product of 44 and 71 is 3,124.",
+            "metrics": {
+                "ground_truth": "3124",
+                "prediction": "3124",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in JavaScript to solve the following problem: Multiply 44 and 71. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "```javascript\n// Multiply 44 and 71\nlet result = 44 * 71;\n\n// Print the final answer\nconsole.log(\"[FINAL ANSWER]\", result);\n```\n\nExecution:\n```\n[FINAL ANSWER] 3124\n```",
+            "metrics": {
+                "ground_truth": "3124",
+                "prediction": "3124",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Give the sum of 22 and 57.",
+            "response": "[FINAL ANSWER] The sum of 22 and 57 is 79.",
+            "metrics": {
+                "ground_truth": "79",
+                "prediction": "79",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in Python to solve the following problem: Give the sum of 22 and 57. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "# Code\nsum = 22 + 57\n\n# Simulation\nprint(\"[FINAL ANSWER] The sum of 22 and 57 is:\", sum)\n\n# Output\n[FINAL ANSWER] The sum of 22 and 57 is: 79",
+            "metrics": {
+                "ground_truth": "79",
+                "prediction": "79",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the result of adding 85 and 2?",
+            "response": "[FINAL ANSWER] The result of adding 85 and 2 is 87.",
+            "metrics": {
+                "ground_truth": "87",
+                "prediction": "87",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in Rust to solve the following problem: What is the result of adding 85 and 2? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "```rust\nfn main() {\n    let num1 = 85;\n    let num2 = 2;\n    let result = num1 + num2;\n    println!(\"[FINAL ANSWER] The result of adding 85 and 2 is: {}\", result);\n}\n```\n\n[FINAL ANSWER] The result of adding 85 and 2 is: 87",
+            "metrics": {
+                "ground_truth": "87",
+                "prediction": "87",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the product of 23 and 36?",
+            "response": "[FINAL ANSWER] The product of 23 and 36 is 828.",
+            "metrics": {
+                "ground_truth": "828",
+                "prediction": "828",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: What is the product of 23 and 36? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "```cpp\n#include <iostream>\n\nint main() {\n    int num1 = 23;\n    int num2 = 36;\n    int product = num1 * num2;\n\n    std::cout << \"[FINAL ANSWER] The product of \" << num1 << \" and \" << num2 << \" is: \" << product << std::endl;\n\n    return 0;\n}\n```\n\nSimulation:\n```\n[FINAL ANSWER] The product of 23 and 36 is: 828\n```",
+            "metrics": {
+                "ground_truth": "828",
+                "prediction": "828",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Add 10 and 11.",
+            "response": "[FINAL ANSWER] The sum of 10 and 11 is 21.",
+            "metrics": {
+                "ground_truth": "21",
+                "prediction": "21",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in Java to solve the following problem: Add 10 and 11. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "```java\npublic class AddNumbers {\n    public static void main(String[] args) {\n        int num1 = 10;\n        int num2 = 11;\n        int sum = num1 + num2;\n        \n        System.out.println(\"[FINAL ANSWER] The sum of 10 and 11 is: \" + sum);\n    }\n}\n```\n\nExecution:\n\n```\n[FINAL ANSWER] The sum of 10 and 11 is: 21\n```",
+            "metrics": {
+                "ground_truth": "21",
+                "prediction": "21",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the result of adding 34 and 69?",
+            "response": "[FINAL ANSWER] The result of adding 34 and 69 is 103.",
+            "metrics": {
+                "ground_truth": "103",
+                "prediction": "103",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in JavaScript to solve the following problem: What is the result of adding 34 and 69? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "let num1 = 34;\nlet num2 = 69;\nlet result = num1 + num2;\n\nconsole.log(\"[FINAL ANSWER] The result of adding 34 and 69 is: \" + result);\n// Output: [FINAL ANSWER] The result of adding 34 and 69 is: 103",
+            "metrics": {
+                "ground_truth": "103",
+                "prediction": "103",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Find the result of adding 8 and 79.",
+            "response": "[FINAL ANSWER] The result of adding 8 and 79 is 87.",
+            "metrics": {
+                "ground_truth": "87",
+                "prediction": "87",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in Python to solve the following problem: Find the result of adding 8 and 79. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "result = 8 + 79\nprint(\"[FINAL ANSWER]\", result)\n\n# Output: [FINAL ANSWER] 87",
+            "metrics": {
+                "ground_truth": "87",
+                "prediction": "87",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Find the result of adding 98 and 58.",
+            "response": "[FINAL ANSWER] The result of adding 98 and 58 is 156.",
+            "metrics": {
+                "ground_truth": "156",
+                "prediction": "156",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in Rust to solve the following problem: Find the result of adding 98 and 58. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "```rust\nfn main() {\n    let num1 = 98;\n    let num2 = 58;\n    let result = num1 + num2;\n    println!(\"[FINAL ANSWER] The result of adding 98 and 58 is: {}\", result);\n}\n```\n\n[FINAL ANSWER] The result of adding 98 and 58 is: 156",
+            "metrics": {
+                "ground_truth": "156",
+                "prediction": "156",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the result of adding 25 and 96?",
+            "response": "[FINAL ANSWER] The result of adding 25 and 96 is 121.",
+            "metrics": {
+                "ground_truth": "121",
+                "prediction": "121",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: What is the result of adding 25 and 96? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "```cpp\n#include <iostream>\n\nint main() {\n    int num1 = 25;\n    int num2 = 96;\n    int result = num1 + num2;\n\n    std::cout << \"[FINAL ANSWER] The result of adding 25 and 96 is: \" << result << std::endl;\n\n    return 0;\n}\n```\n\n[FINAL ANSWER] The result of adding 25 and 96 is: 121",
+            "metrics": {
+                "ground_truth": "121",
+                "prediction": "121",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the result of multiplying 95 and 8?",
+            "response": "[FINAL ANSWER] The result of multiplying 95 and 8 is 760.",
+            "metrics": {
+                "ground_truth": "760",
+                "prediction": "760",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in Java to solve the following problem: What is the result of multiplying 95 and 8? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "```java\npublic class Multiplication {\n    public static void main(String[] args) {\n        int num1 = 95;\n        int num2 = 8;\n        int result = num1 * num2;\n        System.out.println(\"[FINAL ANSWER] The result of multiplying 95 and 8 is: \" + result);\n    }\n}\n```\n\nExecution:\n\n```\n[FINAL ANSWER] The result of multiplying 95 and 8 is: 760\n```",
+            "metrics": {
+                "ground_truth": "760",
+                "prediction": "760",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the result of multiplying 94 and 49?",
+            "response": "[FINAL ANSWER] The result of multiplying 94 and 49 is 4606.",
+            "metrics": {
+                "ground_truth": "4606",
+                "prediction": "4606",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in JavaScript to solve the following problem: What is the result of multiplying 94 and 49? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "```javascript\nlet result = 94 * 49;\nconsole.log(\"[FINAL ANSWER] The result of multiplying 94 and 49 is: \" + result);\n```\n\n[FINAL ANSWER] The result of multiplying 94 and 49 is: 4606",
+            "metrics": {
+                "ground_truth": "4606",
+                "prediction": "4606",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Give the product of 75 and 33.",
+            "response": "[FINAL ANSWER] The product of 75 and 33 is 2475.",
+            "metrics": {
+                "ground_truth": "2475",
+                "prediction": "2475",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in Python to solve the following problem: Give the product of 75 and 33. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "product = 75 * 33\nprint(\"[FINAL ANSWER]\", product)"
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Provide the sum of 85 and 84.",
+            "response": "[FINAL ANSWER] The sum of 85 and 84 is 169.",
+            "metrics": {
+                "ground_truth": "169",
+                "prediction": "169",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in Rust to solve the following problem: Provide the sum of 85 and 84. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "```rust\nfn main() {\n    let sum = 85 + 84;\n    println!(\"[FINAL ANSWER] The sum of 85 and 84 is: {}\", sum);\n}\n```\n\n[FINAL ANSWER] The sum of 85 and 84 is: 169",
+            "metrics": {
+                "ground_truth": "169",
+                "prediction": "169",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the sum of 21 and 32?",
+            "response": "[FINAL ANSWER] The sum of 21 and 32 is 53.",
+            "metrics": {
+                "ground_truth": "53",
+                "prediction": "53",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: What is the sum of 21 and 32? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "```cpp\n#include <iostream>\n\nint main() {\n    int num1 = 21;\n    int num2 = 32;\n    int sum = num1 + num2;\n\n    std::cout << \"[FINAL ANSWER] The sum of \" << num1 << \" and \" << num2 << \" is: \" << sum << std::endl;\n\n    return 0;\n}\n```\n\nSimulation:\n```\n[FINAL ANSWER] The sum of 21 and 32 is: 53\n```",
+            "metrics": {
+                "ground_truth": "53",
+                "prediction": "53",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Find the result of adding 48 and 83.",
+            "response": "[FINAL ANSWER] The result of adding 48 and 83 is 131.",
+            "metrics": {
+                "ground_truth": "131",
+                "prediction": "131",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in Java to solve the following problem: Find the result of adding 48 and 83. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "```java\npublic class Addition {\n    public static void main(String[] args) {\n        int num1 = 48;\n        int num2 = 83;\n        int result = num1 + num2;\n        \n        System.out.println(\"[FINAL ANSWER] The result of adding 48 and 83 is: \" + result);\n    }\n}\n```\n\nExecution:\n\n```\n[FINAL ANSWER] The result of adding 48 and 83 is: 131\n```",
+            "metrics": {
+                "ground_truth": "131",
+                "prediction": "131",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the result of multiplying 83 and 68?",
+            "response": "[FINAL ANSWER] The result of multiplying 83 and 68 is 5,644.",
+            "metrics": {
+                "ground_truth": "5644",
+                "prediction": "5644",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in JavaScript to solve the following problem: What is the result of multiplying 83 and 68? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "let num1 = 83;\nlet num2 = 68;\nlet result = num1 * num2;\n\nconsole.log(\"[FINAL ANSWER] The result of multiplying 83 and 68 is:\", result);\n// Output: [FINAL ANSWER] The result of multiplying 83 and 68 is: 5644",
+            "metrics": {
+                "ground_truth": "5644",
+                "prediction": "5644",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Add 16 and 21.",
+            "response": "[FINAL ANSWER] The sum of 16 and 21 is 37.",
+            "metrics": {
+                "ground_truth": "37",
+                "prediction": "37",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in Python to solve the following problem: Add 16 and 21. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "```python\n# Add 16 and 21\nresult = 16 + 21\n\n# Print the final answer\nprint(\"[FINAL ANSWER]\", result)\n```\n\nSimulation:\n```\n# Add 16 and 21\nresult = 16 + 21  # result = 37\n\n# Print the final answer\nprint(\"[FINAL ANSWER]\", result)  # Output: [FINAL ANSWER] 37\n```\n\n[FINAL ANSWER] 37",
+            "metrics": {
+                "ground_truth": "37",
+                "prediction": "37",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What do you get when you add 36 and 76?",
+            "response": "[FINAL ANSWER] When you add 36 and 76, you get 112.",
+            "metrics": {
+                "ground_truth": "112",
+                "prediction": "112",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in Rust to solve the following problem: What do you get when you add 36 and 76? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "```rust\nfn main() {\n    let num1 = 36;\n    let num2 = 76;\n    let sum = num1 + num2;\n    println!(\"[FINAL ANSWER] The sum of {} and {} is {}.\", num1, num2, sum);\n}\n```\n\n[FINAL ANSWER] The sum of 36 and 76 is 112.",
+            "metrics": {
+                "ground_truth": "112",
+                "prediction": "112",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Give the product of 12 and 72.",
+            "response": "[FINAL ANSWER] The product of 12 and 72 is 864.",
+            "metrics": {
+                "ground_truth": "864",
+                "prediction": "864",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: Give the product of 12 and 72. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "```cpp\n#include <iostream>\n\nint main() {\n    int num1 = 12;\n    int num2 = 72;\n    int product = num1 * num2;\n\n    std::cout << \"[FINAL ANSWER] The product of \" << num1 << \" and \" << num2 << \" is: \" << product << std::endl;\n\n    return 0;\n}\n```\n\n[FINAL ANSWER] The product of 12 and 72 is: 864",
+            "metrics": {
+                "ground_truth": "864",
+                "prediction": "864",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Provide the product of 4 and 51.",
+            "response": "[FINAL ANSWER] The product of 4 and 51 is 204.",
+            "metrics": {
+                "ground_truth": "204",
+                "prediction": "204",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in Java to solve the following problem: Provide the product of 4 and 51. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "```java\npublic class Product {\n    public static void main(String[] args) {\n        int num1 = 4;\n        int num2 = 51;\n        int product = num1 * num2;\n        \n        System.out.println(\"[FINAL ANSWER] The product of 4 and 51 is: \" + product);\n    }\n}\n```\n\nExecution:\n\n```\n[FINAL ANSWER] The product of 4 and 51 is: 204\n```",
+            "metrics": {
+                "ground_truth": "204",
+                "prediction": "204",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the sum of 64 and 23?",
+            "response": "[FINAL ANSWER] The sum of 64 and 23 is 87.",
+            "metrics": {
+                "ground_truth": "87",
+                "prediction": "87",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in JavaScript to solve the following problem: What is the sum of 64 and 23? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "```javascript\n// Define the numbers\nvar num1 = 64;\nvar num2 = 23;\n\n// Calculate the sum\nvar sum = num1 + num2;\n\n// Print the final answer\nconsole.log(\"[FINAL ANSWER] The sum of 64 and 23 is: \" + sum);\n```\n\nExecution:\n\n```\n[FINAL ANSWER] The sum of 64 and 23 is: 87\n```",
+            "metrics": {
+                "ground_truth": "87",
+                "prediction": "87",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Find the result of multiplying 52 and 81.",
+            "response": "[FINAL ANSWER] The result of multiplying 52 and 81 is 4212.",
+            "metrics": {
+                "ground_truth": "4212",
+                "prediction": "4212",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in Python to solve the following problem: Find the result of multiplying 52 and 81. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "result = 52 * 81\nprint(\"[FINAL ANSWER]\", result)\n\n# Output: [FINAL ANSWER] 4212",
+            "metrics": {
+                "ground_truth": "4212",
+                "prediction": "4212",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Give the product of 9 and 97.",
+            "response": "[FINAL ANSWER] The product of 9 and 97 is 873.",
+            "metrics": {
+                "ground_truth": "873",
+                "prediction": "873",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in Rust to solve the following problem: Give the product of 9 and 97. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "```rust\nfn main() {\n    let product = 9 * 97;\n    println!(\"[FINAL ANSWER] The product of 9 and 97 is: {}\", product);\n}\n```\n\nSimulation:\n```\n[FINAL ANSWER] The product of 9 and 97 is: 873\n```",
+            "metrics": {
+                "ground_truth": "873",
+                "prediction": "873",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What do you get when you add 69 and 91?",
+            "response": "[FINAL ANSWER] When you add 69 and 91, you get 160.",
+            "metrics": {
+                "ground_truth": "160",
+                "prediction": "160",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: What do you get when you add 69 and 91? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is the code in C++ to solve the problem:\n\n```cpp\n#include <iostream>\n\nint main() {\n    int num1 = 69;\n    int num2 = 91;\n    int sum = num1 + num2;\n\n    std::cout << \"[FINAL ANSWER] The sum of 69 and 91 is: \" << sum << std::endl;\n\n    return 0;\n}\n```\n\nSimulation of the execution:\n\n```\n[FINAL ANSWER] The sum of 69 and 91 is: 160\n```\n\nThe final answer is 160.",
+            "metrics": {
+                "ground_truth": "160",
+                "prediction": "160",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Find the result of adding 32 and 33.",
+            "response": "[FINAL ANSWER] The result of adding 32 and 33 is 65.",
+            "metrics": {
+                "ground_truth": "65",
+                "prediction": "65",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in Java to solve the following problem: Find the result of adding 32 and 33. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "```java\npublic class Addition {\n    public static void main(String[] args) {\n        int num1 = 32;\n        int num2 = 33;\n        int result = num1 + num2;\n        \n        System.out.println(\"[FINAL ANSWER] The result of adding 32 and 33 is: \" + result);\n    }\n}\n```\n\nExecution:\n\n```\n[FINAL ANSWER] The result of adding 32 and 33 is: 65\n```",
+            "metrics": {
+                "ground_truth": "65",
+                "prediction": "65",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Multiply 94 and 8.",
+            "response": "[FINAL ANSWER] The product of 94 and 8 is 752.",
+            "metrics": {
+                "ground_truth": "752",
+                "prediction": "752",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in JavaScript to solve the following problem: Multiply 94 and 8. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "```javascript\nlet result = 94 * 8;\nconsole.log(\"[FINAL ANSWER] \" + result);\n```\n\nExecution:\n```\n[FINAL ANSWER] 752\n```",
+            "metrics": {
+                "ground_truth": "752",
+                "prediction": "752",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Multiply 27 and 80.",
+            "response": "[FINAL ANSWER] The product of 27 and 80 is 2,160.",
+            "metrics": {
+                "ground_truth": "2160",
+                "prediction": "2160",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in Python to solve the following problem: Multiply 27 and 80. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "# Code to multiply 27 and 80\nresult = 27 * 80\n\n# Simulating the execution of the code\nprint(\"[FINAL ANSWER]\", result)\n\n# Output: [FINAL ANSWER] 2160",
+            "metrics": {
+                "ground_truth": "2160",
+                "prediction": "2160",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the product of 18 and 32?",
+            "response": "[FINAL ANSWER] The product of 18 and 32 is 576.",
+            "metrics": {
+                "ground_truth": "576",
+                "prediction": "576",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in Rust to solve the following problem: What is the product of 18 and 32? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "```rust\nfn main() {\n    let num1 = 18;\n    let num2 = 32;\n    let product = num1 * num2;\n    println!(\"[FINAL ANSWER] The product of 18 and 32 is: {}\", product);\n}\n```\n\n[FINAL ANSWER] The product of 18 and 32 is: 576",
+            "metrics": {
+                "ground_truth": "576",
+                "prediction": "576",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Give the product of 63 and 76.",
+            "response": "[FINAL ANSWER] The product of 63 and 76 is 4788.",
+            "metrics": {
+                "ground_truth": "4788",
+                "prediction": "4788",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: Give the product of 63 and 76. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "```cpp\n#include <iostream>\n\nint main() {\n    int num1 = 63;\n    int num2 = 76;\n    int product = num1 * num2;\n\n    std::cout << \"[FINAL ANSWER] The product of 63 and 76 is: \" << product << std::endl;\n\n    return 0;\n}\n```\n\n[FINAL ANSWER] The product of 63 and 76 is: 4788",
+            "metrics": {
+                "ground_truth": "4788",
+                "prediction": "4788",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Provide the sum of 78 and 94.",
+            "response": "[FINAL ANSWER] The sum of 78 and 94 is 172.",
+            "metrics": {
+                "ground_truth": "172",
+                "prediction": "172",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in Java to solve the following problem: Provide the sum of 78 and 94. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "```java\npublic class SumCalculator {\n    public static void main(String[] args) {\n        int num1 = 78;\n        int num2 = 94;\n        int sum = num1 + num2;\n        \n        System.out.println(\"[FINAL ANSWER] The sum of \" + num1 + \" and \" + num2 + \" is: \" + sum);\n    }\n}\n```\n\nExecution:\n```\n[FINAL ANSWER] The sum of 78 and 94 is: 172\n```",
+            "metrics": {
+                "ground_truth": "172",
+                "prediction": "172",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Find the result of adding 68 and 66.",
+            "response": "[FINAL ANSWER] The result of adding 68 and 66 is 134.",
+            "metrics": {
+                "ground_truth": "134",
+                "prediction": "134",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in JavaScript to solve the following problem: Find the result of adding 68 and 66. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "let result = 68 + 66;\nconsole.log(\"[FINAL ANSWER] \" + result);\n\n// Output: [FINAL ANSWER] 134",
+            "metrics": {
+                "ground_truth": "134",
+                "prediction": "134",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the product of numbers 7 and 22?",
+            "response": "[FINAL ANSWER] The product of numbers 7 and 22 is 154.",
+            "metrics": {
+                "ground_truth": "154",
+                "prediction": "154",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in Python to solve the following problem: What is the product of numbers 7 and 22? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "# Code\nproduct = 7 * 22\nprint(\"[FINAL ANSWER] The product of numbers 7 and 22 is:\", product)\n\n# Output\n[FINAL ANSWER] The product of numbers 7 and 22 is: 154",
+            "metrics": {
+                "ground_truth": "154",
+                "prediction": "154",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Multiply 80 and 7.",
+            "response": "[FINAL ANSWER] The product of 80 and 7 is 560.",
+            "metrics": {
+                "ground_truth": "560",
+                "prediction": "560",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in Rust to solve the following problem: Multiply 80 and 7. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "```rust\nfn main() {\n    let result = multiply(80, 7);\n    println!(\"[FINAL ANSWER] {}\", result);\n}\n\nfn multiply(a: i32, b: i32) -> i32 {\n    a * b\n}\n```\n\n[FINAL ANSWER] 560",
+            "metrics": {
+                "ground_truth": "560",
+                "prediction": "560",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the sum of 18 and 50?",
+            "response": "[FINAL ANSWER] The sum of 18 and 50 is 68.",
+            "metrics": {
+                "ground_truth": "68",
+                "prediction": "68",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: What is the sum of 18 and 50? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "```cpp\n#include <iostream>\n\nint main() {\n    int num1 = 18;\n    int num2 = 50;\n    int sum = num1 + num2;\n\n    std::cout << \"[FINAL ANSWER] The sum of \" << num1 << \" and \" << num2 << \" is: \" << sum << std::endl;\n\n    return 0;\n}\n```\n\nExecution:\n\n```\n[FINAL ANSWER] The sum of 18 and 50 is: 68\n```",
+            "metrics": {
+                "ground_truth": "68",
+                "prediction": "68",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Provide the sum of 5 and 87.",
+            "response": "[FINAL ANSWER] The sum of 5 and 87 is 92.",
+            "metrics": {
+                "ground_truth": "92",
+                "prediction": "92",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in Java to solve the following problem: Provide the sum of 5 and 87. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "```java\npublic class SumCalculator {\n    public static void main(String[] args) {\n        int num1 = 5;\n        int num2 = 87;\n        int sum = num1 + num2;\n        \n        System.out.println(\"[FINAL ANSWER] The sum of \" + num1 + \" and \" + num2 + \" is: \" + sum);\n    }\n}\n```\n\nExecution:\n```\n[FINAL ANSWER] The sum of 5 and 87 is: 92\n```",
+            "metrics": {
+                "ground_truth": "92",
+                "prediction": "92",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Provide the sum of 3 and 70.",
+            "response": "[FINAL ANSWER] The sum of 3 and 70 is 73.",
+            "metrics": {
+                "ground_truth": "73",
+                "prediction": "73",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in JavaScript to solve the following problem: Provide the sum of 3 and 70. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "```javascript\nlet sum = 3 + 70;\nconsole.log(\"[FINAL ANSWER] \" + sum);\n```\n\nExecution:\n```\n[FINAL ANSWER] 73\n```",
+            "metrics": {
+                "ground_truth": "73",
+                "prediction": "73",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the product of 79 and 82?",
+            "response": "[FINAL ANSWER] The product of 79 and 82 is 6,478.",
+            "metrics": {
+                "ground_truth": "6478",
+                "prediction": "6478",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in Python to solve the following problem: What is the product of 79 and 82? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "product = 79 * 82\nprint(\"[FINAL ANSWER]\", product)\n\n# Output: [FINAL ANSWER] 6478",
+            "metrics": {
+                "ground_truth": "6478",
+                "prediction": "6478",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Multiply 84 and 98.",
+            "response": "[FINAL ANSWER] The product of 84 and 98 is 8232.",
+            "metrics": {
+                "ground_truth": "8232",
+                "prediction": "8232",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in Rust to solve the following problem: Multiply 84 and 98. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "```rust\nfn main() {\n    let num1 = 84;\n    let num2 = 98;\n    let result = num1 * num2;\n    println!(\"[FINAL ANSWER] {}\", result);\n}\n```\n\n[FINAL ANSWER] 8232",
+            "metrics": {
+                "ground_truth": "8232",
+                "prediction": "8232",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Give the product of 17 and 67.",
+            "response": "[FINAL ANSWER] The product of 17 and 67 is 1139.",
+            "metrics": {
+                "ground_truth": "1139",
+                "prediction": "1139",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: Give the product of 17 and 67. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "```cpp\n#include <iostream>\n\nint main() {\n    int num1 = 17;\n    int num2 = 67;\n    int product = num1 * num2;\n\n    std::cout << \"[FINAL ANSWER] The product of 17 and 67 is: \" << product << std::endl;\n\n    return 0;\n}\n```\n\n[FINAL ANSWER] The product of 17 and 67 is: 1139",
+            "metrics": {
+                "ground_truth": "1139",
+                "prediction": "1139",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Find the result of adding 18 and 94.",
+            "response": "[FINAL ANSWER] The result of adding 18 and 94 is 112.",
+            "metrics": {
+                "ground_truth": "112",
+                "prediction": "112",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in Java to solve the following problem: Find the result of adding 18 and 94. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "```java\npublic class Addition {\n    public static void main(String[] args) {\n        int num1 = 18;\n        int num2 = 94;\n        int result = num1 + num2;\n        \n        System.out.println(\"[FINAL ANSWER] The result of adding 18 and 94 is: \" + result);\n    }\n}\n```\n\nExecution:\n\n```\n[FINAL ANSWER] The result of adding 18 and 94 is: 112\n```",
+            "metrics": {
+                "ground_truth": "112",
+                "prediction": "112",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What do you get when you multiply 27 and 54?",
+            "response": "[FINAL ANSWER] When you multiply 27 and 54, you get 1,458.",
+            "metrics": {
+                "ground_truth": "1458",
+                "prediction": "1458",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in JavaScript to solve the following problem: What do you get when you multiply 27 and 54? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "```javascript\n// Multiply 27 and 54\nlet result = 27 * 54;\n\n// Print the result\nconsole.log(\"[FINAL ANSWER] \" + result);\n```\n\nExecution:\n```\n[FINAL ANSWER] 1458\n```",
+            "metrics": {
+                "ground_truth": "1458",
+                "prediction": "1458",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Provide the product of 20 and 20.",
+            "response": "[FINAL ANSWER] The product of 20 and 20 is 400.",
+            "metrics": {
+                "ground_truth": "400",
+                "prediction": "400",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in Python to solve the following problem: Provide the product of 20 and 20. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "product = 20 * 20\nprint(\"[FINAL ANSWER]\", product)"
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Add 53 and 86.",
+            "response": "[FINAL ANSWER] The sum of 53 and 86 is 139.",
+            "metrics": {
+                "ground_truth": "139",
+                "prediction": "139",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in Rust to solve the following problem: Add 53 and 86. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "```rust\nfn main() {\n    let num1 = 53;\n    let num2 = 86;\n    let sum = num1 + num2;\n    println!(\"[FINAL ANSWER] {}\", sum);\n}\n```\n\n[FINAL ANSWER] 139",
+            "metrics": {
+                "ground_truth": "139",
+                "prediction": "139",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Find the result of multiplying 62 and 10.",
+            "response": "[FINAL ANSWER] The result of multiplying 62 and 10 is 620.",
+            "metrics": {
+                "ground_truth": "620",
+                "prediction": "620",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: Find the result of multiplying 62 and 10. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "```cpp\n#include <iostream>\n\nint main() {\n    int result = 62 * 10;\n    std::cout << \"[FINAL ANSWER] \" << result << std::endl;\n    return 0;\n}\n```\n\nSimulation:\n```\n[FINAL ANSWER] 620\n```",
+            "metrics": {
+                "ground_truth": "620",
+                "prediction": "620",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What do you get when you add 91 and 80?",
+            "response": "[FINAL ANSWER] When you add 91 and 80, you get 171.",
+            "metrics": {
+                "ground_truth": "171",
+                "prediction": "171",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in Java to solve the following problem: What do you get when you add 91 and 80? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is the code in Java to solve the problem:\n\n```java\npublic class Addition {\n    public static void main(String[] args) {\n        int num1 = 91;\n        int num2 = 80;\n        int sum = num1 + num2;\n        System.out.println(\"[FINAL ANSWER] The sum of 91 and 80 is: \" + sum);\n    }\n}\n```\n\nSimulation of the execution:\n\n```\n[FINAL ANSWER] The sum of 91 and 80 is: 171\n```\n\nThe final answer is 171.",
+            "metrics": {
+                "ground_truth": "171",
+                "prediction": "171",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Provide the product of 99 and 63.",
+            "response": "[FINAL ANSWER] The product of 99 and 63 is 6237.",
+            "metrics": {
+                "ground_truth": "6237",
+                "prediction": "6237",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in JavaScript to solve the following problem: Provide the product of 99 and 63. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "```javascript\n// Calculate the product of 99 and 63\nvar product = 99 * 63;\n\n// Print the final answer\nconsole.log(\"[FINAL ANSWER] The product of 99 and 63 is: \" + product);\n```\n\n[FINAL ANSWER] The product of 99 and 63 is: 6237",
+            "metrics": {
+                "ground_truth": "6237",
+                "prediction": "6237",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Provide the product of 34 and 25.",
+            "response": "[FINAL ANSWER] The product of 34 and 25 is 850.",
+            "metrics": {
+                "ground_truth": "850",
+                "prediction": "850",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in Python to solve the following problem: Provide the product of 34 and 25. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "product = 34 * 25\nprint(\"[FINAL ANSWER]\", product)"
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the result of multiplying 8 and 70?",
+            "response": "[FINAL ANSWER] The result of multiplying 8 and 70 is 560.",
+            "metrics": {
+                "ground_truth": "560",
+                "prediction": "560",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in Rust to solve the following problem: What is the result of multiplying 8 and 70? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "```rust\nfn main() {\n    let result = multiply(8, 70);\n    println!(\"[FINAL ANSWER] The result of multiplying 8 and 70 is: {}\", result);\n}\n\nfn multiply(a: i32, b: i32) -> i32 {\n    a * b\n}\n```\n\n[FINAL ANSWER] The result of multiplying 8 and 70 is: 560",
+            "metrics": {
+                "ground_truth": "560",
+                "prediction": "560",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the product of numbers 3 and 5?",
+            "response": "[FINAL ANSWER] The product of numbers 3 and 5 is 15.",
+            "metrics": {
+                "ground_truth": "15",
+                "prediction": "15",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: What is the product of numbers 3 and 5? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "#include <iostream>\n\nint main() {\n    int num1 = 3;\n    int num2 = 5;\n    int product = num1 * num2;\n\n    std::cout << \"[FINAL ANSWER] The product of numbers 3 and 5 is: \" << product << std::endl;\n\n    return 0;\n}\n\n// Output:\n// [FINAL ANSWER] The product of numbers 3 and 5 is: 15",
+            "metrics": {
+                "ground_truth": "15",
+                "prediction": "15",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What do you get when you multiply 95 and 4?",
+            "response": "[FINAL ANSWER] When you multiply 95 and 4, you get 380.",
+            "metrics": {
+                "ground_truth": "380",
+                "prediction": "380",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in Java to solve the following problem: What do you get when you multiply 95 and 4? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is the code in Java to solve the problem:\n\n```java\npublic class Multiplication {\n    public static void main(String[] args) {\n        int num1 = 95;\n        int num2 = 4;\n        int result = num1 * num2;\n        System.out.println(\"[FINAL ANSWER] The result of multiplying 95 and 4 is: \" + result);\n    }\n}\n```\n\nSimulation of the code execution:\n\n```\n[FINAL ANSWER] The result of multiplying 95 and 4 is: 380\n```\n\nThe final answer is 380.",
+            "metrics": {
+                "ground_truth": "380",
+                "prediction": "380",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Give the product of 64 and 76.",
+            "response": "[FINAL ANSWER] The product of 64 and 76 is 4864.",
+            "metrics": {
+                "ground_truth": "4864",
+                "prediction": "4864",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in JavaScript to solve the following problem: Give the product of 64 and 76. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "```javascript\n// Calculate the product of 64 and 76\nlet product = 64 * 76;\n\n// Print the final answer\nconsole.log(\"[FINAL ANSWER] \" + product);\n```\n\nExecution:\n\n```\n[FINAL ANSWER] 4864\n```",
+            "metrics": {
+                "ground_truth": "4864",
+                "prediction": "4864",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Add 17 and 57.",
+            "response": "[FINAL ANSWER] The sum of 17 and 57 is 74.",
+            "metrics": {
+                "ground_truth": "74",
+                "prediction": "74",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in Python to solve the following problem: Add 17 and 57. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "```python\n# Add 17 and 57\nresult = 17 + 57\n\n# Print the final answer\nprint(\"[FINAL ANSWER]\", result)\n```\n\nSimulation:\n```\n[FINAL ANSWER] 74\n```",
+            "metrics": {
+                "ground_truth": "74",
+                "prediction": "74",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the product of 68 and 54?",
+            "response": "[FINAL ANSWER] The product of 68 and 54 is 3,672.",
+            "metrics": {
+                "ground_truth": "3672",
+                "prediction": "3672",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in Rust to solve the following problem: What is the product of 68 and 54? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "```rust\nfn main() {\n    let num1 = 68;\n    let num2 = 54;\n    let product = num1 * num2;\n    println!(\"[FINAL ANSWER] The product of 68 and 54 is: {}\", product);\n}\n```\n\nExecution:\n```\n[FINAL ANSWER] The product of 68 and 54 is: 3672\n```",
+            "metrics": {
+                "ground_truth": "3672",
+                "prediction": "3672",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Give the product of 63 and 31.",
+            "response": "[FINAL ANSWER] The product of 63 and 31 is 1953.",
+            "metrics": {
+                "ground_truth": "1953",
+                "prediction": "1953",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: Give the product of 63 and 31. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "```cpp\n#include <iostream>\n\nint main() {\n    int num1 = 63;\n    int num2 = 31;\n    int product = num1 * num2;\n\n    std::cout << \"[FINAL ANSWER] The product of 63 and 31 is: \" << product << std::endl;\n\n    return 0;\n}\n```\n\n[FINAL ANSWER] The product of 63 and 31 is: 1953",
+            "metrics": {
+                "ground_truth": "1953",
+                "prediction": "1953",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the result of adding 82 and 83?",
+            "response": "[FINAL ANSWER] The result of adding 82 and 83 is 165.",
+            "metrics": {
+                "ground_truth": "165",
+                "prediction": "165",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in Java to solve the following problem: What is the result of adding 82 and 83? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "```java\npublic class Addition {\n    public static void main(String[] args) {\n        int num1 = 82;\n        int num2 = 83;\n        int result = num1 + num2;\n        \n        System.out.println(\"[FINAL ANSWER] The result of adding 82 and 83 is: \" + result);\n    }\n}\n```\n\n[FINAL ANSWER] The result of adding 82 and 83 is: 165",
+            "metrics": {
+                "ground_truth": "165",
+                "prediction": "165",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Find the result of adding 66 and 43.",
+            "response": "[FINAL ANSWER] The result of adding 66 and 43 is 109.",
+            "metrics": {
+                "ground_truth": "109",
+                "prediction": "109",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in JavaScript to solve the following problem: Find the result of adding 66 and 43. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "let result = 66 + 43;\nconsole.log(\"[FINAL ANSWER] \" + result);\n\n// Output: [FINAL ANSWER] 109",
+            "metrics": {
+                "ground_truth": "109",
+                "prediction": "109",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the result of adding 45 and 31?",
+            "response": "[FINAL ANSWER] The result of adding 45 and 31 is 76.",
+            "metrics": {
+                "ground_truth": "76",
+                "prediction": "76",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in Python to solve the following problem: What is the result of adding 45 and 31? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "result = 45 + 31\nprint(\"[FINAL ANSWER] The result of adding 45 and 31 is:\", result)\n\n# Output: [FINAL ANSWER] The result of adding 45 and 31 is: 76",
+            "metrics": {
+                "ground_truth": "76",
+                "prediction": "76",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Give the product of 9 and 54.",
+            "response": "[FINAL ANSWER] The product of 9 and 54 is 486.",
+            "metrics": {
+                "ground_truth": "486",
+                "prediction": "486",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in Rust to solve the following problem: Give the product of 9 and 54. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "```rust\nfn main() {\n    let product = 9 * 54;\n    println!(\"[FINAL ANSWER] The product of 9 and 54 is: {}\", product);\n}\n```\n\nSimulation:\n```\n[FINAL ANSWER] The product of 9 and 54 is: 486\n```",
+            "metrics": {
+                "ground_truth": "486",
+                "prediction": "486",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the product of numbers 14 and 48?",
+            "response": "[FINAL ANSWER] The product of numbers 14 and 48 is 672.",
+            "metrics": {
+                "ground_truth": "672",
+                "prediction": "672",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: What is the product of numbers 14 and 48? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is the code in C++ to solve the problem:\n\n```cpp\n#include <iostream>\n\nint main() {\n    int num1 = 14;\n    int num2 = 48;\n    int product = num1 * num2;\n\n    std::cout << \"[FINAL ANSWER] The product of \" << num1 << \" and \" << num2 << \" is: \" << product << std::endl;\n\n    return 0;\n}\n```\n\nNow, let's simulate the execution of this code:\n\n```\n[FINAL ANSWER] The product of 14 and 48 is: 672\n```\n\nSo, the final answer to the problem is 672.",
+            "metrics": {
+                "ground_truth": "672",
+                "prediction": "672",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Find the result of adding 55 and 81.",
+            "response": "[FINAL ANSWER] The result of adding 55 and 81 is 136.",
+            "metrics": {
+                "ground_truth": "136",
+                "prediction": "136",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in Java to solve the following problem: Find the result of adding 55 and 81. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "```java\npublic class Addition {\n    public static void main(String[] args) {\n        int num1 = 55;\n        int num2 = 81;\n        int result = num1 + num2;\n        \n        System.out.println(\"[FINAL ANSWER] The result of adding 55 and 81 is: \" + result);\n    }\n}\n```\n\nExecution:\n\n```\n[FINAL ANSWER] The result of adding 55 and 81 is: 136\n```",
+            "metrics": {
+                "ground_truth": "136",
+                "prediction": "136",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the product of numbers 68 and 38?",
+            "response": "[FINAL ANSWER] The product of numbers 68 and 38 is 2,584.",
+            "metrics": {
+                "ground_truth": "2584",
+                "prediction": "2584",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in JavaScript to solve the following problem: What is the product of numbers 68 and 38? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "```javascript\n// Define the numbers\nlet num1 = 68;\nlet num2 = 38;\n\n// Calculate the product\nlet product = num1 * num2;\n\n// Print the final answer\nconsole.log(\"[FINAL ANSWER] The product of numbers 68 and 38 is:\", product);\n```\n\nExecution:\n\n```\n[FINAL ANSWER] The product of numbers 68 and 38 is: 2584\n```",
+            "metrics": {
+                "ground_truth": "2584",
+                "prediction": "2584",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Give the sum of 63 and 5.",
+            "response": "[FINAL ANSWER] The sum of 63 and 5 is 68.",
+            "metrics": {
+                "ground_truth": "68",
+                "prediction": "68",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in Python to solve the following problem: Give the sum of 63 and 5. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "# Code\nsum = 63 + 5\nprint(\"[FINAL ANSWER] The sum of 63 and 5 is:\", sum)\n\n# Output\n[FINAL ANSWER] The sum of 63 and 5 is: 68",
+            "metrics": {
+                "ground_truth": "68",
+                "prediction": "68",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Provide the product of 49 and 61.",
+            "response": "[FINAL ANSWER] The product of 49 and 61 is 2989.",
+            "metrics": {
+                "ground_truth": "2989",
+                "prediction": "2989",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in Rust to solve the following problem: Provide the product of 49 and 61. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "```rust\nfn main() {\n    let product = 49 * 61;\n    println!(\"[FINAL ANSWER] The product of 49 and 61 is: {}\", product);\n}\n```\n\n[FINAL ANSWER] The product of 49 and 61 is: 2989",
+            "metrics": {
+                "ground_truth": "2989",
+                "prediction": "2989",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Give the product of 28 and 25.",
+            "response": "[FINAL ANSWER] The product of 28 and 25 is 700.",
+            "metrics": {
+                "ground_truth": "700",
+                "prediction": "700",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: Give the product of 28 and 25. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "```cpp\n#include <iostream>\n\nint main() {\n    int num1 = 28;\n    int num2 = 25;\n    int product = num1 * num2;\n\n    std::cout << \"[FINAL ANSWER] The product of 28 and 25 is: \" << product << std::endl;\n\n    return 0;\n}\n```\n\nSimulation:\n```\n[FINAL ANSWER] The product of 28 and 25 is: 700\n```",
+            "metrics": {
+                "ground_truth": "700",
+                "prediction": "700",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the product of numbers 11 and 29?",
+            "response": "[FINAL ANSWER] The product of numbers 11 and 29 is 319.",
+            "metrics": {
+                "ground_truth": "319",
+                "prediction": "319",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in Java to solve the following problem: What is the product of numbers 11 and 29? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is the code in Java to solve the problem:\n\n```java\npublic class ProductOfNumbers {\n    public static void main(String[] args) {\n        int num1 = 11;\n        int num2 = 29;\n        \n        int product = num1 * num2;\n        \n        System.out.println(\"[FINAL ANSWER] The product of numbers 11 and 29 is: \" + product);\n    }\n}\n```\n\nTo simulate the execution of this code, you would compile and run it. The output will be:\n\n```\n[FINAL ANSWER] The product of numbers 11 and 29 is: 319\n```\n\nTherefore, the final answer to the problem is 319.",
+            "metrics": {
+                "ground_truth": "319",
+                "prediction": "319",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Provide the product of 85 and 8.",
+            "response": "[FINAL ANSWER] The product of 85 and 8 is 680.",
+            "metrics": {
+                "ground_truth": "680",
+                "prediction": "680",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in JavaScript to solve the following problem: Provide the product of 85 and 8. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "```javascript\n// Code to calculate the product of 85 and 8\nvar product = 85 * 8;\n\n// Simulating the execution of the code\nconsole.log(\"[FINAL ANSWER] The product of 85 and 8 is: \" + product);\n```\n\n[FINAL ANSWER] The product of 85 and 8 is: 680",
+            "metrics": {
+                "ground_truth": "680",
+                "prediction": "680",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Add 38 and 14.",
+            "response": "[FINAL ANSWER] The sum of 38 and 14 is 52.",
+            "metrics": {
+                "ground_truth": "52",
+                "prediction": "52",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in Python to solve the following problem: Add 38 and 14. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "# Code\nresult = 38 + 14\nprint(\"[FINAL ANSWER]\", result)\n\n# Output\n[FINAL ANSWER] 52",
+            "metrics": {
+                "ground_truth": "52",
+                "prediction": "52",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Multiply 17 and 28.",
+            "response": "[FINAL ANSWER] The product of 17 and 28 is 476.",
+            "metrics": {
+                "ground_truth": "476",
+                "prediction": "476",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in Rust to solve the following problem: Multiply 17 and 28. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "```rust\nfn main() {\n    let result = multiply(17, 28);\n    println!(\"[FINAL ANSWER] {}\", result);\n}\n\nfn multiply(a: i32, b: i32) -> i32 {\n    a * b\n}\n```\n\n[FINAL ANSWER] 476",
+            "metrics": {
+                "ground_truth": "476",
+                "prediction": "476",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Provide the product of 48 and 21.",
+            "response": "[FINAL ANSWER] The product of 48 and 21 is 1008.",
+            "metrics": {
+                "ground_truth": "1008",
+                "prediction": "1008",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: Provide the product of 48 and 21. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "```cpp\n#include <iostream>\n\nint main() {\n    int num1 = 48;\n    int num2 = 21;\n    int product = num1 * num2;\n\n    std::cout << \"[FINAL ANSWER] The product of 48 and 21 is: \" << product << std::endl;\n\n    return 0;\n}\n```\n\nSimulation:\n```\n[FINAL ANSWER] The product of 48 and 21 is: 1008\n```",
+            "metrics": {
+                "ground_truth": "1008",
+                "prediction": "1008",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Multiply 12 and 87.",
+            "response": "[FINAL ANSWER] The product of 12 and 87 is 1,044.",
+            "metrics": {
+                "ground_truth": "1044",
+                "prediction": "1044",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in Java to solve the following problem: Multiply 12 and 87. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "```java\npublic class MultiplyNumbers {\n    public static void main(String[] args) {\n        int num1 = 12;\n        int num2 = 87;\n        int result = num1 * num2;\n        System.out.println(\"[FINAL ANSWER] The product of 12 and 87 is: \" + result);\n    }\n}\n```\n\nExecution:\n\n```\n[FINAL ANSWER] The product of 12 and 87 is: 1044\n```",
+            "metrics": {
+                "ground_truth": "1044",
+                "prediction": "1044",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the product of 3 and 87?",
+            "response": "[FINAL ANSWER] The product of 3 and 87 is 261.",
+            "metrics": {
+                "ground_truth": "261",
+                "prediction": "261",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in JavaScript to solve the following problem: What is the product of 3 and 87? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "let num1 = 3;\nlet num2 = 87;\nlet product = num1 * num2;\n\nconsole.log(\"[FINAL ANSWER] The product of 3 and 87 is: \" + product);\n\n// Output: [FINAL ANSWER] The product of 3 and 87 is: 261",
+            "metrics": {
+                "ground_truth": "261",
+                "prediction": "261",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Add 94 and 19.",
+            "response": "[FINAL ANSWER] The sum of 94 and 19 is 113.",
+            "metrics": {
+                "ground_truth": "113",
+                "prediction": "113",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in Python to solve the following problem: Add 94 and 19. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "```python\n# Add 94 and 19\nresult = 94 + 19\n\n# Print the final answer\nprint(\"[FINAL ANSWER]\", result)\n```\n\nSimulation:\n```\n[FINAL ANSWER] 113\n```",
+            "metrics": {
+                "ground_truth": "113",
+                "prediction": "113",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Give the product of 16 and 72.",
+            "response": "[FINAL ANSWER] The product of 16 and 72 is 1152.",
+            "metrics": {
+                "ground_truth": "1152",
+                "prediction": "1152",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in Rust to solve the following problem: Give the product of 16 and 72. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "```rust\nfn main() {\n    let product = 16 * 72;\n    println!(\"[FINAL ANSWER] The product of 16 and 72 is: {}\", product);\n}\n```\n\n[FINAL ANSWER] The product of 16 and 72 is: 1152",
+            "metrics": {
+                "ground_truth": "1152",
+                "prediction": "1152",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the result of multiplying 78 and 84?",
+            "response": "[FINAL ANSWER] The result of multiplying 78 and 84 is 6552.",
+            "metrics": {
+                "ground_truth": "6552",
+                "prediction": "6552",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: What is the result of multiplying 78 and 84? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "```cpp\n#include <iostream>\n\nint main() {\n    int num1 = 78;\n    int num2 = 84;\n    int result = num1 * num2;\n\n    std::cout << \"[FINAL ANSWER] The result of multiplying 78 and 84 is: \" << result << std::endl;\n\n    return 0;\n}\n```\n\n[FINAL ANSWER] The result of multiplying 78 and 84 is: 6552",
+            "metrics": {
+                "ground_truth": "6552",
+                "prediction": "6552",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What do you get when you multiply 55 and 55?",
+            "response": "[FINAL ANSWER] When you multiply 55 and 55, you get 3025.",
+            "metrics": {
+                "ground_truth": "3025",
+                "prediction": "3025",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in Java to solve the following problem: What do you get when you multiply 55 and 55? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is the code in Java to solve the problem:\n\n```java\npublic class Multiplication {\n    public static void main(String[] args) {\n        int num1 = 55;\n        int num2 = 55;\n        int result = num1 * num2;\n        System.out.println(\"[FINAL ANSWER] The result of multiplying 55 and 55 is: \" + result);\n    }\n}\n```\n\nSimulation of the execution:\n\n```\n[FINAL ANSWER] The result of multiplying 55 and 55 is: 3025\n```\n\nThe final answer is 3025.",
+            "metrics": {
+                "ground_truth": "3025",
+                "prediction": "3025",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the sum of numbers 45 and 71?",
+            "response": "[FINAL ANSWER] The sum of numbers 45 and 71 is 116.",
+            "metrics": {
+                "ground_truth": "116",
+                "prediction": "116",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in JavaScript to solve the following problem: What is the sum of numbers 45 and 71? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "let num1 = 45;\nlet num2 = 71;\nlet sum = num1 + num2;\n\nconsole.log(\"[FINAL ANSWER] The sum of numbers 45 and 71 is: \" + sum);\n\n// Output: [FINAL ANSWER] The sum of numbers 45 and 71 is: 116",
+            "metrics": {
+                "ground_truth": "116",
+                "prediction": "116",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What do you get when you add 19 and 89?",
+            "response": "[FINAL ANSWER] When you add 19 and 89, you get 108.",
+            "metrics": {
+                "ground_truth": "108",
+                "prediction": "108",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in Python to solve the following problem: What do you get when you add 19 and 89? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "# Code\nnum1 = 19\nnum2 = 89\nresult = num1 + num2\nprint(\"[FINAL ANSWER]\", result)\n\n# Execution\n[FINAL ANSWER] 108",
+            "metrics": {
+                "ground_truth": "108",
+                "prediction": "108",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the product of 87 and 79?",
+            "response": "[FINAL ANSWER] The product of 87 and 79 is 6,873.",
+            "metrics": {
+                "ground_truth": "6873",
+                "prediction": "6873",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in Rust to solve the following problem: What is the product of 87 and 79? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "```rust\nfn main() {\n    let num1 = 87;\n    let num2 = 79;\n    let product = num1 * num2;\n    println!(\"[FINAL ANSWER] The product of {} and {} is {}\", num1, num2, product);\n}\n```\n\nSimulation:\n```\n[FINAL ANSWER] The product of 87 and 79 is 6873\n```",
+            "metrics": {
+                "ground_truth": "6873",
+                "prediction": "6873",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Provide the product of 14 and 87.",
+            "response": "[FINAL ANSWER] The product of 14 and 87 is 1218.",
+            "metrics": {
+                "ground_truth": "1218",
+                "prediction": "1218",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: Provide the product of 14 and 87. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "```cpp\n#include <iostream>\n\nint main() {\n    int num1 = 14;\n    int num2 = 87;\n    int product = num1 * num2;\n\n    std::cout << \"[FINAL ANSWER] The product of 14 and 87 is: \" << product << std::endl;\n\n    return 0;\n}\n```\n\n[FINAL ANSWER] The product of 14 and 87 is: 1218",
+            "metrics": {
+                "ground_truth": "1218",
+                "prediction": "1218",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What do you get when you multiply 4 and 53?",
+            "response": "[FINAL ANSWER] When you multiply 4 and 53, you get 212.",
+            "metrics": {
+                "ground_truth": "212",
+                "prediction": "212",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in Java to solve the following problem: What do you get when you multiply 4 and 53? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is the code in Java to solve the problem:\n\n```java\npublic class Multiplication {\n    public static void main(String[] args) {\n        int num1 = 4;\n        int num2 = 53;\n        int result = num1 * num2;\n        System.out.println(\"[FINAL ANSWER] The result of multiplying 4 and 53 is: \" + result);\n    }\n}\n```\n\nSimulation of the code execution:\n\n```\n[FINAL ANSWER] The result of multiplying 4 and 53 is: 212\n```\n\nThe final answer is 212.",
+            "metrics": {
+                "ground_truth": "212",
+                "prediction": "212",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What do you get when you multiply 17 and 3?",
+            "response": "[FINAL ANSWER] When you multiply 17 and 3, you get 51.",
+            "metrics": {
+                "ground_truth": "51",
+                "prediction": "51",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in JavaScript to solve the following problem: What do you get when you multiply 17 and 3? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "let num1 = 17;\nlet num2 = 3;\nlet result = num1 * num2;\n\nconsole.log(\"[FINAL ANSWER] \" + result);\n\n// Output: [FINAL ANSWER] 51",
+            "metrics": {
+                "ground_truth": "51",
+                "prediction": "51",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the sum of numbers 6 and 93?",
+            "response": "[FINAL ANSWER] The sum of numbers 6 and 93 is 99.",
+            "metrics": {
+                "ground_truth": "99",
+                "prediction": "99",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in Python to solve the following problem: What is the sum of numbers 6 and 93? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "# Code\nnum1 = 6\nnum2 = 93\n\nsum = num1 + num2\n\n# Simulation\n[FINAL ANSWER] The sum of numbers 6 and 93 is 99.",
+            "metrics": {
+                "ground_truth": "99",
+                "prediction": "99",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Multiply 42 and 43.",
+            "response": "[FINAL ANSWER] The product of 42 and 43 is 1,806.",
+            "metrics": {
+                "ground_truth": "1806",
+                "prediction": "1806",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in Rust to solve the following problem: Multiply 42 and 43. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "```rust\nfn main() {\n    let num1 = 42;\n    let num2 = 43;\n    let result = num1 * num2;\n    println!(\"[FINAL ANSWER] {}\", result);\n}\n```\n\n[FINAL ANSWER] 1806",
+            "metrics": {
+                "ground_truth": "1806",
+                "prediction": "1806",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Multiply 5 and 85.",
+            "response": "[FINAL ANSWER] The product of 5 and 85 is 425.",
+            "metrics": {
+                "ground_truth": "425",
+                "prediction": "425",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: Multiply 5 and 85. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is the code in C++ to multiply 5 and 85:\n\n```cpp\n#include <iostream>\n\nint main() {\n    int result = 5 * 85;\n    std::cout << \"[FINAL ANSWER] \" << result << std::endl;\n    return 0;\n}\n```\n\nNow, let's simulate the execution of this code:\n\n1. The program starts executing from the `main` function.\n2. A variable `result` is declared and initialized with the product of 5 and 85, which is 425.\n3. The `std::cout` statement is executed, which outputs \"[FINAL ANSWER] 425\" to the console.\n4. The program returns 0, indicating successful execution.\n\n[FINAL ANSWER] 425",
+            "metrics": {
+                "ground_truth": "425",
+                "prediction": "425",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the result of multiplying 64 and 75?",
+            "response": "[FINAL ANSWER] The result of multiplying 64 and 75 is 4800.",
+            "metrics": {
+                "ground_truth": "4800",
+                "prediction": "4800",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in Java to solve the following problem: What is the result of multiplying 64 and 75? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "```java\npublic class Multiplication {\n    public static void main(String[] args) {\n        int num1 = 64;\n        int num2 = 75;\n        int result = num1 * num2;\n        \n        System.out.println(\"[FINAL ANSWER] The result of multiplying 64 and 75 is: \" + result);\n    }\n}\n```\n\nExecution:\n\n```\n[FINAL ANSWER] The result of multiplying 64 and 75 is: 4800\n```",
+            "metrics": {
+                "ground_truth": "4800",
+                "prediction": "4800",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the sum of 50 and 88?",
+            "response": "[FINAL ANSWER] The sum of 50 and 88 is 138.",
+            "metrics": {
+                "ground_truth": "138",
+                "prediction": "138",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in JavaScript to solve the following problem: What is the sum of 50 and 88? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "let num1 = 50;\nlet num2 = 88;\nlet sum = num1 + num2;\n\nconsole.log(\"[FINAL ANSWER] The sum of 50 and 88 is: \" + sum);\n\n// Output: [FINAL ANSWER] The sum of 50 and 88 is: 138",
+            "metrics": {
+                "ground_truth": "138",
+                "prediction": "138",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the product of numbers 14 and 65?",
+            "response": "[FINAL ANSWER] The product of numbers 14 and 65 is 910.",
+            "metrics": {
+                "ground_truth": "910",
+                "prediction": "910",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in Python to solve the following problem: What is the product of numbers 14 and 65? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "# Code to solve the problem\nproduct = 14 * 65\n\n# Simulating the execution of the code\nprint(\"[FINAL ANSWER] The product of numbers 14 and 65 is:\", product)\n\n# Output: [FINAL ANSWER] The product of numbers 14 and 65 is: 910",
+            "metrics": {
+                "ground_truth": "910",
+                "prediction": "910",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Find the result of adding 68 and 12.",
+            "response": "[FINAL ANSWER] The result of adding 68 and 12 is 80.",
+            "metrics": {
+                "ground_truth": "80",
+                "prediction": "80",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in Rust to solve the following problem: Find the result of adding 68 and 12. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "```rust\nfn main() {\n    let result = 68 + 12;\n    println!(\"[FINAL ANSWER] {}\", result);\n}\n```\n\n[FINAL ANSWER] 80",
+            "metrics": {
+                "ground_truth": "80",
+                "prediction": "80",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Give the product of 52 and 97.",
+            "response": "[FINAL ANSWER] The product of 52 and 97 is 5044.",
+            "metrics": {
+                "ground_truth": "5044",
+                "prediction": "5044",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: Give the product of 52 and 97. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "```cpp\n#include <iostream>\n\nint main() {\n    int num1 = 52;\n    int num2 = 97;\n    int product = num1 * num2;\n\n    std::cout << \"[FINAL ANSWER] The product of 52 and 97 is: \" << product << std::endl;\n\n    return 0;\n}\n```\n\n[FINAL ANSWER] The product of 52 and 97 is: 5044",
+            "metrics": {
+                "ground_truth": "5044",
+                "prediction": "5044",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Provide the product of 53 and 95.",
+            "response": "[FINAL ANSWER] The product of 53 and 95 is 5035.",
+            "metrics": {
+                "ground_truth": "5035",
+                "prediction": "5035",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in Java to solve the following problem: Provide the product of 53 and 95. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "```java\npublic class Product {\n    public static void main(String[] args) {\n        int num1 = 53;\n        int num2 = 95;\n        int product = num1 * num2;\n        \n        System.out.println(\"[FINAL ANSWER] The product of 53 and 95 is: \" + product);\n    }\n}\n```\n\nExecution:\n\n```\n[FINAL ANSWER] The product of 53 and 95 is: 5035\n```",
+            "metrics": {
+                "ground_truth": "5035",
+                "prediction": "5035",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What do you get when you multiply 31 and 82?",
+            "response": "[FINAL ANSWER] When you multiply 31 and 82, you get 2,542.",
+            "metrics": {
+                "ground_truth": "2542",
+                "prediction": "2542",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in JavaScript to solve the following problem: What do you get when you multiply 31 and 82? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "let num1 = 31;\nlet num2 = 82;\nlet result = num1 * num2;\n\nconsole.log(\"[FINAL ANSWER] \" + result);\n\n// Output: [FINAL ANSWER] 2542",
+            "metrics": {
+                "ground_truth": "2542",
+                "prediction": "2542",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the result of multiplying 5 and 75?",
+            "response": "[FINAL ANSWER] The result of multiplying 5 and 75 is 375.",
+            "metrics": {
+                "ground_truth": "375",
+                "prediction": "375",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in Python to solve the following problem: What is the result of multiplying 5 and 75? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "result = 5 * 75\nprint(\"[FINAL ANSWER]\", result)\n\n# Output: [FINAL ANSWER] 375",
+            "metrics": {
+                "ground_truth": "375",
+                "prediction": "375",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the sum of numbers 24 and 85?",
+            "response": "[FINAL ANSWER] The sum of numbers 24 and 85 is 109.",
+            "metrics": {
+                "ground_truth": "109",
+                "prediction": "109",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in Rust to solve the following problem: What is the sum of numbers 24 and 85? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "```rust\nfn main() {\n    let num1 = 24;\n    let num2 = 85;\n    let sum = num1 + num2;\n    println!(\"[FINAL ANSWER] The sum of {} and {} is {}.\", num1, num2, sum);\n}\n```\n\n[FINAL ANSWER] The sum of 24 and 85 is 109.",
+            "metrics": {
+                "ground_truth": "109",
+                "prediction": "109",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    }
+]

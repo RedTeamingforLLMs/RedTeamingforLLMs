@@ -1,0 +1,242 @@
+[
+    {
+        "name": "default_context",
+        "no_context": {
+            "abs_edit_distance": {
+                "mean": 0.0,
+                "std": 0.0
+            },
+            "rel_edit_distance": {
+                "mean": 0.0,
+                "std": 0.0
+            },
+            "abs_distance": {
+                "mean": 0.0,
+                "std": 0.0
+            },
+            "rel_distance": {
+                "mean": 0.0,
+                "std": 0.0
+            },
+            "accuracy": {
+                "mean": 1.0,
+                "std": 0.0
+            }
+        },
+        "context": {
+            "abs_edit_distance": {
+                "mean": 0.0,
+                "std": 0.0
+            },
+            "rel_edit_distance": {
+                "mean": 0.0,
+                "std": 0.0
+            },
+            "abs_distance": {
+                "mean": 0.0,
+                "std": 0.0
+            },
+            "rel_distance": {
+                "mean": 0.0,
+                "std": 0.0
+            },
+            "accuracy": {
+                "mean": 1.0,
+                "std": 0.0
+            }
+        },
+        "extraction_rate": 1.0
+    },
+    {
+        "name": "code_context",
+        "no_context": {
+            "abs_edit_distance": {
+                "mean": 0.0,
+                "std": 0.0
+            },
+            "rel_edit_distance": {
+                "mean": 0.0,
+                "std": 0.0
+            },
+            "abs_distance": {
+                "mean": 0.0,
+                "std": 0.0
+            },
+            "rel_distance": {
+                "mean": 0.0,
+                "std": 0.0
+            },
+            "accuracy": {
+                "mean": 1.0,
+                "std": 0.0
+            }
+        },
+        "context": {
+            "abs_edit_distance": {
+                "mean": 0.0,
+                "std": 0.0
+            },
+            "rel_edit_distance": {
+                "mean": 0.0,
+                "std": 0.0
+            },
+            "abs_distance": {
+                "mean": 0.0,
+                "std": 0.0
+            },
+            "rel_distance": {
+                "mean": 0.0,
+                "std": 0.0
+            },
+            "accuracy": {
+                "mean": 1.0,
+                "std": 0.0
+            }
+        },
+        "extraction_rate": 0.99
+    },
+    {
+        "name": "explain_context",
+        "no_context": {
+            "abs_edit_distance": {
+                "mean": 0.0,
+                "std": 0.0
+            },
+            "rel_edit_distance": {
+                "mean": 0.0,
+                "std": 0.0
+            },
+            "abs_distance": {
+                "mean": 0.0,
+                "std": 0.0
+            },
+            "rel_distance": {
+                "mean": 0.0,
+                "std": 0.0
+            },
+            "accuracy": {
+                "mean": 1.0,
+                "std": 0.0
+            }
+        },
+        "context": {
+            "abs_edit_distance": {
+                "mean": 0.17,
+                "std": 0.7490660852021003
+            },
+            "rel_edit_distance": {
+                "mean": 0.0425,
+                "std": 0.18726652130052507
+            },
+            "abs_distance": {
+                "mean": 168.33,
+                "std": 816.0504035290953
+            },
+            "rel_distance": {
+                "mean": 0.0456564590717874,
+                "std": 0.2014482423222152
+            },
+            "accuracy": {
+                "mean": 0.95,
+                "std": 0.21794494717703383
+            }
+        },
+        "extraction_rate": 1.0
+    },
+    {
+        "name": "impersonation_context",
+        "no_context": {
+            "abs_edit_distance": {
+                "mean": 0.01,
+                "std": 0.09949874371066196
+            },
+            "rel_edit_distance": {
+                "mean": 0.0025,
+                "std": 0.02487468592766549
+            },
+            "abs_distance": {
+                "mean": 0.1,
+                "std": 0.9949874371066216
+            },
+            "rel_distance": {
+                "mean": 1.8291567587342233e-05,
+                "std": 0.0001819987995439215
+            },
+            "accuracy": {
+                "mean": 0.99,
+                "std": 0.09949874371066196
+            }
+        },
+        "context": {
+            "abs_edit_distance": {
+                "mean": 0.36,
+                "std": 1.0632027088001612
+            },
+            "rel_edit_distance": {
+                "mean": 0.09,
+                "std": 0.2658006772000403
+            },
+            "abs_distance": {
+                "mean": 322.36,
+                "std": 1083.607941277658
+            },
+            "rel_distance": {
+                "mean": 0.08529356388418007,
+                "std": 0.26457719826210063
+            },
+            "accuracy": {
+                "mean": 0.89,
+                "std": 0.31288975694324045
+            }
+        },
+        "extraction_rate": 1.0
+    },
+    {
+        "name": "restorying_context",
+        "no_context": {
+            "abs_edit_distance": {
+                "mean": 0.0,
+                "std": 0.0
+            },
+            "rel_edit_distance": {
+                "mean": 0.0,
+                "std": 0.0
+            },
+            "abs_distance": {
+                "mean": 0.0,
+                "std": 0.0
+            },
+            "rel_distance": {
+                "mean": 0.0,
+                "std": 0.0
+            },
+            "accuracy": {
+                "mean": 1.0,
+                "std": 0.0
+            }
+        },
+        "context": {
+            "abs_edit_distance": {
+                "mean": 0.9438202247191011,
+                "std": 1.4011195408247101
+            },
+            "rel_edit_distance": {
+                "mean": 0.2949438202247191,
+                "std": 0.429676332721807
+            },
+            "abs_distance": {
+                "mean": 357.2022471910112,
+                "std": 942.0749055332057
+            },
+            "rel_distance": {
+                "mean": 0.2056638106996277,
+                "std": 0.3515373883720517
+            },
+            "accuracy": {
+                "mean": 0.651685393258427,
+                "std": 0.4764362931935769
+            }
+        },
+        "extraction_rate": 0.945
+    }
+]

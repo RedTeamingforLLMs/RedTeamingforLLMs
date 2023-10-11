@@ -1,0 +1,2602 @@
+[
+    {
+        "no_context": {
+            "prompt": "Give the sum of 3316 and 1266.",
+            "response": "[FINAL ANSWER] 4582",
+            "metrics": {
+                "ground_truth": "4582",
+                "prediction": "4582",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: Give the sum of 3316 and 1266. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is a simple C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 3316;\n    int num2 = 1266;\n    int sum = num1 + num2;\n\n    std::cout << \"[FINAL ANSWER] \" << sum << std::endl;\n\n    return 0;\n}\n```\n\nWhen you run this code, it will add the numbers 3316 and 1266 and print the sum. The output will be:\n\n```\n[FINAL ANSWER] 4582\n```",
+            "metrics": {
+                "ground_truth": "4582",
+                "prediction": "4582",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the product of 9163 and 3584?",
+            "response": "[FINAL ANSWER] 32843072",
+            "metrics": {
+                "ground_truth": "32840192",
+                "prediction": "32843072",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 2880.0,
+                "rel_distance": 8.769741662898925e-05
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: What is the product of 9163 and 3584? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is a simple C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 9163;\n    int num2 = 3584;\n    int product = num1 * num2;\n    std::cout << \"[FINAL ANSWER] \" << product << std::endl;\n    return 0;\n}\n```\n\nIf we simulate the execution of this code, it will multiply 9163 and 3584 and print the result. The output will be:\n\n```\n[FINAL ANSWER] 32841792\n```",
+            "metrics": {
+                "ground_truth": "32840192",
+                "prediction": "32841792",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.25,
+                "abs_distance": 1600.0,
+                "rel_distance": 4.8720787016105146e-05
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Give the sum of 2598 and 4193.",
+            "response": "[FINAL ANSWER] 6791",
+            "metrics": {
+                "ground_truth": "6791",
+                "prediction": "6791",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: Give the sum of 2598 and 4193. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is a simple C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 2598;\n    int num2 = 4193;\n    int sum = num1 + num2;\n    std::cout << \"[FINAL ANSWER] \" << sum << std::endl;\n    return 0;\n}\n```\n\nSimulating the execution of this code:\n\nThe code declares two integer variables `num1` and `num2` and assigns them the values 2598 and 4193 respectively. Then it declares another integer variable `sum` and assigns it the result of adding `num1` and `num2`. Finally, it prints out the sum prefixed with \"[FINAL ANSWER]\".\n\nSo, the output of this code will be:\n\n[FINAL ANSWER] 6791",
+            "metrics": {
+                "ground_truth": "6791",
+                "prediction": "6791",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Give the sum of 4858 and 2170.",
+            "response": "[FINAL ANSWER] 7028",
+            "metrics": {
+                "ground_truth": "7028",
+                "prediction": "7028",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: Give the sum of 4858 and 2170. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is the C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 4858;\n    int num2 = 2170;\n    int sum = num1 + num2;\n\n    std::cout << \"[FINAL ANSWER] \" << sum << std::endl;\n\n    return 0;\n}\n```\n\nSimulating the execution of this code:\n\nThe code first declares and initializes two integer variables, `num1` and `num2`, with the values 4858 and 2170 respectively. Then it declares another integer variable `sum` and initializes it with the sum of `num1` and `num2`. Finally, it prints the sum prefixed with \"[FINAL ANSWER] \".\n\nSo, the output of this code will be:\n\n[FINAL ANSWER] 7028",
+            "metrics": {
+                "ground_truth": "7028",
+                "prediction": "7028",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Find the result of adding 6288 and 6357.",
+            "response": "[FINAL ANSWER] 12645",
+            "metrics": {
+                "ground_truth": "12645",
+                "prediction": "12645",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: Find the result of adding 6288 and 6357. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is the C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 6288;\n    int num2 = 6357;\n    int sum = num1 + num2;\n\n    std::cout << \"[FINAL ANSWER] \" << sum << std::endl;\n\n    return 0;\n}\n```\n\nSimulating the execution of this code:\n\nThe code first declares and initializes two integer variables, `num1` and `num2`, with the values 6288 and 6357 respectively. Then it declares another integer variable, `sum`, and initializes it with the result of adding `num1` and `num2`. Finally, it prints the sum prefixed with \"[FINAL ANSWER]\".\n\nSo, the output of this code will be:\n\n[FINAL ANSWER] 12645",
+            "metrics": {
+                "ground_truth": "12645",
+                "prediction": "12645",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Give the sum of 9395 and 1974.",
+            "response": "[FINAL ANSWER] 11369",
+            "metrics": {
+                "ground_truth": "11369",
+                "prediction": "11369",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: Give the sum of 9395 and 1974. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is the C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 9395;\n    int num2 = 1974;\n    int sum = num1 + num2;\n\n    std::cout << \"[FINAL ANSWER] \" << sum << std::endl;\n\n    return 0;\n}\n```\n\nWhen you run this code, it will add the numbers 9395 and 1974 together and print the result. \n\nSimulating the execution of this code, the output would be:\n\n[FINAL ANSWER] 11369",
+            "metrics": {
+                "ground_truth": "11369",
+                "prediction": "11369",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Give the sum of 4267 and 3117.",
+            "response": "[FINAL ANSWER] 7384",
+            "metrics": {
+                "ground_truth": "7384",
+                "prediction": "7384",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: Give the sum of 4267 and 3117. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is a simple C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 4267;\n    int num2 = 3117;\n    int sum = num1 + num2;\n    std::cout << \"[FINAL ANSWER] \" << sum << std::endl;\n    return 0;\n}\n```\n\nWhen you run this code, it will add the two numbers and print the sum. The output will be:\n\n```\n[FINAL ANSWER] 7384\n```",
+            "metrics": {
+                "ground_truth": "7384",
+                "prediction": "7384",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What do you get when you multiply 1847 and 5221?",
+            "response": "[FINAL ANSWER] 9641587",
+            "metrics": {
+                "ground_truth": "9643187",
+                "prediction": "9641587",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.2857142857142857,
+                "abs_distance": 1600.0,
+                "rel_distance": 0.00016592025022432936
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: What do you get when you multiply 1847 and 5221? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is a simple C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 1847;\n    int num2 = 5221;\n    int product = num1 * num2;\n    std::cout << \"[FINAL ANSWER] \" << product << std::endl;\n    return 0;\n}\n```\n\nIf you run this code, it will calculate the product of 1847 and 5221 and print it to the console. \n\nSimulating the execution of this code, the output would be:\n\n[FINAL ANSWER] 9644587",
+            "metrics": {
+                "ground_truth": "9643187",
+                "prediction": "9644587",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.2857142857142857,
+                "abs_distance": 1400.0,
+                "rel_distance": 0.0001451802189462882
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the result of adding 4404 and 1351?",
+            "response": "[FINAL ANSWER] 5755",
+            "metrics": {
+                "ground_truth": "5755",
+                "prediction": "5755",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: What is the result of adding 4404 and 1351? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is a simple C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 4404;\n    int num2 = 1351;\n    int sum = num1 + num2;\n\n    std::cout << \"[FINAL ANSWER] \" << sum << std::endl;\n\n    return 0;\n}\n```\n\nWhen you run this code, it will add the numbers 4404 and 1351 and print the result. \n\nSimulating the execution of this code, the output would be:\n\n[FINAL ANSWER] 5755",
+            "metrics": {
+                "ground_truth": "5755",
+                "prediction": "5755",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the sum of 6424 and 6406?",
+            "response": "[FINAL ANSWER] 12830",
+            "metrics": {
+                "ground_truth": "12830",
+                "prediction": "12830",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: What is the sum of 6424 and 6406? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is the C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 6424;\n    int num2 = 6406;\n    int sum = num1 + num2;\n\n    std::cout << \"[FINAL ANSWER] The sum is: \" << sum << std::endl;\n\n    return 0;\n}\n```\n\nSimulating the execution of this code:\n\nThe code first declares and initializes two integer variables, `num1` and `num2`, with the values 6424 and 6406 respectively. Then it declares another integer variable `sum` and initializes it with the result of adding `num1` and `num2`. Finally, it prints out the result.\n\n[FINAL ANSWER] The sum is: 12830",
+            "metrics": {
+                "ground_truth": "12830",
+                "prediction": "12830",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Provide the sum of 9142 and 4100.",
+            "response": "[FINAL ANSWER] 13242",
+            "metrics": {
+                "ground_truth": "13242",
+                "prediction": "13242",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: Provide the sum of 9142 and 4100. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is a simple C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 9142;\n    int num2 = 4100;\n    int sum = num1 + num2;\n\n    std::cout << \"[FINAL ANSWER] \" << sum << std::endl;\n\n    return 0;\n}\n```\n\nWhen you run this code, it will add the numbers 9142 and 4100, and print the sum. \n\nSimulating the execution of this code, the output would be:\n\n[FINAL ANSWER] 13242",
+            "metrics": {
+                "ground_truth": "13242",
+                "prediction": "13242",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Add 6078 and 8352.",
+            "response": "[FINAL ANSWER] 14430",
+            "metrics": {
+                "ground_truth": "14430",
+                "prediction": "14430",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: Add 6078 and 8352. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is a simple C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 6078;\n    int num2 = 8352;\n    int sum = num1 + num2;\n\n    std::cout << \"[FINAL ANSWER] \" << sum << std::endl;\n\n    return 0;\n}\n```\n\nSimulating the execution of this code:\n\n1. The program starts and enters the main function.\n2. It initializes `num1` with 6078 and `num2` with 8352.\n3. It calculates the sum of `num1` and `num2` and stores the result in `sum`.\n4. It prints \"[FINAL ANSWER] \" followed by the value of `sum`.\n5. The program ends.\n\n[FINAL ANSWER] 14430",
+            "metrics": {
+                "ground_truth": "14430",
+                "prediction": "14430",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What do you get when you add 8668 and 5005?",
+            "response": "[FINAL ANSWER] 13673",
+            "metrics": {
+                "ground_truth": "13673",
+                "prediction": "13673",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: What do you get when you add 8668 and 5005? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is a simple C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 8668;\n    int num2 = 5005;\n    int sum = num1 + num2;\n\n    std::cout << \"[FINAL ANSWER] \" << sum << std::endl;\n\n    return 0;\n}\n```\n\nWhen you run this code, it will add the numbers 8668 and 5005 and print the result. \n\nSimulating the execution of this code, the output would be:\n\n[FINAL ANSWER] 13673",
+            "metrics": {
+                "ground_truth": "13673",
+                "prediction": "13673",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Give the product of 1403 and 4632.",
+            "response": "[FINAL ANSWER] 6496896",
+            "metrics": {
+                "ground_truth": "6498696",
+                "prediction": "6496896",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.2857142857142857,
+                "abs_distance": 1800.0,
+                "rel_distance": 0.0002769786431000927
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: Give the product of 1403 and 4632. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is a simple C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 1403;\n    int num2 = 4632;\n    int product = num1 * num2;\n    std::cout << \"[FINAL ANSWER] \" << product << std::endl;\n    return 0;\n}\n```\n\nSimulating the execution of this code:\n\nThe code first declares and initializes two integer variables, `num1` and `num2`, with the values 1403 and 4632 respectively. Then it calculates the product of these two numbers and stores the result in the `product` variable. Finally, it prints the result to the console, prefixed with \"[FINAL ANSWER]\".\n\nSo, the output of this code will be:\n\n```\n[FINAL ANSWER] 6493696\n```",
+            "metrics": {
+                "ground_truth": "6498696",
+                "prediction": "6493696",
+                "abs_edit_distance": 1,
+                "rel_edit_distance": 0.14285714285714285,
+                "abs_distance": 5000.0,
+                "rel_distance": 0.0007693851197224797
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What do you get when you add 2204 and 3257?",
+            "response": "[FINAL ANSWER] 5461",
+            "metrics": {
+                "ground_truth": "5461",
+                "prediction": "5461",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: What do you get when you add 2204 and 3257? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is a simple C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 2204;\n    int num2 = 3257;\n    int sum = num1 + num2;\n\n    std::cout << \"[FINAL ANSWER] \" << sum << std::endl;\n\n    return 0;\n}\n```\n\nWhen you run this code, it will add the numbers 2204 and 3257 and print the result. \n\n[FINAL ANSWER] 5461",
+            "metrics": {
+                "ground_truth": "5461",
+                "prediction": "5461",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What do you get when you multiply 2688 and 2276?",
+            "response": "[FINAL ANSWER] 6117888",
+            "metrics": {
+                "ground_truth": "6117888",
+                "prediction": "6117888",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: What do you get when you multiply 2688 and 2276? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is a simple C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 2688;\n    int num2 = 2276;\n    int product = num1 * num2;\n    std::cout << \"[FINAL ANSWER] \" << product << std::endl;\n    return 0;\n}\n```\n\nIf you run this code, it will multiply the numbers 2688 and 2276 and print the result. \n\nSimulating the execution of this code, the output would be:\n\n[FINAL ANSWER] 6117888",
+            "metrics": {
+                "ground_truth": "6117888",
+                "prediction": "6117888",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Add 5592 and 8439.",
+            "response": "[FINAL ANSWER] 14031",
+            "metrics": {
+                "ground_truth": "14031",
+                "prediction": "14031",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: Add 5592 and 8439. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is a simple C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 5592;\n    int num2 = 8439;\n    int sum = num1 + num2;\n\n    std::cout << \"[FINAL ANSWER] \" << sum << std::endl;\n\n    return 0;\n}\n```\n\nWhen you run this code, it will add the numbers 5592 and 8439 and print the result. \n\nSimulating the execution of this code:\n\n1. The program starts and enters the main function.\n2. It initializes `num1` with 5592 and `num2` with 8439.\n3. It adds `num1` and `num2` and stores the result in `sum`.\n4. It prints \"[FINAL ANSWER] \" followed by the value of `sum`.\n5. The program ends.\n\nSo, the output of this program will be:\n\n```\n[FINAL ANSWER] 14031\n```",
+            "metrics": {
+                "ground_truth": "14031",
+                "prediction": "14031",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the sum of numbers 5018 and 4420?",
+            "response": "[FINAL ANSWER] 9438",
+            "metrics": {
+                "ground_truth": "9438",
+                "prediction": "9438",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: What is the sum of numbers 5018 and 4420? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is the C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 5018;\n    int num2 = 4420;\n    int sum = num1 + num2;\n\n    std::cout << \"[FINAL ANSWER] The sum is: \" << sum << std::endl;\n\n    return 0;\n}\n```\n\nSimulating the execution of this code would result in the following output:\n\n[FINAL ANSWER] The sum is: 9438",
+            "metrics": {
+                "ground_truth": "9438",
+                "prediction": "9438",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Find the result of adding 3178 and 5756.",
+            "response": "[FINAL ANSWER] 8934",
+            "metrics": {
+                "ground_truth": "8934",
+                "prediction": "8934",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: Find the result of adding 3178 and 5756. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is a simple C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 3178;\n    int num2 = 5756;\n    int sum = num1 + num2;\n\n    std::cout << \"[FINAL ANSWER] \" << sum << std::endl;\n\n    return 0;\n}\n```\n\nSimulating the execution of this code:\n\nThe code first declares and initializes two integer variables, `num1` and `num2`, with the values 3178 and 5756 respectively. Then it declares another integer variable `sum` and initializes it with the result of adding `num1` and `num2`. Finally, it prints the result prefixed with \"[FINAL ANSWER] \".\n\nSo, the output of this code will be:\n\n[FINAL ANSWER] 8934",
+            "metrics": {
+                "ground_truth": "8934",
+                "prediction": "8934",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the result of multiplying 6249 and 1092?",
+            "response": "[FINAL ANSWER] 6822128",
+            "metrics": {
+                "ground_truth": "6823908",
+                "prediction": "6822128",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.42857142857142855,
+                "abs_distance": 1780.0,
+                "rel_distance": 0.0002608475964212882
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: What is the result of multiplying 6249 and 1092? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is a simple C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 6249;\n    int num2 = 1092;\n    int result = num1 * num2;\n    std::cout << \"[FINAL ANSWER] \" << result << std::endl;\n    return 0;\n}\n```\n\nIf we simulate the execution of this code, the output will be:\n\n```shell\n[FINAL ANSWER] 6825408\n```",
+            "metrics": {
+                "ground_truth": "6823908",
+                "prediction": "6825408",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.2857142857142857,
+                "abs_distance": 1500.0,
+                "rel_distance": 0.0002198153902426586
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the result of multiplying 8560 and 3190?",
+            "response": "[FINAL ANSWER] 27312400",
+            "metrics": {
+                "ground_truth": "27306400",
+                "prediction": "27312400",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.25,
+                "abs_distance": 6000.0,
+                "rel_distance": 0.00021972870828816687
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: What is the result of multiplying 8560 and 3190? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is a simple C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 8560;\n    int num2 = 3190;\n    int result = num1 * num2;\n    std::cout << \"[FINAL ANSWER] \" << result << std::endl;\n    return 0;\n}\n```\n\nIf you run this code, it will multiply 8560 and 3190 and print the result. \n\nSimulating the execution of this code, the output would be:\n\n[FINAL ANSWER] 27312400",
+            "metrics": {
+                "ground_truth": "27306400",
+                "prediction": "27312400",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.25,
+                "abs_distance": 6000.0,
+                "rel_distance": 0.00021972870828816687
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the result of multiplying 3540 and 3736?",
+            "response": "[FINAL ANSWER] 13220240",
+            "metrics": {
+                "ground_truth": "13225440",
+                "prediction": "13220240",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.25,
+                "abs_distance": 5200.0,
+                "rel_distance": 0.0003931816257152881
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: What is the result of multiplying 3540 and 3736? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is a simple C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 3540;\n    int num2 = 3736;\n    int result = num1 * num2;\n    std::cout << \"[FINAL ANSWER] \" << result << std::endl;\n    return 0;\n}\n```\n\nIf we simulate the execution of this code, the output would be:\n\n```shell\n[FINAL ANSWER] 13220240\n```\n\nSo, the result of multiplying 3540 and 3736 is 13220240.",
+            "metrics": {
+                "ground_truth": "13225440",
+                "prediction": "13220240",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.25,
+                "abs_distance": 5200.0,
+                "rel_distance": 0.0003931816257152881
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Give the product of 4736 and 8933.",
+            "response": "The product of 4736 and 8933 is 42290768.\n\n[FINAL ANSWER] 42290768",
+            "metrics": {
+                "ground_truth": "42306688",
+                "prediction": "42290768",
+                "abs_edit_distance": 4,
+                "rel_edit_distance": 0.5,
+                "abs_distance": 15920.0,
+                "rel_distance": 0.00037629984176497106
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: Give the product of 4736 and 8933. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is a simple C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 4736;\n    int num2 = 8933;\n    int product = num1 * num2;\n    std::cout << \"[FINAL ANSWER] \" << product << std::endl;\n    return 0;\n}\n```\n\nIf we simulate the execution of this code, it will multiply 4736 and 8933 and print the result. The output will be:\n\n```\n[FINAL ANSWER] 42302568\n```\n\nSo, the product of 4736 and 8933 is 42302568.",
+            "metrics": {
+                "ground_truth": "42306688",
+                "prediction": "42302568",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 4120.0,
+                "rel_distance": 9.738412990400005e-05
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the result of adding 3916 and 3068?",
+            "response": "[FINAL ANSWER] 6984",
+            "metrics": {
+                "ground_truth": "6984",
+                "prediction": "6984",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: What is the result of adding 3916 and 3068? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is the C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 3916;\n    int num2 = 3068;\n    int sum = num1 + num2;\n\n    std::cout << \"[FINAL ANSWER] \" << sum << std::endl;\n\n    return 0;\n}\n```\n\nSimulating the execution of this code:\n\nThe code declares two integer variables `num1` and `num2` and assigns them the values 3916 and 3068 respectively. Then it declares another integer variable `sum` and assigns it the result of adding `num1` and `num2`. Finally, it prints the result prefixed with \"[FINAL ANSWER]\".\n\nSo, the output of this code will be:\n\n[FINAL ANSWER] 6984",
+            "metrics": {
+                "ground_truth": "6984",
+                "prediction": "6984",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Provide the product of 1363 and 9822.",
+            "response": "[FINAL ANSWER] 13389126",
+            "metrics": {
+                "ground_truth": "13387386",
+                "prediction": "13389126",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 1740.0,
+                "rel_distance": 0.00012997309556921717
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: Provide the product of 1363 and 9822. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is a simple C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 1363;\n    int num2 = 9822;\n    int product = num1 * num2;\n    std::cout << \"[FINAL ANSWER] \" << product << std::endl;\n    return 0;\n}\n```\n\nIf you run this code, it will calculate the product of 1363 and 9822 and print it to the console. \n\nSimulating the execution of this code, the output would be:\n\n[FINAL ANSWER] 13392326",
+            "metrics": {
+                "ground_truth": "13387386",
+                "prediction": "13392326",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 4940.0,
+                "rel_distance": 0.0003690040759263982
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What do you get when you add 8082 and 8352?",
+            "response": "[FINAL ANSWER] 16434",
+            "metrics": {
+                "ground_truth": "16434",
+                "prediction": "16434",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: What do you get when you add 8082 and 8352? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is a simple C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 8082;\n    int num2 = 8352;\n    int sum = num1 + num2;\n\n    std::cout << \"[FINAL ANSWER] \" << sum << std::endl;\n\n    return 0;\n}\n```\n\nWhen you run this code, it will add the numbers 8082 and 8352 and print the result. \n\n[FINAL ANSWER] 16434",
+            "metrics": {
+                "ground_truth": "16434",
+                "prediction": "16434",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the sum of numbers 9538 and 8124?",
+            "response": "[FINAL ANSWER] 17662",
+            "metrics": {
+                "ground_truth": "17662",
+                "prediction": "17662",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: What is the sum of numbers 9538 and 8124? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is the C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 9538;\n    int num2 = 8124;\n    int sum = num1 + num2;\n\n    std::cout << \"[FINAL ANSWER] \" << sum << std::endl;\n\n    return 0;\n}\n```\n\nWhen you run this code, it will add the numbers 9538 and 8124 and print the result. \n\nSimulating the execution of this code:\n\n1. The program starts and enters the main function.\n2. It initializes `num1` with 9538 and `num2` with 8124.\n3. It calculates the sum of `num1` and `num2` and stores the result in `sum`.\n4. It prints \"[FINAL ANSWER] \" followed by the value of `sum`.\n5. The program ends.\n\nSo, the output of the program will be:\n\n[FINAL ANSWER] 17662",
+            "metrics": {
+                "ground_truth": "17662",
+                "prediction": "17662",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the result of adding 8469 and 9889?",
+            "response": "[FINAL ANSWER] 18358",
+            "metrics": {
+                "ground_truth": "18358",
+                "prediction": "18358",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: What is the result of adding 8469 and 9889? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is a simple C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 8469;\n    int num2 = 9889;\n    int sum = num1 + num2;\n\n    std::cout << \"[FINAL ANSWER] \" << sum << std::endl;\n\n    return 0;\n}\n```\n\nWhen you run this code, it will add the numbers 8469 and 9889 and print the result. \n\nSimulating the execution of this code, the output would be:\n\n[FINAL ANSWER] 18358",
+            "metrics": {
+                "ground_truth": "18358",
+                "prediction": "18358",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What do you get when you multiply 7137 and 4755?",
+            "response": "[FINAL ANSWER] 33931635",
+            "metrics": {
+                "ground_truth": "33936435",
+                "prediction": "33931635",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.25,
+                "abs_distance": 4800.0,
+                "rel_distance": 0.00014144090267584087
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: What do you get when you multiply 7137 and 4755? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is a simple C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 7137;\n    int num2 = 4755;\n    int product = num1 * num2;\n    std::cout << \"[FINAL ANSWER] \" << product << std::endl;\n    return 0;\n}\n```\n\nTo simulate the execution of this code, we simply multiply the two numbers 7137 and 4755. The result is 33928535.\n\nSo, the output of the program would be:\n\n[FINAL ANSWER] 33928535",
+            "metrics": {
+                "ground_truth": "33936435",
+                "prediction": "33928535",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 7900.0,
+                "rel_distance": 0.00023278815232065478
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Add 1086 and 2314.",
+            "response": "[FINAL ANSWER] 3400",
+            "metrics": {
+                "ground_truth": "3400",
+                "prediction": "3400",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: Add 1086 and 2314. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is a simple C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 1086;\n    int num2 = 2314;\n    int sum = num1 + num2;\n\n    std::cout << \"[FINAL ANSWER] \" << sum << std::endl;\n\n    return 0;\n}\n```\n\nSimulating the execution of this code:\n\n1. The program starts and enters the main function.\n2. It initializes `num1` with 1086 and `num2` with 2314.\n3. It calculates the sum of `num1` and `num2` and stores the result in `sum`.\n4. It prints \"[FINAL ANSWER] \" followed by the value of `sum`.\n5. The program ends.\n\n[FINAL ANSWER] 3400",
+            "metrics": {
+                "ground_truth": "3400",
+                "prediction": "3400",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the result of multiplying 1876 and 3497?",
+            "response": "[FINAL ANSWER] 6562562",
+            "metrics": {
+                "ground_truth": "6560372",
+                "prediction": "6562562",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.42857142857142855,
+                "abs_distance": 2190.0,
+                "rel_distance": 0.0003338225332343959
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: What is the result of multiplying 1876 and 3497? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is a simple C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 1876;\n    int num2 = 3497;\n    int result = num1 * num2;\n    std::cout << \"[FINAL ANSWER] \" << result << std::endl;\n    return 0;\n}\n```\n\nIf we simulate the execution of this code, the output will be:\n\n[FINAL ANSWER] 6562612",
+            "metrics": {
+                "ground_truth": "6560372",
+                "prediction": "6562612",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.42857142857142855,
+                "abs_distance": 2240.0,
+                "rel_distance": 0.0003414440522580122
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Multiply 2006 and 8804.",
+            "response": "[FINAL ANSWER] 17655824",
+            "metrics": {
+                "ground_truth": "17660824",
+                "prediction": "17655824",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.25,
+                "abs_distance": 5000.0,
+                "rel_distance": 0.00028311249803519926
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: Multiply 2006 and 8804. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is a simple C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 2006;\n    int num2 = 8804;\n    int product = num1 * num2;\n    std::cout << \"[FINAL ANSWER] \" << product << std::endl;\n    return 0;\n}\n```\n\nIf we simulate the execution of this code, it would go as follows:\n\n1. The program starts and enters the main function.\n2. It declares an integer variable `num1` and assigns it the value 2006.\n3. It declares another integer variable `num2` and assigns it the value 8804.\n4. It declares a third integer variable `product` and assigns it the result of multiplying `num1` and `num2`.\n5. It outputs the string \"[FINAL ANSWER] \" followed by the value of `product`.\n6. The program ends.\n\nThe output of the program would be:\n\n```\n[FINAL ANSWER] 17660224\n```",
+            "metrics": {
+                "ground_truth": "17660824",
+                "prediction": "17660224",
+                "abs_edit_distance": 1,
+                "rel_edit_distance": 0.125,
+                "abs_distance": 600.0,
+                "rel_distance": 3.397349976422391e-05
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the product of numbers 7207 and 2939?",
+            "response": "The product of 7207 and 2939 is 21163313.\n\n[FINAL ANSWER] 21163313",
+            "metrics": {
+                "ground_truth": "21181373",
+                "prediction": "21163313",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 18060.0,
+                "rel_distance": 0.0008526359457434606
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: What is the product of numbers 7207 and 2939? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is the C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 7207;\n    int num2 = 2939;\n    int product = num1 * num2;\n    std::cout << \"[FINAL ANSWER] \" << product << std::endl;\n    return 0;\n}\n```\n\nIf we simulate the execution of this code, the output will be:\n\n```shell\n[FINAL ANSWER] 21170413\n```\n\nSo, the product of 7207 and 2939 is 21170413.",
+            "metrics": {
+                "ground_truth": "21181373",
+                "prediction": "21170413",
+                "abs_edit_distance": 4,
+                "rel_edit_distance": 0.5,
+                "abs_distance": 10960.0,
+                "rel_distance": 0.0005174357677380026
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Give the product of 7306 and 2169.",
+            "response": "The product of 7306 and 2169 is 15840214.\n\n[FINAL ANSWER] 15840214",
+            "metrics": {
+                "ground_truth": "15846714",
+                "prediction": "15840214",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.25,
+                "abs_distance": 6500.0,
+                "rel_distance": 0.00041017967510488296
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: Give the product of 7306 and 2169. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is a simple C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 7306;\n    int num2 = 2169;\n    int product = num1 * num2;\n    std::cout << \"[FINAL ANSWER] \" << product << std::endl;\n    return 0;\n}\n```\n\nSimulating the execution of this code:\n\nThe code first declares and initializes two integer variables, `num1` and `num2`, with the values 7306 and 2169 respectively. Then it calculates the product of these two numbers and stores the result in the `product` variable. Finally, it prints the product prefixed with \"[FINAL ANSWER]\".\n\nSo, the output of this code will be:\n\n```\n[FINAL ANSWER] 15838394\n```",
+            "metrics": {
+                "ground_truth": "15846714",
+                "prediction": "15838394",
+                "abs_edit_distance": 4,
+                "rel_edit_distance": 0.5,
+                "abs_distance": 8320.0,
+                "rel_distance": 0.0005250299841342502
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the result of adding 4493 and 7019?",
+            "response": "[FINAL ANSWER] 11512",
+            "metrics": {
+                "ground_truth": "11512",
+                "prediction": "11512",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: What is the result of adding 4493 and 7019? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is a simple C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 4493;\n    int num2 = 7019;\n    int sum = num1 + num2;\n\n    std::cout << \"[FINAL ANSWER] \" << sum << std::endl;\n\n    return 0;\n}\n```\n\nWhen you run this code, it will add the numbers 4493 and 7019 and print the result. \n\nSimulating the execution of this code, the output would be:\n\n[FINAL ANSWER] 11512",
+            "metrics": {
+                "ground_truth": "11512",
+                "prediction": "11512",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the result of adding 8712 and 4842?",
+            "response": "[FINAL ANSWER] 13554",
+            "metrics": {
+                "ground_truth": "13554",
+                "prediction": "13554",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: What is the result of adding 8712 and 4842? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is a simple C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 8712;\n    int num2 = 4842;\n    int sum = num1 + num2;\n\n    std::cout << \"[FINAL ANSWER] \" << sum << std::endl;\n\n    return 0;\n}\n```\n\nWhen you run this code, it will add the numbers 8712 and 4842 and print the result. \n\nSimulating the execution of this code, the output would be:\n\n[FINAL ANSWER] 13554",
+            "metrics": {
+                "ground_truth": "13554",
+                "prediction": "13554",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the sum of 6796 and 4847?",
+            "response": "[FINAL ANSWER] 11643",
+            "metrics": {
+                "ground_truth": "11643",
+                "prediction": "11643",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: What is the sum of 6796 and 4847? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is a simple C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 6796;\n    int num2 = 4847;\n    int sum = num1 + num2;\n\n    std::cout << \"[FINAL ANSWER] \" << sum << std::endl;\n\n    return 0;\n}\n```\n\nWhen you run this code, it will add the two numbers and print the result. \n\nSimulating the execution of this code:\n\n1. The program starts and declares two integer variables `num1` and `num2`, assigning them the values 6796 and 4847 respectively.\n2. It then declares another integer variable `sum` and assigns it the result of adding `num1` and `num2`.\n3. The program then prints \"[FINAL ANSWER] \" followed by the value of `sum`.\n4. The program ends.\n\nSo, the output of this program would be:\n\n[FINAL ANSWER] 11643",
+            "metrics": {
+                "ground_truth": "11643",
+                "prediction": "11643",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the result of adding 5892 and 7915?",
+            "response": "[FINAL ANSWER] 13807",
+            "metrics": {
+                "ground_truth": "13807",
+                "prediction": "13807",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: What is the result of adding 5892 and 7915? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is a simple C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 5892;\n    int num2 = 7915;\n    int sum = num1 + num2;\n\n    std::cout << \"[FINAL ANSWER] \" << sum << std::endl;\n\n    return 0;\n}\n```\n\nWhen you run this code, it will add the numbers 5892 and 7915 and print the result. \n\nSimulating the execution of this code, the output would be:\n\n[FINAL ANSWER] 13807",
+            "metrics": {
+                "ground_truth": "13807",
+                "prediction": "13807",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Add 4146 and 2672.",
+            "response": "[FINAL ANSWER] 6818",
+            "metrics": {
+                "ground_truth": "6818",
+                "prediction": "6818",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: Add 4146 and 2672. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is a simple C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 4146;\n    int num2 = 2672;\n    int sum = num1 + num2;\n\n    std::cout << \"[FINAL ANSWER] \" << sum << std::endl;\n\n    return 0;\n}\n```\n\nSimulating the execution of this code:\n\n1. The program starts and enters the main function.\n2. It initializes `num1` with 4146 and `num2` with 2672.\n3. It calculates the sum of `num1` and `num2` and stores the result in `sum`.\n4. It prints \"[FINAL ANSWER] \" followed by the value of `sum`.\n5. The program ends.\n\n[FINAL ANSWER] 6818",
+            "metrics": {
+                "ground_truth": "6818",
+                "prediction": "6818",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Add 9918 and 1915.",
+            "response": "[FINAL ANSWER] 11833",
+            "metrics": {
+                "ground_truth": "11833",
+                "prediction": "11833",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: Add 9918 and 1915. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is a simple C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 9918;\n    int num2 = 1915;\n    int sum = num1 + num2;\n\n    std::cout << \"[FINAL ANSWER] \" << sum << std::endl;\n\n    return 0;\n}\n```\n\nSimulating the execution of this code:\n\n1. The program starts and enters the main function.\n2. It initializes `num1` with 9918 and `num2` with 1915.\n3. It calculates the sum of `num1` and `num2` and stores the result in `sum`.\n4. It prints \"[FINAL ANSWER] \" followed by the value of `sum`.\n5. The program ends.\n\n[FINAL ANSWER] 11833",
+            "metrics": {
+                "ground_truth": "11833",
+                "prediction": "11833",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the product of 7256 and 6944?",
+            "response": "[FINAL ANSWER] 50350224",
+            "metrics": {
+                "ground_truth": "50385664",
+                "prediction": "50350224",
+                "abs_edit_distance": 4,
+                "rel_edit_distance": 0.5,
+                "abs_distance": 35440.0,
+                "rel_distance": 0.0007033746741930403
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: What is the product of 7256 and 6944? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is the C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 7256;\n    int num2 = 6944;\n    int product = num1 * num2;\n    std::cout << \"[FINAL ANSWER] \" << product << std::endl;\n    return 0;\n}\n```\n\nSimulating the execution of this code would give the following output:\n\n```shell\n[FINAL ANSWER] 50360224\n```\n\nSo, the product of 7256 and 6944 is 50360224.",
+            "metrics": {
+                "ground_truth": "50385664",
+                "prediction": "50360224",
+                "abs_edit_distance": 4,
+                "rel_edit_distance": 0.5,
+                "abs_distance": 25440.0,
+                "rel_distance": 0.0005049055223327017
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Provide the product of 9296 and 7980.",
+            "response": "The product of 9296 and 7980 is 74148080.\n\n[FINAL ANSWER] 74148080",
+            "metrics": {
+                "ground_truth": "74182080",
+                "prediction": "74148080",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.25,
+                "abs_distance": 34000.0,
+                "rel_distance": 0.00045833171569198384
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: Provide the product of 9296 and 7980. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is a simple C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 9296;\n    int num2 = 7980;\n    int product = num1 * num2;\n    std::cout << \"[FINAL ANSWER] \" << product << std::endl;\n    return 0;\n}\n```\n\nIf we simulate the execution of this code, it will multiply 9296 and 7980 and print the result. The output will be:\n\n```\n[FINAL ANSWER] 74160880\n```",
+            "metrics": {
+                "ground_truth": "74182080",
+                "prediction": "74160880",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 21200.0,
+                "rel_distance": 0.0002857833050785311
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What do you get when you add 2331 and 4990?",
+            "response": "[FINAL ANSWER] 7321",
+            "metrics": {
+                "ground_truth": "7321",
+                "prediction": "7321",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: What do you get when you add 2331 and 4990? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is a simple C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 2331;\n    int num2 = 4990;\n    int sum = num1 + num2;\n\n    std::cout << \"[FINAL ANSWER] \" << sum << std::endl;\n\n    return 0;\n}\n```\n\nWhen you run this code, it will add the numbers 2331 and 4990 and print the result. \n\n[FINAL ANSWER] 7321",
+            "metrics": {
+                "ground_truth": "7321",
+                "prediction": "7321",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Add 2691 and 9972.",
+            "response": "[FINAL ANSWER] 12663",
+            "metrics": {
+                "ground_truth": "12663",
+                "prediction": "12663",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: Add 2691 and 9972. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is a simple C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 2691;\n    int num2 = 9972;\n    int sum = num1 + num2;\n\n    std::cout << \"[FINAL ANSWER] \" << sum << std::endl;\n\n    return 0;\n}\n```\n\nSimulating the execution of this code:\n\n1. The program starts and enters the main function.\n2. It initializes `num1` with 2691 and `num2` with 9972.\n3. It calculates the sum of `num1` and `num2` and stores the result in `sum`.\n4. It prints \"[FINAL ANSWER] \" followed by the value of `sum`.\n5. The program ends.\n\n[FINAL ANSWER] 12663",
+            "metrics": {
+                "ground_truth": "12663",
+                "prediction": "12663",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Multiply 5098 and 1628.",
+            "response": "[FINAL ANSWER] 8300384",
+            "metrics": {
+                "ground_truth": "8299544",
+                "prediction": "8300384",
+                "abs_edit_distance": 5,
+                "rel_edit_distance": 0.7142857142857143,
+                "abs_distance": 840.0,
+                "rel_distance": 0.00010121037975098392
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: Multiply 5098 and 1628. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is a simple C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 5098;\n    int num2 = 1628;\n    int product = num1 * num2;\n    std::cout << \"[FINAL ANSWER] \" << product << std::endl;\n    return 0;\n}\n```\n\nSimulating the execution of this code:\n\n1. The program starts and enters the main function.\n2. It initializes `num1` with 5098 and `num2` with 1628.\n3. It calculates the product of `num1` and `num2` and stores the result in `product`.\n4. It prints \"[FINAL ANSWER] \" followed by the value of `product`.\n5. The program ends.\n\nSo, the output of the program will be:\n\n```\n[FINAL ANSWER] 8297064\n```",
+            "metrics": {
+                "ground_truth": "8299544",
+                "prediction": "8297064",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.42857142857142855,
+                "abs_distance": 2480.0,
+                "rel_distance": 0.0002988115973600477
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the result of adding 7182 and 2384?",
+            "response": "[FINAL ANSWER] 9566",
+            "metrics": {
+                "ground_truth": "9566",
+                "prediction": "9566",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: What is the result of adding 7182 and 2384? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is a simple C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 7182;\n    int num2 = 2384;\n    int sum = num1 + num2;\n\n    std::cout << \"[FINAL ANSWER] \" << sum << std::endl;\n\n    return 0;\n}\n```\n\nWhen you run this code, it will add the numbers 7182 and 2384 and print the result. \n\nSimulating the execution of this code, the output would be:\n\n[FINAL ANSWER] 9566",
+            "metrics": {
+                "ground_truth": "9566",
+                "prediction": "9566",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What do you get when you add 2454 and 4011?",
+            "response": "[FINAL ANSWER] 6465",
+            "metrics": {
+                "ground_truth": "6465",
+                "prediction": "6465",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: What do you get when you add 2454 and 4011? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is a simple C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 2454;\n    int num2 = 4011;\n    int sum = num1 + num2;\n\n    std::cout << \"[FINAL ANSWER] \" << sum << std::endl;\n\n    return 0;\n}\n```\n\nWhen you run this code, it will add the numbers 2454 and 4011 and print the result. \n\nSimulating the execution of this code, the output would be:\n\n[FINAL ANSWER] 6465",
+            "metrics": {
+                "ground_truth": "6465",
+                "prediction": "6465",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the product of 5333 and 7019?",
+            "response": "[FINAL ANSWER] 37423147",
+            "metrics": {
+                "ground_truth": "37432327",
+                "prediction": "37423147",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 9180.0,
+                "rel_distance": 0.0002452425680081284
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: What is the product of 5333 and 7019? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is the C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 5333;\n    int num2 = 7019;\n    int product = num1 * num2;\n    std::cout << \"[FINAL ANSWER] \" << product << std::endl;\n    return 0;\n}\n```\n\nSimulating the execution of this code:\n\nThe code first includes the iostream library, which allows it to perform input and output operations.\n\nThe main function is then defined. This is the function that will be executed when the program runs.\n\nInside the main function, two integer variables, num1 and num2, are declared and initialized with the values 5333 and 7019 respectively.\n\nNext, another integer variable, product, is declared and initialized with the product of num1 and num2.\n\nThe product is then printed to the console, prefixed with \"[FINAL ANSWER]\".\n\nFinally, the main function returns 0 to indicate that the program has finished executing successfully.\n\nSo, the output of this program would be:\n\n[FINAL ANSWER] 37438547",
+            "metrics": {
+                "ground_truth": "37432327",
+                "prediction": "37438547",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 6220.0,
+                "rel_distance": 0.00016616653300768612
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Find the result of multiplying 1248 and 7608.",
+            "response": "[FINAL ANSWER] 9493824",
+            "metrics": {
+                "ground_truth": "9494784",
+                "prediction": "9493824",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.42857142857142855,
+                "abs_distance": 960.0,
+                "rel_distance": 0.00010110814527218313
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: Find the result of multiplying 1248 and 7608. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is a simple C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 1248;\n    int num2 = 7608;\n    int result = num1 * num2;\n    std::cout << \"[FINAL ANSWER] \" << result << std::endl;\n    return 0;\n}\n```\n\nSimulating the execution of this code:\n\nThe code first declares and initializes two integer variables, `num1` and `num2`, with the values 1248 and 7608 respectively. Then it declares another integer variable `result` and initializes it with the product of `num1` and `num2`. Finally, it prints the result prefixed with \"[FINAL ANSWER] \".\n\nSo, the output of this code will be:\n\n[FINAL ANSWER] 9493824",
+            "metrics": {
+                "ground_truth": "9494784",
+                "prediction": "9493824",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.42857142857142855,
+                "abs_distance": 960.0,
+                "rel_distance": 0.00010110814527218313
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the sum of 2803 and 2759?",
+            "response": "[FINAL ANSWER] 5562",
+            "metrics": {
+                "ground_truth": "5562",
+                "prediction": "5562",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: What is the sum of 2803 and 2759? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is the C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 2803;\n    int num2 = 2759;\n    int sum = num1 + num2;\n\n    std::cout << \"[FINAL ANSWER] The sum is: \" << sum << std::endl;\n\n    return 0;\n}\n```\n\nSimulating the execution of this code would give the following output:\n\n[FINAL ANSWER] The sum is: 5562",
+            "metrics": {
+                "ground_truth": "5562",
+                "prediction": "5562",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Multiply 7406 and 2319.",
+            "response": "[FINAL ANSWER] 17170914",
+            "metrics": {
+                "ground_truth": "17174514",
+                "prediction": "17170914",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.25,
+                "abs_distance": 3600.0,
+                "rel_distance": 0.00020961291830441317
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: Multiply 7406 and 2319. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is the C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 7406;\n    int num2 = 2319;\n    int product = num1 * num2;\n    std::cout << \"[FINAL ANSWER] \" << product << std::endl;\n    return 0;\n}\n```\n\nTo simulate the execution of this code, we would compile and run it. The program would multiply 7406 and 2319, and then print the result. \n\nThe output would be:\n\n```\n[FINAL ANSWER] 17164914\n```\n\nSo, the product of 7406 and 2319 is 17164914.",
+            "metrics": {
+                "ground_truth": "17174514",
+                "prediction": "17164914",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.25,
+                "abs_distance": 9600.0,
+                "rel_distance": 0.0005589677821451018
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Give the sum of 4189 and 5391.",
+            "response": "[FINAL ANSWER] 9580",
+            "metrics": {
+                "ground_truth": "9580",
+                "prediction": "9580",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: Give the sum of 4189 and 5391. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is the C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 4189;\n    int num2 = 5391;\n    int sum = num1 + num2;\n    std::cout << \"[FINAL ANSWER] \" << sum << std::endl;\n    return 0;\n}\n```\n\nSimulating the execution of this code:\n\nThe code declares two integer variables `num1` and `num2` and assigns them the values 4189 and 5391 respectively. Then it declares another integer variable `sum` and assigns it the result of adding `num1` and `num2`. Finally, it prints the sum prefixed with \"[FINAL ANSWER]\".\n\nSo, the output of the code will be:\n\n[FINAL ANSWER] 9580",
+            "metrics": {
+                "ground_truth": "9580",
+                "prediction": "9580",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Provide the product of 6879 and 8694.",
+            "response": "[FINAL ANSWER] 59808406",
+            "metrics": {
+                "ground_truth": "59806026",
+                "prediction": "59808406",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 2380.0,
+                "rel_distance": 3.97953209597976e-05
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: Provide the product of 6879 and 8694. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is a simple C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 6879;\n    int num2 = 8694;\n    int product = num1 * num2;\n    std::cout << \"[FINAL ANSWER] \" << product << std::endl;\n    return 0;\n}\n```\n\nIf you run this code, it will calculate the product of 6879 and 8694 and print it to the console. \n\nSimulating the execution of this code:\n\n1. The program starts and enters the main function.\n2. It initializes `num1` with 6879 and `num2` with 8694.\n3. It calculates the product of `num1` and `num2` and stores the result in `product`.\n4. It prints \"[FINAL ANSWER] \" followed by the value of `product`.\n5. The program ends.\n\nThe output of the program would be:\n\n```\n[FINAL ANSWER] 59806266\n```\n\nSo, the product of 6879 and 8694 is 59806266.",
+            "metrics": {
+                "ground_truth": "59806026",
+                "prediction": "59806266",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.25,
+                "abs_distance": 240.0,
+                "rel_distance": 4.012973542164464e-06
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What do you get when you multiply 9003 and 7910?",
+            "response": "[FINAL ANSWER] 71247330",
+            "metrics": {
+                "ground_truth": "71213730",
+                "prediction": "71247330",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 33600.0,
+                "rel_distance": 0.0004718191281372286
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: What do you get when you multiply 9003 and 7910? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is a simple C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 9003;\n    int num2 = 7910;\n    int product = num1 * num2;\n    std::cout << \"[FINAL ANSWER] \" << product << std::endl;\n    return 0;\n}\n```\n\nIf you run this code, it will multiply 9003 and 7910 and print the result. \n\nSimulating the execution of this code:\n\n1. The program starts and enters the main function.\n2. It initializes `num1` with 9003 and `num2` with 7910.\n3. It calculates the product of `num1` and `num2` and stores the result in `product`.\n4. It prints \"[FINAL ANSWER] \" followed by the value of `product`.\n5. The program ends.\n\nThe output of the program would be:\n\n```\n[FINAL ANSWER] 71212370\n```",
+            "metrics": {
+                "ground_truth": "71213730",
+                "prediction": "71212370",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.25,
+                "abs_distance": 1360.0,
+                "rel_distance": 1.9097440900792587e-05
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Multiply 8111 and 3805.",
+            "response": "[FINAL ANSWER] 30859855",
+            "metrics": {
+                "ground_truth": "30862355",
+                "prediction": "30859855",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 2500.0,
+                "rel_distance": 8.100483582668918e-05
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: Multiply 8111 and 3805. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is a simple C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 8111;\n    int num2 = 3805;\n    int product = num1 * num2;\n    std::cout << \"[FINAL ANSWER] \" << product << std::endl;\n    return 0;\n}\n```\n\nSimulating the execution of this code:\n\n1. The program starts and enters the main function.\n2. It initializes `num1` with 8111 and `num2` with 3805.\n3. It calculates the product of `num1` and `num2` and stores the result in `product`.\n4. It prints \"[FINAL ANSWER] \" followed by the value of `product`.\n5. The program ends.\n\nThe output of the program would be:\n\n```\n[FINAL ANSWER] 30856855\n```",
+            "metrics": {
+                "ground_truth": "30862355",
+                "prediction": "30856855",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 5500.0,
+                "rel_distance": 0.0001782106388187162
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the product of numbers 2570 and 5089?",
+            "response": "The product of 2570 and 5089 is 13078730.\n\n[FINAL ANSWER] 13078730",
+            "metrics": {
+                "ground_truth": "13078730",
+                "prediction": "13078730",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: What is the product of numbers 2570 and 5089? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is the C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 2570;\n    int num2 = 5089;\n    int product = num1 * num2;\n    std::cout << \"[FINAL ANSWER] \" << product << std::endl;\n    return 0;\n}\n```\n\nIf we simulate the execution of this code, the output would be:\n\n```shell\n[FINAL ANSWER] 13077630\n```",
+            "metrics": {
+                "ground_truth": "13078730",
+                "prediction": "13077630",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.25,
+                "abs_distance": 1100.0,
+                "rel_distance": 8.410602558505298e-05
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Provide the product of 8183 and 9920.",
+            "response": "[FINAL ANSWER] 81151360",
+            "metrics": {
+                "ground_truth": "81175360",
+                "prediction": "81151360",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.25,
+                "abs_distance": 24000.0,
+                "rel_distance": 0.0002956562188329069
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: Provide the product of 8183 and 9920. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is a simple C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 8183;\n    int num2 = 9920;\n    int product = num1 * num2;\n    std::cout << \"[FINAL ANSWER] \" << product << std::endl;\n    return 0;\n}\n```\n\nIf we simulate the execution of this code, it will multiply 8183 and 9920 and print the result. The output will be:\n\n```shell\n[FINAL ANSWER] 81136960\n```",
+            "metrics": {
+                "ground_truth": "81175360",
+                "prediction": "81136960",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 38400.0,
+                "rel_distance": 0.00047304995013265107
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Find the result of adding 5709 and 7104.",
+            "response": "[FINAL ANSWER] 12813",
+            "metrics": {
+                "ground_truth": "12813",
+                "prediction": "12813",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: Find the result of adding 5709 and 7104. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is a simple C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 5709;\n    int num2 = 7104;\n    int sum = num1 + num2;\n    std::cout << \"[FINAL ANSWER] \" << sum << std::endl;\n    return 0;\n}\n```\n\nSimulating the execution of this code:\n\nThe code declares two integer variables `num1` and `num2` and assigns them the values 5709 and 7104 respectively. Then it declares another integer variable `sum` and assigns it the result of adding `num1` and `num2`. Finally, it prints the sum prefixed with \"[FINAL ANSWER]\".\n\nThe output of the code will be:\n\n```\n[FINAL ANSWER] 12813\n```",
+            "metrics": {
+                "ground_truth": "12813",
+                "prediction": "12813",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Give the product of 2650 and 8811.",
+            "response": "[FINAL ANSWER] 23349150",
+            "metrics": {
+                "ground_truth": "23349150",
+                "prediction": "23349150",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: Give the product of 2650 and 8811. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is a simple C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 2650;\n    int num2 = 8811;\n    int product = num1 * num2;\n    std::cout << \"[FINAL ANSWER] \" << product << std::endl;\n    return 0;\n}\n```\n\nIf we simulate the execution of this code, it will multiply 2650 and 8811 and print the result. The output will be:\n\n```\n[FINAL ANSWER] 23349150\n```",
+            "metrics": {
+                "ground_truth": "23349150",
+                "prediction": "23349150",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Provide the sum of 5302 and 9882.",
+            "response": "[FINAL ANSWER] 15184",
+            "metrics": {
+                "ground_truth": "15184",
+                "prediction": "15184",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: Provide the sum of 5302 and 9882. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is a simple C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 5302;\n    int num2 = 9882;\n    int sum = num1 + num2;\n\n    std::cout << \"[FINAL ANSWER] \" << sum << std::endl;\n\n    return 0;\n}\n```\n\nWhen you run this code, it will add the numbers 5302 and 9882 and print the sum. The output will be:\n\n```\n[FINAL ANSWER] 15184\n```",
+            "metrics": {
+                "ground_truth": "15184",
+                "prediction": "15184",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the result of adding 7894 and 5414?",
+            "response": "[FINAL ANSWER] 13308",
+            "metrics": {
+                "ground_truth": "13308",
+                "prediction": "13308",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: What is the result of adding 7894 and 5414? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is a simple C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 7894;\n    int num2 = 5414;\n    int sum = num1 + num2;\n    std::cout << \"[FINAL ANSWER] \" << sum << std::endl;\n    return 0;\n}\n```\n\nSimulating the execution of this code:\n\nThe code declares two integer variables `num1` and `num2` and assigns them the values 7894 and 5414 respectively. Then it declares another integer variable `sum` and assigns it the result of adding `num1` and `num2`. Finally, it prints the result prefixed with \"[FINAL ANSWER]\".\n\nSo, the output of the code will be:\n\n[FINAL ANSWER] 13308",
+            "metrics": {
+                "ground_truth": "13308",
+                "prediction": "13308",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the sum of numbers 3126 and 5756?",
+            "response": "[FINAL ANSWER] 8882",
+            "metrics": {
+                "ground_truth": "8882",
+                "prediction": "8882",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: What is the sum of numbers 3126 and 5756? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is a simple C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 3126;\n    int num2 = 5756;\n    int sum = num1 + num2;\n\n    std::cout << \"[FINAL ANSWER] \" << sum << std::endl;\n\n    return 0;\n}\n```\n\nWhen you run this code, it will add the numbers 3126 and 5756 and print the result. \n\nSimulating the execution of this code:\n\nThe code first declares and initializes two integer variables, `num1` and `num2`, with the values 3126 and 5756 respectively. Then it declares another integer variable `sum` and initializes it with the result of adding `num1` and `num2`. Finally, it prints the result prefixed with \"[FINAL ANSWER]\".\n\nSo, the output of this code will be:\n\n[FINAL ANSWER] 8882",
+            "metrics": {
+                "ground_truth": "8882",
+                "prediction": "8882",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the product of 1842 and 8604?",
+            "response": "[FINAL ANSWER] 15848888",
+            "metrics": {
+                "ground_truth": "15848568",
+                "prediction": "15848888",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.25,
+                "abs_distance": 320.0,
+                "rel_distance": 2.0191098653203242e-05
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: What is the product of 1842 and 8604? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is the C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 1842;\n    int num2 = 8604;\n    int product = num1 * num2;\n    std::cout << \"[FINAL ANSWER] \" << product << std::endl;\n    return 0;\n}\n```\n\nSimulating the execution of this code, the output would be:\n\n[FINAL ANSWER] 15850488",
+            "metrics": {
+                "ground_truth": "15848568",
+                "prediction": "15850488",
+                "abs_edit_distance": 4,
+                "rel_edit_distance": 0.5,
+                "abs_distance": 1920.0,
+                "rel_distance": 0.00012114659191921946
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Find the result of multiplying 2975 and 4294.",
+            "response": "[FINAL ANSWER] 12775350",
+            "metrics": {
+                "ground_truth": "12774650",
+                "prediction": "12775350",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.25,
+                "abs_distance": 700.0,
+                "rel_distance": 5.479602180881668e-05
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: Find the result of multiplying 2975 and 4294. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is a simple C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 2975;\n    int num2 = 4294;\n    int result = num1 * num2;\n    std::cout << \"[FINAL ANSWER] \" << result << std::endl;\n    return 0;\n}\n```\n\nSimulating the execution of this code:\n\nThe code first declares and initializes two integer variables, `num1` and `num2`, with the values 2975 and 4294 respectively. Then it declares another integer variable, `result`, and initializes it with the product of `num1` and `num2`. Finally, it prints the result prefixed with \"[FINAL ANSWER] \".\n\n[FINAL ANSWER] 12770350",
+            "metrics": {
+                "ground_truth": "12774650",
+                "prediction": "12770350",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.25,
+                "abs_distance": 4300.0,
+                "rel_distance": 0.00033660413396844534
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What do you get when you multiply 4173 and 1567?",
+            "response": "[FINAL ANSWER] 6540621",
+            "metrics": {
+                "ground_truth": "6539091",
+                "prediction": "6540621",
+                "abs_edit_distance": 4,
+                "rel_edit_distance": 0.5714285714285714,
+                "abs_distance": 1530.0,
+                "rel_distance": 0.0002339774748508623
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: What do you get when you multiply 4173 and 1567? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is a simple C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 4173;\n    int num2 = 1567;\n    int product = num1 * num2;\n    std::cout << \"[FINAL ANSWER] \" << product << std::endl;\n    return 0;\n}\n```\n\nIf we simulate the execution of this code, the output would be:\n\n```shell\n[FINAL ANSWER] 6540201\n```\n\nSo, the product of 4173 and 1567 is 6540201.",
+            "metrics": {
+                "ground_truth": "6539091",
+                "prediction": "6540201",
+                "abs_edit_distance": 4,
+                "rel_edit_distance": 0.5714285714285714,
+                "abs_distance": 1110.0,
+                "rel_distance": 0.00016974836410748833
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the sum of 6579 and 7623?",
+            "response": "[FINAL ANSWER] 14202",
+            "metrics": {
+                "ground_truth": "14202",
+                "prediction": "14202",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: What is the sum of 6579 and 7623? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is the C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 6579;\n    int num2 = 7623;\n    int sum = num1 + num2;\n\n    std::cout << \"[FINAL ANSWER] The sum is: \" << sum << std::endl;\n\n    return 0;\n}\n```\n\nSimulating the execution of this code:\n\nThe code first declares and initializes two integer variables, `num1` and `num2`, with the values 6579 and 7623 respectively. Then it declares another integer variable `sum` and initializes it with the sum of `num1` and `num2`. Finally, it prints out the sum prefixed with \"[FINAL ANSWER] The sum is: \".\n\nSo, the output of this code will be:\n\n[FINAL ANSWER] The sum is: 14202",
+            "metrics": {
+                "ground_truth": "14202",
+                "prediction": "14202",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Find the result of multiplying 5318 and 2085.",
+            "response": "[FINAL ANSWER] 11079970",
+            "metrics": {
+                "ground_truth": "11088030",
+                "prediction": "11079970",
+                "abs_edit_distance": 4,
+                "rel_edit_distance": 0.5,
+                "abs_distance": 8060.0,
+                "rel_distance": 0.0007269100101641139
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: Find the result of multiplying 5318 and 2085. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is a simple C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 5318;\n    int num2 = 2085;\n    int result = num1 * num2;\n    std::cout << \"[FINAL ANSWER] \" << result << std::endl;\n    return 0;\n}\n```\n\nIf we simulate the execution of this code, it would look something like this:\n\n1. The program starts and enters the main function.\n2. It initializes the variable `num1` with the value 5318.\n3. It initializes the variable `num2` with the value 2085.\n4. It multiplies `num1` and `num2` and stores the result in the variable `result`.\n5. It prints \"[FINAL ANSWER] \" followed by the value of `result`.\n6. The program ends.\n\nThe output of the program would be:\n\n```\n[FINAL ANSWER] 11084370\n```",
+            "metrics": {
+                "ground_truth": "11088030",
+                "prediction": "11084370",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 3660.0,
+                "rel_distance": 0.0003300856869976001
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the result of multiplying 4671 and 4882?",
+            "response": "[FINAL ANSWER] 22795342",
+            "metrics": {
+                "ground_truth": "22803822",
+                "prediction": "22795342",
+                "abs_edit_distance": 5,
+                "rel_edit_distance": 0.625,
+                "abs_distance": 8480.0,
+                "rel_distance": 0.0003718674878272598
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: What is the result of multiplying 4671 and 4882? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is a simple C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 4671;\n    int num2 = 4882;\n    int result = num1 * num2;\n    std::cout << \"[FINAL ANSWER] \" << result << std::endl;\n    return 0;\n}\n```\n\nSimulating the execution of this code would give the following output:\n\n```shell\n[FINAL ANSWER] 22798742\n```",
+            "metrics": {
+                "ground_truth": "22803822",
+                "prediction": "22798742",
+                "abs_edit_distance": 5,
+                "rel_edit_distance": 0.625,
+                "abs_distance": 5080.0,
+                "rel_distance": 0.00022276967431161321
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Provide the sum of 7230 and 6389.",
+            "response": "[FINAL ANSWER] 13619",
+            "metrics": {
+                "ground_truth": "13619",
+                "prediction": "13619",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: Provide the sum of 7230 and 6389. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is the C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 7230;\n    int num2 = 6389;\n    int sum = num1 + num2;\n\n    std::cout << \"[FINAL ANSWER] \" << sum << std::endl;\n\n    return 0;\n}\n```\n\nSimulating the execution of this code:\n\nThe code declares two integer variables `num1` and `num2` and assigns them the values 7230 and 6389 respectively. Then it declares another integer variable `sum` and assigns it the value of the sum of `num1` and `num2`. Finally, it prints out the sum prefixed with \"[FINAL ANSWER]\".\n\n[FINAL ANSWER] 13619",
+            "metrics": {
+                "ground_truth": "13619",
+                "prediction": "13619",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Provide the sum of 5560 and 8919.",
+            "response": "[FINAL ANSWER] 14479",
+            "metrics": {
+                "ground_truth": "14479",
+                "prediction": "14479",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: Provide the sum of 5560 and 8919. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is a simple C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 5560;\n    int num2 = 8919;\n    int sum = num1 + num2;\n\n    std::cout << \"[FINAL ANSWER] \" << sum << std::endl;\n\n    return 0;\n}\n```\n\nWhen you run this code, it will add the numbers 5560 and 8919 and print the sum. \n\nSimulating the execution of this code, the output would be:\n\n[FINAL ANSWER] 14479",
+            "metrics": {
+                "ground_truth": "14479",
+                "prediction": "14479",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Give the product of 8561 and 8522.",
+            "response": "[FINAL ANSWER] 72939742",
+            "metrics": {
+                "ground_truth": "72956842",
+                "prediction": "72939742",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 17100.0,
+                "rel_distance": 0.00023438514512456556
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: Give the product of 8561 and 8522. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is a simple C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    long long num1 = 8561;\n    long long num2 = 8522;\n    long long product = num1 * num2;\n    std::cout << \"[FINAL ANSWER] \" << product << std::endl;\n    return 0;\n}\n```\n\nIf you run this code, it will calculate the product of 8561 and 8522 and print it to the console. \n\nHowever, as I'm an AI model developed by OpenAI, I can't run the code directly. But I can tell you the output of this code. The product of 8561 and 8522 is 72927342.\n\nSo, the output of the code will be:\n\n```cpp\n[FINAL ANSWER] 72927342\n```",
+            "metrics": {
+                "ground_truth": "72956842",
+                "prediction": "72927342",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 29500.0,
+                "rel_distance": 0.0004043486421739581
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the product of numbers 5017 and 7925?",
+            "response": "The product of 5017 and 7925 is 39752125.\n\n[FINAL ANSWER] 39752125",
+            "metrics": {
+                "ground_truth": "39759725",
+                "prediction": "39752125",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.25,
+                "abs_distance": 7600.0,
+                "rel_distance": 0.00019114820336408263
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: What is the product of numbers 5017 and 7925? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is the C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    long long num1 = 5017;\n    long long num2 = 7925;\n    long long product = num1 * num2;\n    std::cout << \"[FINAL ANSWER] \" << product << std::endl;\n    return 0;\n}\n```\n\nWhen you run this code, it will calculate the product of 5017 and 7925 and print it to the console. \n\nSimulating the execution of this code, the output would be:\n\n```shell\n[FINAL ANSWER] 39760125\n```\n\nSo, the product of 5017 and 7925 is 39760125.",
+            "metrics": {
+                "ground_truth": "39759725",
+                "prediction": "39760125",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 400.0,
+                "rel_distance": 1.0060431756004349e-05
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What do you get when you multiply 1453 and 5404?",
+            "response": "[FINAL ANSWER] 7855812",
+            "metrics": {
+                "ground_truth": "7852012",
+                "prediction": "7855812",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.2857142857142857,
+                "abs_distance": 3800.0,
+                "rel_distance": 0.00048395239334835454
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: What do you get when you multiply 1453 and 5404? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is a simple C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 1453;\n    int num2 = 5404;\n    int product = num1 * num2;\n    std::cout << \"[FINAL ANSWER] \" << product << std::endl;\n    return 0;\n}\n```\n\nWhen you run this code, it multiplies 1453 and 5404 and prints the result. \n\nSimulating the execution of this code, the output would be:\n\n[FINAL ANSWER] 7854212",
+            "metrics": {
+                "ground_truth": "7852012",
+                "prediction": "7854212",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.2857142857142857,
+                "abs_distance": 2200.0,
+                "rel_distance": 0.0002801829645701
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Provide the sum of 6536 and 6085.",
+            "response": "[FINAL ANSWER] 12621",
+            "metrics": {
+                "ground_truth": "12621",
+                "prediction": "12621",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: Provide the sum of 6536 and 6085. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is a simple C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 6536;\n    int num2 = 6085;\n    int sum = num1 + num2;\n    std::cout << \"[FINAL ANSWER] \" << sum << std::endl;\n    return 0;\n}\n```\n\nIf you run this code, it will add the two numbers and print the result. The output will be:\n\n```\n[FINAL ANSWER] 12621\n```",
+            "metrics": {
+                "ground_truth": "12621",
+                "prediction": "12621",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the sum of 5104 and 6421?",
+            "response": "[FINAL ANSWER] 11525",
+            "metrics": {
+                "ground_truth": "11525",
+                "prediction": "11525",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: What is the sum of 5104 and 6421? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is the C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 5104;\n    int num2 = 6421;\n    int sum = num1 + num2;\n    std::cout << \"[FINAL ANSWER] The sum is: \" << sum << std::endl;\n    return 0;\n}\n```\n\nSimulating the execution of this code:\n\nThe code first declares and initializes two integer variables, `num1` and `num2`, with the values 5104 and 6421 respectively. Then it declares another integer variable `sum` and initializes it with the result of adding `num1` and `num2`. Finally, it prints out the result.\n\n[FINAL ANSWER] The sum is: 11525",
+            "metrics": {
+                "ground_truth": "11525",
+                "prediction": "11525",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the sum of 6371 and 7771?",
+            "response": "[FINAL ANSWER] 14142",
+            "metrics": {
+                "ground_truth": "14142",
+                "prediction": "14142",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: What is the sum of 6371 and 7771? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is the C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 6371;\n    int num2 = 7771;\n    int sum = num1 + num2;\n\n    std::cout << \"[FINAL ANSWER] The sum is: \" << sum << std::endl;\n\n    return 0;\n}\n```\n\nSimulating the execution of this code:\n\nThe code first declares and initializes two integer variables, `num1` and `num2`, with the values 6371 and 7771 respectively. Then it declares another integer variable `sum` and initializes it with the sum of `num1` and `num2`. Finally, it prints out the sum prefixed with \"[FINAL ANSWER] The sum is: \".\n\nSo, the output of the code will be:\n\n[FINAL ANSWER] The sum is: 14142",
+            "metrics": {
+                "ground_truth": "14142",
+                "prediction": "14142",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the sum of numbers 2423 and 6996?",
+            "response": "[FINAL ANSWER] 9419",
+            "metrics": {
+                "ground_truth": "9419",
+                "prediction": "9419",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: What is the sum of numbers 2423 and 6996? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is the C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 2423;\n    int num2 = 6996;\n    int sum = num1 + num2;\n\n    std::cout << \"[FINAL ANSWER] \" << sum << std::endl;\n\n    return 0;\n}\n```\n\nSimulating the execution of this code would result in the following output:\n\n[FINAL ANSWER] 9419",
+            "metrics": {
+                "ground_truth": "9419",
+                "prediction": "9419",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the result of multiplying 8734 and 6755?",
+            "response": "[FINAL ANSWER] 59021670",
+            "metrics": {
+                "ground_truth": "58998170",
+                "prediction": "59021670",
+                "abs_edit_distance": 4,
+                "rel_edit_distance": 0.5,
+                "abs_distance": 23500.0,
+                "rel_distance": 0.0003983174393375252
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: What is the result of multiplying 8734 and 6755? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is a simple C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 8734;\n    int num2 = 6755;\n    int result = num1 * num2;\n    std::cout << \"[FINAL ANSWER] \" << result << std::endl;\n    return 0;\n}\n```\n\nIf you run this code, it will multiply 8734 and 6755 and print the result. \n\nSimulating the execution of this code, the output would be:\n\n[FINAL ANSWER] 58996170",
+            "metrics": {
+                "ground_truth": "58998170",
+                "prediction": "58996170",
+                "abs_edit_distance": 1,
+                "rel_edit_distance": 0.125,
+                "abs_distance": 2000.0,
+                "rel_distance": 3.389935653936385e-05
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the product of numbers 9727 and 8849?",
+            "response": "The product of 9727 and 8849 is 86044383.\n\n[FINAL ANSWER] 86044383",
+            "metrics": {
+                "ground_truth": "86074223",
+                "prediction": "86044383",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 29840.0,
+                "rel_distance": 0.00034667754131222306
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: What is the product of numbers 9727 and 8849? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is the C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 9727;\n    int num2 = 8849;\n    int product = num1 * num2;\n    std::cout << \"[FINAL ANSWER] \" << product << std::endl;\n    return 0;\n}\n```\n\nIf we simulate the execution of this code, it will multiply 9727 and 8849 and print the result. The output will be:\n\n```shell\n[FINAL ANSWER] 86064963\n```",
+            "metrics": {
+                "ground_truth": "86074223",
+                "prediction": "86064963",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 9260.0,
+                "rel_distance": 0.00010758156945546869
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Find the result of adding 5093 and 1525.",
+            "response": "[FINAL ANSWER] 6618",
+            "metrics": {
+                "ground_truth": "6618",
+                "prediction": "6618",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: Find the result of adding 5093 and 1525. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is the C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 5093;\n    int num2 = 1525;\n    int sum = num1 + num2;\n\n    std::cout << \"[FINAL ANSWER] \" << sum << std::endl;\n\n    return 0;\n}\n```\n\nSimulating the execution of this code:\n\nThe code declares two integer variables `num1` and `num2` and assigns them the values 5093 and 1525 respectively. Then it declares another integer variable `sum` and assigns it the result of adding `num1` and `num2`. Finally, it prints the sum prefixed with \"[FINAL ANSWER]\".\n\nSo, the output of this code will be:\n\n[FINAL ANSWER] 6618",
+            "metrics": {
+                "ground_truth": "6618",
+                "prediction": "6618",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Find the result of adding 2003 and 4433.",
+            "response": "[FINAL ANSWER] 6436",
+            "metrics": {
+                "ground_truth": "6436",
+                "prediction": "6436",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: Find the result of adding 2003 and 4433. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is the C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 2003;\n    int num2 = 4433;\n    int sum = num1 + num2;\n    std::cout << \"[FINAL ANSWER] \" << sum << std::endl;\n    return 0;\n}\n```\n\nSimulating the execution of this code:\n\nThe code first declares and initializes two integer variables, `num1` and `num2`, with the values 2003 and 4433 respectively. Then it declares another integer variable `sum` and initializes it with the result of adding `num1` and `num2`. Finally, it prints the sum prefixed with \"[FINAL ANSWER] \" to the console.\n\n[FINAL ANSWER] 6436",
+            "metrics": {
+                "ground_truth": "6436",
+                "prediction": "6436",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Provide the product of 5134 and 3093.",
+            "response": "[FINAL ANSWER] 15869002",
+            "metrics": {
+                "ground_truth": "15879462",
+                "prediction": "15869002",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 10460.0,
+                "rel_distance": 0.0006587124929043565
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: Provide the product of 5134 and 3093. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is a simple C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 5134;\n    int num2 = 3093;\n    int product = num1 * num2;\n    std::cout << \"[FINAL ANSWER] \" << product << std::endl;\n    return 0;\n}\n```\n\nIf you run this code, it will calculate the product of 5134 and 3093 and print it to the console. \n\nSimulating the execution of this code:\n\n1. The program starts and enters the main function.\n2. It initializes `num1` with 5134 and `num2` with 3093.\n3. It calculates the product of `num1` and `num2` and stores the result in `product`.\n4. It prints \"[FINAL ANSWER] \" followed by the value of `product`.\n5. The program ends.\n\nThe output of this program would be:\n\n```\n[FINAL ANSWER] 15868002\n```",
+            "metrics": {
+                "ground_truth": "15879462",
+                "prediction": "15868002",
+                "abs_edit_distance": 4,
+                "rel_edit_distance": 0.5,
+                "abs_distance": 11460.0,
+                "rel_distance": 0.00072168691861223
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the product of 3690 and 4186?",
+            "response": "[FINAL ANSWER] 15446140",
+            "metrics": {
+                "ground_truth": "15446340",
+                "prediction": "15446140",
+                "abs_edit_distance": 1,
+                "rel_edit_distance": 0.125,
+                "abs_distance": 200.0,
+                "rel_distance": 1.2948051124085058e-05
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: What is the product of 3690 and 4186? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is the C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 3690;\n    int num2 = 4186;\n    int product = num1 * num2;\n    std::cout << \"[FINAL ANSWER] \" << product << std::endl;\n    return 0;\n}\n```\n\nSimulating the execution of this code would give the following output:\n\n```shell\n[FINAL ANSWER] 15443140\n```\n\nSo, the product of 3690 and 4186 is 15443140.",
+            "metrics": {
+                "ground_truth": "15446340",
+                "prediction": "15443140",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.25,
+                "abs_distance": 3200.0,
+                "rel_distance": 0.00020716881798536093
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the sum of numbers 4235 and 5508?",
+            "response": "[FINAL ANSWER] 9743",
+            "metrics": {
+                "ground_truth": "9743",
+                "prediction": "9743",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: What is the sum of numbers 4235 and 5508? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is the C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 4235;\n    int num2 = 5508;\n    int sum = num1 + num2;\n\n    std::cout << \"[FINAL ANSWER] \" << sum << std::endl;\n\n    return 0;\n}\n```\n\nSimulating the execution of this code:\n\nThe code declares two integer variables `num1` and `num2` and assigns them the values 4235 and 5508 respectively. Then it declares another integer variable `sum` and assigns it the result of adding `num1` and `num2`. Finally, it prints the sum prefixed with \"[FINAL ANSWER]\".\n\nSo, the output of this code will be:\n\n[FINAL ANSWER] 9743",
+            "metrics": {
+                "ground_truth": "9743",
+                "prediction": "9743",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the result of adding 2558 and 9394?",
+            "response": "[FINAL ANSWER] 11952",
+            "metrics": {
+                "ground_truth": "11952",
+                "prediction": "11952",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: What is the result of adding 2558 and 9394? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is a simple C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 2558;\n    int num2 = 9394;\n    int sum = num1 + num2;\n\n    std::cout << \"[FINAL ANSWER] \" << sum << std::endl;\n\n    return 0;\n}\n```\n\nWhen you run this code, it will add the numbers 2558 and 9394 and print the result. \n\nSimulating the execution of this code, the output would be:\n\n[FINAL ANSWER] 11952",
+            "metrics": {
+                "ground_truth": "11952",
+                "prediction": "11952",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the result of multiplying 9963 and 1965?",
+            "response": "[FINAL ANSWER] 19588395",
+            "metrics": {
+                "ground_truth": "19577295",
+                "prediction": "19588395",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 11100.0,
+                "rel_distance": 0.0005669833345209336
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: What is the result of multiplying 9963 and 1965? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is a simple C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 9963;\n    int num2 = 1965;\n    int result = num1 * num2;\n    std::cout << \"[FINAL ANSWER] \" << result << std::endl;\n    return 0;\n}\n```\n\nWhen you run this code, it will multiply 9963 and 1965 and print the result. \n\nSimulating the execution of this code, the output would be:\n\n[FINAL ANSWER] 19591795",
+            "metrics": {
+                "ground_truth": "19577295",
+                "prediction": "19591795",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 14500.0,
+                "rel_distance": 0.0007406539054552736
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the product of numbers 4408 and 1178?",
+            "response": "The product of 4408 and 1178 is 5191824.\n\n[FINAL ANSWER] 5191824",
+            "metrics": {
+                "ground_truth": "5192624",
+                "prediction": "5191824",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.2857142857142857,
+                "abs_distance": 800.0,
+                "rel_distance": 0.0001540646886814836
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: What is the product of numbers 4408 and 1178? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is a simple C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 4408;\n    int num2 = 1178;\n    int product = num1 * num2;\n    std::cout << \"[FINAL ANSWER] \" << product << std::endl;\n    return 0;\n}\n```\n\nIf you run this code, it will calculate the product of 4408 and 1178 and print it to the console. \n\nHowever, as a text-based AI, I can't execute the code. But I can tell you that the product of 4408 and 1178 is 5193424. So, the output of the code will be:\n\n```cpp\n[FINAL ANSWER] 5193424\n```",
+            "metrics": {
+                "ground_truth": "5192624",
+                "prediction": "5193424",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.2857142857142857,
+                "abs_distance": 800.0,
+                "rel_distance": 0.0001540646886814836
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What do you get when you multiply 4154 and 5855?",
+            "response": "[FINAL ANSWER] 24316170",
+            "metrics": {
+                "ground_truth": "24321670",
+                "prediction": "24316170",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.25,
+                "abs_distance": 5500.0,
+                "rel_distance": 0.00022613578755077262
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: What do you get when you multiply 4154 and 5855? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is a simple C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 4154;\n    int num2 = 5855;\n    int product = num1 * num2;\n    std::cout << \"[FINAL ANSWER] \" << product << std::endl;\n    return 0;\n}\n```\n\nIf we simulate the execution of this code, the output would be:\n\n[FINAL ANSWER] 24308170",
+            "metrics": {
+                "ground_truth": "24321670",
+                "prediction": "24308170",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 13500.0,
+                "rel_distance": 0.0005550605694428055
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the product of numbers 5681 and 2801?",
+            "response": "The product of 5681 and 2801 is 15912081.\n\n[FINAL ANSWER] 15912081",
+            "metrics": {
+                "ground_truth": "15912481",
+                "prediction": "15912081",
+                "abs_edit_distance": 1,
+                "rel_edit_distance": 0.125,
+                "abs_distance": 400.0,
+                "rel_distance": 2.5137500556952746e-05
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: What is the product of numbers 5681 and 2801? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is the C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    long long num1 = 5681;\n    long long num2 = 2801;\n    long long product = num1 * num2;\n    std::cout << \"[FINAL ANSWER] \" << product << std::endl;\n    return 0;\n}\n```\n\nIf you run this code, it will calculate the product of 5681 and 2801 and print it to the console. \n\nLet's simulate the execution of this code:\n\n1. The program starts and enters the main function.\n2. It declares and initializes two long long variables, num1 and num2, with the values 5681 and 2801 respectively.\n3. It then calculates the product of num1 and num2 and stores the result in another long long variable, product.\n4. Finally, it prints the product to the console, prefixed with \"[FINAL ANSWER]\".\n\nThe output of the program would be:\n\n```\n[FINAL ANSWER] 15906281\n```\n\nSo, the product of 5681 and 2801 is 15906281.",
+            "metrics": {
+                "ground_truth": "15912481",
+                "prediction": "15906281",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 6200.0,
+                "rel_distance": 0.0003896312586327676
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Provide the product of 7147 and 9977.",
+            "response": "[FINAL ANSWER] 71341439",
+            "metrics": {
+                "ground_truth": "71305619",
+                "prediction": "71341439",
+                "abs_edit_distance": 4,
+                "rel_edit_distance": 0.5,
+                "abs_distance": 35820.0,
+                "rel_distance": 0.0005023447030170231
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: Provide the product of 7147 and 9977. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is a simple C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 7147;\n    int num2 = 9977;\n    int product = num1 * num2;\n    std::cout << \"[FINAL ANSWER] \" << product << std::endl;\n    return 0;\n}\n```\n\nIf you run this code, it will calculate the product of 7147 and 9977 and print it to the console. \n\nHowever, as I'm an AI model developed by OpenAI, I can't run the code directly. But I can calculate the product for you. The product of 7147 and 9977 is 71336239.\n\nSo, the output of the code will be:\n\n```cpp\n[FINAL ANSWER] 71336239\n```",
+            "metrics": {
+                "ground_truth": "71305619",
+                "prediction": "71336239",
+                "abs_edit_distance": 4,
+                "rel_edit_distance": 0.5,
+                "abs_distance": 30620.0,
+                "rel_distance": 0.00042941917382415543
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the product of 3872 and 7356?",
+            "response": "The product of 3872 and 7356 is 28469792.\n\n[FINAL ANSWER] 28469792",
+            "metrics": {
+                "ground_truth": "28482432",
+                "prediction": "28469792",
+                "abs_edit_distance": 4,
+                "rel_edit_distance": 0.5,
+                "abs_distance": 12640.0,
+                "rel_distance": 0.00044378232870002113
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: What is the product of 3872 and 7356? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is the C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 3872;\n    int num2 = 7356;\n    int product = num1 * num2;\n    std::cout << \"[FINAL ANSWER] \" << product << std::endl;\n    return 0;\n}\n```\n\nIf we simulate the execution of this code, it would output:\n\n```shell\n[FINAL ANSWER] 28481232\n```\n\nSo, the product of 3872 and 7356 is 28481232.",
+            "metrics": {
+                "ground_truth": "28482432",
+                "prediction": "28481232",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.25,
+                "abs_distance": 1200.0,
+                "rel_distance": 4.213123373734378e-05
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Provide the product of 6086 and 6380.",
+            "response": "[FINAL ANSWER] 38838800",
+            "metrics": {
+                "ground_truth": "38828680",
+                "prediction": "38838800",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 10120.0,
+                "rel_distance": 0.0002606320894761295
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: Provide the product of 6086 and 6380. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is a simple C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 6086;\n    int num2 = 6380;\n    int product = num1 * num2;\n    std::cout << \"[FINAL ANSWER] \" << product << std::endl;\n    return 0;\n}\n```\n\nIf you run this code, it will calculate the product of 6086 and 6380 and print it to the console. \n\nSimulating the execution of this code, the output would be:\n\n[FINAL ANSWER] 38838800",
+            "metrics": {
+                "ground_truth": "38828680",
+                "prediction": "38838800",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 10120.0,
+                "rel_distance": 0.0002606320894761295
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Provide the sum of 6323 and 7818.",
+            "response": "[FINAL ANSWER] 14141",
+            "metrics": {
+                "ground_truth": "14141",
+                "prediction": "14141",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: Provide the sum of 6323 and 7818. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is a simple C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 6323;\n    int num2 = 7818;\n    int sum = num1 + num2;\n    std::cout << \"[FINAL ANSWER] \" << sum << std::endl;\n    return 0;\n}\n```\n\nIf you run this code, it will add the two numbers and print the result. The output will be:\n\n```\n[FINAL ANSWER] 14141\n```",
+            "metrics": {
+                "ground_truth": "14141",
+                "prediction": "14141",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the result of multiplying 9358 and 1087?",
+            "response": "[FINAL ANSWER] 10167166",
+            "metrics": {
+                "ground_truth": "10172146",
+                "prediction": "10167166",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 4980.0,
+                "rel_distance": 0.0004895722102297784
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: What is the result of multiplying 9358 and 1087? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is a simple C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 9358;\n    int num2 = 1087;\n    int result = num1 * num2;\n    std::cout << \"[FINAL ANSWER] \" << result << std::endl;\n    return 0;\n}\n```\n\nIf we simulate the execution of this code, the output would be:\n\n[FINAL ANSWER] 10170566",
+            "metrics": {
+                "ground_truth": "10172146",
+                "prediction": "10170566",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 1580.0,
+                "rel_distance": 0.00015532612292430722
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the sum of numbers 5775 and 9358?",
+            "response": "[FINAL ANSWER] 15133",
+            "metrics": {
+                "ground_truth": "15133",
+                "prediction": "15133",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: What is the sum of numbers 5775 and 9358? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is the C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 5775;\n    int num2 = 9358;\n    int sum = num1 + num2;\n\n    std::cout << \"[FINAL ANSWER] The sum is: \" << sum << std::endl;\n\n    return 0;\n}\n```\n\nSimulating the execution of this code:\n\nThe code first declares and initializes two integer variables, `num1` and `num2`, with the values 5775 and 9358 respectively. Then it declares another integer variable `sum` and initializes it with the sum of `num1` and `num2`. Finally, it prints out the sum prefixed with \"[FINAL ANSWER] The sum is: \".\n\nSo, the output of this code will be:\n\n[FINAL ANSWER] The sum is: 15133",
+            "metrics": {
+                "ground_truth": "15133",
+                "prediction": "15133",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What do you get when you multiply 8068 and 6934?",
+            "response": "[FINAL ANSWER] 55895032",
+            "metrics": {
+                "ground_truth": "55943512",
+                "prediction": "55895032",
+                "abs_edit_distance": 5,
+                "rel_edit_distance": 0.625,
+                "abs_distance": 48480.0,
+                "rel_distance": 0.0008665884258392644
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: What do you get when you multiply 8068 and 6934? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is a simple C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 8068;\n    int num2 = 6934;\n    int product = num1 * num2;\n    std::cout << \"[FINAL ANSWER] \" << product << std::endl;\n    return 0;\n}\n```\n\nIf you run this code, it will multiply 8068 and 6934 and print the result. \n\nSimulating the execution of this code, the output would be:\n\n[FINAL ANSWER] 55878552",
+            "metrics": {
+                "ground_truth": "55943512",
+                "prediction": "55878552",
+                "abs_edit_distance": 4,
+                "rel_edit_distance": 0.5,
+                "abs_distance": 64960.0,
+                "rel_distance": 0.0011611712900684533
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Find the result of multiplying 8182 and 5581.",
+            "response": "[FINAL ANSWER] 45666642",
+            "metrics": {
+                "ground_truth": "45663742",
+                "prediction": "45666642",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.25,
+                "abs_distance": 2900.0,
+                "rel_distance": 6.350771691027862e-05
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: Find the result of multiplying 8182 and 5581. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is a simple C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 8182;\n    int num2 = 5581;\n    int result = num1 * num2;\n    std::cout << \"[FINAL ANSWER] \" << result << std::endl;\n    return 0;\n}\n```\n\nIf we simulate the execution of this code, it will multiply 8182 and 5581 and print the result. The output will be:\n\n```\n[FINAL ANSWER] 45678942\n```",
+            "metrics": {
+                "ground_truth": "45663742",
+                "prediction": "45678942",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 15200.0,
+                "rel_distance": 0.00033286803346077067
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Give the product of 2735 and 5522.",
+            "response": "The product of 2735 and 5522 is 15092770.\n\n[FINAL ANSWER] 15092770",
+            "metrics": {
+                "ground_truth": "15102670",
+                "prediction": "15092770",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 9900.0,
+                "rel_distance": 0.0006555132304420344
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: Give the product of 2735 and 5522. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is a simple C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 2735;\n    int num2 = 5522;\n    int product = num1 * num2;\n    std::cout << \"[FINAL ANSWER] \" << product << std::endl;\n    return 0;\n}\n```\n\nIf we simulate the execution of this code, it will multiply 2735 and 5522, and print the result. The output will be:\n\n```\n[FINAL ANSWER] 15094770\n```",
+            "metrics": {
+                "ground_truth": "15102670",
+                "prediction": "15094770",
+                "abs_edit_distance": 4,
+                "rel_edit_distance": 0.5,
+                "abs_distance": 7900.0,
+                "rel_distance": 0.0005230863152012194
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Give the sum of 8416 and 7704.",
+            "response": "[FINAL ANSWER] 16120",
+            "metrics": {
+                "ground_truth": "16120",
+                "prediction": "16120",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: Give the sum of 8416 and 7704. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is a simple C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 8416;\n    int num2 = 7704;\n    int sum = num1 + num2;\n\n    std::cout << \"[FINAL ANSWER] \" << sum << std::endl;\n\n    return 0;\n}\n```\n\nWhen you run this code, it will add the two numbers and print the sum. The output will be:\n\n```\n[FINAL ANSWER] 16120\n```",
+            "metrics": {
+                "ground_truth": "16120",
+                "prediction": "16120",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the product of 4105 and 2872?",
+            "response": "The product of 4105 and 2872 is 11791440.\n\n[FINAL ANSWER] 11791440",
+            "metrics": {
+                "ground_truth": "11789560",
+                "prediction": "11791440",
+                "abs_edit_distance": 4,
+                "rel_edit_distance": 0.5,
+                "abs_distance": 1880.0,
+                "rel_distance": 0.00015946311821645593
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: What is the product of 4105 and 2872? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is the C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 4105;\n    int num2 = 2872;\n    int product = num1 * num2;\n    std::cout << \"[FINAL ANSWER] \" << product << std::endl;\n    return 0;\n}\n```\n\nSimulating the execution of this code would give the following output:\n\n```shell\n[FINAL ANSWER] 11789440\n```",
+            "metrics": {
+                "ground_truth": "11789560",
+                "prediction": "11789440",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.25,
+                "abs_distance": 120.0,
+                "rel_distance": 1.0178496907433356e-05
+            }
+        }
+    }
+]

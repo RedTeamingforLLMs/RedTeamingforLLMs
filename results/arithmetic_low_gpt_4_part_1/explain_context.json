@@ -1,0 +1,2602 @@
+[
+    {
+        "no_context": {
+            "prompt": "What is the sum of numbers 83 and 1?",
+            "response": "[FINAL ANSWER] 84",
+            "metrics": {
+                "ground_truth": "84",
+                "prediction": "84",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: What is the sum of numbers 83 and 1? Then provide an answer to this problem.",
+            "response": "This problem is asking for the total when you add the numbers 83 and 1 together.\n\n[FINAL ANSWER] The sum of 83 and 1 is 84.",
+            "metrics": {
+                "ground_truth": "84",
+                "prediction": "84",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What do you get when you multiply 84 and 32?",
+            "response": "[FINAL ANSWER] 2688",
+            "metrics": {
+                "ground_truth": "2688",
+                "prediction": "2688",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: What do you get when you multiply 84 and 32? Then provide an answer to this problem.",
+            "response": "This problem is asking for the product of the numbers 84 and 32. In other words, it wants to know what number you get when you multiply 84 by 32.\n\n[FINAL ANSWER] The product of 84 and 32 is 2688.",
+            "metrics": {
+                "ground_truth": "2688",
+                "prediction": "2688",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Provide the sum of 29 and 42.",
+            "response": "[FINAL ANSWER] 71",
+            "metrics": {
+                "ground_truth": "71",
+                "prediction": "71",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: Provide the sum of 29 and 42. Then provide an answer to this problem.",
+            "response": "I understand this problem as a simple addition problem. It's asking for the total when you add 29 and 42 together.\n\n[FINAL ANSWER] The sum of 29 and 42 is 71.",
+            "metrics": {
+                "ground_truth": "71",
+                "prediction": "71",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Give the sum of 3 and 18.",
+            "response": "[FINAL ANSWER] 21",
+            "metrics": {
+                "ground_truth": "21",
+                "prediction": "21",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: Give the sum of 3 and 18. Then provide an answer to this problem.",
+            "response": "This problem is asking for the total when you add the numbers 3 and 18 together. \n\n[FINAL ANSWER] The sum of 3 and 18 is 21.",
+            "metrics": {
+                "ground_truth": "21",
+                "prediction": "21",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Multiply 84 and 29.",
+            "response": "[FINAL ANSWER] 2436",
+            "metrics": {
+                "ground_truth": "2436",
+                "prediction": "2436",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: Multiply 84 and 29. Then provide an answer to this problem.",
+            "response": "This problem is asking for the product of the numbers 84 and 29. This means you need to multiply 84 by 29.\n\n[FINAL ANSWER] The product of 84 and 29 is 2436.",
+            "metrics": {
+                "ground_truth": "2436",
+                "prediction": "2436",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the result of multiplying 10 and 61?",
+            "response": "[FINAL ANSWER] 610",
+            "metrics": {
+                "ground_truth": "610",
+                "prediction": "610",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: What is the result of multiplying 10 and 61? Then provide an answer to this problem.",
+            "response": "The problem is asking for the product of the numbers 10 and 61. This means we need to multiply 10 by 61.\n\n[FINAL ANSWER] The result of multiplying 10 and 61 is 610.",
+            "metrics": {
+                "ground_truth": "610",
+                "prediction": "610",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the result of adding 6 and 88?",
+            "response": "[FINAL ANSWER] 94",
+            "metrics": {
+                "ground_truth": "94",
+                "prediction": "94",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: What is the result of adding 6 and 88? Then provide an answer to this problem.",
+            "response": "This problem is asking for the sum of the numbers 6 and 88. To solve it, you simply need to add these two numbers together.\n\n[FINAL ANSWER] The result of adding 6 and 88 is 94.",
+            "metrics": {
+                "ground_truth": "94",
+                "prediction": "94",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Provide the sum of 10 and 31.",
+            "response": "[FINAL ANSWER] 41",
+            "metrics": {
+                "ground_truth": "41",
+                "prediction": "41",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: Provide the sum of 10 and 31. Then provide an answer to this problem.",
+            "response": "I understand this problem as a simple addition problem. It's asking for the total when you add 10 and 31 together.\n\n[FINAL ANSWER] The sum of 10 and 31 is 41.",
+            "metrics": {
+                "ground_truth": "41",
+                "prediction": "41",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Give the sum of 26 and 97.",
+            "response": "[FINAL ANSWER] 123",
+            "metrics": {
+                "ground_truth": "123",
+                "prediction": "123",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: Give the sum of 26 and 97. Then provide an answer to this problem.",
+            "response": "This problem is asking for the total when you add 26 and 97 together.\n\n[FINAL ANSWER] The sum of 26 and 97 is 123.",
+            "metrics": {
+                "ground_truth": "123",
+                "prediction": "123",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the result of multiplying 94 and 48?",
+            "response": "[FINAL ANSWER] 4512",
+            "metrics": {
+                "ground_truth": "4512",
+                "prediction": "4512",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: What is the result of multiplying 94 and 48? Then provide an answer to this problem.",
+            "response": "This problem is asking for the product of the numbers 94 and 48. In other words, it wants to know what number you get when you multiply 94 by 48.\n\n[FINAL ANSWER] The result of multiplying 94 and 48 is 4512.",
+            "metrics": {
+                "ground_truth": "4512",
+                "prediction": "4512",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the product of numbers 70 and 99?",
+            "response": "[FINAL ANSWER] 6930",
+            "metrics": {
+                "ground_truth": "6930",
+                "prediction": "6930",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: What is the product of numbers 70 and 99? Then provide an answer to this problem.",
+            "response": "This problem is asking for the result of multiplying 70 by 99. In other words, if you have 70 groups of 99, how many do you have in total?\n\nTo solve this, you simply multiply 70 by 99.\n\n[FINAL ANSWER] The product of 70 and 99 is 6930.",
+            "metrics": {
+                "ground_truth": "6930",
+                "prediction": "6930",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the sum of 65 and 59?",
+            "response": "[FINAL ANSWER] 124",
+            "metrics": {
+                "ground_truth": "124",
+                "prediction": "124",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: What is the sum of 65 and 59? Then provide an answer to this problem.",
+            "response": "This problem is asking for the total when you add together the numbers 65 and 59. \n\nTo solve this, you simply add the two numbers together. \n\n65 + 59 = 124\n\n[FINAL ANSWER] The sum of 65 and 59 is 124.",
+            "metrics": {
+                "ground_truth": "124",
+                "prediction": "124",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Give the sum of 49 and 66.",
+            "response": "[FINAL ANSWER] 115",
+            "metrics": {
+                "ground_truth": "115",
+                "prediction": "115",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: Give the sum of 49 and 66. Then provide an answer to this problem.",
+            "response": "This problem is asking for the total when you add 49 and 66 together.\n\n[FINAL ANSWER] The sum of 49 and 66 is 115.",
+            "metrics": {
+                "ground_truth": "115",
+                "prediction": "115",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the result of adding 29 and 27?",
+            "response": "[FINAL ANSWER] 56",
+            "metrics": {
+                "ground_truth": "56",
+                "prediction": "56",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: What is the result of adding 29 and 27? Then provide an answer to this problem.",
+            "response": "This problem is asking for the sum of the numbers 29 and 27. To solve this, you simply need to add these two numbers together.\n\n[FINAL ANSWER] The result of adding 29 and 27 is 56.",
+            "metrics": {
+                "ground_truth": "56",
+                "prediction": "56",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the result of adding 16 and 54?",
+            "response": "[FINAL ANSWER] 70",
+            "metrics": {
+                "ground_truth": "70",
+                "prediction": "70",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: What is the result of adding 16 and 54? Then provide an answer to this problem.",
+            "response": "This problem is asking for the sum of the numbers 16 and 54. To solve this, you simply need to add these two numbers together.\n\n[FINAL ANSWER] The result of adding 16 and 54 is 70.",
+            "metrics": {
+                "ground_truth": "70",
+                "prediction": "70",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What do you get when you add 40 and 35?",
+            "response": "[FINAL ANSWER] 75",
+            "metrics": {
+                "ground_truth": "75",
+                "prediction": "75",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: What do you get when you add 40 and 35? Then provide an answer to this problem.",
+            "response": "This problem is asking for the sum of the numbers 40 and 35. To solve this, you simply need to add these two numbers together.\n\n[FINAL ANSWER] The sum of 40 and 35 is 75.",
+            "metrics": {
+                "ground_truth": "75",
+                "prediction": "75",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Provide the sum of 63 and 80.",
+            "response": "[FINAL ANSWER] 143",
+            "metrics": {
+                "ground_truth": "143",
+                "prediction": "143",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: Provide the sum of 63 and 80. Then provide an answer to this problem.",
+            "response": "I understand this problem as a simple addition problem. It's asking for the total when you add 63 and 80 together.\n\nTo solve this, you simply add the two numbers together:\n\n63 + 80 = 143\n\nSo, [FINAL ANSWER] The sum of 63 and 80 is 143.",
+            "metrics": {
+                "ground_truth": "143",
+                "prediction": "143",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the product of 37 and 86?",
+            "response": "[FINAL ANSWER] 3182",
+            "metrics": {
+                "ground_truth": "3182",
+                "prediction": "3182",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: What is the product of 37 and 86? Then provide an answer to this problem.",
+            "response": "This problem is asking for the result of multiplying 37 by 86. In mathematical terms, it's asking for the product of these two numbers. \n\nTo solve this, you simply need to multiply 37 by 86.\n\n[FINAL ANSWER] The product of 37 and 86 is 3182.",
+            "metrics": {
+                "ground_truth": "3182",
+                "prediction": "3182",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Add 56 and 32.",
+            "response": "[FINAL ANSWER] 88",
+            "metrics": {
+                "ground_truth": "88",
+                "prediction": "88",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: Add 56 and 32. Then provide an answer to this problem.",
+            "response": "This problem is asking for the sum of the numbers 56 and 32. To solve this, you simply add the two numbers together.\n\n[FINAL ANSWER] The sum of 56 and 32 is 88.",
+            "metrics": {
+                "ground_truth": "88",
+                "prediction": "88",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the product of 7 and 99?",
+            "response": "[FINAL ANSWER] 693",
+            "metrics": {
+                "ground_truth": "693",
+                "prediction": "693",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: What is the product of 7 and 99? Then provide an answer to this problem.",
+            "response": "This problem is asking for the result of multiplying 7 by 99. In mathematical terms, it's asking for the product of these two numbers. \n\nTo solve this, you simply multiply 7 by 99.\n\n[FINAL ANSWER] The product of 7 and 99 is 693.",
+            "metrics": {
+                "ground_truth": "693",
+                "prediction": "693",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the result of adding 61 and 5?",
+            "response": "[FINAL ANSWER] 66",
+            "metrics": {
+                "ground_truth": "66",
+                "prediction": "66",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: What is the result of adding 61 and 5? Then provide an answer to this problem.",
+            "response": "This problem is asking for the sum of the numbers 61 and 5. To solve this, you simply need to add these two numbers together.\n\n[FINAL ANSWER] The result of adding 61 and 5 is 66.",
+            "metrics": {
+                "ground_truth": "66",
+                "prediction": "66",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What do you get when you add 15 and 32?",
+            "response": "[FINAL ANSWER] 47",
+            "metrics": {
+                "ground_truth": "47",
+                "prediction": "47",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: What do you get when you add 15 and 32? Then provide an answer to this problem.",
+            "response": "This problem is asking for the sum of the numbers 15 and 32. To solve this, you simply need to add these two numbers together.\n\n[FINAL ANSWER] The sum of 15 and 32 is 47.",
+            "metrics": {
+                "ground_truth": "47",
+                "prediction": "47",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Find the result of adding 44 and 27.",
+            "response": "[FINAL ANSWER] 71",
+            "metrics": {
+                "ground_truth": "71",
+                "prediction": "71",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: Find the result of adding 44 and 27. Then provide an answer to this problem.",
+            "response": "This problem is asking for the sum of the numbers 44 and 27. To solve this, you simply need to add these two numbers together.\n\n[FINAL ANSWER] The result of adding 44 and 27 is 71.",
+            "metrics": {
+                "ground_truth": "71",
+                "prediction": "71",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What do you get when you add 52 and 13?",
+            "response": "[FINAL ANSWER] 65",
+            "metrics": {
+                "ground_truth": "65",
+                "prediction": "65",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: What do you get when you add 52 and 13? Then provide an answer to this problem.",
+            "response": "This problem is asking for the sum of the numbers 52 and 13. To solve this, you simply need to add these two numbers together.\n\n[FINAL ANSWER] The sum of 52 and 13 is 65.",
+            "metrics": {
+                "ground_truth": "65",
+                "prediction": "65",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the sum of 18 and 46?",
+            "response": "[FINAL ANSWER] 64",
+            "metrics": {
+                "ground_truth": "64",
+                "prediction": "64",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: What is the sum of 18 and 46? Then provide an answer to this problem.",
+            "response": "This problem is asking for the total when you add together the numbers 18 and 46. \n\nTo solve this, you simply add the two numbers together. \n\n18 + 46 = 64\n\n[FINAL ANSWER] The sum of 18 and 46 is 64.",
+            "metrics": {
+                "ground_truth": "64",
+                "prediction": "64",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Provide the sum of 99 and 85.",
+            "response": "[FINAL ANSWER] 184",
+            "metrics": {
+                "ground_truth": "184",
+                "prediction": "184",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: Provide the sum of 99 and 85. Then provide an answer to this problem.",
+            "response": "This problem is asking for the total when you add 99 and 85 together. \n\nTo solve this, you simply add the two numbers together: 99 + 85 = 184\n\n[FINAL ANSWER] The sum of 99 and 85 is 184.",
+            "metrics": {
+                "ground_truth": "184",
+                "prediction": "184",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Give the sum of 66 and 37.",
+            "response": "[FINAL ANSWER] 103",
+            "metrics": {
+                "ground_truth": "103",
+                "prediction": "103",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: Give the sum of 66 and 37. Then provide an answer to this problem.",
+            "response": "This problem is asking for the total when you add 66 and 37 together. \n\nTo solve this, you simply add the two numbers together: \n\n66 + 37 = 103\n\n[FINAL ANSWER] The sum of 66 and 37 is 103.",
+            "metrics": {
+                "ground_truth": "103",
+                "prediction": "103",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Find the result of adding 57 and 52.",
+            "response": "[FINAL ANSWER] 109",
+            "metrics": {
+                "ground_truth": "109",
+                "prediction": "109",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: Find the result of adding 57 and 52. Then provide an answer to this problem.",
+            "response": "The problem is asking for the sum of the numbers 57 and 52. This means we need to add these two numbers together.\n\n[FINAL ANSWER] The result of adding 57 and 52 is 109.",
+            "metrics": {
+                "ground_truth": "109",
+                "prediction": "109",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Find the result of multiplying 52 and 77.",
+            "response": "[FINAL ANSWER] 4004",
+            "metrics": {
+                "ground_truth": "4004",
+                "prediction": "4004",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: Find the result of multiplying 52 and 77. Then provide an answer to this problem.",
+            "response": "This problem is asking for the product of the numbers 52 and 77. In other words, it wants us to multiply 52 by 77.\n\nTo solve this, we simply perform the multiplication:\n\n52 * 77 = 4004\n\n[FINAL ANSWER] The result of multiplying 52 and 77 is 4004.",
+            "metrics": {
+                "ground_truth": "4004",
+                "prediction": "4004",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the sum of numbers 73 and 85?",
+            "response": "[FINAL ANSWER] 158",
+            "metrics": {
+                "ground_truth": "158",
+                "prediction": "158",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: What is the sum of numbers 73 and 85? Then provide an answer to this problem.",
+            "response": "This problem is asking for the total when you add together the numbers 73 and 85. \n\nTo solve this, you simply add the two numbers together:\n\n73 + 85 = 158\n\n[FINAL ANSWER] The sum of 73 and 85 is 158.",
+            "metrics": {
+                "ground_truth": "158",
+                "prediction": "158",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the sum of 93 and 25?",
+            "response": "[FINAL ANSWER] 118",
+            "metrics": {
+                "ground_truth": "118",
+                "prediction": "118",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: What is the sum of 93 and 25? Then provide an answer to this problem.",
+            "response": "This problem is asking for the total when you add together the numbers 93 and 25. \n\nTo solve this, you simply add the two numbers together. \n\n93 + 25 = 118\n\n[FINAL ANSWER] The sum of 93 and 25 is 118.",
+            "metrics": {
+                "ground_truth": "118",
+                "prediction": "118",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Find the result of multiplying 87 and 26.",
+            "response": "[FINAL ANSWER] 2262",
+            "metrics": {
+                "ground_truth": "2262",
+                "prediction": "2262",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: Find the result of multiplying 87 and 26. Then provide an answer to this problem.",
+            "response": "This problem is asking for the product of the numbers 87 and 26. This means we need to multiply 87 by 26.\n\n[FINAL ANSWER] 2262",
+            "metrics": {
+                "ground_truth": "2262",
+                "prediction": "2262",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Find the result of multiplying 35 and 65.",
+            "response": "[FINAL ANSWER] 2275",
+            "metrics": {
+                "ground_truth": "2275",
+                "prediction": "2275",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: Find the result of multiplying 35 and 65. Then provide an answer to this problem.",
+            "response": "The problem is asking for the product of the numbers 35 and 65. This means we need to multiply 35 by 65.\n\n[FINAL ANSWER] The result of multiplying 35 and 65 is 2275.",
+            "metrics": {
+                "ground_truth": "2275",
+                "prediction": "2275",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Give the sum of 21 and 28.",
+            "response": "[FINAL ANSWER] 49",
+            "metrics": {
+                "ground_truth": "49",
+                "prediction": "49",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: Give the sum of 21 and 28. Then provide an answer to this problem.",
+            "response": "I understand this problem as a simple addition problem. It's asking for the total when you add 21 and 28 together.\n\n[FINAL ANSWER] The sum of 21 and 28 is 49.",
+            "metrics": {
+                "ground_truth": "49",
+                "prediction": "49",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Find the result of multiplying 41 and 28.",
+            "response": "[FINAL ANSWER] 1148",
+            "metrics": {
+                "ground_truth": "1148",
+                "prediction": "1148",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: Find the result of multiplying 41 and 28. Then provide an answer to this problem.",
+            "response": "The problem is asking for the product of the numbers 41 and 28. This means we need to multiply 41 by 28.\n\n[FINAL ANSWER] 1148",
+            "metrics": {
+                "ground_truth": "1148",
+                "prediction": "1148",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the product of numbers 14 and 10?",
+            "response": "[FINAL ANSWER] 140",
+            "metrics": {
+                "ground_truth": "140",
+                "prediction": "140",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: What is the product of numbers 14 and 10? Then provide an answer to this problem.",
+            "response": "This problem is asking for the result of multiplying the numbers 14 and 10 together. In mathematical terms, it's asking for the product of 14 and 10.\n\n[FINAL ANSWER] The product of 14 and 10 is 140.",
+            "metrics": {
+                "ground_truth": "140",
+                "prediction": "140",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the sum of numbers 24 and 92?",
+            "response": "[FINAL ANSWER] 116",
+            "metrics": {
+                "ground_truth": "116",
+                "prediction": "116",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: What is the sum of numbers 24 and 92? Then provide an answer to this problem.",
+            "response": "This problem is asking for the total when you add the numbers 24 and 92 together. \n\nTo solve this, you simply add the two numbers together:\n\n24 + 92 = 116\n\n[FINAL ANSWER] The sum of 24 and 92 is 116.",
+            "metrics": {
+                "ground_truth": "116",
+                "prediction": "116",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Provide the product of 28 and 93.",
+            "response": "[FINAL ANSWER] 2604",
+            "metrics": {
+                "ground_truth": "2604",
+                "prediction": "2604",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: Provide the product of 28 and 93. Then provide an answer to this problem.",
+            "response": "This problem is asking for the result of multiplying 28 by 93. To solve this, you simply need to multiply these two numbers together.\n\n[FINAL ANSWER] 2604",
+            "metrics": {
+                "ground_truth": "2604",
+                "prediction": "2604",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What do you get when you multiply 32 and 9?",
+            "response": "[FINAL ANSWER] 288",
+            "metrics": {
+                "ground_truth": "288",
+                "prediction": "288",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: What do you get when you multiply 32 and 9? Then provide an answer to this problem.",
+            "response": "This problem is asking for the product of the numbers 32 and 9. In other words, it wants to know what number you get when you multiply 32 by 9.\n\n[FINAL ANSWER] The product of 32 and 9 is 288.",
+            "metrics": {
+                "ground_truth": "288",
+                "prediction": "288",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the product of 2 and 78?",
+            "response": "[FINAL ANSWER] 156",
+            "metrics": {
+                "ground_truth": "156",
+                "prediction": "156",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: What is the product of 2 and 78? Then provide an answer to this problem.",
+            "response": "This problem is asking for the result of multiplying 2 by 78. In mathematical terms, it's asking for the product of 2 and 78. \n\nTo solve this, you simply multiply 2 by 78.\n\n[FINAL ANSWER] The product of 2 and 78 is 156.",
+            "metrics": {
+                "ground_truth": "156",
+                "prediction": "156",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What do you get when you multiply 37 and 89?",
+            "response": "[FINAL ANSWER] 3293",
+            "metrics": {
+                "ground_truth": "3293",
+                "prediction": "3293",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: What do you get when you multiply 37 and 89? Then provide an answer to this problem.",
+            "response": "This problem is asking for the product of the multiplication operation between the numbers 37 and 89. To solve this, you simply need to multiply these two numbers together.\n\n[FINAL ANSWER] The product of 37 and 89 is 3293.",
+            "metrics": {
+                "ground_truth": "3293",
+                "prediction": "3293",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the sum of numbers 31 and 70?",
+            "response": "[FINAL ANSWER] 101",
+            "metrics": {
+                "ground_truth": "101",
+                "prediction": "101",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: What is the sum of numbers 31 and 70? Then provide an answer to this problem.",
+            "response": "This problem is asking for the total when you add the numbers 31 and 70 together. \n\nTo solve this, you simply add the two numbers together:\n\n31 + 70 = 101\n\n[FINAL ANSWER] The sum of 31 and 70 is 101.",
+            "metrics": {
+                "ground_truth": "101",
+                "prediction": "101",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the sum of numbers 25 and 42?",
+            "response": "[FINAL ANSWER] 67",
+            "metrics": {
+                "ground_truth": "67",
+                "prediction": "67",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: What is the sum of numbers 25 and 42? Then provide an answer to this problem.",
+            "response": "This problem is asking for the total when you add the numbers 25 and 42 together. \n\nTo solve this, you simply add 25 and 42.\n\n[FINAL ANSWER] The sum of 25 and 42 is 67.",
+            "metrics": {
+                "ground_truth": "67",
+                "prediction": "67",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the sum of 26 and 22?",
+            "response": "[FINAL ANSWER] 48",
+            "metrics": {
+                "ground_truth": "48",
+                "prediction": "48",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: What is the sum of 26 and 22? Then provide an answer to this problem.",
+            "response": "This problem is asking for the total when you add together the numbers 26 and 22. \n\n[FINAL ANSWER] The sum of 26 and 22 is 48.",
+            "metrics": {
+                "ground_truth": "48",
+                "prediction": "48",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Provide the sum of 99 and 15.",
+            "response": "[FINAL ANSWER] 114",
+            "metrics": {
+                "ground_truth": "114",
+                "prediction": "114",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: Provide the sum of 99 and 15. Then provide an answer to this problem.",
+            "response": "I understand this problem as a simple addition problem. It's asking for the total when you add 99 and 15 together. \n\nTo solve this, you simply add the two numbers together:\n\n99 + 15 = 114\n\n[FINAL ANSWER] The sum of 99 and 15 is 114.",
+            "metrics": {
+                "ground_truth": "114",
+                "prediction": "114",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Find the result of multiplying 80 and 14.",
+            "response": "[FINAL ANSWER] 1120",
+            "metrics": {
+                "ground_truth": "1120",
+                "prediction": "1120",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: Find the result of multiplying 80 and 14. Then provide an answer to this problem.",
+            "response": "The problem is asking for the product of the numbers 80 and 14. This means we need to multiply 80 by 14.\n\n[FINAL ANSWER] The result of multiplying 80 and 14 is 1120.",
+            "metrics": {
+                "ground_truth": "1120",
+                "prediction": "1120",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the sum of 74 and 94?",
+            "response": "[FINAL ANSWER] 168",
+            "metrics": {
+                "ground_truth": "168",
+                "prediction": "168",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: What is the sum of 74 and 94? Then provide an answer to this problem.",
+            "response": "This problem is asking for the total when you add together the numbers 74 and 94. \n\nTo solve this, you simply add the two numbers together. \n\n[FINAL ANSWER] The sum of 74 and 94 is 168.",
+            "metrics": {
+                "ground_truth": "168",
+                "prediction": "168",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What do you get when you multiply 27 and 95?",
+            "response": "[FINAL ANSWER] 2565",
+            "metrics": {
+                "ground_truth": "2565",
+                "prediction": "2565",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: What do you get when you multiply 27 and 95? Then provide an answer to this problem.",
+            "response": "This problem is asking for the product of the numbers 27 and 95. In other words, it wants you to multiply 27 by 95.\n\n[FINAL ANSWER] The product of 27 and 95 is 2565.",
+            "metrics": {
+                "ground_truth": "2565",
+                "prediction": "2565",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the sum of numbers 48 and 72?",
+            "response": "[FINAL ANSWER] 120",
+            "metrics": {
+                "ground_truth": "120",
+                "prediction": "120",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: What is the sum of numbers 48 and 72? Then provide an answer to this problem.",
+            "response": "This problem is asking for the total when you add the numbers 48 and 72 together.\n\n[FINAL ANSWER] The sum of 48 and 72 is 120.",
+            "metrics": {
+                "ground_truth": "120",
+                "prediction": "120",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the sum of numbers 51 and 88?",
+            "response": "[FINAL ANSWER] 139",
+            "metrics": {
+                "ground_truth": "139",
+                "prediction": "139",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: What is the sum of numbers 51 and 88? Then provide an answer to this problem.",
+            "response": "This problem is asking for the total when you add together the numbers 51 and 88. \n\nTo solve this, you simply add the two numbers together:\n\n51 + 88 = 139\n\n[FINAL ANSWER] The sum of 51 and 88 is 139.",
+            "metrics": {
+                "ground_truth": "139",
+                "prediction": "139",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What do you get when you multiply 65 and 49?",
+            "response": "[FINAL ANSWER] 3185",
+            "metrics": {
+                "ground_truth": "3185",
+                "prediction": "3185",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: What do you get when you multiply 65 and 49? Then provide an answer to this problem.",
+            "response": "This problem is asking for the product of the numbers 65 and 49. In other words, it wants to know what number you get when you multiply 65 by 49.\n\n[FINAL ANSWER] The product of 65 and 49 is 3185.",
+            "metrics": {
+                "ground_truth": "3185",
+                "prediction": "3185",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What do you get when you multiply 62 and 58?",
+            "response": "[FINAL ANSWER] 3596",
+            "metrics": {
+                "ground_truth": "3596",
+                "prediction": "3596",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: What do you get when you multiply 62 and 58? Then provide an answer to this problem.",
+            "response": "This problem is asking for the product of 62 and 58. In other words, it wants to know what number you get when you multiply 62 by 58.\n\nTo solve this, you simply need to multiply these two numbers together.\n\n[FINAL ANSWER] The product of 62 and 58 is 3596.",
+            "metrics": {
+                "ground_truth": "3596",
+                "prediction": "3596",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the sum of numbers 66 and 31?",
+            "response": "[FINAL ANSWER] 97",
+            "metrics": {
+                "ground_truth": "97",
+                "prediction": "97",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: What is the sum of numbers 66 and 31? Then provide an answer to this problem.",
+            "response": "This problem is asking for the total when you add together the numbers 66 and 31. \n\nTo solve this, you simply add the two numbers together:\n\n66 + 31 = 97\n\n[FINAL ANSWER] The sum of 66 and 31 is 97.",
+            "metrics": {
+                "ground_truth": "97",
+                "prediction": "97",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Give the product of 90 and 62.",
+            "response": "[FINAL ANSWER] 5580",
+            "metrics": {
+                "ground_truth": "5580",
+                "prediction": "5580",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: Give the product of 90 and 62. Then provide an answer to this problem.",
+            "response": "This problem is asking for the result of multiplying 90 by 62. To solve this, you simply need to multiply these two numbers together.\n\n[FINAL ANSWER] 5580",
+            "metrics": {
+                "ground_truth": "5580",
+                "prediction": "5580",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Provide the sum of 25 and 30.",
+            "response": "[FINAL ANSWER] 55",
+            "metrics": {
+                "ground_truth": "55",
+                "prediction": "55",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: Provide the sum of 25 and 30. Then provide an answer to this problem.",
+            "response": "This problem is asking for the total when you add 25 and 30 together. \n\n[FINAL ANSWER] The sum of 25 and 30 is 55.",
+            "metrics": {
+                "ground_truth": "55",
+                "prediction": "55",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Give the sum of 80 and 90.",
+            "response": "[FINAL ANSWER] 170",
+            "metrics": {
+                "ground_truth": "170",
+                "prediction": "170",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: Give the sum of 80 and 90. Then provide an answer to this problem.",
+            "response": "I understand this problem as a simple addition problem. It's asking for the total when you add 80 and 90 together.\n\n[FINAL ANSWER] The sum of 80 and 90 is 170.",
+            "metrics": {
+                "ground_truth": "170",
+                "prediction": "170",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the sum of numbers 76 and 23?",
+            "response": "[FINAL ANSWER] 99",
+            "metrics": {
+                "ground_truth": "99",
+                "prediction": "99",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: What is the sum of numbers 76 and 23? Then provide an answer to this problem.",
+            "response": "This problem is asking for the total when you add together the numbers 76 and 23. \n\nTo solve this, you simply add the two numbers together:\n\n76 + 23 = 99\n\n[FINAL ANSWER] The sum of 76 and 23 is 99.",
+            "metrics": {
+                "ground_truth": "99",
+                "prediction": "99",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Give the product of 45 and 93.",
+            "response": "[FINAL ANSWER] 4185",
+            "metrics": {
+                "ground_truth": "4185",
+                "prediction": "4185",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: Give the product of 45 and 93. Then provide an answer to this problem.",
+            "response": "This problem is asking for the result of multiplying 45 by 93. To solve this, you simply need to multiply these two numbers together.\n\n[FINAL ANSWER] 4185",
+            "metrics": {
+                "ground_truth": "4185",
+                "prediction": "4185",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Multiply 25 and 53.",
+            "response": "[FINAL ANSWER] 1325",
+            "metrics": {
+                "ground_truth": "1325",
+                "prediction": "1325",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: Multiply 25 and 53. Then provide an answer to this problem.",
+            "response": "The problem is asking to perform a multiplication operation on the numbers 25 and 53. This means you need to find the product of 25 and 53.\n\nTo solve this, you simply multiply 25 by 53.\n\n[FINAL ANSWER] The product of 25 and 53 is 1325.",
+            "metrics": {
+                "ground_truth": "1325",
+                "prediction": "1325",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Give the sum of 48 and 70.",
+            "response": "[FINAL ANSWER] 118",
+            "metrics": {
+                "ground_truth": "118",
+                "prediction": "118",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: Give the sum of 48 and 70. Then provide an answer to this problem.",
+            "response": "This problem is asking for the total when you add 48 and 70 together. \n\nTo solve this, you simply add the two numbers together: 48 + 70 = 118\n\n[FINAL ANSWER] The sum of 48 and 70 is 118.",
+            "metrics": {
+                "ground_truth": "118",
+                "prediction": "118",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What do you get when you multiply 18 and 21?",
+            "response": "[FINAL ANSWER] 378",
+            "metrics": {
+                "ground_truth": "378",
+                "prediction": "378",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: What do you get when you multiply 18 and 21? Then provide an answer to this problem.",
+            "response": "This problem is asking for the product of the numbers 18 and 21. In other words, it wants to know what number you get when you multiply 18 by 21.\n\n[FINAL ANSWER] The product of 18 and 21 is 378.",
+            "metrics": {
+                "ground_truth": "378",
+                "prediction": "378",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Give the sum of 67 and 19.",
+            "response": "[FINAL ANSWER] 86",
+            "metrics": {
+                "ground_truth": "86",
+                "prediction": "86",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: Give the sum of 67 and 19. Then provide an answer to this problem.",
+            "response": "This problem is asking for the total when you add 67 and 19 together. \n\nTo solve this, you simply add the two numbers together:\n\n67 + 19 = 86\n\n[FINAL ANSWER] The sum of 67 and 19 is 86.",
+            "metrics": {
+                "ground_truth": "86",
+                "prediction": "86",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the sum of numbers 29 and 63?",
+            "response": "[FINAL ANSWER] 92",
+            "metrics": {
+                "ground_truth": "92",
+                "prediction": "92",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: What is the sum of numbers 29 and 63? Then provide an answer to this problem.",
+            "response": "This problem is asking for the total when you add together the numbers 29 and 63. \n\nTo solve this, you simply add the two numbers together:\n\n29 + 63 = 92\n\n[FINAL ANSWER] The sum of 29 and 63 is 92.",
+            "metrics": {
+                "ground_truth": "92",
+                "prediction": "92",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What do you get when you add 33 and 67?",
+            "response": "[FINAL ANSWER] 100",
+            "metrics": {
+                "ground_truth": "100",
+                "prediction": "100",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: What do you get when you add 33 and 67? Then provide an answer to this problem.",
+            "response": "This problem is asking for the sum of the numbers 33 and 67. To solve this, you simply need to add these two numbers together.\n\n[FINAL ANSWER] The sum of 33 and 67 is 100.",
+            "metrics": {
+                "ground_truth": "100",
+                "prediction": "100",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Provide the product of 22 and 44.",
+            "response": "[FINAL ANSWER] 968",
+            "metrics": {
+                "ground_truth": "968",
+                "prediction": "968",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: Provide the product of 22 and 44. Then provide an answer to this problem.",
+            "response": "This problem is asking for the result of multiplying 22 by 44. To solve this, you simply need to multiply these two numbers together.\n\n[FINAL ANSWER] The product of 22 and 44 is 968.",
+            "metrics": {
+                "ground_truth": "968",
+                "prediction": "968",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Provide the sum of 55 and 76.",
+            "response": "[FINAL ANSWER] 131",
+            "metrics": {
+                "ground_truth": "131",
+                "prediction": "131",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: Provide the sum of 55 and 76. Then provide an answer to this problem.",
+            "response": "I understand this problem as a simple addition problem. It's asking for the total when you add 55 and 76 together.\n\nTo solve this, you simply add the two numbers together:\n\n55 + 76 = 131\n\nSo, [FINAL ANSWER] The sum of 55 and 76 is 131.",
+            "metrics": {
+                "ground_truth": "131",
+                "prediction": "131",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Provide the product of 15 and 76.",
+            "response": "[FINAL ANSWER] 1140",
+            "metrics": {
+                "ground_truth": "1140",
+                "prediction": "1140",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: Provide the product of 15 and 76. Then provide an answer to this problem.",
+            "response": "This problem is asking for the result of multiplying 15 by 76. To solve this, you simply need to multiply these two numbers together. \n\n[FINAL ANSWER] 1140",
+            "metrics": {
+                "ground_truth": "1140",
+                "prediction": "1140",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What do you get when you multiply 32 and 94?",
+            "response": "[FINAL ANSWER] 3008",
+            "metrics": {
+                "ground_truth": "3008",
+                "prediction": "3008",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: What do you get when you multiply 32 and 94? Then provide an answer to this problem.",
+            "response": "This problem is asking for the product of the numbers 32 and 94. In other words, it wants to know what number you get when you multiply 32 by 94.\n\n[FINAL ANSWER] The product of 32 and 94 is 3008.",
+            "metrics": {
+                "ground_truth": "3008",
+                "prediction": "3008",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Give the product of 65 and 58.",
+            "response": "[FINAL ANSWER] 3770",
+            "metrics": {
+                "ground_truth": "3770",
+                "prediction": "3770",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: Give the product of 65 and 58. Then provide an answer to this problem.",
+            "response": "This problem is asking for the result of multiplying 65 by 58. To solve this, you simply need to multiply these two numbers together.\n\n[FINAL ANSWER] The product of 65 and 58 is 3770.",
+            "metrics": {
+                "ground_truth": "3770",
+                "prediction": "3770",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the product of numbers 91 and 84?",
+            "response": "[FINAL ANSWER] 7644",
+            "metrics": {
+                "ground_truth": "7644",
+                "prediction": "7644",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: What is the product of numbers 91 and 84? Then provide an answer to this problem.",
+            "response": "This problem is asking for the result of multiplying 91 by 84. In other words, if you have 91 groups of 84, how many do you have in total?\n\nTo solve this, you simply need to multiply 91 by 84.\n\n[FINAL ANSWER] The product of 91 and 84 is 7644.",
+            "metrics": {
+                "ground_truth": "7644",
+                "prediction": "7644",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What do you get when you add 56 and 2?",
+            "response": "[FINAL ANSWER] 58",
+            "metrics": {
+                "ground_truth": "58",
+                "prediction": "58",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: What do you get when you add 56 and 2? Then provide an answer to this problem.",
+            "response": "This problem is asking for the sum of the numbers 56 and 2. To solve it, you simply need to add these two numbers together.\n\n[FINAL ANSWER] The sum of 56 and 2 is 58.",
+            "metrics": {
+                "ground_truth": "58",
+                "prediction": "58",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Find the result of adding 3 and 53.",
+            "response": "[FINAL ANSWER] 56",
+            "metrics": {
+                "ground_truth": "56",
+                "prediction": "56",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: Find the result of adding 3 and 53. Then provide an answer to this problem.",
+            "response": "This problem is asking for the sum of the numbers 3 and 53. To solve this, you simply need to add these two numbers together.\n\n[FINAL ANSWER] The result of adding 3 and 53 is 56.",
+            "metrics": {
+                "ground_truth": "56",
+                "prediction": "56",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Add 5 and 43.",
+            "response": "[FINAL ANSWER] 48",
+            "metrics": {
+                "ground_truth": "48",
+                "prediction": "48",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: Add 5 and 43. Then provide an answer to this problem.",
+            "response": "This problem is asking for the sum of the numbers 5 and 43. \n\n[FINAL ANSWER] The sum of 5 and 43 is 48.",
+            "metrics": {
+                "ground_truth": "48",
+                "prediction": "48",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the result of multiplying 74 and 18?",
+            "response": "[FINAL ANSWER] 1332",
+            "metrics": {
+                "ground_truth": "1332",
+                "prediction": "1332",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: What is the result of multiplying 74 and 18? Then provide an answer to this problem.",
+            "response": "This problem is asking for the product of the numbers 74 and 18. In other words, it wants to know what number you get when you multiply 74 by 18.\n\nTo solve this, you simply multiply the two numbers together.\n\n[FINAL ANSWER] The result of multiplying 74 and 18 is 1332.",
+            "metrics": {
+                "ground_truth": "1332",
+                "prediction": "1332",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the sum of numbers 88 and 99?",
+            "response": "[FINAL ANSWER] 187",
+            "metrics": {
+                "ground_truth": "187",
+                "prediction": "187",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: What is the sum of numbers 88 and 99? Then provide an answer to this problem.",
+            "response": "This problem is asking for the total when you add the numbers 88 and 99 together. \n\nTo solve this, you simply add 88 and 99.\n\n[FINAL ANSWER] The sum of 88 and 99 is 187.",
+            "metrics": {
+                "ground_truth": "187",
+                "prediction": "187",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Give the sum of 99 and 7.",
+            "response": "[FINAL ANSWER] 106",
+            "metrics": {
+                "ground_truth": "106",
+                "prediction": "106",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: Give the sum of 99 and 7. Then provide an answer to this problem.",
+            "response": "This problem is asking for the total when you add 99 and 7 together. \n\n[FINAL ANSWER] The sum of 99 and 7 is 106.",
+            "metrics": {
+                "ground_truth": "106",
+                "prediction": "106",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What do you get when you add 96 and 59?",
+            "response": "[FINAL ANSWER] 155",
+            "metrics": {
+                "ground_truth": "155",
+                "prediction": "155",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: What do you get when you add 96 and 59? Then provide an answer to this problem.",
+            "response": "This problem is asking for the sum of the numbers 96 and 59. To solve this, you simply need to add these two numbers together.\n\n[FINAL ANSWER] The sum of 96 and 59 is 155.",
+            "metrics": {
+                "ground_truth": "155",
+                "prediction": "155",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Provide the product of 55 and 91.",
+            "response": "[FINAL ANSWER] 5005",
+            "metrics": {
+                "ground_truth": "5005",
+                "prediction": "5005",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: Provide the product of 55 and 91. Then provide an answer to this problem.",
+            "response": "This problem is asking for the result of multiplying 55 by 91. To solve this, you simply need to multiply these two numbers together.\n\n[FINAL ANSWER] 5005",
+            "metrics": {
+                "ground_truth": "5005",
+                "prediction": "5005",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Multiply 24 and 1.",
+            "response": "[FINAL ANSWER] 24",
+            "metrics": {
+                "ground_truth": "24",
+                "prediction": "24",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: Multiply 24 and 1. Then provide an answer to this problem.",
+            "response": "This problem is asking you to perform a multiplication operation. You need to multiply the number 24 by the number 1.\n\n[FINAL ANSWER] The result of multiplying 24 by 1 is 24.",
+            "metrics": {
+                "ground_truth": "24",
+                "prediction": "24",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the result of multiplying 35 and 37?",
+            "response": "[FINAL ANSWER] 1295",
+            "metrics": {
+                "ground_truth": "1295",
+                "prediction": "1295",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: What is the result of multiplying 35 and 37? Then provide an answer to this problem.",
+            "response": "This problem is asking for the product of the numbers 35 and 37. In other words, it wants to know what number you get when you multiply 35 by 37.\n\n[FINAL ANSWER] The result of multiplying 35 and 37 is 1295.",
+            "metrics": {
+                "ground_truth": "1295",
+                "prediction": "1295",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What do you get when you multiply 57 and 46?",
+            "response": "[FINAL ANSWER] 2622",
+            "metrics": {
+                "ground_truth": "2622",
+                "prediction": "2622",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: What do you get when you multiply 57 and 46? Then provide an answer to this problem.",
+            "response": "This problem is asking for the product of the numbers 57 and 46. This means you need to multiply 57 by 46.\n\nTo solve this, you simply multiply the two numbers together:\n\n57 * 46 = 2622\n\n[FINAL ANSWER] The product of 57 and 46 is 2622.",
+            "metrics": {
+                "ground_truth": "2622",
+                "prediction": "2622",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What do you get when you add 12 and 54?",
+            "response": "[FINAL ANSWER] 66",
+            "metrics": {
+                "ground_truth": "66",
+                "prediction": "66",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: What do you get when you add 12 and 54? Then provide an answer to this problem.",
+            "response": "This problem is asking for the sum of the numbers 12 and 54. To solve this, you simply need to add these two numbers together.\n\n[FINAL ANSWER] The sum of 12 and 54 is 66.",
+            "metrics": {
+                "ground_truth": "66",
+                "prediction": "66",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the result of multiplying 70 and 38?",
+            "response": "[FINAL ANSWER] 2660",
+            "metrics": {
+                "ground_truth": "2660",
+                "prediction": "2660",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: What is the result of multiplying 70 and 38? Then provide an answer to this problem.",
+            "response": "This problem is asking for the product of 70 and 38. In other words, it wants to know what number you get when you multiply 70 by 38.\n\n[FINAL ANSWER] The result of multiplying 70 and 38 is 2660.",
+            "metrics": {
+                "ground_truth": "2660",
+                "prediction": "2660",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the product of 69 and 39?",
+            "response": "[FINAL ANSWER] 2691",
+            "metrics": {
+                "ground_truth": "2691",
+                "prediction": "2691",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: What is the product of 69 and 39? Then provide an answer to this problem.",
+            "response": "This problem is asking for the result of multiplying 69 by 39. In mathematical terms, it's asking for the product of these two numbers. \n\nTo solve this, you simply need to multiply 69 by 39.\n\n[FINAL ANSWER] The product of 69 and 39 is 2691.",
+            "metrics": {
+                "ground_truth": "2691",
+                "prediction": "2691",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Find the result of adding 72 and 80.",
+            "response": "[FINAL ANSWER] 152",
+            "metrics": {
+                "ground_truth": "152",
+                "prediction": "152",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: Find the result of adding 72 and 80. Then provide an answer to this problem.",
+            "response": "This problem is asking for the sum of the numbers 72 and 80. To solve this, you simply need to add these two numbers together.\n\n[FINAL ANSWER] The result of adding 72 and 80 is 152.",
+            "metrics": {
+                "ground_truth": "152",
+                "prediction": "152",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Find the result of adding 52 and 19.",
+            "response": "[FINAL ANSWER] 71",
+            "metrics": {
+                "ground_truth": "71",
+                "prediction": "71",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: Find the result of adding 52 and 19. Then provide an answer to this problem.",
+            "response": "This problem is asking for the sum of the numbers 52 and 19. To solve this, you simply need to add these two numbers together.\n\n[FINAL ANSWER] The result of adding 52 and 19 is 71.",
+            "metrics": {
+                "ground_truth": "71",
+                "prediction": "71",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the sum of 90 and 5?",
+            "response": "[FINAL ANSWER] 95",
+            "metrics": {
+                "ground_truth": "95",
+                "prediction": "95",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: What is the sum of 90 and 5? Then provide an answer to this problem.",
+            "response": "This problem is asking for the total when you add 90 and 5 together. \n\n[FINAL ANSWER] The sum of 90 and 5 is 95.",
+            "metrics": {
+                "ground_truth": "95",
+                "prediction": "95",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Give the sum of 10 and 7.",
+            "response": "[FINAL ANSWER] 17",
+            "metrics": {
+                "ground_truth": "17",
+                "prediction": "17",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: Give the sum of 10 and 7. Then provide an answer to this problem.",
+            "response": "This problem is asking for the total when you add 10 and 7 together.\n\n[FINAL ANSWER] The sum of 10 and 7 is 17.",
+            "metrics": {
+                "ground_truth": "17",
+                "prediction": "17",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Add 55 and 36.",
+            "response": "[FINAL ANSWER] 91",
+            "metrics": {
+                "ground_truth": "91",
+                "prediction": "91",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: Add 55 and 36. Then provide an answer to this problem.",
+            "response": "This problem is asking for the sum of the numbers 55 and 36. To solve this, you simply add the two numbers together.\n\n[FINAL ANSWER] 91",
+            "metrics": {
+                "ground_truth": "91",
+                "prediction": "91",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What do you get when you multiply 29 and 30?",
+            "response": "[FINAL ANSWER] 870",
+            "metrics": {
+                "ground_truth": "870",
+                "prediction": "870",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: What do you get when you multiply 29 and 30? Then provide an answer to this problem.",
+            "response": "This problem is asking for the product of the numbers 29 and 30. In other words, it wants to know what number you get when you multiply 29 by 30.\n\n[FINAL ANSWER] The product of 29 and 30 is 870.",
+            "metrics": {
+                "ground_truth": "870",
+                "prediction": "870",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What do you get when you add 2 and 64?",
+            "response": "[FINAL ANSWER] 66",
+            "metrics": {
+                "ground_truth": "66",
+                "prediction": "66",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: What do you get when you add 2 and 64? Then provide an answer to this problem.",
+            "response": "This problem is asking for the sum of the numbers 2 and 64. To solve it, you simply need to add these two numbers together.\n\n[FINAL ANSWER] The sum of 2 and 64 is 66.",
+            "metrics": {
+                "ground_truth": "66",
+                "prediction": "66",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Multiply 34 and 92.",
+            "response": "[FINAL ANSWER] 3128",
+            "metrics": {
+                "ground_truth": "3128",
+                "prediction": "3128",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: Multiply 34 and 92. Then provide an answer to this problem.",
+            "response": "The problem is asking for the product of the numbers 34 and 92. This means we need to multiply 34 by 92.\n\n[FINAL ANSWER] The product of 34 and 92 is 3128.",
+            "metrics": {
+                "ground_truth": "3128",
+                "prediction": "3128",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Give the product of 40 and 6.",
+            "response": "[FINAL ANSWER] 240",
+            "metrics": {
+                "ground_truth": "240",
+                "prediction": "240",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: Give the product of 40 and 6. Then provide an answer to this problem.",
+            "response": "This problem is asking for the result of multiplying 40 by 6. To solve this, you simply need to multiply these two numbers together.\n\n[FINAL ANSWER] The product of 40 and 6 is 240.",
+            "metrics": {
+                "ground_truth": "240",
+                "prediction": "240",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Provide the sum of 5 and 45.",
+            "response": "[FINAL ANSWER] 50",
+            "metrics": {
+                "ground_truth": "50",
+                "prediction": "50",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: Provide the sum of 5 and 45. Then provide an answer to this problem.",
+            "response": "I understand this problem as a simple addition problem. It's asking for the total when you add 5 and 45 together.\n\n[FINAL ANSWER] The sum of 5 and 45 is 50.",
+            "metrics": {
+                "ground_truth": "50",
+                "prediction": "50",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the sum of 22 and 36?",
+            "response": "[FINAL ANSWER] 58",
+            "metrics": {
+                "ground_truth": "58",
+                "prediction": "58",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: What is the sum of 22 and 36? Then provide an answer to this problem.",
+            "response": "This problem is asking for the total when you add together the numbers 22 and 36. \n\nTo solve this, you simply add the two numbers together. \n\n[FINAL ANSWER] The sum of 22 and 36 is 58.",
+            "metrics": {
+                "ground_truth": "58",
+                "prediction": "58",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Provide the sum of 18 and 12.",
+            "response": "[FINAL ANSWER] 30",
+            "metrics": {
+                "ground_truth": "30",
+                "prediction": "30",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: Provide the sum of 18 and 12. Then provide an answer to this problem.",
+            "response": "I understand this problem as a simple addition problem. It's asking for the total when you add 18 and 12 together.\n\n[FINAL ANSWER] The sum of 18 and 12 is 30.",
+            "metrics": {
+                "ground_truth": "30",
+                "prediction": "30",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Provide the sum of 10 and 88.",
+            "response": "[FINAL ANSWER] 98",
+            "metrics": {
+                "ground_truth": "98",
+                "prediction": "98",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: Provide the sum of 10 and 88. Then provide an answer to this problem.",
+            "response": "I understand this problem as a simple addition problem. It's asking for the total when you add 10 and 88 together.\n\n[FINAL ANSWER] The sum of 10 and 88 is 98.",
+            "metrics": {
+                "ground_truth": "98",
+                "prediction": "98",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the product of 14 and 88?",
+            "response": "[FINAL ANSWER] 1232",
+            "metrics": {
+                "ground_truth": "1232",
+                "prediction": "1232",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: What is the product of 14 and 88? Then provide an answer to this problem.",
+            "response": "This problem is asking for the result of multiplying 14 by 88. In mathematical terms, it's asking for the product of these two numbers. \n\nTo solve this, you simply multiply 14 by 88.\n\n[FINAL ANSWER] The product of 14 and 88 is 1232.",
+            "metrics": {
+                "ground_truth": "1232",
+                "prediction": "1232",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Find the result of adding 26 and 64.",
+            "response": "[FINAL ANSWER] 90",
+            "metrics": {
+                "ground_truth": "90",
+                "prediction": "90",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: Find the result of adding 26 and 64. Then provide an answer to this problem.",
+            "response": "This problem is asking for the sum of the numbers 26 and 64. To solve this, you simply need to add these two numbers together.\n\n[FINAL ANSWER] The result of adding 26 and 64 is 90.",
+            "metrics": {
+                "ground_truth": "90",
+                "prediction": "90",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Find the result of multiplying 65 and 67.",
+            "response": "[FINAL ANSWER] 4355",
+            "metrics": {
+                "ground_truth": "4355",
+                "prediction": "4355",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Explain how you understand the following problem: Find the result of multiplying 65 and 67. Then provide an answer to this problem.",
+            "response": "This problem is asking for the product of the numbers 65 and 67. This means we need to multiply 65 by 67.\n\n[FINAL ANSWER] 4355",
+            "metrics": {
+                "ground_truth": "4355",
+                "prediction": "4355",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    }
+]

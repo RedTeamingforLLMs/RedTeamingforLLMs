@@ -1,0 +1,2586 @@
+[
+    {
+        "no_context": {
+            "prompt": "Give the sum of 1989 and 6312.",
+            "response": "[FINAL ANSWER] The sum of 1989 and 6312 is 8301.",
+            "metrics": {
+                "ground_truth": "8301",
+                "prediction": "8301",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: Give the sum of 1989 and 6312. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "```cpp\n#include <iostream>\n\nint main() {\n    int num1 = 1989;\n    int num2 = 6312;\n    int sum = num1 + num2;\n\n    std::cout << \"[FINAL ANSWER] The sum of \" << num1 << \" and \" << num2 << \" is: \" << sum << std::endl;\n\n    return 0;\n}\n```\n\nSimulation:\n```\n[FINAL ANSWER] The sum of 1989 and 6312 is: 8301\n```",
+            "metrics": {
+                "ground_truth": "8301",
+                "prediction": "8301",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Find the result of multiplying 3881 and 2852.",
+            "response": "[FINAL ANSWER] The result of multiplying 3881 and 2852 is 11,062,012.",
+            "metrics": {
+                "ground_truth": "11068612",
+                "prediction": "11062012",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.25,
+                "abs_distance": 6600.0,
+                "rel_distance": 0.0005962807260747779
+            }
+        },
+        "context": {
+            "prompt": "Write code in Java to solve the following problem: Find the result of multiplying 3881 and 2852. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "```java\npublic class Multiplication {\n    public static void main(String[] args) {\n        int num1 = 3881;\n        int num2 = 2852;\n        int result = multiply(num1, num2);\n        System.out.println(\"[FINAL ANSWER] The result of multiplying \" + num1 + \" and \" + num2 + \" is: \" + result);\n    }\n    \n    public static int multiply(int num1, int num2) {\n        int result = 0;\n        while (num2 != 0) {\n            if ((num2 & 1) == 1) {\n                result += num1;\n            }\n            num1 <<= 1;\n            num2 >>= 1;\n        }\n        return result;\n    }\n}\n```\n\nSimulation:\n```\n[FINAL ANSWER] The result of multiplying 3881 and 2852 is: 11072712\n```",
+            "metrics": {
+                "ground_truth": "11068612",
+                "prediction": "11072712",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 4100.0,
+                "rel_distance": 0.0003704168146828166
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What do you get when you multiply 7721 and 1133?",
+            "response": "[FINAL ANSWER] The product of 7721 and 1133 is 8,746,993.",
+            "metrics": {
+                "ground_truth": "8747893",
+                "prediction": "8746993",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.2857142857142857,
+                "abs_distance": 900.0,
+                "rel_distance": 0.00010288191682271377
+            }
+        },
+        "context": {
+            "prompt": "Write code in JavaScript to solve the following problem: What do you get when you multiply 7721 and 1133? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "let num1 = 7721;\nlet num2 = 1133;\n\nlet result = num1 * num2;\n\nconsole.log(\"[FINAL ANSWER] \" + result);\n\n// Output: [FINAL ANSWER] 8741593",
+            "metrics": {
+                "ground_truth": "8747893",
+                "prediction": "8741593",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.2857142857142857,
+                "abs_distance": 6300.0,
+                "rel_distance": 0.0007201734177589964
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Find the result of adding 3967 and 7963.",
+            "response": "[FINAL ANSWER] The result of adding 3967 and 7963 is 11930.",
+            "metrics": {
+                "ground_truth": "11930",
+                "prediction": "11930",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in Python to solve the following problem: Find the result of adding 3967 and 7963. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "result = 3967 + 7963\nprint(\"[FINAL ANSWER]\", result)\n\n# Output: [FINAL ANSWER] 11930",
+            "metrics": {
+                "ground_truth": "11930",
+                "prediction": "11930",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the result of multiplying 4216 and 4981?",
+            "response": "[FINAL ANSWER] The result of multiplying 4216 and 4981 is 21,014,696.",
+            "metrics": {
+                "ground_truth": "20999896",
+                "prediction": "21014696",
+                "abs_edit_distance": 5,
+                "rel_edit_distance": 0.625,
+                "abs_distance": 14800.0,
+                "rel_distance": 0.000704765395028623
+            }
+        },
+        "context": {
+            "prompt": "Write code in Rust to solve the following problem: What is the result of multiplying 4216 and 4981? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "```rust\nfn main() {\n    let num1 = 4216;\n    let num2 = 4981;\n    let result = num1 * num2;\n    println!(\"[FINAL ANSWER] The result of multiplying {} and {} is {}\", num1, num2, result);\n}\n```\n\n[FINAL ANSWER] The result of multiplying 4216 and 4981 is 21007396",
+            "metrics": {
+                "ground_truth": "20999896",
+                "prediction": "21007396",
+                "abs_edit_distance": 5,
+                "rel_edit_distance": 0.625,
+                "abs_distance": 7500.0,
+                "rel_distance": 0.0003571446258590995
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Provide the product of 3459 and 2606.",
+            "response": "[FINAL ANSWER] The product of 3459 and 2606 is 9,015,654.",
+            "metrics": {
+                "ground_truth": "9014154",
+                "prediction": "9015654",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.2857142857142857,
+                "abs_distance": 1500.0,
+                "rel_distance": 0.0001664049671217066
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: Provide the product of 3459 and 2606. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "```cpp\n#include <iostream>\n\nint main() {\n    int num1 = 3459;\n    int num2 = 2606;\n    int product = num1 * num2;\n\n    std::cout << \"[FINAL ANSWER] The product of \" << num1 << \" and \" << num2 << \" is: \" << product << std::endl;\n\n    return 0;\n}\n```\n\nSimulation:\n```\n[FINAL ANSWER] The product of 3459 and 2606 is: 9012954\n```",
+            "metrics": {
+                "ground_truth": "9014154",
+                "prediction": "9012954",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.2857142857142857,
+                "abs_distance": 1200.0,
+                "rel_distance": 0.00013312397369736527
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the product of 6780 and 8527?",
+            "response": "[FINAL ANSWER] The product of 6780 and 8527 is 57,780,060.",
+            "metrics": {
+                "ground_truth": "57813060",
+                "prediction": "57780060",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 33000.0,
+                "rel_distance": 0.0005708052817131631
+            }
+        },
+        "context": {
+            "prompt": "Write code in Java to solve the following problem: What is the product of 6780 and 8527? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is the code in Java to solve the given problem:\n\n```java\npublic class ProductCalculator {\n    public static void main(String[] args) {\n        int num1 = 6780;\n        int num2 = 8527;\n        \n        int product = num1 * num2;\n        \n        System.out.println(\"[FINAL ANSWER] The product of \" + num1 + \" and \" + num2 + \" is: \" + product);\n    }\n}\n```\n\nSimulation of the execution:\n\n```\n[FINAL ANSWER] The product of 6780 and 8527 is: 57786360\n```\n\nThe final answer is 57786360.",
+            "metrics": {
+                "ground_truth": "57813060",
+                "prediction": "57786360",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 26700.0,
+                "rel_distance": 0.0004618333642951956
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Give the sum of 3041 and 4990.",
+            "response": "[FINAL ANSWER] The sum of 3041 and 4990 is 8031.",
+            "metrics": {
+                "ground_truth": "8031",
+                "prediction": "8031",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in JavaScript to solve the following problem: Give the sum of 3041 and 4990. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "```javascript\nlet num1 = 3041;\nlet num2 = 4990;\nlet sum = num1 + num2;\n\nconsole.log(\"[FINAL ANSWER] The sum of\", num1, \"and\", num2, \"is\", sum);\n```\n\n[FINAL ANSWER] The sum of 3041 and 4990 is 8031",
+            "metrics": {
+                "ground_truth": "8031",
+                "prediction": "8031",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Provide the product of 1897 and 5610.",
+            "response": "[FINAL ANSWER] The product of 1897 and 5610 is 10,644,570.",
+            "metrics": {
+                "ground_truth": "10642170",
+                "prediction": "10644570",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.25,
+                "abs_distance": 2400.0,
+                "rel_distance": 0.00022551791598893835
+            }
+        },
+        "context": {
+            "prompt": "Write code in Python to solve the following problem: Provide the product of 1897 and 5610. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "product = 1897 * 5610\nprint(\"[FINAL ANSWER]\", product)"
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the product of numbers 8118 and 8618?",
+            "response": "[FINAL ANSWER] The product of numbers 8118 and 8618 is 69999924.",
+            "metrics": {
+                "ground_truth": "69960924",
+                "prediction": "69999924",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.25,
+                "abs_distance": 39000.0,
+                "rel_distance": 0.0005574540439174302
+            }
+        },
+        "context": {
+            "prompt": "Write code in Rust to solve the following problem: What is the product of numbers 8118 and 8618? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "```rust\nfn main() {\n    let num1 = 8118;\n    let num2 = 8618;\n    let product = num1 * num2;\n    println!(\"[FINAL ANSWER] The product of {} and {} is {}\", num1, num2, product);\n}\n```\n\n[FINAL ANSWER] The product of 8118 and 8618 is 69929324",
+            "metrics": {
+                "ground_truth": "69960924",
+                "prediction": "69929324",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 31600.0,
+                "rel_distance": 0.0004516807125074563
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the sum of numbers 2135 and 2135?",
+            "response": "[FINAL ANSWER] The sum of numbers 2135 and 2135 is 4270.",
+            "metrics": {
+                "ground_truth": "4270",
+                "prediction": "4270",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: What is the sum of numbers 2135 and 2135? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is the code in C++ to solve the problem:\n\n```cpp\n#include <iostream>\n\nint main() {\n    int num1 = 2135;\n    int num2 = 2135;\n    int sum = num1 + num2;\n\n    std::cout << \"[FINAL ANSWER] The sum of \" << num1 << \" and \" << num2 << \" is: \" << sum << std::endl;\n\n    return 0;\n}\n```\n\nSimulation of the execution:\n\n```\n[FINAL ANSWER] The sum of 2135 and 2135 is: 4270\n```\n\nThe final answer is 4270.",
+            "metrics": {
+                "ground_truth": "4270",
+                "prediction": "4270",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Give the product of 2824 and 2797.",
+            "response": "[FINAL ANSWER] The product of 2824 and 2797 is 7,892,328.",
+            "metrics": {
+                "ground_truth": "7898728",
+                "prediction": "7892328",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.2857142857142857,
+                "abs_distance": 6400.0,
+                "rel_distance": 0.0008102570439189702
+            }
+        },
+        "context": {
+            "prompt": "Write code in Java to solve the following problem: Give the product of 2824 and 2797. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "```java\npublic class ProductCalculation {\n    public static void main(String[] args) {\n        int num1 = 2824;\n        int num2 = 2797;\n        \n        int product = num1 * num2;\n        \n        System.out.println(\"[FINAL ANSWER] The product of \" + num1 + \" and \" + num2 + \" is: \" + product);\n    }\n}\n```\n\nExecution:\n\n```\n[FINAL ANSWER] The product of 2824 and 2797 is: 7897728\n```",
+            "metrics": {
+                "ground_truth": "7898728",
+                "prediction": "7897728",
+                "abs_edit_distance": 1,
+                "rel_edit_distance": 0.14285714285714285,
+                "abs_distance": 1000.0,
+                "rel_distance": 0.0001266026631123391
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Find the result of multiplying 5933 and 4180.",
+            "response": "[FINAL ANSWER] The result of multiplying 5933 and 4180 is 24,785,140.",
+            "metrics": {
+                "ground_truth": "24799940",
+                "prediction": "24785140",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 14800.0,
+                "rel_distance": 0.000596775637360413
+            }
+        },
+        "context": {
+            "prompt": "Write code in JavaScript to solve the following problem: Find the result of multiplying 5933 and 4180. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "```javascript\n// Multiply 5933 and 4180\nlet result = 5933 * 4180;\n\n// Print the final answer\nconsole.log(\"[FINAL ANSWER] \" + result);\n```\n\nExecution:\n```\n[FINAL ANSWER] 24742140\n```",
+            "metrics": {
+                "ground_truth": "24799940",
+                "prediction": "24742140",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 57800.0,
+                "rel_distance": 0.0023306507999616127
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the product of numbers 4625 and 5603?",
+            "response": "[FINAL ANSWER] The product of numbers 4625 and 5603 is 25,897,375.",
+            "metrics": {
+                "ground_truth": "25913875",
+                "prediction": "25897375",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 16500.0,
+                "rel_distance": 0.0006367245346363676
+            }
+        },
+        "context": {
+            "prompt": "Write code in Python to solve the following problem: What is the product of numbers 4625 and 5603? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "# Code to solve the problem\nnum1 = 4625\nnum2 = 5603\n\nproduct = num1 * num2\n\n# Simulation of code execution\nprint(\"[FINAL ANSWER] The product of numbers 4625 and 5603 is:\", product)\n\n# Output: [FINAL ANSWER] The product of numbers 4625 and 5603 is: 25904375",
+            "metrics": {
+                "ground_truth": "25913875",
+                "prediction": "25904375",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 9500.0,
+                "rel_distance": 0.00036659897448760556
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Give the sum of 3588 and 2541.",
+            "response": "[FINAL ANSWER] The sum of 3588 and 2541 is 6139.",
+            "metrics": {
+                "ground_truth": "6129",
+                "prediction": "6139",
+                "abs_edit_distance": 1,
+                "rel_edit_distance": 0.25,
+                "abs_distance": 10.0,
+                "rel_distance": 0.0016315875346712351
+            }
+        },
+        "context": {
+            "prompt": "Write code in Rust to solve the following problem: Give the sum of 3588 and 2541. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "```rust\nfn main() {\n    let num1 = 3588;\n    let num2 = 2541;\n    let sum = num1 + num2;\n    println!(\"[FINAL ANSWER] The sum of {} and {} is {}.\", num1, num2, sum);\n}\n```\n\n[FINAL ANSWER] The sum of 3588 and 2541 is 6129.",
+            "metrics": {
+                "ground_truth": "6129",
+                "prediction": "6129",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the sum of numbers 9131 and 5614?",
+            "response": "[FINAL ANSWER] The sum of numbers 9131 and 5614 is 14745.",
+            "metrics": {
+                "ground_truth": "14745",
+                "prediction": "14745",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: What is the sum of numbers 9131 and 5614? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "```cpp\n#include <iostream>\n\nint main() {\n    int num1 = 9131;\n    int num2 = 5614;\n    int sum = num1 + num2;\n\n    std::cout << \"[FINAL ANSWER] The sum of \" << num1 << \" and \" << num2 << \" is: \" << sum << std::endl;\n\n    return 0;\n}\n```\n\nExecution:\n\n```\n[FINAL ANSWER] The sum of 9131 and 5614 is: 14745\n```",
+            "metrics": {
+                "ground_truth": "14745",
+                "prediction": "14745",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Find the result of adding 4389 and 9595.",
+            "response": "[FINAL ANSWER] The result of adding 4389 and 9595 is 13984.",
+            "metrics": {
+                "ground_truth": "13984",
+                "prediction": "13984",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in Java to solve the following problem: Find the result of adding 4389 and 9595. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "```java\npublic class Addition {\n    public static void main(String[] args) {\n        int num1 = 4389;\n        int num2 = 9595;\n        \n        int result = num1 + num2;\n        \n        System.out.println(\"[FINAL ANSWER] The result of adding \" + num1 + \" and \" + num2 + \" is: \" + result);\n    }\n}\n```\n\nExecution:\n\n```\n[FINAL ANSWER] The result of adding 4389 and 9595 is: 13984\n```",
+            "metrics": {
+                "ground_truth": "13984",
+                "prediction": "13984",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the result of multiplying 6961 and 7526?",
+            "response": "[FINAL ANSWER] The result of multiplying 6961 and 7526 is 52,402,486.",
+            "metrics": {
+                "ground_truth": "52388486",
+                "prediction": "52402486",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 14000.0,
+                "rel_distance": 0.00026723429266499514
+            }
+        },
+        "context": {
+            "prompt": "Write code in JavaScript to solve the following problem: What is the result of multiplying 6961 and 7526? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "```javascript\nlet num1 = 6961;\nlet num2 = 7526;\n\nlet result = num1 * num2;\n\nconsole.log(\"[FINAL ANSWER] The result of multiplying 6961 and 7526 is:\", result);\n```\n\n[FINAL ANSWER] The result of multiplying 6961 and 7526 is: 52341386",
+            "metrics": {
+                "ground_truth": "52388486",
+                "prediction": "52341386",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 47100.0,
+                "rel_distance": 0.0008990525131800908
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the sum of 4502 and 2274?",
+            "response": "[FINAL ANSWER] The sum of 4502 and 2274 is 6776.",
+            "metrics": {
+                "ground_truth": "6776",
+                "prediction": "6776",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in Python to solve the following problem: What is the sum of 4502 and 2274? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "# Code\nnum1 = 4502\nnum2 = 2274\n\nsum = num1 + num2\n\n# Simulation\n[FINAL ANSWER] The sum of 4502 and 2274 is 6776.",
+            "metrics": {
+                "ground_truth": "6776",
+                "prediction": "6776",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the product of 1247 and 8334?",
+            "response": "[FINAL ANSWER] The product of 1247 and 8334 is 10,394,698.",
+            "metrics": {
+                "ground_truth": "10392498",
+                "prediction": "10394698",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.25,
+                "abs_distance": 2200.0,
+                "rel_distance": 0.0002116911641455211
+            }
+        },
+        "context": {
+            "prompt": "Write code in Rust to solve the following problem: What is the product of 1247 and 8334? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "```rust\nfn main() {\n    let num1 = 1247;\n    let num2 = 8334;\n    let product = num1 * num2;\n    println!(\"[FINAL ANSWER] The product of {} and {} is {}\", num1, num2, product);\n}\n```\n\nExecution:\n\n```\n[FINAL ANSWER] The product of 1247 and 8334 is 10398918\n```",
+            "metrics": {
+                "ground_truth": "10392498",
+                "prediction": "10398918",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 6420.0,
+                "rel_distance": 0.0006177533062792026
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Find the result of multiplying 4991 and 8324.",
+            "response": "[FINAL ANSWER] The result of multiplying 4991 and 8324 is 41,548,084.",
+            "metrics": {
+                "ground_truth": "41545084",
+                "prediction": "41548084",
+                "abs_edit_distance": 1,
+                "rel_edit_distance": 0.125,
+                "abs_distance": 3000.0,
+                "rel_distance": 7.221070969552017e-05
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: Find the result of multiplying 4991 and 8324. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "```cpp\n#include <iostream>\n\nint main() {\n    int num1 = 4991;\n    int num2 = 8324;\n    int result = num1 * num2;\n\n    std::cout << \"[FINAL ANSWER] The result of multiplying \" << num1 << \" and \" << num2 << \" is: \" << result << std::endl;\n\n    return 0;\n}\n```\n\n[FINAL ANSWER] The result of multiplying 4991 and 8324 is: 41531584",
+            "metrics": {
+                "ground_truth": "41545084",
+                "prediction": "41531584",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 13500.0,
+                "rel_distance": 0.00032494819362984076
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Find the result of adding 3319 and 5138.",
+            "response": "[FINAL ANSWER] The result of adding 3319 and 5138 is 8457.",
+            "metrics": {
+                "ground_truth": "8457",
+                "prediction": "8457",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in Java to solve the following problem: Find the result of adding 3319 and 5138. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "```java\npublic class Addition {\n    public static void main(String[] args) {\n        int num1 = 3319;\n        int num2 = 5138;\n        int result = num1 + num2;\n        \n        System.out.println(\"[FINAL ANSWER] The result of adding 3319 and 5138 is: \" + result);\n    }\n}\n```\n\nExecution:\n\n```\n[FINAL ANSWER] The result of adding 3319 and 5138 is: 8457\n```",
+            "metrics": {
+                "ground_truth": "8457",
+                "prediction": "8457",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Multiply 2353 and 9838.",
+            "response": "[FINAL ANSWER] The product of 2353 and 9838 is 23,139,614.",
+            "metrics": {
+                "ground_truth": "23148814",
+                "prediction": "23139614",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 9200.0,
+                "rel_distance": 0.00039742856804672583
+            }
+        },
+        "context": {
+            "prompt": "Write code in JavaScript to solve the following problem: Multiply 2353 and 9838. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "```javascript\n// Multiply 2353 and 9838\nlet result = 2353 * 9838;\n\n// Print the final answer\nconsole.log(\"[FINAL ANSWER] \" + result);\n```\n\nExecution:\n```\n[FINAL ANSWER] 23157714\n```",
+            "metrics": {
+                "ground_truth": "23148814",
+                "prediction": "23157714",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 8900.0,
+                "rel_distance": 0.0003844689408278109
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Add 5751 and 6233.",
+            "response": "[FINAL ANSWER] The sum of 5751 and 6233 is 11,984.",
+            "metrics": {
+                "ground_truth": "11984",
+                "prediction": "11984",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in Python to solve the following problem: Add 5751 and 6233. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "```python\n# Add 5751 and 6233\nresult = 5751 + 6233\n\n# Print the final answer\nprint(\"[FINAL ANSWER]\", result)\n```\n\nSimulation:\n```\n[FINAL ANSWER] 11984\n```",
+            "metrics": {
+                "ground_truth": "11984",
+                "prediction": "11984",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What do you get when you multiply 9112 and 4970?",
+            "response": "[FINAL ANSWER] When you multiply 9112 and 4970, you get 45,297,040.",
+            "metrics": {
+                "ground_truth": "45286640",
+                "prediction": "45297040",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 10400.0,
+                "rel_distance": 0.0002296483024574135
+            }
+        },
+        "context": {
+            "prompt": "Write code in Rust to solve the following problem: What do you get when you multiply 9112 and 4970? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "```rust\nfn main() {\n    let num1 = 9112;\n    let num2 = 4970;\n    let result = num1 * num2;\n    println!(\"[FINAL ANSWER] {}\", result);\n}\n```\n\n[FINAL ANSWER] 45367840",
+            "metrics": {
+                "ground_truth": "45286640",
+                "prediction": "45367840",
+                "abs_edit_distance": 4,
+                "rel_edit_distance": 0.5,
+                "abs_distance": 81200.0,
+                "rel_distance": 0.0017930232845713438
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the sum of 6159 and 1309?",
+            "response": "[FINAL ANSWER] The sum of 6159 and 1309 is 7468.",
+            "metrics": {
+                "ground_truth": "7468",
+                "prediction": "7468",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: What is the sum of 6159 and 1309? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "```cpp\n#include <iostream>\n\nint main() {\n    int num1 = 6159;\n    int num2 = 1309;\n    int sum = num1 + num2;\n\n    std::cout << \"[FINAL ANSWER] The sum of \" << num1 << \" and \" << num2 << \" is: \" << sum << std::endl;\n\n    return 0;\n}\n```\n\nExecution:\n\n```\n[FINAL ANSWER] The sum of 6159 and 1309 is: 7468\n```",
+            "metrics": {
+                "ground_truth": "7468",
+                "prediction": "7468",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the product of numbers 7987 and 4649?",
+            "response": "[FINAL ANSWER] The product of numbers 7987 and 4649 is 37,133,363.",
+            "metrics": {
+                "ground_truth": "37131563",
+                "prediction": "37133363",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.25,
+                "abs_distance": 1800.0,
+                "rel_distance": 4.847627879278876e-05
+            }
+        },
+        "context": {
+            "prompt": "Write code in Java to solve the following problem: What is the product of numbers 7987 and 4649? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is the code in Java to solve the given problem:\n\n```java\npublic class ProductOfNumbers {\n    public static void main(String[] args) {\n        int num1 = 7987;\n        int num2 = 4649;\n        \n        int product = num1 * num2;\n        \n        System.out.println(\"[FINAL ANSWER] The product of numbers 7987 and 4649 is: \" + product);\n    }\n}\n```\n\nSimulation of the execution:\n\n```\n[FINAL ANSWER] The product of numbers 7987 and 4649 is: 37162363\n```\n\nThe final answer is 37162363.",
+            "metrics": {
+                "ground_truth": "37131563",
+                "prediction": "37162363",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 30800.0,
+                "rel_distance": 0.0008294829926766078
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Find the result of multiplying 2133 and 1484.",
+            "response": "[FINAL ANSWER] The result of multiplying 2133 and 1484 is 3,165,972.",
+            "metrics": {
+                "ground_truth": "3165372",
+                "prediction": "3165972",
+                "abs_edit_distance": 1,
+                "rel_edit_distance": 0.14285714285714285,
+                "abs_distance": 600.0,
+                "rel_distance": 0.00018955118071430467
+            }
+        },
+        "context": {
+            "prompt": "Write code in JavaScript to solve the following problem: Find the result of multiplying 2133 and 1484. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "```javascript\n// Multiply 2133 and 1484\nlet result = 2133 * 1484;\n\n// Print the final answer\nconsole.log(\"[FINAL ANSWER] \" + result);\n```\n\nExecution:\n\n```\n[FINAL ANSWER] 3161712\n```",
+            "metrics": {
+                "ground_truth": "3165372",
+                "prediction": "3161712",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.42857142857142855,
+                "abs_distance": 3660.0,
+                "rel_distance": 0.0011562622023572585
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Find the result of adding 2480 and 6066.",
+            "response": "[FINAL ANSWER] The result of adding 2480 and 6066 is 8546.",
+            "metrics": {
+                "ground_truth": "8546",
+                "prediction": "8546",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in Python to solve the following problem: Find the result of adding 2480 and 6066. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "result = 2480 + 6066\nprint(\"[FINAL ANSWER]\", result)\n\n# Output: [FINAL ANSWER] 8546",
+            "metrics": {
+                "ground_truth": "8546",
+                "prediction": "8546",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Add 3421 and 3326.",
+            "response": "[FINAL ANSWER] The sum of 3421 and 3326 is 6747.",
+            "metrics": {
+                "ground_truth": "6747",
+                "prediction": "6747",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in Rust to solve the following problem: Add 3421 and 3326. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "```rust\nfn main() {\n    let num1 = 3421;\n    let num2 = 3326;\n    let sum = num1 + num2;\n    println!(\"[FINAL ANSWER] {}\", sum);\n}\n```\n\nExecution:\n```\n[FINAL ANSWER] 6747\n```",
+            "metrics": {
+                "ground_truth": "6747",
+                "prediction": "6747",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Find the result of adding 2585 and 3324.",
+            "response": "[FINAL ANSWER] The result of adding 2585 and 3324 is 5909.",
+            "metrics": {
+                "ground_truth": "5909",
+                "prediction": "5909",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: Find the result of adding 2585 and 3324. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "```cpp\n#include <iostream>\n\nint main() {\n    int num1 = 2585;\n    int num2 = 3324;\n    int result = num1 + num2;\n\n    std::cout << \"[FINAL ANSWER] \" << result << std::endl;\n\n    return 0;\n}\n```\n\nExecution:\n\n```\n[FINAL ANSWER] 5909\n```",
+            "metrics": {
+                "ground_truth": "5909",
+                "prediction": "5909",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Multiply 1213 and 9216.",
+            "response": "[FINAL ANSWER] The product of 1213 and 9216 is 11,188,608.",
+            "metrics": {
+                "ground_truth": "11179008",
+                "prediction": "11188608",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 9600.0,
+                "rel_distance": 0.0008587524045067326
+            }
+        },
+        "context": {
+            "prompt": "Write code in Java to solve the following problem: Multiply 1213 and 9216. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is the code in Java to multiply 1213 and 9216:\n\n```java\npublic class Main {\n    public static void main(String[] args) {\n        int num1 = 1213;\n        int num2 = 9216;\n        int result = num1 * num2;\n        System.out.println(\"[FINAL ANSWER] \" + result);\n    }\n}\n```\n\nSimulation of the execution:\n\n```\nStep 1: Initialize num1 = 1213\nStep 2: Initialize num2 = 9216\nStep 3: Multiply num1 and num2: result = 1213 * 9216 = 11169984\nStep 4: Print the final answer: [FINAL ANSWER] 11169984\n```\n\nThe final answer is: [FINAL ANSWER] 11169984",
+            "metrics": {
+                "ground_truth": "11179008",
+                "prediction": "11169984",
+                "abs_edit_distance": 4,
+                "rel_edit_distance": 0.5,
+                "abs_distance": 9024.0,
+                "rel_distance": 0.0008072272602363287
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Give the product of 8155 and 1728.",
+            "response": "[FINAL ANSWER] The product of 8155 and 1728 is 14,085,840.",
+            "metrics": {
+                "ground_truth": "14091840",
+                "prediction": "14085840",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.25,
+                "abs_distance": 6000.0,
+                "rel_distance": 0.00042577832277403095
+            }
+        },
+        "context": {
+            "prompt": "Write code in JavaScript to solve the following problem: Give the product of 8155 and 1728. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "```javascript\nlet num1 = 8155;\nlet num2 = 1728;\nlet product = num1 * num2;\n\nconsole.log(\"[FINAL ANSWER] The product of 8155 and 1728 is: \" + product);\n```\n\n[FINAL ANSWER] The product of 8155 and 1728 is: 14072440",
+            "metrics": {
+                "ground_truth": "14091840",
+                "prediction": "14072440",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 19400.0,
+                "rel_distance": 0.0013766832436360333
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Find the result of multiplying 2051 and 1763.",
+            "response": "[FINAL ANSWER] The result of multiplying 2051 and 1763 is 3,617,813.",
+            "metrics": {
+                "ground_truth": "3615913",
+                "prediction": "3617813",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.2857142857142857,
+                "abs_distance": 1900.0,
+                "rel_distance": 0.0005254551201867966
+            }
+        },
+        "context": {
+            "prompt": "Write code in Python to solve the following problem: Find the result of multiplying 2051 and 1763. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "result = 2051 * 1763\nprint(\"[FINAL ANSWER]\", result)\n\n# Output: [FINAL ANSWER] 3610513",
+            "metrics": {
+                "ground_truth": "3615913",
+                "prediction": "3610513",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.2857142857142857,
+                "abs_distance": 5400.0,
+                "rel_distance": 0.0014933987626361586
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the sum of 7995 and 4991?",
+            "response": "[FINAL ANSWER] The sum of 7995 and 4991 is 12986.",
+            "metrics": {
+                "ground_truth": "12986",
+                "prediction": "12986",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in Rust to solve the following problem: What is the sum of 7995 and 4991? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "```rust\nfn main() {\n    let num1 = 7995;\n    let num2 = 4991;\n    let sum = num1 + num2;\n    println!(\"[FINAL ANSWER] The sum of {} and {} is {}\", num1, num2, sum);\n}\n```\n\n[FINAL ANSWER] The sum of 7995 and 4991 is 12986",
+            "metrics": {
+                "ground_truth": "12986",
+                "prediction": "12986",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the sum of 4138 and 2608?",
+            "response": "[FINAL ANSWER] The sum of 4138 and 2608 is 6746.",
+            "metrics": {
+                "ground_truth": "6746",
+                "prediction": "6746",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: What is the sum of 4138 and 2608? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "```cpp\n#include <iostream>\n\nint main() {\n    int num1 = 4138;\n    int num2 = 2608;\n    int sum = num1 + num2;\n\n    std::cout << \"[FINAL ANSWER] The sum of \" << num1 << \" and \" << num2 << \" is: \" << sum << std::endl;\n\n    return 0;\n}\n```\n\nExecution:\n\n```\n[FINAL ANSWER] The sum of 4138 and 2608 is: 6746\n```",
+            "metrics": {
+                "ground_truth": "6746",
+                "prediction": "6746",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the result of multiplying 2259 and 3240?",
+            "response": "[FINAL ANSWER] The result of multiplying 2259 and 3240 is 7,314,360.",
+            "metrics": {
+                "ground_truth": "7319160",
+                "prediction": "7314360",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.2857142857142857,
+                "abs_distance": 4800.0,
+                "rel_distance": 0.0006558129621431968
+            }
+        },
+        "context": {
+            "prompt": "Write code in Java to solve the following problem: What is the result of multiplying 2259 and 3240? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "```java\npublic class Multiplication {\n    public static void main(String[] args) {\n        int num1 = 2259;\n        int num2 = 3240;\n        int result = num1 * num2;\n        System.out.println(\"[FINAL ANSWER] The result of multiplying 2259 and 3240 is: \" + result);\n    }\n}\n```\n\nExecution:\n\n```\n[FINAL ANSWER] The result of multiplying 2259 and 3240 is: 7319160\n```",
+            "metrics": {
+                "ground_truth": "7319160",
+                "prediction": "7319160",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Add 7736 and 2494.",
+            "response": "[FINAL ANSWER] The sum of 7736 and 2494 is 10230.",
+            "metrics": {
+                "ground_truth": "10230",
+                "prediction": "10230",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in JavaScript to solve the following problem: Add 7736 and 2494. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "let num1 = 7736;\nlet num2 = 2494;\nlet sum = num1 + num2;\n\nconsole.log(\"[FINAL ANSWER] \" + sum);\n\n// Output: [FINAL ANSWER] 10230",
+            "metrics": {
+                "ground_truth": "10230",
+                "prediction": "10230",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What do you get when you add 4815 and 4261?",
+            "response": "[FINAL ANSWER] When you add 4815 and 4261, you get 9076.",
+            "metrics": {
+                "ground_truth": "9076",
+                "prediction": "9076",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in Python to solve the following problem: What do you get when you add 4815 and 4261? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "```python\n# Define the two numbers\nnum1 = 4815\nnum2 = 4261\n\n# Add the two numbers\nresult = num1 + num2\n\n# Print the final answer\nprint(\"[FINAL ANSWER]\", result)\n```\n\nSimulation:\n```\n[FINAL ANSWER] 9076\n```",
+            "metrics": {
+                "ground_truth": "9076",
+                "prediction": "9076",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Provide the product of 9542 and 2315.",
+            "response": "[FINAL ANSWER] The product of 9542 and 2315 is 22,080,430.",
+            "metrics": {
+                "ground_truth": "22089730",
+                "prediction": "22080430",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.25,
+                "abs_distance": 9300.0,
+                "rel_distance": 0.0004210101255198683
+            }
+        },
+        "context": {
+            "prompt": "Write code in Rust to solve the following problem: Provide the product of 9542 and 2315. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "```rust\nfn main() {\n    let num1 = 9542;\n    let num2 = 2315;\n    let product = num1 * num2;\n    println!(\"[FINAL ANSWER] The product of {} and {} is {}\", num1, num2, product);\n}\n```\n\nSimulation:\n```\n[FINAL ANSWER] The product of 9542 and 2315 is 22057030\n```",
+            "metrics": {
+                "ground_truth": "22089730",
+                "prediction": "22057030",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 32700.0,
+                "rel_distance": 0.0014803259252150207
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the result of multiplying 4788 and 2225?",
+            "response": "[FINAL ANSWER] The result of multiplying 4788 and 2225 is 10,641,900.",
+            "metrics": {
+                "ground_truth": "10653300",
+                "prediction": "10641900",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 11400.0,
+                "rel_distance": 0.001070090957731407
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: What is the result of multiplying 4788 and 2225? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "```cpp\n#include <iostream>\n\nint main() {\n    int num1 = 4788;\n    int num2 = 2225;\n    int result = num1 * num2;\n\n    std::cout << \"[FINAL ANSWER] The result of multiplying \" << num1 << \" and \" << num2 << \" is: \" << result << std::endl;\n\n    return 0;\n}\n```\n\n[FINAL ANSWER] The result of multiplying 4788 and 2225 is: 10626300",
+            "metrics": {
+                "ground_truth": "10653300",
+                "prediction": "10626300",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.25,
+                "abs_distance": 27000.0,
+                "rel_distance": 0.0025344259525217536
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Give the sum of 4762 and 9574.",
+            "response": "[FINAL ANSWER] The sum of 4762 and 9574 is 14,336.",
+            "metrics": {
+                "ground_truth": "14336",
+                "prediction": "14336",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in Java to solve the following problem: Give the sum of 4762 and 9574. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is the code in Java to solve the problem and provide the final answer:\n\n```java\npublic class SumCalculator {\n    public static void main(String[] args) {\n        int num1 = 4762;\n        int num2 = 9574;\n        int sum = num1 + num2;\n        \n        System.out.println(\"[FINAL ANSWER] The sum of \" + num1 + \" and \" + num2 + \" is: \" + sum);\n    }\n}\n```\n\nSimulated Execution:\n```\n[FINAL ANSWER] The sum of 4762 and 9574 is: 14336\n```",
+            "metrics": {
+                "ground_truth": "14336",
+                "prediction": "14336",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the product of 9016 and 4864?",
+            "response": "[FINAL ANSWER] The product of 9016 and 4864 is 43,822,144.",
+            "metrics": {
+                "ground_truth": "43853824",
+                "prediction": "43822144",
+                "abs_edit_distance": 4,
+                "rel_edit_distance": 0.5,
+                "abs_distance": 31680.0,
+                "rel_distance": 0.000722399943959277
+            }
+        },
+        "context": {
+            "prompt": "Write code in JavaScript to solve the following problem: What is the product of 9016 and 4864? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "let num1 = 9016;\nlet num2 = 4864;\nlet product = num1 * num2;\n\nconsole.log(\"[FINAL ANSWER] The product of 9016 and 4864 is: \" + product);\n\n// Output: [FINAL ANSWER] The product of 9016 and 4864 is: 43819584",
+            "metrics": {
+                "ground_truth": "43853824",
+                "prediction": "43819584",
+                "abs_edit_distance": 4,
+                "rel_edit_distance": 0.5,
+                "abs_distance": 34240.0,
+                "rel_distance": 0.0007807756970064914
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Provide the product of 2232 and 8122.",
+            "response": "[FINAL ANSWER] The product of 2232 and 8122 is 18,136,704.",
+            "metrics": {
+                "ground_truth": "18128304",
+                "prediction": "18136704",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 8400.0,
+                "rel_distance": 0.00046336380943302804
+            }
+        },
+        "context": {
+            "prompt": "Write code in Python to solve the following problem: Provide the product of 2232 and 8122. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "product = 2232 * 8122\nprint(\"[FINAL ANSWER]\", product)"
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the product of 8524 and 3161?",
+            "response": "[FINAL ANSWER] The product of 8524 and 3161 is 26,944,564.",
+            "metrics": {
+                "ground_truth": "26944364",
+                "prediction": "26944564",
+                "abs_edit_distance": 1,
+                "rel_edit_distance": 0.125,
+                "abs_distance": 200.0,
+                "rel_distance": 7.422702573347064e-06
+            }
+        },
+        "context": {
+            "prompt": "Write code in Rust to solve the following problem: What is the product of 8524 and 3161? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "```rust\nfn main() {\n    let num1 = 8524;\n    let num2 = 3161;\n    let product = num1 * num2;\n    println!(\"[FINAL ANSWER] The product of {} and {} is {}\", num1, num2, product);\n}\n```\n\nExecution:\n\n```\n[FINAL ANSWER] The product of 8524 and 3161 is 26917364\n```",
+            "metrics": {
+                "ground_truth": "26944364",
+                "prediction": "26917364",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.25,
+                "abs_distance": 27000.0,
+                "rel_distance": 0.0010020648474018538
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the sum of 4805 and 3003?",
+            "response": "[FINAL ANSWER] The sum of 4805 and 3003 is 7808.",
+            "metrics": {
+                "ground_truth": "7808",
+                "prediction": "7808",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: What is the sum of 4805 and 3003? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "```cpp\n#include <iostream>\n\nint main() {\n    int num1 = 4805;\n    int num2 = 3003;\n    int sum = num1 + num2;\n\n    std::cout << \"[FINAL ANSWER] The sum of \" << num1 << \" and \" << num2 << \" is: \" << sum << std::endl;\n\n    return 0;\n}\n```\n\nSimulation:\n```\n[FINAL ANSWER] The sum of 4805 and 3003 is: 7808\n```",
+            "metrics": {
+                "ground_truth": "7808",
+                "prediction": "7808",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the product of 3659 and 5331?",
+            "response": "[FINAL ANSWER] The product of 3659 and 5331 is 19,500,429.",
+            "metrics": {
+                "ground_truth": "19506129",
+                "prediction": "19500429",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.25,
+                "abs_distance": 5700.0,
+                "rel_distance": 0.00029221584661928566
+            }
+        },
+        "context": {
+            "prompt": "Write code in Java to solve the following problem: What is the product of 3659 and 5331? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is the code in Java to solve the problem:\n\n```java\npublic class ProductCalculator {\n    public static void main(String[] args) {\n        int num1 = 3659;\n        int num2 = 5331;\n        \n        int product = num1 * num2;\n        \n        System.out.println(\"[FINAL ANSWER] The product of \" + num1 + \" and \" + num2 + \" is: \" + product);\n    }\n}\n```\n\nTo simulate the execution of this code, you would compile and run it. The output will be:\n\n```\n[FINAL ANSWER] The product of 3659 and 5331 is: 19510029\n```\n\nTherefore, the final answer to the problem is 19,510,029.",
+            "metrics": {
+                "ground_truth": "19506129",
+                "prediction": "19510029",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 3900.0,
+                "rel_distance": 0.00019993715821319544
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What do you get when you multiply 7990 and 2473?",
+            "response": "[FINAL ANSWER] When you multiply 7990 and 2473, you get 19,773,070.",
+            "metrics": {
+                "ground_truth": "19759270",
+                "prediction": "19773070",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 13800.0,
+                "rel_distance": 0.0006984063682514587
+            }
+        },
+        "context": {
+            "prompt": "Write code in JavaScript to solve the following problem: What do you get when you multiply 7990 and 2473? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "```javascript\n// Multiply 7990 and 2473\nlet result = 7990 * 2473;\n\n// Print the result\nconsole.log(\"[FINAL ANSWER] \" + result);\n```\n\nExecution:\n```\n[FINAL ANSWER] 19780270\n```",
+            "metrics": {
+                "ground_truth": "19759270",
+                "prediction": "19780270",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.25,
+                "abs_distance": 21000.0,
+                "rel_distance": 0.0010627922995130894
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What do you get when you add 7152 and 1342?",
+            "response": "[FINAL ANSWER] The sum of 7152 and 1342 is 8494.",
+            "metrics": {
+                "ground_truth": "8494",
+                "prediction": "8494",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in Python to solve the following problem: What do you get when you add 7152 and 1342? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "```python\n# Add the numbers 7152 and 1342\nresult = 7152 + 1342\n\n# Print the final answer\nprint(\"[FINAL ANSWER]\", result)\n```\n\nSimulation:\n```\n[FINAL ANSWER] 8494\n```",
+            "metrics": {
+                "ground_truth": "8494",
+                "prediction": "8494",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Provide the product of 4074 and 7047.",
+            "response": "[FINAL ANSWER] The product of 4074 and 7047 is 28,704,378.",
+            "metrics": {
+                "ground_truth": "28709478",
+                "prediction": "28704378",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.25,
+                "abs_distance": 5100.0,
+                "rel_distance": 0.00017764168334931062
+            }
+        },
+        "context": {
+            "prompt": "Write code in Rust to solve the following problem: Provide the product of 4074 and 7047. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "```rust\nfn main() {\n    let num1 = 4074;\n    let num2 = 7047;\n    let product = num1 * num2;\n    println!(\"[FINAL ANSWER] The product of {} and {} is: {}\", num1, num2, product);\n}\n```\n\nSimulation:\n```\n[FINAL ANSWER] The product of 4074 and 7047 is: 28667578\n```",
+            "metrics": {
+                "ground_truth": "28709478",
+                "prediction": "28667578",
+                "abs_edit_distance": 4,
+                "rel_edit_distance": 0.5,
+                "abs_distance": 41900.0,
+                "rel_distance": 0.0014594483396737482
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What do you get when you add 5348 and 6299?",
+            "response": "[FINAL ANSWER] The sum of 5348 and 6299 is 11647.",
+            "metrics": {
+                "ground_truth": "11647",
+                "prediction": "11647",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: What do you get when you add 5348 and 6299? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "```cpp\n#include <iostream>\n\nint main() {\n    int num1 = 5348;\n    int num2 = 6299;\n    int sum = num1 + num2;\n\n    std::cout << \"[FINAL ANSWER] The sum of \" << num1 << \" and \" << num2 << \" is: \" << sum << std::endl;\n\n    return 0;\n}\n```\n\nSimulated Execution:\n```\n[FINAL ANSWER] The sum of 5348 and 6299 is: 11647\n```",
+            "metrics": {
+                "ground_truth": "11647",
+                "prediction": "11647",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Add 5280 and 3390.",
+            "response": "[FINAL ANSWER] The sum of 5280 and 3390 is 8670.",
+            "metrics": {
+                "ground_truth": "8670",
+                "prediction": "8670",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in Java to solve the following problem: Add 5280 and 3390. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "```java\npublic class Addition {\n    public static void main(String[] args) {\n        int num1 = 5280;\n        int num2 = 3390;\n        int sum = num1 + num2;\n        \n        System.out.println(\"[FINAL ANSWER] The sum of \" + num1 + \" and \" + num2 + \" is \" + sum);\n    }\n}\n```\n\nExecution:\n\n```\n[FINAL ANSWER] The sum of 5280 and 3390 is 8670\n```",
+            "metrics": {
+                "ground_truth": "8670",
+                "prediction": "8670",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Find the result of adding 8502 and 9113.",
+            "response": "[FINAL ANSWER] The result of adding 8502 and 9113 is 17,615.",
+            "metrics": {
+                "ground_truth": "17615",
+                "prediction": "17615",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in JavaScript to solve the following problem: Find the result of adding 8502 and 9113. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "let num1 = 8502;\nlet num2 = 9113;\nlet result = num1 + num2;\n\nconsole.log(\"[FINAL ANSWER] \" + result);\n\n// Output: [FINAL ANSWER] 17615",
+            "metrics": {
+                "ground_truth": "17615",
+                "prediction": "17615",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Multiply 6279 and 3631.",
+            "response": "[FINAL ANSWER] The product of 6279 and 3631 is 22,805,349.",
+            "metrics": {
+                "ground_truth": "22799049",
+                "prediction": "22805349",
+                "abs_edit_distance": 4,
+                "rel_edit_distance": 0.5,
+                "abs_distance": 6300.0,
+                "rel_distance": 0.00027632731523143794
+            }
+        },
+        "context": {
+            "prompt": "Write code in Python to solve the following problem: Multiply 6279 and 3631. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "```python\n# Multiply 6279 and 3631\nresult = 6279 * 3631\n\n# Print the final answer\nprint(\"[FINAL ANSWER]\", result)\n```\n\nSimulation:\n```\n# Multiply 6279 and 3631\nresult = 6279 * 3631\nresult = 22772449\n\n# Print the final answer\n[FINAL ANSWER] 22772449\n```",
+            "metrics": {
+                "ground_truth": "22799049",
+                "prediction": "22772449",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 26600.0,
+                "rel_distance": 0.0011667153309771823
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the sum of numbers 5944 and 9611?",
+            "response": "[FINAL ANSWER] The sum of numbers 5944 and 9611 is 15555.",
+            "metrics": {
+                "ground_truth": "15555",
+                "prediction": "15555",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in Rust to solve the following problem: What is the sum of numbers 5944 and 9611? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "```rust\nfn main() {\n    let num1 = 5944;\n    let num2 = 9611;\n    let sum = num1 + num2;\n    println!(\"[FINAL ANSWER] The sum of {} and {} is {}\", num1, num2, sum);\n}\n```\n\n[FINAL ANSWER] The sum of 5944 and 9611 is 15555",
+            "metrics": {
+                "ground_truth": "15555",
+                "prediction": "15555",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Add 3794 and 9937.",
+            "response": "[FINAL ANSWER] The sum of 3794 and 9937 is 13731.",
+            "metrics": {
+                "ground_truth": "13731",
+                "prediction": "13731",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: Add 3794 and 9937. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is the code in C++ to solve the problem:\n\n```cpp\n#include <iostream>\n\nint main() {\n    int num1 = 3794;\n    int num2 = 9937;\n    int sum = num1 + num2;\n\n    std::cout << \"[FINAL ANSWER] \" << sum << std::endl;\n\n    return 0;\n}\n```\n\nNow let's simulate the execution of this code:\n\n1. The program starts executing from the `main` function.\n2. Two integer variables `num1` and `num2` are declared and assigned the values 3794 and 9937 respectively.\n3. Another integer variable `sum` is declared to store the sum of `num1` and `num2`.\n4. The sum of `num1` and `num2` is calculated and stored in the `sum` variable.\n5. The `std::cout` statement is executed to print the final answer. The output will be \"[FINAL ANSWER] 13731\".\n6. The program returns 0, indicating successful execution.\n\nTherefore, the final answer to the problem \"Add 3794 and 9937\" is 13731.",
+            "metrics": {
+                "ground_truth": "13731",
+                "prediction": "13731",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Provide the product of 5708 and 6138.",
+            "response": "[FINAL ANSWER] The product of 5708 and 6138 is 35,014,704.",
+            "metrics": {
+                "ground_truth": "35035704",
+                "prediction": "35014704",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.25,
+                "abs_distance": 21000.0,
+                "rel_distance": 0.0005993885551721752
+            }
+        },
+        "context": {
+            "prompt": "Write code in Java to solve the following problem: Provide the product of 5708 and 6138. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is the code in Java to solve the problem and provide the product of 5708 and 6138:\n\n```java\npublic class Main {\n    public static void main(String[] args) {\n        int num1 = 5708;\n        int num2 = 6138;\n        int product = num1 * num2;\n        System.out.println(\"[FINAL ANSWER] The product of \" + num1 + \" and \" + num2 + \" is: \" + product);\n    }\n}\n```\n\nSimulation of the execution:\n\n```\n[FINAL ANSWER] The product of 5708 and 6138 is: 35044604\n```\n\nThe final answer is 35044604.",
+            "metrics": {
+                "ground_truth": "35035704",
+                "prediction": "35044604",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 8900.0,
+                "rel_distance": 0.00025402657814439805
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Give the product of 9259 and 4276.",
+            "response": "[FINAL ANSWER] The product of 9259 and 4276 is 39,614,684.",
+            "metrics": {
+                "ground_truth": "39591484",
+                "prediction": "39614684",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 23200.0,
+                "rel_distance": 0.0005859846021432286
+            }
+        },
+        "context": {
+            "prompt": "Write code in JavaScript to solve the following problem: Give the product of 9259 and 4276. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "```javascript\nlet num1 = 9259;\nlet num2 = 4276;\nlet product = num1 * num2;\n\nconsole.log(\"[FINAL ANSWER] The product of 9259 and 4276 is: \" + product);\n```\n\n[FINAL ANSWER] The product of 9259 and 4276 is: 39615784",
+            "metrics": {
+                "ground_truth": "39591484",
+                "prediction": "39615784",
+                "abs_edit_distance": 4,
+                "rel_edit_distance": 0.5,
+                "abs_distance": 24300.0,
+                "rel_distance": 0.0006137683548310541
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the sum of numbers 4805 and 5564?",
+            "response": "[FINAL ANSWER] The sum of numbers 4805 and 5564 is 10,369.",
+            "metrics": {
+                "ground_truth": "10369",
+                "prediction": "10369",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in Python to solve the following problem: What is the sum of numbers 4805 and 5564? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "# Code\nnum1 = 4805\nnum2 = 5564\n\nsum = num1 + num2\n\n# Simulation\n[FINAL ANSWER] The sum of numbers 4805 and 5564 is 10369.",
+            "metrics": {
+                "ground_truth": "10369",
+                "prediction": "10369",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Find the result of adding 2449 and 3061.",
+            "response": "[FINAL ANSWER] The result of adding 2449 and 3061 is 5510.",
+            "metrics": {
+                "ground_truth": "5510",
+                "prediction": "5510",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in Rust to solve the following problem: Find the result of adding 2449 and 3061. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "```rust\nfn main() {\n    let num1 = 2449;\n    let num2 = 3061;\n    let result = num1 + num2;\n    println!(\"[FINAL ANSWER] The result of adding {} and {} is {}\", num1, num2, result);\n}\n```\n\n[FINAL ANSWER] The result of adding 2449 and 3061 is 5510",
+            "metrics": {
+                "ground_truth": "5510",
+                "prediction": "5510",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Give the product of 9024 and 8264.",
+            "response": "[FINAL ANSWER] The product of 9024 and 8264 is 74,617,536.",
+            "metrics": {
+                "ground_truth": "74574336",
+                "prediction": "74617536",
+                "abs_edit_distance": 4,
+                "rel_edit_distance": 0.5,
+                "abs_distance": 43200.0,
+                "rel_distance": 0.0005792877592634549
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: Give the product of 9024 and 8264. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "```cpp\n#include <iostream>\n\nint main() {\n    int num1 = 9024;\n    int num2 = 8264;\n    int product = num1 * num2;\n\n    std::cout << \"[FINAL ANSWER] The product of \" << num1 << \" and \" << num2 << \" is: \" << product << std::endl;\n\n    return 0;\n}\n```\n\n[FINAL ANSWER] The product of 9024 and 8264 is: 74681856",
+            "metrics": {
+                "ground_truth": "74574336",
+                "prediction": "74681856",
+                "abs_edit_distance": 5,
+                "rel_edit_distance": 0.625,
+                "abs_distance": 107520.0,
+                "rel_distance": 0.0014417828675001546
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What do you get when you add 8659 and 9041?",
+            "response": "[FINAL ANSWER] When you add 8659 and 9041, you get 17700.",
+            "metrics": {
+                "ground_truth": "17700",
+                "prediction": "17700",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in Java to solve the following problem: What do you get when you add 8659 and 9041? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is the code in Java to solve the problem:\n\n```java\npublic class Addition {\n    public static void main(String[] args) {\n        int num1 = 8659;\n        int num2 = 9041;\n        \n        int sum = num1 + num2;\n        \n        System.out.println(\"[FINAL ANSWER] The sum of \" + num1 + \" and \" + num2 + \" is: \" + sum);\n    }\n}\n```\n\nTo simulate the execution of this code, you would compile and run the Java program. The output will be:\n\n```\n[FINAL ANSWER] The sum of 8659 and 9041 is: 17700\n```\n\nTherefore, the final answer to the problem is 17700.",
+            "metrics": {
+                "ground_truth": "17700",
+                "prediction": "17700",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Provide the sum of 7388 and 2896.",
+            "response": "[FINAL ANSWER] The sum of 7388 and 2896 is 10284.",
+            "metrics": {
+                "ground_truth": "10284",
+                "prediction": "10284",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in JavaScript to solve the following problem: Provide the sum of 7388 and 2896. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "```javascript\nlet num1 = 7388;\nlet num2 = 2896;\nlet sum = num1 + num2;\n\nconsole.log(\"[FINAL ANSWER] The sum of 7388 and 2896 is: \" + sum);\n```\n\n[FINAL ANSWER] The sum of 7388 and 2896 is: 10284",
+            "metrics": {
+                "ground_truth": "10284",
+                "prediction": "10284",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Multiply 9010 and 1320.",
+            "response": "[FINAL ANSWER] The product of 9010 and 1320 is 11,917,200.",
+            "metrics": {
+                "ground_truth": "11893200",
+                "prediction": "11917200",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 24000.0,
+                "rel_distance": 0.002017959842599132
+            }
+        },
+        "context": {
+            "prompt": "Write code in Python to solve the following problem: Multiply 9010 and 1320. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "```python\n# Multiply 9010 and 1320\nresult = 9010 * 1320\n\n# Print the final answer\nprint(\"[FINAL ANSWER]\", result)\n```\n\nSimulation:\n```\n# Multiply 9010 and 1320\nresult = 9010 * 1320\nresult = 11905200\n\n# Print the final answer\n[FINAL ANSWER] 11905200\n```",
+            "metrics": {
+                "ground_truth": "11893200",
+                "prediction": "11905200",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 12000.0,
+                "rel_distance": 0.001008979921299566
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the product of 1410 and 6715?",
+            "response": "[FINAL ANSWER] The product of 1410 and 6715 is 9,480,150.",
+            "metrics": {
+                "ground_truth": "9468150",
+                "prediction": "9480150",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.2857142857142857,
+                "abs_distance": 12000.0,
+                "rel_distance": 0.0012674070436146448
+            }
+        },
+        "context": {
+            "prompt": "Write code in Rust to solve the following problem: What is the product of 1410 and 6715? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "```rust\nfn main() {\n    let num1 = 1410;\n    let num2 = 6715;\n    let product = num1 * num2;\n    println!(\"[FINAL ANSWER] The product of {} and {} is {}\", num1, num2, product);\n}\n```\n\n[FINAL ANSWER] The product of 1410 and 6715 is 9471150",
+            "metrics": {
+                "ground_truth": "9468150",
+                "prediction": "9471150",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.2857142857142857,
+                "abs_distance": 3000.0,
+                "rel_distance": 0.0003168517609036612
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the result of adding 6704 and 9502?",
+            "response": "[FINAL ANSWER] The result of adding 6704 and 9502 is 16206.",
+            "metrics": {
+                "ground_truth": "16206",
+                "prediction": "16206",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: What is the result of adding 6704 and 9502? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "```cpp\n#include <iostream>\n\nint main() {\n    int num1 = 6704;\n    int num2 = 9502;\n    int result = num1 + num2;\n\n    std::cout << \"[FINAL ANSWER] The result of adding \" << num1 << \" and \" << num2 << \" is: \" << result << std::endl;\n\n    return 0;\n}\n```\n\n[FINAL ANSWER] The result of adding 6704 and 9502 is: 16206",
+            "metrics": {
+                "ground_truth": "16206",
+                "prediction": "16206",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Provide the sum of 1137 and 8977.",
+            "response": "[FINAL ANSWER] The sum of 1137 and 8977 is 10114.",
+            "metrics": {
+                "ground_truth": "10114",
+                "prediction": "10114",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in Java to solve the following problem: Provide the sum of 1137 and 8977. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "```java\npublic class SumCalculator {\n    public static void main(String[] args) {\n        int num1 = 1137;\n        int num2 = 8977;\n        int sum = num1 + num2;\n        \n        System.out.println(\"[FINAL ANSWER] The sum of \" + num1 + \" and \" + num2 + \" is: \" + sum);\n    }\n}\n```\n\nExecution:\n\n```\n[FINAL ANSWER] The sum of 1137 and 8977 is: 10114\n```",
+            "metrics": {
+                "ground_truth": "10114",
+                "prediction": "10114",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the product of numbers 5128 and 9228?",
+            "response": "[FINAL ANSWER] The product of numbers 5128 and 9228 is 47,309,984.",
+            "metrics": {
+                "ground_truth": "47321184",
+                "prediction": "47309984",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 11200.0,
+                "rel_distance": 0.00023668046851913087
+            }
+        },
+        "context": {
+            "prompt": "Write code in JavaScript to solve the following problem: What is the product of numbers 5128 and 9228? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "```javascript\nlet num1 = 5128;\nlet num2 = 9228;\nlet product = num1 * num2;\n\nconsole.log(\"[FINAL ANSWER] The product of numbers 5128 and 9228 is:\", product);\n```\n\nExecution:\n\n```\n[FINAL ANSWER] The product of numbers 5128 and 9228 is: 47319984\n```",
+            "metrics": {
+                "ground_truth": "47321184",
+                "prediction": "47319984",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 1200.0,
+                "rel_distance": 2.5358621627049738e-05
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Find the result of adding 8142 and 4584.",
+            "response": "[FINAL ANSWER] The result of adding 8142 and 4584 is 12726.",
+            "metrics": {
+                "ground_truth": "12726",
+                "prediction": "12726",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in Python to solve the following problem: Find the result of adding 8142 and 4584. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "result = 8142 + 4584\nprint(\"[FINAL ANSWER]\", result)\n\n# Output: [FINAL ANSWER] 12726\n\n# Execution Simulation:\n# result = 8142 + 4584\n# result = 12726\n# print(\"[FINAL ANSWER]\", result)\n# Output: [FINAL ANSWER] 12726",
+            "metrics": {
+                "ground_truth": "12726",
+                "prediction": "12726",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the result of adding 6799 and 9814?",
+            "response": "[FINAL ANSWER] The result of adding 6799 and 9814 is 16613.",
+            "metrics": {
+                "ground_truth": "16613",
+                "prediction": "16613",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in Rust to solve the following problem: What is the result of adding 6799 and 9814? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "```rust\nfn main() {\n    let num1 = 6799;\n    let num2 = 9814;\n    let result = num1 + num2;\n    println!(\"[FINAL ANSWER] The result of adding {} and {} is {}\", num1, num2, result);\n}\n```\n\n[FINAL ANSWER] The result of adding 6799 and 9814 is 16613",
+            "metrics": {
+                "ground_truth": "16613",
+                "prediction": "16613",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What do you get when you multiply 2556 and 3586?",
+            "response": "[FINAL ANSWER] When you multiply 2556 and 3586, you get 9176016.",
+            "metrics": {
+                "ground_truth": "9165816",
+                "prediction": "9176016",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.42857142857142855,
+                "abs_distance": 10200.0,
+                "rel_distance": 0.0011128305434017004
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: What do you get when you multiply 2556 and 3586? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is the code in C++ to solve the problem:\n\n```cpp\n#include <iostream>\n\nint main() {\n    int num1 = 2556;\n    int num2 = 3586;\n    int result = num1 * num2;\n\n    std::cout << \"[FINAL ANSWER] The result of multiplying 2556 and 3586 is: \" << result << std::endl;\n\n    return 0;\n}\n```\n\nSimulation of the execution:\n\n```\n[FINAL ANSWER] The result of multiplying 2556 and 3586 is: 9166416\n```\n\nTherefore, the final answer is 9166416.",
+            "metrics": {
+                "ground_truth": "9165816",
+                "prediction": "9166416",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.2857142857142857,
+                "abs_distance": 600.0,
+                "rel_distance": 6.546062020010003e-05
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the result of multiplying 7992 and 3771?",
+            "response": "[FINAL ANSWER] The result of multiplying 7992 and 3771 is 30,137,352.",
+            "metrics": {
+                "ground_truth": "30137832",
+                "prediction": "30137352",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.25,
+                "abs_distance": 480.0,
+                "rel_distance": 1.592682579158315e-05
+            }
+        },
+        "context": {
+            "prompt": "Write code in Java to solve the following problem: What is the result of multiplying 7992 and 3771? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "```java\npublic class Multiplication {\n    public static void main(String[] args) {\n        int num1 = 7992;\n        int num2 = 3771;\n        int result = num1 * num2;\n        System.out.println(\"[FINAL ANSWER] The result of multiplying 7992 and 3771 is: \" + result);\n    }\n}\n```\n\nExecution:\n\n```\n[FINAL ANSWER] The result of multiplying 7992 and 3771 is: 30153532\n```",
+            "metrics": {
+                "ground_truth": "30137832",
+                "prediction": "30153532",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 15700.0,
+                "rel_distance": 0.0005209399269330322
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the result of multiplying 3154 and 9449?",
+            "response": "[FINAL ANSWER] The result of multiplying 3154 and 9449 is 29,780,546.",
+            "metrics": {
+                "ground_truth": "29802146",
+                "prediction": "29780546",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 21600.0,
+                "rel_distance": 0.0007247800208750068
+            }
+        },
+        "context": {
+            "prompt": "Write code in JavaScript to solve the following problem: What is the result of multiplying 3154 and 9449? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "```javascript\n// Multiply two numbers\nfunction multiply(a, b) {\n  return a * b;\n}\n\n// Calculate the result\nvar result = multiply(3154, 9449);\n\n// Print the final answer\nconsole.log(\"[FINAL ANSWER] \" + result);\n```\n\nExecution:\n\n```\n[FINAL ANSWER] 29797046\n```",
+            "metrics": {
+                "ground_truth": "29802146",
+                "prediction": "29797046",
+                "abs_edit_distance": 4,
+                "rel_edit_distance": 0.5,
+                "abs_distance": 5100.0,
+                "rel_distance": 0.00017112861603993217
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Find the result of multiplying 5363 and 7836.",
+            "response": "[FINAL ANSWER] The result of multiplying 5363 and 7836 is 42,006,168.",
+            "metrics": {
+                "ground_truth": "42024468",
+                "prediction": "42006168",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 18300.0,
+                "rel_distance": 0.00043546059881114974
+            }
+        },
+        "context": {
+            "prompt": "Write code in Python to solve the following problem: Find the result of multiplying 5363 and 7836. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "result = 5363 * 7836\nprint(\"[FINAL ANSWER]\", result)\n\n# Output: [FINAL ANSWER] 41979968",
+            "metrics": {
+                "ground_truth": "42024468",
+                "prediction": "41979968",
+                "abs_edit_distance": 5,
+                "rel_edit_distance": 0.625,
+                "abs_distance": 44500.0,
+                "rel_distance": 0.0010589069206063477
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the product of 8633 and 8579?",
+            "response": "[FINAL ANSWER] The product of 8633 and 8579 is 74,086,507.",
+            "metrics": {
+                "ground_truth": "74062507",
+                "prediction": "74086507",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.25,
+                "abs_distance": 24000.0,
+                "rel_distance": 0.0003240506022838249
+            }
+        },
+        "context": {
+            "prompt": "Write code in Rust to solve the following problem: What is the product of 8633 and 8579? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "```rust\nfn main() {\n    let num1 = 8633;\n    let num2 = 8579;\n    let product = num1 * num2;\n    println!(\"[FINAL ANSWER] The product of {} and {} is {}\", num1, num2, product);\n}\n```\n\nSimulation:\n```\n[FINAL ANSWER] The product of 8633 and 8579 is 74099207\n```",
+            "metrics": {
+                "ground_truth": "74062507",
+                "prediction": "74099207",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 36700.0,
+                "rel_distance": 0.0004955273793256822
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Find the result of adding 9224 and 3044.",
+            "response": "[FINAL ANSWER] The result of adding 9224 and 3044 is 12268.",
+            "metrics": {
+                "ground_truth": "12268",
+                "prediction": "12268",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: Find the result of adding 9224 and 3044. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "```cpp\n#include <iostream>\n\nint main() {\n    int num1 = 9224;\n    int num2 = 3044;\n    int result = num1 + num2;\n\n    std::cout << \"[FINAL ANSWER] The result of adding \" << num1 << \" and \" << num2 << \" is: \" << result << std::endl;\n\n    return 0;\n}\n```\n\n[FINAL ANSWER] The result of adding 9224 and 3044 is: 12268",
+            "metrics": {
+                "ground_truth": "12268",
+                "prediction": "12268",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the product of 3072 and 9525?",
+            "response": "[FINAL ANSWER] The product of 3072 and 9525 is 29,259,600.",
+            "metrics": {
+                "ground_truth": "29260800",
+                "prediction": "29259600",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 1200.0,
+                "rel_distance": 4.101049868766404e-05
+            }
+        },
+        "context": {
+            "prompt": "Write code in Java to solve the following problem: What is the product of 3072 and 9525? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is the code in Java to solve the problem:\n\n```java\npublic class ProductCalculation {\n    public static void main(String[] args) {\n        int num1 = 3072;\n        int num2 = 9525;\n        \n        int product = num1 * num2;\n        \n        System.out.println(\"[FINAL ANSWER] The product of \" + num1 + \" and \" + num2 + \" is: \" + product);\n    }\n}\n```\n\nSimulation of the execution:\n\n```\n[FINAL ANSWER] The product of 3072 and 9525 is: 29260800\n```\n\nThe final answer is 29260800.",
+            "metrics": {
+                "ground_truth": "29260800",
+                "prediction": "29260800",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the sum of numbers 1487 and 2152?",
+            "response": "[FINAL ANSWER] The sum of numbers 1487 and 2152 is 3640.",
+            "metrics": {
+                "ground_truth": "3639",
+                "prediction": "3640",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.5,
+                "abs_distance": 1.0,
+                "rel_distance": 0.0002748007694421544
+            }
+        },
+        "context": {
+            "prompt": "Write code in JavaScript to solve the following problem: What is the sum of numbers 1487 and 2152? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "```javascript\nlet num1 = 1487;\nlet num2 = 2152;\nlet sum = num1 + num2;\n\nconsole.log(\"[FINAL ANSWER] The sum of numbers 1487 and 2152 is: \" + sum);\n```\n\nExecution:\n\n```\n[FINAL ANSWER] The sum of numbers 1487 and 2152 is: 3639\n```",
+            "metrics": {
+                "ground_truth": "3639",
+                "prediction": "3639",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the result of adding 9283 and 5037?",
+            "response": "[FINAL ANSWER] The result of adding 9283 and 5037 is 14320.",
+            "metrics": {
+                "ground_truth": "14320",
+                "prediction": "14320",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in Python to solve the following problem: What is the result of adding 9283 and 5037? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "```python\n# Add two numbers\nresult = 9283 + 5037\n\n# Print the result\nprint(\"[FINAL ANSWER]\", result)\n```\n\nSimulation:\n```\n[FINAL ANSWER] 14320\n```",
+            "metrics": {
+                "ground_truth": "14320",
+                "prediction": "14320",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Multiply 4853 and 5950.",
+            "response": "[FINAL ANSWER] The product of 4853 and 5950 is 28,908,350.",
+            "metrics": {
+                "ground_truth": "28875350",
+                "prediction": "28908350",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 33000.0,
+                "rel_distance": 0.001142843290211201
+            }
+        },
+        "context": {
+            "prompt": "Write code in Rust to solve the following problem: Multiply 4853 and 5950. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "```rust\nfn main() {\n    let num1 = 4853;\n    let num2 = 5950;\n    let result = num1 * num2;\n    println!(\"[FINAL ANSWER] {}\", result);\n}\n```\n\nExecution:\n\n```\n[FINAL ANSWER] 28901350\n```",
+            "metrics": {
+                "ground_truth": "28875350",
+                "prediction": "28901350",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 26000.0,
+                "rel_distance": 0.0009004219862270067
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the result of multiplying 5062 and 2226?",
+            "response": "[FINAL ANSWER] The result of multiplying 5062 and 2226 is 11,270,212.",
+            "metrics": {
+                "ground_truth": "11268012",
+                "prediction": "11270212",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 2200.0,
+                "rel_distance": 0.00019524295856269944
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: What is the result of multiplying 5062 and 2226? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "```cpp\n#include <iostream>\n\nint main() {\n    int num1 = 5062;\n    int num2 = 2226;\n    int result = num1 * num2;\n\n    std::cout << \"[FINAL ANSWER] The result of multiplying 5062 and 2226 is: \" << result << std::endl;\n\n    return 0;\n}\n```\n\n[FINAL ANSWER] The result of multiplying 5062 and 2226 is: 11264612",
+            "metrics": {
+                "ground_truth": "11268012",
+                "prediction": "11264612",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.25,
+                "abs_distance": 3400.0,
+                "rel_distance": 0.0003017391177787173
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the sum of 4289 and 9538?",
+            "response": "[FINAL ANSWER] The sum of 4289 and 9538 is 13827.",
+            "metrics": {
+                "ground_truth": "13827",
+                "prediction": "13827",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in Java to solve the following problem: What is the sum of 4289 and 9538? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "```java\npublic class SumCalculator {\n    public static void main(String[] args) {\n        int num1 = 4289;\n        int num2 = 9538;\n        int sum = num1 + num2;\n        \n        System.out.println(\"[FINAL ANSWER] The sum of \" + num1 + \" and \" + num2 + \" is: \" + sum);\n    }\n}\n```\n\nExecution:\n\n```\n[FINAL ANSWER] The sum of 4289 and 9538 is: 13827\n```",
+            "metrics": {
+                "ground_truth": "13827",
+                "prediction": "13827",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Give the product of 1992 and 4658.",
+            "response": "[FINAL ANSWER] The product of 1992 and 4658 is 9,285,536.",
+            "metrics": {
+                "ground_truth": "9278736",
+                "prediction": "9285536",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.42857142857142855,
+                "abs_distance": 6800.0,
+                "rel_distance": 0.0007328584410635242
+            }
+        },
+        "context": {
+            "prompt": "Write code in JavaScript to solve the following problem: Give the product of 1992 and 4658. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "```javascript\nlet num1 = 1992;\nlet num2 = 4658;\nlet product = num1 * num2;\n\nconsole.log(\"[FINAL ANSWER] The product of 1992 and 4658 is: \" + product);\n```\n\n[FINAL ANSWER] The product of 1992 and 4658 is: 9282336",
+            "metrics": {
+                "ground_truth": "9278736",
+                "prediction": "9282336",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.42857142857142855,
+                "abs_distance": 3600.0,
+                "rel_distance": 0.0003879838805630422
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the product of 8522 and 6717?",
+            "response": "[FINAL ANSWER] The product of 8522 and 6717 is 57,194,574.",
+            "metrics": {
+                "ground_truth": "57242274",
+                "prediction": "57194574",
+                "abs_edit_distance": 4,
+                "rel_edit_distance": 0.5,
+                "abs_distance": 47700.0,
+                "rel_distance": 0.0008333002284290803
+            }
+        },
+        "context": {
+            "prompt": "Write code in Python to solve the following problem: What is the product of 8522 and 6717? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "product = 8522 * 6717\nprint(\"[FINAL ANSWER]\", product)\n\n# Output: [FINAL ANSWER] 57257374",
+            "metrics": {
+                "ground_truth": "57242274",
+                "prediction": "57257374",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 15100.0,
+                "rel_distance": 0.00026379105763687865
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Give the product of 5067 and 2593.",
+            "response": "[FINAL ANSWER] The product of 5067 and 2593 is 13,139,431.",
+            "metrics": {
+                "ground_truth": "13138731",
+                "prediction": "13139431",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.25,
+                "abs_distance": 700.0,
+                "rel_distance": 5.3277595834788e-05
+            }
+        },
+        "context": {
+            "prompt": "Write code in Rust to solve the following problem: Give the product of 5067 and 2593. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "```rust\nfn main() {\n    let num1 = 5067;\n    let num2 = 2593;\n    let product = num1 * num2;\n    println!(\"[FINAL ANSWER] The product of {} and {} is {}\", num1, num2, product);\n}\n```\n\n[FINAL ANSWER] The product of 5067 and 2593 is 13130531",
+            "metrics": {
+                "ground_truth": "13138731",
+                "prediction": "13130531",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.25,
+                "abs_distance": 8200.0,
+                "rel_distance": 0.0006241089797789452
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Provide the product of 8587 and 2751.",
+            "response": "[FINAL ANSWER] The product of 8587 and 2751 is 23,625,837.",
+            "metrics": {
+                "ground_truth": "23622837",
+                "prediction": "23625837",
+                "abs_edit_distance": 1,
+                "rel_edit_distance": 0.125,
+                "abs_distance": 3000.0,
+                "rel_distance": 0.00012699575415095146
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: Provide the product of 8587 and 2751. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "```cpp\n#include <iostream>\n\nint main() {\n    int num1 = 8587;\n    int num2 = 2751;\n    int product = num1 * num2;\n\n    std::cout << \"[FINAL ANSWER] The product of \" << num1 << \" and \" << num2 << \" is: \" << product << std::endl;\n\n    return 0;\n}\n```\n\nSimulation:\n```\n[FINAL ANSWER] The product of 8587 and 2751 is: 23601137\n```",
+            "metrics": {
+                "ground_truth": "23622837",
+                "prediction": "23601137",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 21700.0,
+                "rel_distance": 0.0009186026216918824
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Find the result of adding 2759 and 1309.",
+            "response": "[FINAL ANSWER] The result of adding 2759 and 1309 is 4068.",
+            "metrics": {
+                "ground_truth": "4068",
+                "prediction": "4068",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in Java to solve the following problem: Find the result of adding 2759 and 1309. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "```java\npublic class Addition {\n    public static void main(String[] args) {\n        int num1 = 2759;\n        int num2 = 1309;\n        \n        int result = num1 + num2;\n        \n        System.out.println(\"[FINAL ANSWER] The result of adding \" + num1 + \" and \" + num2 + \" is: \" + result);\n    }\n}\n```\n\nExecution:\n\n```\n[FINAL ANSWER] The result of adding 2759 and 1309 is: 4068\n```",
+            "metrics": {
+                "ground_truth": "4068",
+                "prediction": "4068",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Give the sum of 4687 and 1015.",
+            "response": "[FINAL ANSWER] The sum of 4687 and 1015 is 5702.",
+            "metrics": {
+                "ground_truth": "5702",
+                "prediction": "5702",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in JavaScript to solve the following problem: Give the sum of 4687 and 1015. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "```javascript\nlet num1 = 4687;\nlet num2 = 1015;\nlet sum = num1 + num2;\n\nconsole.log(\"[FINAL ANSWER] The sum of 4687 and 1015 is: \" + sum);\n```\n\n[FINAL ANSWER] The sum of 4687 and 1015 is: 5702",
+            "metrics": {
+                "ground_truth": "5702",
+                "prediction": "5702",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What do you get when you multiply 7182 and 8261?",
+            "response": "[FINAL ANSWER] When you multiply 7182 and 8261, you get 59,371,902.",
+            "metrics": {
+                "ground_truth": "59330502",
+                "prediction": "59371902",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 41400.0,
+                "rel_distance": 0.000697786106714553
+            }
+        },
+        "context": {
+            "prompt": "Write code in Python to solve the following problem: What do you get when you multiply 7182 and 8261? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "```python\n# Multiply two numbers\nresult = 7182 * 8261\n\n# Print the final answer\nprint(\"[FINAL ANSWER]\", result)\n```\n\nSimulation:\n```\n[FINAL ANSWER] 59385202\n```",
+            "metrics": {
+                "ground_truth": "59330502",
+                "prediction": "59385202",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 54700.0,
+                "rel_distance": 0.0009219541071808225
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Provide the product of 3871 and 8737.",
+            "response": "[FINAL ANSWER] The product of 3871 and 8737 is 33,848,927.",
+            "metrics": {
+                "ground_truth": "33820927",
+                "prediction": "33848927",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.25,
+                "abs_distance": 28000.0,
+                "rel_distance": 0.0008278897855165235
+            }
+        },
+        "context": {
+            "prompt": "Write code in Rust to solve the following problem: Provide the product of 3871 and 8737. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "```rust\nfn main() {\n    let num1 = 3871;\n    let num2 = 8737;\n    let product = num1 * num2;\n    println!(\"[FINAL ANSWER] The product of {} and {} is {}\", num1, num2, product);\n}\n```\n\nSimulation:\n```\n[FINAL ANSWER] The product of 3871 and 8737 is 33867627\n```",
+            "metrics": {
+                "ground_truth": "33820927",
+                "prediction": "33867627",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 46700.0,
+                "rel_distance": 0.0013808018922722017
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the product of 3898 and 4359?",
+            "response": "[FINAL ANSWER] The product of 3898 and 4359 is 16,997,782.",
+            "metrics": {
+                "ground_truth": "16991382",
+                "prediction": "16997782",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.25,
+                "abs_distance": 6400.0,
+                "rel_distance": 0.0003766615334762058
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: What is the product of 3898 and 4359? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "```cpp\n#include <iostream>\n\nint main() {\n    int num1 = 3898;\n    int num2 = 4359;\n    int product = num1 * num2;\n\n    std::cout << \"[FINAL ANSWER] The product of \" << num1 << \" and \" << num2 << \" is: \" << product << std::endl;\n\n    return 0;\n}\n```\n\nSimulation:\n```\n[FINAL ANSWER] The product of 3898 and 4359 is: 16973882\n```",
+            "metrics": {
+                "ground_truth": "16991382",
+                "prediction": "16973882",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 17500.0,
+                "rel_distance": 0.0010299338805990002
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Give the sum of 4571 and 7761.",
+            "response": "[FINAL ANSWER] The sum of 4571 and 7761 is 12,332.",
+            "metrics": {
+                "ground_truth": "12332",
+                "prediction": "12332",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in Java to solve the following problem: Give the sum of 4571 and 7761. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "```java\npublic class SumCalculator {\n    public static void main(String[] args) {\n        int num1 = 4571;\n        int num2 = 7761;\n        int sum = num1 + num2;\n        \n        System.out.println(\"[FINAL ANSWER] The sum of \" + num1 + \" and \" + num2 + \" is: \" + sum);\n    }\n}\n```\n\nExecution:\n\n```\n[FINAL ANSWER] The sum of 4571 and 7761 is: 12332\n```",
+            "metrics": {
+                "ground_truth": "12332",
+                "prediction": "12332",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Add 4908 and 3536.",
+            "response": "[FINAL ANSWER] The sum of 4908 and 3536 is 8444.",
+            "metrics": {
+                "ground_truth": "8444",
+                "prediction": "8444",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in JavaScript to solve the following problem: Add 4908 and 3536. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "let num1 = 4908;\nlet num2 = 3536;\nlet sum = num1 + num2;\n\nconsole.log(\"[FINAL ANSWER] \" + sum);\n\n// Output: [FINAL ANSWER] 8444",
+            "metrics": {
+                "ground_truth": "8444",
+                "prediction": "8444",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Find the result of multiplying 3658 and 2282.",
+            "response": "[FINAL ANSWER] The result of multiplying 3658 and 2282 is 8,351,236.",
+            "metrics": {
+                "ground_truth": "8347556",
+                "prediction": "8351236",
+                "abs_edit_distance": 4,
+                "rel_edit_distance": 0.5714285714285714,
+                "abs_distance": 3680.0,
+                "rel_distance": 0.000440847596589948
+            }
+        },
+        "context": {
+            "prompt": "Write code in Python to solve the following problem: Find the result of multiplying 3658 and 2282. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "result = 3658 * 2282\nprint(\"[FINAL ANSWER]\", result)\n\n# Output: [FINAL ANSWER] 8358436",
+            "metrics": {
+                "ground_truth": "8347556",
+                "prediction": "8358436",
+                "abs_edit_distance": 4,
+                "rel_edit_distance": 0.5714285714285714,
+                "abs_distance": 10880.0,
+                "rel_distance": 0.0013033755029615854
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Find the result of multiplying 1843 and 4923.",
+            "response": "[FINAL ANSWER] The result of multiplying 1843 and 4923 is 9,079,589.",
+            "metrics": {
+                "ground_truth": "9073089",
+                "prediction": "9079589",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.2857142857142857,
+                "abs_distance": 6500.0,
+                "rel_distance": 0.0007164043028785455
+            }
+        },
+        "context": {
+            "prompt": "Write code in Rust to solve the following problem: Find the result of multiplying 1843 and 4923. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "```rust\nfn main() {\n    let result = 1843 * 4923;\n    println!(\"[FINAL ANSWER] The result of multiplying 1843 and 4923 is: {}\", result);\n}\n```\n\n[FINAL ANSWER] The result of multiplying 1843 and 4923 is: 9079389",
+            "metrics": {
+                "ground_truth": "9073089",
+                "prediction": "9079389",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.2857142857142857,
+                "abs_distance": 6300.0,
+                "rel_distance": 0.0006943610935592057
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the sum of 3157 and 7519?",
+            "response": "[FINAL ANSWER] The sum of 3157 and 7519 is 10,676.",
+            "metrics": {
+                "ground_truth": "10676",
+                "prediction": "10676",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: What is the sum of 3157 and 7519? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "```cpp\n#include <iostream>\n\nint main() {\n    int num1 = 3157;\n    int num2 = 7519;\n    int sum = num1 + num2;\n\n    std::cout << \"[FINAL ANSWER] The sum of \" << num1 << \" and \" << num2 << \" is: \" << sum << std::endl;\n\n    return 0;\n}\n```\n\nExecution:\n\n```\n[FINAL ANSWER] The sum of 3157 and 7519 is: 10676\n```",
+            "metrics": {
+                "ground_truth": "10676",
+                "prediction": "10676",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Find the result of multiplying 2417 and 6173.",
+            "response": "[FINAL ANSWER] The result of multiplying 2417 and 6173 is 14,937,241.",
+            "metrics": {
+                "ground_truth": "14920141",
+                "prediction": "14937241",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 17100.0,
+                "rel_distance": 0.0011461017694135733
+            }
+        },
+        "context": {
+            "prompt": "Write code in Java to solve the following problem: Find the result of multiplying 2417 and 6173. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "```java\npublic class Multiplication {\n    public static void main(String[] args) {\n        int num1 = 2417;\n        int num2 = 6173;\n        int result = num1 * num2;\n        System.out.println(\"[FINAL ANSWER] The result of multiplying 2417 and 6173 is: \" + result);\n    }\n}\n```\n\nExecution:\n\n```\n[FINAL ANSWER] The result of multiplying 2417 and 6173 is: 14916041\n```",
+            "metrics": {
+                "ground_truth": "14920141",
+                "prediction": "14916041",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 4100.0,
+                "rel_distance": 0.0002747963306781082
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Find the result of multiplying 3275 and 2175.",
+            "response": "[FINAL ANSWER] The result of multiplying 3275 and 2175 is 7,113,125.",
+            "metrics": {
+                "ground_truth": "7123125",
+                "prediction": "7113125",
+                "abs_edit_distance": 1,
+                "rel_edit_distance": 0.14285714285714285,
+                "abs_distance": 10000.0,
+                "rel_distance": 0.0014038782135649733
+            }
+        },
+        "context": {
+            "prompt": "Write code in JavaScript to solve the following problem: Find the result of multiplying 3275 and 2175. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "```javascript\nlet result = 3275 * 2175;\nconsole.log(\"[FINAL ANSWER] \" + result);\n```\n\nExecution:\n\n```\n[FINAL ANSWER] 7126875\n```",
+            "metrics": {
+                "ground_truth": "7123125",
+                "prediction": "7126875",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.42857142857142855,
+                "abs_distance": 3750.0,
+                "rel_distance": 0.0005264543300868649
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What do you get when you multiply 6358 and 4225?",
+            "response": "[FINAL ANSWER] When you multiply 6358 and 4225, you get 26,860,450.",
+            "metrics": {
+                "ground_truth": "26862550",
+                "prediction": "26860450",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.25,
+                "abs_distance": 2100.0,
+                "rel_distance": 7.817575025453652e-05
+            }
+        },
+        "context": {
+            "prompt": "Write code in Python to solve the following problem: What do you get when you multiply 6358 and 4225? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "```python\n# Multiply two numbers\nresult = 6358 * 4225\n\n# Print the final answer\nprint(\"[FINAL ANSWER]\", result)\n```\n\nSimulation:\n```\n[FINAL ANSWER] 26878950\n```",
+            "metrics": {
+                "ground_truth": "26862550",
+                "prediction": "26878950",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 16400.0,
+                "rel_distance": 0.0006105153829401899
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Find the result of multiplying 7528 and 7977.",
+            "response": "[FINAL ANSWER] The result of multiplying 7528 and 7977 is 59,997,256.",
+            "metrics": {
+                "ground_truth": "60050856",
+                "prediction": "59997256",
+                "abs_edit_distance": 6,
+                "rel_edit_distance": 0.75,
+                "abs_distance": 53600.0,
+                "rel_distance": 0.0008925767852501553
+            }
+        },
+        "context": {
+            "prompt": "Write code in Rust to solve the following problem: Find the result of multiplying 7528 and 7977. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "```rust\nfn main() {\n    let num1 = 7528;\n    let num2 = 7977;\n    let result = num1 * num2;\n    println!(\"[FINAL ANSWER] The result of multiplying {} and {} is: {}\", num1, num2, result);\n}\n```\n\n[FINAL ANSWER] The result of multiplying 7528 and 7977 is: 59928256",
+            "metrics": {
+                "ground_truth": "60050856",
+                "prediction": "59928256",
+                "abs_edit_distance": 6,
+                "rel_edit_distance": 0.75,
+                "abs_distance": 122600.0,
+                "rel_distance": 0.002041602870740094
+            }
+        }
+    }
+]

@@ -1,0 +1,2602 @@
+[
+    {
+        "no_context": {
+            "prompt": "What is the sum of 16 and 66?",
+            "response": "[FINAL ANSWER] The sum of 16 and 66 is 82.",
+            "metrics": {
+                "ground_truth": "82",
+                "prediction": "82",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "What is the sum of 16 and 66?",
+            "response": "[FINAL ANSWER] The sum of 16 and 66 is 82.",
+            "metrics": {
+                "ground_truth": "82",
+                "prediction": "82",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Multiply 43 and 14.",
+            "response": "[FINAL ANSWER] The product of 43 and 14 is 602.",
+            "metrics": {
+                "ground_truth": "602",
+                "prediction": "602",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Multiply 43 and 14.",
+            "response": "[FINAL ANSWER] The product of 43 and 14 is 602.",
+            "metrics": {
+                "ground_truth": "602",
+                "prediction": "602",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the result of adding 48 and 41?",
+            "response": "[FINAL ANSWER] The result of adding 48 and 41 is 89.",
+            "metrics": {
+                "ground_truth": "89",
+                "prediction": "89",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "What is the result of adding 48 and 41?",
+            "response": "[FINAL ANSWER] The result of adding 48 and 41 is 89.",
+            "metrics": {
+                "ground_truth": "89",
+                "prediction": "89",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Find the result of adding 78 and 1.",
+            "response": "[FINAL ANSWER] The result of adding 78 and 1 is 79.",
+            "metrics": {
+                "ground_truth": "79",
+                "prediction": "79",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Find the result of adding 78 and 1.",
+            "response": "[FINAL ANSWER] The result of adding 78 and 1 is 79.",
+            "metrics": {
+                "ground_truth": "79",
+                "prediction": "79",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Find the result of multiplying 45 and 18.",
+            "response": "[FINAL ANSWER] The result of multiplying 45 and 18 is 810.",
+            "metrics": {
+                "ground_truth": "810",
+                "prediction": "810",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Find the result of multiplying 45 and 18.",
+            "response": "[FINAL ANSWER] The result of multiplying 45 and 18 is 810.",
+            "metrics": {
+                "ground_truth": "810",
+                "prediction": "810",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Add 20 and 91.",
+            "response": "[FINAL ANSWER] The sum of 20 and 91 is 111.",
+            "metrics": {
+                "ground_truth": "111",
+                "prediction": "111",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Add 20 and 91.",
+            "response": "[FINAL ANSWER] The sum of 20 and 91 is 111.",
+            "metrics": {
+                "ground_truth": "111",
+                "prediction": "111",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Give the sum of 28 and 58.",
+            "response": "[FINAL ANSWER] The sum of 28 and 58 is 86.",
+            "metrics": {
+                "ground_truth": "86",
+                "prediction": "86",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Give the sum of 28 and 58.",
+            "response": "[FINAL ANSWER] The sum of 28 and 58 is 86.",
+            "metrics": {
+                "ground_truth": "86",
+                "prediction": "86",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Find the result of adding 43 and 14.",
+            "response": "[FINAL ANSWER] The result of adding 43 and 14 is 57.",
+            "metrics": {
+                "ground_truth": "57",
+                "prediction": "57",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Find the result of adding 43 and 14.",
+            "response": "[FINAL ANSWER] The result of adding 43 and 14 is 57.",
+            "metrics": {
+                "ground_truth": "57",
+                "prediction": "57",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the result of adding 60 and 24?",
+            "response": "[FINAL ANSWER] The result of adding 60 and 24 is 84.",
+            "metrics": {
+                "ground_truth": "84",
+                "prediction": "84",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "What is the result of adding 60 and 24?",
+            "response": "[FINAL ANSWER] The result of adding 60 and 24 is 84.",
+            "metrics": {
+                "ground_truth": "84",
+                "prediction": "84",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What do you get when you multiply 13 and 71?",
+            "response": "[FINAL ANSWER] When you multiply 13 and 71, you get 923.",
+            "metrics": {
+                "ground_truth": "923",
+                "prediction": "923",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "What do you get when you multiply 13 and 71?",
+            "response": "[FINAL ANSWER] When you multiply 13 and 71, you get 923.",
+            "metrics": {
+                "ground_truth": "923",
+                "prediction": "923",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Provide the sum of 11 and 25.",
+            "response": "[FINAL ANSWER] The sum of 11 and 25 is 36.",
+            "metrics": {
+                "ground_truth": "36",
+                "prediction": "36",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Provide the sum of 11 and 25.",
+            "response": "[FINAL ANSWER] The sum of 11 and 25 is 36.",
+            "metrics": {
+                "ground_truth": "36",
+                "prediction": "36",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Give the sum of 16 and 28.",
+            "response": "[FINAL ANSWER] The sum of 16 and 28 is 44.",
+            "metrics": {
+                "ground_truth": "44",
+                "prediction": "44",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Give the sum of 16 and 28.",
+            "response": "[FINAL ANSWER] The sum of 16 and 28 is 44.",
+            "metrics": {
+                "ground_truth": "44",
+                "prediction": "44",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Find the result of adding 77 and 56.",
+            "response": "[FINAL ANSWER] The result of adding 77 and 56 is 133.",
+            "metrics": {
+                "ground_truth": "133",
+                "prediction": "133",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Find the result of adding 77 and 56.",
+            "response": "[FINAL ANSWER] The result of adding 77 and 56 is 133.",
+            "metrics": {
+                "ground_truth": "133",
+                "prediction": "133",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Multiply 25 and 77.",
+            "response": "[FINAL ANSWER] The product of 25 and 77 is 1925.",
+            "metrics": {
+                "ground_truth": "1925",
+                "prediction": "1925",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Multiply 25 and 77.",
+            "response": "[FINAL ANSWER] The product of 25 and 77 is 1925.",
+            "metrics": {
+                "ground_truth": "1925",
+                "prediction": "1925",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the product of 48 and 52?",
+            "response": "[FINAL ANSWER] The product of 48 and 52 is 2496.",
+            "metrics": {
+                "ground_truth": "2496",
+                "prediction": "2496",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "What is the product of 48 and 52?",
+            "response": "[FINAL ANSWER] The product of 48 and 52 is 2496.",
+            "metrics": {
+                "ground_truth": "2496",
+                "prediction": "2496",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Find the result of adding 29 and 85.",
+            "response": "[FINAL ANSWER] The result of adding 29 and 85 is 114.",
+            "metrics": {
+                "ground_truth": "114",
+                "prediction": "114",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Find the result of adding 29 and 85.",
+            "response": "[FINAL ANSWER] The result of adding 29 and 85 is 114.",
+            "metrics": {
+                "ground_truth": "114",
+                "prediction": "114",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the product of 96 and 85?",
+            "response": "[FINAL ANSWER] The product of 96 and 85 is 8160.",
+            "metrics": {
+                "ground_truth": "8160",
+                "prediction": "8160",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "What is the product of 96 and 85?",
+            "response": "[FINAL ANSWER] The product of 96 and 85 is 8160.",
+            "metrics": {
+                "ground_truth": "8160",
+                "prediction": "8160",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Give the sum of 67 and 76.",
+            "response": "[FINAL ANSWER] The sum of 67 and 76 is 143.",
+            "metrics": {
+                "ground_truth": "143",
+                "prediction": "143",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Give the sum of 67 and 76.",
+            "response": "[FINAL ANSWER] The sum of 67 and 76 is 143.",
+            "metrics": {
+                "ground_truth": "143",
+                "prediction": "143",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Provide the product of 58 and 55.",
+            "response": "[FINAL ANSWER] The product of 58 and 55 is 3190.",
+            "metrics": {
+                "ground_truth": "3190",
+                "prediction": "3190",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Provide the product of 58 and 55.",
+            "response": "[FINAL ANSWER] The product of 58 and 55 is 3190.",
+            "metrics": {
+                "ground_truth": "3190",
+                "prediction": "3190",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the product of 57 and 34?",
+            "response": "[FINAL ANSWER] The product of 57 and 34 is 1938.",
+            "metrics": {
+                "ground_truth": "1938",
+                "prediction": "1938",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "What is the product of 57 and 34?",
+            "response": "[FINAL ANSWER] The product of 57 and 34 is 1938.",
+            "metrics": {
+                "ground_truth": "1938",
+                "prediction": "1938",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Give the sum of 69 and 47.",
+            "response": "[FINAL ANSWER] The sum of 69 and 47 is 116.",
+            "metrics": {
+                "ground_truth": "116",
+                "prediction": "116",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Give the sum of 69 and 47.",
+            "response": "[FINAL ANSWER] The sum of 69 and 47 is 116.",
+            "metrics": {
+                "ground_truth": "116",
+                "prediction": "116",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Give the product of 50 and 57.",
+            "response": "[FINAL ANSWER] The product of 50 and 57 is 2,850.",
+            "metrics": {
+                "ground_truth": "2850",
+                "prediction": "2850",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Give the product of 50 and 57.",
+            "response": "[FINAL ANSWER] The product of 50 and 57 is 2,850.",
+            "metrics": {
+                "ground_truth": "2850",
+                "prediction": "2850",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Find the result of adding 96 and 83.",
+            "response": "[FINAL ANSWER] The result of adding 96 and 83 is 179.",
+            "metrics": {
+                "ground_truth": "179",
+                "prediction": "179",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Find the result of adding 96 and 83.",
+            "response": "[FINAL ANSWER] The result of adding 96 and 83 is 179.",
+            "metrics": {
+                "ground_truth": "179",
+                "prediction": "179",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the sum of numbers 60 and 1?",
+            "response": "[FINAL ANSWER] The sum of numbers 60 and 1 is 61.",
+            "metrics": {
+                "ground_truth": "61",
+                "prediction": "61",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "What is the sum of numbers 60 and 1?",
+            "response": "[FINAL ANSWER] The sum of numbers 60 and 1 is 61.",
+            "metrics": {
+                "ground_truth": "61",
+                "prediction": "61",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the product of 44 and 89?",
+            "response": "[FINAL ANSWER] The product of 44 and 89 is 3,916.",
+            "metrics": {
+                "ground_truth": "3916",
+                "prediction": "3916",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "What is the product of 44 and 89?",
+            "response": "[FINAL ANSWER] The product of 44 and 89 is 3,916.",
+            "metrics": {
+                "ground_truth": "3916",
+                "prediction": "3916",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the sum of 79 and 41?",
+            "response": "[FINAL ANSWER] The sum of 79 and 41 is 120.",
+            "metrics": {
+                "ground_truth": "120",
+                "prediction": "120",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "What is the sum of 79 and 41?",
+            "response": "[FINAL ANSWER] The sum of 79 and 41 is 120.",
+            "metrics": {
+                "ground_truth": "120",
+                "prediction": "120",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the sum of numbers 13 and 79?",
+            "response": "[FINAL ANSWER] The sum of numbers 13 and 79 is 92.",
+            "metrics": {
+                "ground_truth": "92",
+                "prediction": "92",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "What is the sum of numbers 13 and 79?",
+            "response": "[FINAL ANSWER] The sum of numbers 13 and 79 is 92.",
+            "metrics": {
+                "ground_truth": "92",
+                "prediction": "92",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the result of adding 72 and 5?",
+            "response": "[FINAL ANSWER] The result of adding 72 and 5 is 77.",
+            "metrics": {
+                "ground_truth": "77",
+                "prediction": "77",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "What is the result of adding 72 and 5?",
+            "response": "[FINAL ANSWER] The result of adding 72 and 5 is 77.",
+            "metrics": {
+                "ground_truth": "77",
+                "prediction": "77",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Add 48 and 29.",
+            "response": "[FINAL ANSWER] The sum of 48 and 29 is 77.",
+            "metrics": {
+                "ground_truth": "77",
+                "prediction": "77",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Add 48 and 29.",
+            "response": "[FINAL ANSWER] The sum of 48 and 29 is 77.",
+            "metrics": {
+                "ground_truth": "77",
+                "prediction": "77",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Add 34 and 95.",
+            "response": "[FINAL ANSWER] The sum of 34 and 95 is 129.",
+            "metrics": {
+                "ground_truth": "129",
+                "prediction": "129",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Add 34 and 95.",
+            "response": "[FINAL ANSWER] The sum of 34 and 95 is 129.",
+            "metrics": {
+                "ground_truth": "129",
+                "prediction": "129",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the product of 92 and 61?",
+            "response": "[FINAL ANSWER] The product of 92 and 61 is 5,612.",
+            "metrics": {
+                "ground_truth": "5612",
+                "prediction": "5612",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "What is the product of 92 and 61?",
+            "response": "[FINAL ANSWER] The product of 92 and 61 is 5,612.",
+            "metrics": {
+                "ground_truth": "5612",
+                "prediction": "5612",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Add 19 and 23.",
+            "response": "[FINAL ANSWER] The sum of 19 and 23 is 42.",
+            "metrics": {
+                "ground_truth": "42",
+                "prediction": "42",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Add 19 and 23.",
+            "response": "[FINAL ANSWER] The sum of 19 and 23 is 42.",
+            "metrics": {
+                "ground_truth": "42",
+                "prediction": "42",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the product of 29 and 11?",
+            "response": "[FINAL ANSWER] The product of 29 and 11 is 319.",
+            "metrics": {
+                "ground_truth": "319",
+                "prediction": "319",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "What is the product of 29 and 11?",
+            "response": "[FINAL ANSWER] The product of 29 and 11 is 319.",
+            "metrics": {
+                "ground_truth": "319",
+                "prediction": "319",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Give the sum of 69 and 73.",
+            "response": "[FINAL ANSWER] The sum of 69 and 73 is 142.",
+            "metrics": {
+                "ground_truth": "142",
+                "prediction": "142",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Give the sum of 69 and 73.",
+            "response": "[FINAL ANSWER] The sum of 69 and 73 is 142.",
+            "metrics": {
+                "ground_truth": "142",
+                "prediction": "142",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Give the sum of 25 and 84.",
+            "response": "[FINAL ANSWER] The sum of 25 and 84 is 109.",
+            "metrics": {
+                "ground_truth": "109",
+                "prediction": "109",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Give the sum of 25 and 84.",
+            "response": "[FINAL ANSWER] The sum of 25 and 84 is 109.",
+            "metrics": {
+                "ground_truth": "109",
+                "prediction": "109",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Add 51 and 35.",
+            "response": "[FINAL ANSWER] The sum of 51 and 35 is 86.",
+            "metrics": {
+                "ground_truth": "86",
+                "prediction": "86",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Add 51 and 35.",
+            "response": "[FINAL ANSWER] The sum of 51 and 35 is 86.",
+            "metrics": {
+                "ground_truth": "86",
+                "prediction": "86",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the result of adding 19 and 88?",
+            "response": "[FINAL ANSWER] The result of adding 19 and 88 is 107.",
+            "metrics": {
+                "ground_truth": "107",
+                "prediction": "107",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "What is the result of adding 19 and 88?",
+            "response": "[FINAL ANSWER] The result of adding 19 and 88 is 107.",
+            "metrics": {
+                "ground_truth": "107",
+                "prediction": "107",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Add 49 and 64.",
+            "response": "[FINAL ANSWER] The sum of 49 and 64 is 113.",
+            "metrics": {
+                "ground_truth": "113",
+                "prediction": "113",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Add 49 and 64.",
+            "response": "[FINAL ANSWER] The sum of 49 and 64 is 113.",
+            "metrics": {
+                "ground_truth": "113",
+                "prediction": "113",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What do you get when you add 19 and 8?",
+            "response": "[FINAL ANSWER] When you add 19 and 8, you get 27.",
+            "metrics": {
+                "ground_truth": "27",
+                "prediction": "27",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "What do you get when you add 19 and 8?",
+            "response": "[FINAL ANSWER] When you add 19 and 8, you get 27.",
+            "metrics": {
+                "ground_truth": "27",
+                "prediction": "27",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the sum of numbers 45 and 43?",
+            "response": "[FINAL ANSWER] The sum of numbers 45 and 43 is 88.",
+            "metrics": {
+                "ground_truth": "88",
+                "prediction": "88",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "What is the sum of numbers 45 and 43?",
+            "response": "[FINAL ANSWER] The sum of numbers 45 and 43 is 88.",
+            "metrics": {
+                "ground_truth": "88",
+                "prediction": "88",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What do you get when you add 52 and 34?",
+            "response": "[FINAL ANSWER] When you add 52 and 34, you get 86.",
+            "metrics": {
+                "ground_truth": "86",
+                "prediction": "86",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "What do you get when you add 52 and 34?",
+            "response": "[FINAL ANSWER] When you add 52 and 34, you get 86.",
+            "metrics": {
+                "ground_truth": "86",
+                "prediction": "86",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Multiply 21 and 71.",
+            "response": "[FINAL ANSWER] The product of 21 and 71 is 1491.",
+            "metrics": {
+                "ground_truth": "1491",
+                "prediction": "1491",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Multiply 21 and 71.",
+            "response": "[FINAL ANSWER] The product of 21 and 71 is 1491.",
+            "metrics": {
+                "ground_truth": "1491",
+                "prediction": "1491",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Multiply 14 and 73.",
+            "response": "[FINAL ANSWER] The product of 14 and 73 is 1,022.",
+            "metrics": {
+                "ground_truth": "1022",
+                "prediction": "1022",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Multiply 14 and 73.",
+            "response": "[FINAL ANSWER] The product of 14 and 73 is 1,022.",
+            "metrics": {
+                "ground_truth": "1022",
+                "prediction": "1022",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Give the sum of 84 and 80.",
+            "response": "[FINAL ANSWER] The sum of 84 and 80 is 164.",
+            "metrics": {
+                "ground_truth": "164",
+                "prediction": "164",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Give the sum of 84 and 80.",
+            "response": "[FINAL ANSWER] The sum of 84 and 80 is 164.",
+            "metrics": {
+                "ground_truth": "164",
+                "prediction": "164",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What do you get when you multiply 61 and 40?",
+            "response": "[FINAL ANSWER] When you multiply 61 and 40, you get 2,440.",
+            "metrics": {
+                "ground_truth": "2440",
+                "prediction": "2440",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "What do you get when you multiply 61 and 40?",
+            "response": "[FINAL ANSWER] When you multiply 61 and 40, you get 2,440.",
+            "metrics": {
+                "ground_truth": "2440",
+                "prediction": "2440",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the sum of numbers 4 and 13?",
+            "response": "[FINAL ANSWER] The sum of numbers 4 and 13 is 17.",
+            "metrics": {
+                "ground_truth": "17",
+                "prediction": "17",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "What is the sum of numbers 4 and 13?",
+            "response": "[FINAL ANSWER] The sum of numbers 4 and 13 is 17.",
+            "metrics": {
+                "ground_truth": "17",
+                "prediction": "17",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the product of 64 and 64?",
+            "response": "[FINAL ANSWER] The product of 64 and 64 is 4096.",
+            "metrics": {
+                "ground_truth": "4096",
+                "prediction": "4096",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "What is the product of 64 and 64?",
+            "response": "[FINAL ANSWER] The product of 64 and 64 is 4096.",
+            "metrics": {
+                "ground_truth": "4096",
+                "prediction": "4096",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What do you get when you add 80 and 77?",
+            "response": "[FINAL ANSWER] When you add 80 and 77, you get 157.",
+            "metrics": {
+                "ground_truth": "157",
+                "prediction": "157",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "What do you get when you add 80 and 77?",
+            "response": "[FINAL ANSWER] When you add 80 and 77, you get 157.",
+            "metrics": {
+                "ground_truth": "157",
+                "prediction": "157",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the sum of numbers 3 and 71?",
+            "response": "[FINAL ANSWER] The sum of numbers 3 and 71 is 74.",
+            "metrics": {
+                "ground_truth": "74",
+                "prediction": "74",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "What is the sum of numbers 3 and 71?",
+            "response": "[FINAL ANSWER] The sum of numbers 3 and 71 is 74.",
+            "metrics": {
+                "ground_truth": "74",
+                "prediction": "74",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Provide the product of 73 and 2.",
+            "response": "[FINAL ANSWER] The product of 73 and 2 is 146.",
+            "metrics": {
+                "ground_truth": "146",
+                "prediction": "146",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Provide the product of 73 and 2.",
+            "response": "[FINAL ANSWER] The product of 73 and 2 is 146.",
+            "metrics": {
+                "ground_truth": "146",
+                "prediction": "146",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the product of numbers 87 and 70?",
+            "response": "[FINAL ANSWER] The product of numbers 87 and 70 is 6090.",
+            "metrics": {
+                "ground_truth": "6090",
+                "prediction": "6090",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "What is the product of numbers 87 and 70?",
+            "response": "[FINAL ANSWER] The product of numbers 87 and 70 is 6090.",
+            "metrics": {
+                "ground_truth": "6090",
+                "prediction": "6090",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Add 46 and 24.",
+            "response": "[FINAL ANSWER] The sum of 46 and 24 is 70.",
+            "metrics": {
+                "ground_truth": "70",
+                "prediction": "70",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Add 46 and 24.",
+            "response": "[FINAL ANSWER] The sum of 46 and 24 is 70.",
+            "metrics": {
+                "ground_truth": "70",
+                "prediction": "70",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What do you get when you multiply 98 and 45?",
+            "response": "[FINAL ANSWER] When you multiply 98 and 45, you get 4410.",
+            "metrics": {
+                "ground_truth": "4410",
+                "prediction": "4410",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "What do you get when you multiply 98 and 45?",
+            "response": "[FINAL ANSWER] When you multiply 98 and 45, you get 4410.",
+            "metrics": {
+                "ground_truth": "4410",
+                "prediction": "4410",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the sum of 11 and 20?",
+            "response": "[FINAL ANSWER] The sum of 11 and 20 is 31.",
+            "metrics": {
+                "ground_truth": "31",
+                "prediction": "31",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "What is the sum of 11 and 20?",
+            "response": "[FINAL ANSWER] The sum of 11 and 20 is 31.",
+            "metrics": {
+                "ground_truth": "31",
+                "prediction": "31",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Provide the product of 13 and 79.",
+            "response": "[FINAL ANSWER] The product of 13 and 79 is 1,027.",
+            "metrics": {
+                "ground_truth": "1027",
+                "prediction": "1027",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Provide the product of 13 and 79.",
+            "response": "[FINAL ANSWER] The product of 13 and 79 is 1,027.",
+            "metrics": {
+                "ground_truth": "1027",
+                "prediction": "1027",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Find the result of adding 68 and 38.",
+            "response": "[FINAL ANSWER] The result of adding 68 and 38 is 106.",
+            "metrics": {
+                "ground_truth": "106",
+                "prediction": "106",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Find the result of adding 68 and 38.",
+            "response": "[FINAL ANSWER] The result of adding 68 and 38 is 106.",
+            "metrics": {
+                "ground_truth": "106",
+                "prediction": "106",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Multiply 62 and 84.",
+            "response": "[FINAL ANSWER] The product of 62 and 84 is 5,208.",
+            "metrics": {
+                "ground_truth": "5208",
+                "prediction": "5208",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Multiply 62 and 84.",
+            "response": "[FINAL ANSWER] The product of 62 and 84 is 5,208.",
+            "metrics": {
+                "ground_truth": "5208",
+                "prediction": "5208",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the sum of numbers 92 and 87?",
+            "response": "[FINAL ANSWER] The sum of numbers 92 and 87 is 179.",
+            "metrics": {
+                "ground_truth": "179",
+                "prediction": "179",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "What is the sum of numbers 92 and 87?",
+            "response": "[FINAL ANSWER] The sum of numbers 92 and 87 is 179.",
+            "metrics": {
+                "ground_truth": "179",
+                "prediction": "179",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the product of 29 and 56?",
+            "response": "[FINAL ANSWER] The product of 29 and 56 is 1624.",
+            "metrics": {
+                "ground_truth": "1624",
+                "prediction": "1624",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "What is the product of 29 and 56?",
+            "response": "[FINAL ANSWER] The product of 29 and 56 is 1624.",
+            "metrics": {
+                "ground_truth": "1624",
+                "prediction": "1624",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Add 96 and 17.",
+            "response": "[FINAL ANSWER] The sum of 96 and 17 is 113.",
+            "metrics": {
+                "ground_truth": "113",
+                "prediction": "113",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Add 96 and 17.",
+            "response": "[FINAL ANSWER] The sum of 96 and 17 is 113.",
+            "metrics": {
+                "ground_truth": "113",
+                "prediction": "113",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Add 4 and 11.",
+            "response": "[FINAL ANSWER] The sum of 4 and 11 is 15.",
+            "metrics": {
+                "ground_truth": "15",
+                "prediction": "15",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Add 4 and 11.",
+            "response": "[FINAL ANSWER] The sum of 4 and 11 is 15.",
+            "metrics": {
+                "ground_truth": "15",
+                "prediction": "15",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Find the result of multiplying 86 and 3.",
+            "response": "[FINAL ANSWER] The result of multiplying 86 and 3 is 258.",
+            "metrics": {
+                "ground_truth": "258",
+                "prediction": "258",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Find the result of multiplying 86 and 3.",
+            "response": "[FINAL ANSWER] The result of multiplying 86 and 3 is 258.",
+            "metrics": {
+                "ground_truth": "258",
+                "prediction": "258",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the result of adding 71 and 42?",
+            "response": "[FINAL ANSWER] The result of adding 71 and 42 is 113.",
+            "metrics": {
+                "ground_truth": "113",
+                "prediction": "113",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "What is the result of adding 71 and 42?",
+            "response": "[FINAL ANSWER] The result of adding 71 and 42 is 113.",
+            "metrics": {
+                "ground_truth": "113",
+                "prediction": "113",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Add 72 and 50.",
+            "response": "[FINAL ANSWER] The sum of 72 and 50 is 122.",
+            "metrics": {
+                "ground_truth": "122",
+                "prediction": "122",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Add 72 and 50.",
+            "response": "[FINAL ANSWER] The sum of 72 and 50 is 122.",
+            "metrics": {
+                "ground_truth": "122",
+                "prediction": "122",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Give the product of 28 and 13.",
+            "response": "[FINAL ANSWER] The product of 28 and 13 is 364.",
+            "metrics": {
+                "ground_truth": "364",
+                "prediction": "364",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Give the product of 28 and 13.",
+            "response": "[FINAL ANSWER] The product of 28 and 13 is 364.",
+            "metrics": {
+                "ground_truth": "364",
+                "prediction": "364",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Give the product of 40 and 30.",
+            "response": "[FINAL ANSWER] The product of 40 and 30 is 1200.",
+            "metrics": {
+                "ground_truth": "1200",
+                "prediction": "1200",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Give the product of 40 and 30.",
+            "response": "[FINAL ANSWER] The product of 40 and 30 is 1200.",
+            "metrics": {
+                "ground_truth": "1200",
+                "prediction": "1200",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Find the result of multiplying 28 and 60.",
+            "response": "[FINAL ANSWER] The result of multiplying 28 and 60 is 1680.",
+            "metrics": {
+                "ground_truth": "1680",
+                "prediction": "1680",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Find the result of multiplying 28 and 60.",
+            "response": "[FINAL ANSWER] The result of multiplying 28 and 60 is 1680.",
+            "metrics": {
+                "ground_truth": "1680",
+                "prediction": "1680",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Provide the sum of 99 and 23.",
+            "response": "[FINAL ANSWER] The sum of 99 and 23 is 122.",
+            "metrics": {
+                "ground_truth": "122",
+                "prediction": "122",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Provide the sum of 99 and 23.",
+            "response": "[FINAL ANSWER] The sum of 99 and 23 is 122.",
+            "metrics": {
+                "ground_truth": "122",
+                "prediction": "122",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the sum of numbers 31 and 10?",
+            "response": "[FINAL ANSWER] The sum of numbers 31 and 10 is 41.",
+            "metrics": {
+                "ground_truth": "41",
+                "prediction": "41",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "What is the sum of numbers 31 and 10?",
+            "response": "[FINAL ANSWER] The sum of numbers 31 and 10 is 41.",
+            "metrics": {
+                "ground_truth": "41",
+                "prediction": "41",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Add 20 and 29.",
+            "response": "[FINAL ANSWER] The sum of 20 and 29 is 49.",
+            "metrics": {
+                "ground_truth": "49",
+                "prediction": "49",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Add 20 and 29.",
+            "response": "[FINAL ANSWER] The sum of 20 and 29 is 49.",
+            "metrics": {
+                "ground_truth": "49",
+                "prediction": "49",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the product of numbers 81 and 1?",
+            "response": "[FINAL ANSWER] The product of numbers 81 and 1 is 81.",
+            "metrics": {
+                "ground_truth": "81",
+                "prediction": "81",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "What is the product of numbers 81 and 1?",
+            "response": "[FINAL ANSWER] The product of numbers 81 and 1 is 81.",
+            "metrics": {
+                "ground_truth": "81",
+                "prediction": "81",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Add 15 and 68.",
+            "response": "[FINAL ANSWER] The sum of 15 and 68 is 83.",
+            "metrics": {
+                "ground_truth": "83",
+                "prediction": "83",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Add 15 and 68.",
+            "response": "[FINAL ANSWER] The sum of 15 and 68 is 83.",
+            "metrics": {
+                "ground_truth": "83",
+                "prediction": "83",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the result of adding 17 and 63?",
+            "response": "[FINAL ANSWER] The result of adding 17 and 63 is 80.",
+            "metrics": {
+                "ground_truth": "80",
+                "prediction": "80",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "What is the result of adding 17 and 63?",
+            "response": "[FINAL ANSWER] The result of adding 17 and 63 is 80.",
+            "metrics": {
+                "ground_truth": "80",
+                "prediction": "80",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the product of numbers 31 and 23?",
+            "response": "[FINAL ANSWER] The product of numbers 31 and 23 is 713.",
+            "metrics": {
+                "ground_truth": "713",
+                "prediction": "713",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "What is the product of numbers 31 and 23?",
+            "response": "[FINAL ANSWER] The product of numbers 31 and 23 is 713.",
+            "metrics": {
+                "ground_truth": "713",
+                "prediction": "713",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Find the result of multiplying 23 and 77.",
+            "response": "[FINAL ANSWER] The result of multiplying 23 and 77 is 1771.",
+            "metrics": {
+                "ground_truth": "1771",
+                "prediction": "1771",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Find the result of multiplying 23 and 77.",
+            "response": "[FINAL ANSWER] The result of multiplying 23 and 77 is 1771.",
+            "metrics": {
+                "ground_truth": "1771",
+                "prediction": "1771",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the sum of numbers 55 and 57?",
+            "response": "[FINAL ANSWER] The sum of numbers 55 and 57 is 112.",
+            "metrics": {
+                "ground_truth": "112",
+                "prediction": "112",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "What is the sum of numbers 55 and 57?",
+            "response": "[FINAL ANSWER] The sum of numbers 55 and 57 is 112.",
+            "metrics": {
+                "ground_truth": "112",
+                "prediction": "112",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Add 24 and 42.",
+            "response": "[FINAL ANSWER] The sum of 24 and 42 is 66.",
+            "metrics": {
+                "ground_truth": "66",
+                "prediction": "66",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Add 24 and 42.",
+            "response": "[FINAL ANSWER] The sum of 24 and 42 is 66.",
+            "metrics": {
+                "ground_truth": "66",
+                "prediction": "66",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What do you get when you add 8 and 43?",
+            "response": "[FINAL ANSWER] When you add 8 and 43, you get 51.",
+            "metrics": {
+                "ground_truth": "51",
+                "prediction": "51",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "What do you get when you add 8 and 43?",
+            "response": "[FINAL ANSWER] When you add 8 and 43, you get 51.",
+            "metrics": {
+                "ground_truth": "51",
+                "prediction": "51",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Give the sum of 57 and 58.",
+            "response": "[FINAL ANSWER] The sum of 57 and 58 is 115.",
+            "metrics": {
+                "ground_truth": "115",
+                "prediction": "115",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Give the sum of 57 and 58.",
+            "response": "[FINAL ANSWER] The sum of 57 and 58 is 115.",
+            "metrics": {
+                "ground_truth": "115",
+                "prediction": "115",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the result of adding 81 and 84?",
+            "response": "[FINAL ANSWER] The result of adding 81 and 84 is 165.",
+            "metrics": {
+                "ground_truth": "165",
+                "prediction": "165",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "What is the result of adding 81 and 84?",
+            "response": "[FINAL ANSWER] The result of adding 81 and 84 is 165.",
+            "metrics": {
+                "ground_truth": "165",
+                "prediction": "165",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Find the result of multiplying 74 and 80.",
+            "response": "[FINAL ANSWER] The result of multiplying 74 and 80 is 5920.",
+            "metrics": {
+                "ground_truth": "5920",
+                "prediction": "5920",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Find the result of multiplying 74 and 80.",
+            "response": "[FINAL ANSWER] The result of multiplying 74 and 80 is 5920.",
+            "metrics": {
+                "ground_truth": "5920",
+                "prediction": "5920",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the result of multiplying 64 and 62?",
+            "response": "[FINAL ANSWER] The result of multiplying 64 and 62 is 3968.",
+            "metrics": {
+                "ground_truth": "3968",
+                "prediction": "3968",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "What is the result of multiplying 64 and 62?",
+            "response": "[FINAL ANSWER] The result of multiplying 64 and 62 is 3968.",
+            "metrics": {
+                "ground_truth": "3968",
+                "prediction": "3968",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Provide the product of 82 and 52.",
+            "response": "[FINAL ANSWER] The product of 82 and 52 is 4,264.",
+            "metrics": {
+                "ground_truth": "4264",
+                "prediction": "4264",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Provide the product of 82 and 52.",
+            "response": "[FINAL ANSWER] The product of 82 and 52 is 4,264.",
+            "metrics": {
+                "ground_truth": "4264",
+                "prediction": "4264",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Add 74 and 24.",
+            "response": "[FINAL ANSWER] The sum of 74 and 24 is 98.",
+            "metrics": {
+                "ground_truth": "98",
+                "prediction": "98",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Add 74 and 24.",
+            "response": "[FINAL ANSWER] The sum of 74 and 24 is 98.",
+            "metrics": {
+                "ground_truth": "98",
+                "prediction": "98",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the result of multiplying 9 and 81?",
+            "response": "[FINAL ANSWER] The result of multiplying 9 and 81 is 729.",
+            "metrics": {
+                "ground_truth": "729",
+                "prediction": "729",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "What is the result of multiplying 9 and 81?",
+            "response": "[FINAL ANSWER] The result of multiplying 9 and 81 is 729.",
+            "metrics": {
+                "ground_truth": "729",
+                "prediction": "729",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What do you get when you multiply 22 and 72?",
+            "response": "[FINAL ANSWER] When you multiply 22 and 72, you get 1584.",
+            "metrics": {
+                "ground_truth": "1584",
+                "prediction": "1584",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "What do you get when you multiply 22 and 72?",
+            "response": "[FINAL ANSWER] When you multiply 22 and 72, you get 1584.",
+            "metrics": {
+                "ground_truth": "1584",
+                "prediction": "1584",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the product of 69 and 19?",
+            "response": "[FINAL ANSWER] The product of 69 and 19 is 1311.",
+            "metrics": {
+                "ground_truth": "1311",
+                "prediction": "1311",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "What is the product of 69 and 19?",
+            "response": "[FINAL ANSWER] The product of 69 and 19 is 1311.",
+            "metrics": {
+                "ground_truth": "1311",
+                "prediction": "1311",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the product of numbers 14 and 80?",
+            "response": "[FINAL ANSWER] The product of numbers 14 and 80 is 1120.",
+            "metrics": {
+                "ground_truth": "1120",
+                "prediction": "1120",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "What is the product of numbers 14 and 80?",
+            "response": "[FINAL ANSWER] The product of numbers 14 and 80 is 1120.",
+            "metrics": {
+                "ground_truth": "1120",
+                "prediction": "1120",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Give the product of 55 and 18.",
+            "response": "[FINAL ANSWER] The product of 55 and 18 is 990.",
+            "metrics": {
+                "ground_truth": "990",
+                "prediction": "990",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Give the product of 55 and 18.",
+            "response": "[FINAL ANSWER] The product of 55 and 18 is 990.",
+            "metrics": {
+                "ground_truth": "990",
+                "prediction": "990",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Provide the sum of 58 and 46.",
+            "response": "[FINAL ANSWER] The sum of 58 and 46 is 104.",
+            "metrics": {
+                "ground_truth": "104",
+                "prediction": "104",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Provide the sum of 58 and 46.",
+            "response": "[FINAL ANSWER] The sum of 58 and 46 is 104.",
+            "metrics": {
+                "ground_truth": "104",
+                "prediction": "104",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Find the result of adding 79 and 34.",
+            "response": "[FINAL ANSWER] The result of adding 79 and 34 is 113.",
+            "metrics": {
+                "ground_truth": "113",
+                "prediction": "113",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Find the result of adding 79 and 34.",
+            "response": "[FINAL ANSWER] The result of adding 79 and 34 is 113.",
+            "metrics": {
+                "ground_truth": "113",
+                "prediction": "113",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What do you get when you multiply 50 and 90?",
+            "response": "[FINAL ANSWER] When you multiply 50 and 90, you get 4500.",
+            "metrics": {
+                "ground_truth": "4500",
+                "prediction": "4500",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "What do you get when you multiply 50 and 90?",
+            "response": "[FINAL ANSWER] When you multiply 50 and 90, you get 4500.",
+            "metrics": {
+                "ground_truth": "4500",
+                "prediction": "4500",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the product of numbers 74 and 8?",
+            "response": "[FINAL ANSWER] The product of numbers 74 and 8 is 592.",
+            "metrics": {
+                "ground_truth": "592",
+                "prediction": "592",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "What is the product of numbers 74 and 8?",
+            "response": "[FINAL ANSWER] The product of numbers 74 and 8 is 592.",
+            "metrics": {
+                "ground_truth": "592",
+                "prediction": "592",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Provide the product of 8 and 25.",
+            "response": "[FINAL ANSWER] The product of 8 and 25 is 200.",
+            "metrics": {
+                "ground_truth": "200",
+                "prediction": "200",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Provide the product of 8 and 25.",
+            "response": "[FINAL ANSWER] The product of 8 and 25 is 200.",
+            "metrics": {
+                "ground_truth": "200",
+                "prediction": "200",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Provide the product of 61 and 14.",
+            "response": "[FINAL ANSWER] The product of 61 and 14 is 854.",
+            "metrics": {
+                "ground_truth": "854",
+                "prediction": "854",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Provide the product of 61 and 14.",
+            "response": "[FINAL ANSWER] The product of 61 and 14 is 854.",
+            "metrics": {
+                "ground_truth": "854",
+                "prediction": "854",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the product of numbers 21 and 1?",
+            "response": "[FINAL ANSWER] The product of numbers 21 and 1 is 21.",
+            "metrics": {
+                "ground_truth": "21",
+                "prediction": "21",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "What is the product of numbers 21 and 1?",
+            "response": "[FINAL ANSWER] The product of numbers 21 and 1 is 21.",
+            "metrics": {
+                "ground_truth": "21",
+                "prediction": "21",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Multiply 50 and 91.",
+            "response": "[FINAL ANSWER] The product of 50 and 91 is 4550.",
+            "metrics": {
+                "ground_truth": "4550",
+                "prediction": "4550",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Multiply 50 and 91.",
+            "response": "[FINAL ANSWER] The product of 50 and 91 is 4550.",
+            "metrics": {
+                "ground_truth": "4550",
+                "prediction": "4550",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the product of numbers 76 and 26?",
+            "response": "[FINAL ANSWER] The product of numbers 76 and 26 is 1976.",
+            "metrics": {
+                "ground_truth": "1976",
+                "prediction": "1976",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "What is the product of numbers 76 and 26?",
+            "response": "[FINAL ANSWER] The product of numbers 76 and 26 is 1976.",
+            "metrics": {
+                "ground_truth": "1976",
+                "prediction": "1976",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What do you get when you add 12 and 30?",
+            "response": "[FINAL ANSWER] When you add 12 and 30, you get 42.",
+            "metrics": {
+                "ground_truth": "42",
+                "prediction": "42",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "What do you get when you add 12 and 30?",
+            "response": "[FINAL ANSWER] When you add 12 and 30, you get 42.",
+            "metrics": {
+                "ground_truth": "42",
+                "prediction": "42",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What do you get when you add 18 and 64?",
+            "response": "[FINAL ANSWER] When you add 18 and 64, you get 82.",
+            "metrics": {
+                "ground_truth": "82",
+                "prediction": "82",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "What do you get when you add 18 and 64?",
+            "response": "[FINAL ANSWER] When you add 18 and 64, you get 82.",
+            "metrics": {
+                "ground_truth": "82",
+                "prediction": "82",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    }
+]

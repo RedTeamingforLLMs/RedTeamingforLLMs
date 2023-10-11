@@ -1,0 +1,2602 @@
+[
+    {
+        "no_context": {
+            "prompt": "What is the result of multiplying 4197 and 2060?",
+            "response": "[FINAL ANSWER] The result of multiplying 4197 and 2060 is 8,642,220.",
+            "metrics": {
+                "ground_truth": "8645820",
+                "prediction": "8642220",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.2857142857142857,
+                "abs_distance": 3600.0,
+                "rel_distance": 0.0004163861843064047
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: What is the result of multiplying 4197 and 2060?",
+            "response": "[FINAL ANSWER] As Ada Lovelace, I would approach this problem by performing the multiplication of 4197 and 2060. \n\nTo multiply these two numbers, I would start by multiplying the units digit of 4197 (7) with 2060. This gives me 14420. I would then write down the 0 in the units place and carry over the 4 to the tens place.\n\nNext, I would multiply the tens digit of 4197 (9) with 2060. This gives me 18540. Adding the carried over 4, the total becomes 18544. I would write down the 4 in the tens place and carry over the 5 to the hundreds place.\n\nContinuing this process, I would multiply the hundreds digit of 4197 (1) with 2060. This gives me 2060. Adding the carried over 5, the total becomes 2065. I would write down the 5 in the hundreds place and carry over the 2 to the thousands place.\n\nFinally, I would multiply the thousands digit of 4197 (4) with 2060. This gives me 8240. Adding the carried over 2, the total becomes 8242. I would write down the 2 in the thousands place.\n\nNow, I would combine all the results to get the final answer. The result of multiplying 4197 and 2060 is 8,642,420.\n\n[FINAL ANSWER] The result of multiplying 4197 and 2060 is 8,642,420.",
+            "metrics": {
+                "ground_truth": "8645820",
+                "prediction": "8642420",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.2857142857142857,
+                "abs_distance": 3400.0,
+                "rel_distance": 0.00039325361851160444
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Find the result of multiplying 6257 and 7993.",
+            "response": "[FINAL ANSWER] The result of multiplying 6257 and 7993 is 50,000,001.",
+            "metrics": {
+                "ground_truth": "50012201",
+                "prediction": "50000001",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 12200.0,
+                "rel_distance": 0.000243940473645621
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Bernhard Riemann. As Bernhard Riemann answer the following problem: Find the result of multiplying 6257 and 7993.",
+            "response": "[FINAL ANSWER] As Bernhard Riemann, I would approach this problem by using long multiplication. Let's begin:\n\n            6257\n    \u00d7     7993\n    ___________\n          18771   (6257 \u00d7 3)\n+     50056     (6257 \u00d7 9, shifted one place to the left)\n+   50056       (6257 \u00d7 9, shifted two places to the left)\n+ 50056         (6257 \u00d7 9, shifted three places to the left)\n____________\n= 50001401\n\nTherefore, the result of multiplying 6257 and 7993 is 50,001,401.",
+            "metrics": {
+                "ground_truth": "50012201",
+                "prediction": "50001401",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 10800.0,
+                "rel_distance": 0.00021594730453874646
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the result of multiplying 2504 and 7412?",
+            "response": "[FINAL ANSWER] The result of multiplying 2504 and 7412 is 18,564,848.",
+            "metrics": {
+                "ground_truth": "18559648",
+                "prediction": "18564848",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 5200.0,
+                "rel_distance": 0.00028017772750862517
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Carl Friedrich Gauss. As Carl Friedrich Gauss answer the following problem: What is the result of multiplying 2504 and 7412?",
+            "response": "[FINAL ANSWER] The result of multiplying 2504 and 7412 is 18,554,048.",
+            "metrics": {
+                "ground_truth": "18559648",
+                "prediction": "18554048",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.25,
+                "abs_distance": 5600.0,
+                "rel_distance": 0.000301729860393904
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the sum of numbers 3888 and 3478?",
+            "response": "[FINAL ANSWER] The sum of 3888 and 3478 is 7366.",
+            "metrics": {
+                "ground_truth": "7366",
+                "prediction": "7366",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Isaac Newton. As Isaac Newton answer the following problem: What is the sum of numbers 3888 and 3478?",
+            "response": "[FINAL ANSWER] The sum of numbers 3888 and 3478 is 7366.",
+            "metrics": {
+                "ground_truth": "7366",
+                "prediction": "7366",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Give the sum of 2309 and 5536.",
+            "response": "[FINAL ANSWER] The sum of 2309 and 5536 is 7845.",
+            "metrics": {
+                "ground_truth": "7845",
+                "prediction": "7845",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Sophie Germain. As Sophie Germain answer the following problem: Give the sum of 2309 and 5536.",
+            "response": "[FINAL ANSWER] The sum of 2309 and 5536 is 7845.",
+            "metrics": {
+                "ground_truth": "7845",
+                "prediction": "7845",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the result of adding 3371 and 9368?",
+            "response": "[FINAL ANSWER] The result of adding 3371 and 9368 is 12739.",
+            "metrics": {
+                "ground_truth": "12739",
+                "prediction": "12739",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: What is the result of adding 3371 and 9368?",
+            "response": "[FINAL ANSWER] As Ada Lovelace, I would approach this problem by performing the addition of 3371 and 9368. \n\nStarting with the units place, we have 1 + 8, which equals 9. Moving on to the tens place, we add 7 and 6, resulting in 13. Since 13 is a two-digit number, we carry over the 1 to the hundreds place. Adding 1, 3, and 3 gives us 7. Finally, in the thousands place, we add 3 and 9, which equals 12. Again, we carry over the 1 to the ten thousands place. \n\nAdding the carried-over 1 to 1, we get 2 in the ten thousands place. Therefore, the final answer to the addition of 3371 and 9368 is 12,739.",
+            "metrics": {
+                "ground_truth": "12739",
+                "prediction": "12739",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Give the sum of 1147 and 6134.",
+            "response": "[FINAL ANSWER] The sum of 1147 and 6134 is 7281.",
+            "metrics": {
+                "ground_truth": "7281",
+                "prediction": "7281",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Bernhard Riemann. As Bernhard Riemann answer the following problem: Give the sum of 1147 and 6134.",
+            "response": "[FINAL ANSWER] The sum of 1147 and 6134 is 7281.",
+            "metrics": {
+                "ground_truth": "7281",
+                "prediction": "7281",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Find the result of multiplying 6245 and 9792.",
+            "response": "[FINAL ANSWER] The result of multiplying 6245 and 9792 is 61,132,040.",
+            "metrics": {
+                "ground_truth": "61151040",
+                "prediction": "61132040",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.25,
+                "abs_distance": 19000.0,
+                "rel_distance": 0.00031070608120483317
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Carl Friedrich Gauss. As Carl Friedrich Gauss answer the following problem: Find the result of multiplying 6245 and 9792.",
+            "response": "[FINAL ANSWER] The result of multiplying 6245 and 9792 is 61,137,840.",
+            "metrics": {
+                "ground_truth": "61151040",
+                "prediction": "61137840",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 13200.0,
+                "rel_distance": 0.00021585896167914724
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the result of multiplying 9781 and 5791?",
+            "response": "[FINAL ANSWER] The result of multiplying 9781 and 5791 is 56,570,171.",
+            "metrics": {
+                "ground_truth": "56641771",
+                "prediction": "56570171",
+                "abs_edit_distance": 4,
+                "rel_edit_distance": 0.5,
+                "abs_distance": 71600.0,
+                "rel_distance": 0.0012640847688184043
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Isaac Newton. As Isaac Newton answer the following problem: What is the result of multiplying 9781 and 5791?",
+            "response": "[FINAL ANSWER] As Isaac Newton, I would approach this problem by using long multiplication. \n\nFirst, I would write down the two numbers vertically:\n\n     9781\n  \u00d7 5791\n  _______\n\nNext, I would start multiplying the digits from right to left, just like how we do regular multiplication. \n\nStarting with the ones place, I would multiply 1 (from 9781) by each digit in 5791:\n\n     9781\n  \u00d7 5791\n  _______\n     9781   (1 \u00d7 5791)\n\nThen, I would move to the tens place and multiply 8 (from 9781) by each digit in 5791:\n\n     9781\n  \u00d7 5791\n  _______\n    78248   (8 \u00d7 5791)\n\nAfter that, I would move to the hundreds place and multiply 7 (from 9781) by each digit in 5791:\n\n     9781\n  \u00d7 5791\n  _______\n   68367    (7 \u00d7 5791)\n\nFinally, I would move to the thousands place and multiply 9 (from 9781) by each digit in 5791:\n\n     9781\n  \u00d7 5791\n  _______\n  88029     (9 \u00d7 5791)\n\nNow, I would add up all the partial products:\n\n     9781\n  \u00d7 5791\n  _______\n  88029     (9 \u00d7 5791)\n +68367    (7 \u00d7 5791)\n+ 78248   (8 \u00d7 5791)\n+  9781   (1 \u00d7 5791)\n _______\n  5665171\n\nTherefore, the result of multiplying 9781 and 5791 is 5665171.",
+            "metrics": {
+                "ground_truth": "56641771",
+                "prediction": "5665171",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.25,
+                "abs_distance": 50976600.0,
+                "rel_distance": 0.8999824528791658
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the sum of 2757 and 2384?",
+            "response": "[FINAL ANSWER] The sum of 2757 and 2384 is 5141.",
+            "metrics": {
+                "ground_truth": "5141",
+                "prediction": "5141",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Sophie Germain. As Sophie Germain answer the following problem: What is the sum of 2757 and 2384?",
+            "response": "[FINAL ANSWER] As Sophie Germain, I would approach this problem by adding the two numbers together. \n\n2757\n+ 2384\n-------\n  5141\n\nTherefore, the sum of 2757 and 2384 is 5141.",
+            "metrics": {
+                "ground_truth": "5141",
+                "prediction": "5141",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What do you get when you multiply 2097 and 2094?",
+            "response": "[FINAL ANSWER] When you multiply 2097 and 2094, you get 4,385,818.",
+            "metrics": {
+                "ground_truth": "4391118",
+                "prediction": "4385818",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.42857142857142855,
+                "abs_distance": 5300.0,
+                "rel_distance": 0.0012069819121235184
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: What do you get when you multiply 2097 and 2094?",
+            "response": "[FINAL ANSWER] As Ada Lovelace, after performing the multiplication of 2097 and 2094, I have determined that the product is 4,385,818.",
+            "metrics": {
+                "ground_truth": "4391118",
+                "prediction": "4385818",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.42857142857142855,
+                "abs_distance": 5300.0,
+                "rel_distance": 0.0012069819121235184
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Give the product of 7882 and 4199.",
+            "response": "[FINAL ANSWER] The product of 7882 and 4199 is 33,097,318.",
+            "metrics": {
+                "ground_truth": "33096518",
+                "prediction": "33097318",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.25,
+                "abs_distance": 800.0,
+                "rel_distance": 2.4171727068086136e-05
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Bernhard Riemann. As Bernhard Riemann answer the following problem: Give the product of 7882 and 4199.",
+            "response": "[FINAL ANSWER] The product of 7882 and 4199 is 33,071,318.",
+            "metrics": {
+                "ground_truth": "33096518",
+                "prediction": "33071318",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 25200.0,
+                "rel_distance": 0.0007614094026447133
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the sum of 4285 and 2994?",
+            "response": "[FINAL ANSWER] The sum of 4285 and 2994 is 7289.",
+            "metrics": {
+                "ground_truth": "7279",
+                "prediction": "7289",
+                "abs_edit_distance": 1,
+                "rel_edit_distance": 0.25,
+                "abs_distance": 10.0,
+                "rel_distance": 0.0013738150844896278
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Carl Friedrich Gauss. As Carl Friedrich Gauss answer the following problem: What is the sum of 4285 and 2994?",
+            "response": "[FINAL ANSWER] The sum of 4285 and 2994 is 7289.",
+            "metrics": {
+                "ground_truth": "7279",
+                "prediction": "7289",
+                "abs_edit_distance": 1,
+                "rel_edit_distance": 0.25,
+                "abs_distance": 10.0,
+                "rel_distance": 0.0013738150844896278
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the product of 9216 and 5847?",
+            "response": "[FINAL ANSWER] The product of 9216 and 5847 is 53,880,192.",
+            "metrics": {
+                "ground_truth": "53885952",
+                "prediction": "53880192",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 5760.0,
+                "rel_distance": 0.0001068924234650248
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Isaac Newton. As Isaac Newton answer the following problem: What is the product of 9216 and 5847?",
+            "response": "[FINAL ANSWER] The product of 9216 and 5847 is 53,857,152.",
+            "metrics": {
+                "ground_truth": "53885952",
+                "prediction": "53857152",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 28800.0,
+                "rel_distance": 0.000534462117325124
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Give the product of 4795 and 6435.",
+            "response": "[FINAL ANSWER] The product of 4795 and 6435 is 30,864,825.",
+            "metrics": {
+                "ground_truth": "30855825",
+                "prediction": "30864825",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.25,
+                "abs_distance": 9000.0,
+                "rel_distance": 0.00029167912379591214
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Sophie Germain. As Sophie Germain answer the following problem: Give the product of 4795 and 6435.",
+            "response": "[FINAL ANSWER] The product of 4795 and 6435 is 30,864,825.",
+            "metrics": {
+                "ground_truth": "30855825",
+                "prediction": "30864825",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.25,
+                "abs_distance": 9000.0,
+                "rel_distance": 0.00029167912379591214
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Add 1816 and 4598.",
+            "response": "[FINAL ANSWER] The sum of 1816 and 4598 is 6414.",
+            "metrics": {
+                "ground_truth": "6414",
+                "prediction": "6414",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: Add 1816 and 4598.",
+            "response": "[FINAL ANSWER] As Ada Lovelace, I would approach the problem of adding 1816 and 4598 by performing the addition using the column method. \n\nStarting with the units column, we add 6 and 8, which gives us 14. We write down the 4 and carry over the 1 to the tens column. \n\nMoving to the tens column, we add 1 (carried over) to 1 and 9, which gives us 11. We write down the 1 and carry over the 1 to the hundreds column. \n\nFinally, in the hundreds column, we add 1 (carried over) to 1 and 4, which gives us 6. \n\nTherefore, the final answer is 6414.",
+            "metrics": {
+                "ground_truth": "6414",
+                "prediction": "6414",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Find the result of adding 6876 and 6602.",
+            "response": "[FINAL ANSWER] The result of adding 6876 and 6602 is 13478.",
+            "metrics": {
+                "ground_truth": "13478",
+                "prediction": "13478",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Bernhard Riemann. As Bernhard Riemann answer the following problem: Find the result of adding 6876 and 6602.",
+            "response": "[FINAL ANSWER] As Bernhard Riemann, I would solve the problem by adding 6876 and 6602. \n\n6876\n+ 6602\n-------\n13478\n\nTherefore, the result of adding 6876 and 6602 is 13478.",
+            "metrics": {
+                "ground_truth": "13478",
+                "prediction": "13478",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the product of 1161 and 9478?",
+            "response": "[FINAL ANSWER] The product of 1161 and 9478 is 11,015,758.",
+            "metrics": {
+                "ground_truth": "11003958",
+                "prediction": "11015758",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 11800.0,
+                "rel_distance": 0.001072341424785518
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Carl Friedrich Gauss. As Carl Friedrich Gauss answer the following problem: What is the product of 1161 and 9478?",
+            "response": "[FINAL ANSWER] The product of 1161 and 9478 is 11,014,758.",
+            "metrics": {
+                "ground_truth": "11003958",
+                "prediction": "11014758",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 10800.0,
+                "rel_distance": 0.000981465032854542
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Provide the sum of 3940 and 3931.",
+            "response": "[FINAL ANSWER] The sum of 3940 and 3931 is 7871.",
+            "metrics": {
+                "ground_truth": "7871",
+                "prediction": "7871",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Isaac Newton. As Isaac Newton answer the following problem: Provide the sum of 3940 and 3931.",
+            "response": "[FINAL ANSWER] The sum of 3940 and 3931 is 7871.",
+            "metrics": {
+                "ground_truth": "7871",
+                "prediction": "7871",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the result of multiplying 7401 and 5049?",
+            "response": "[FINAL ANSWER] The result of multiplying 7401 and 5049 is 37,365,249.",
+            "metrics": {
+                "ground_truth": "37367649",
+                "prediction": "37365249",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.25,
+                "abs_distance": 2400.0,
+                "rel_distance": 6.422667907204974e-05
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Sophie Germain. As Sophie Germain answer the following problem: What is the result of multiplying 7401 and 5049?",
+            "response": "[FINAL ANSWER] As Sophie Germain, I would approach this problem by using long multiplication. \n\nFirst, I would multiply 7401 by 9, which gives me 66609. Then, I would multiply 7401 by 40, resulting in 296040. \n\nNext, I would multiply 5049 by 1, which gives me 5049. Then, I would multiply 5049 by 500, resulting in 2524500. \n\nFinally, I would add the two products together: 66609 + 296040 + 5049 + 2524500 = 2858198. \n\nTherefore, the result of multiplying 7401 and 5049 is 2858198.",
+            "metrics": {
+                "ground_truth": "37367649",
+                "prediction": "2858198",
+                "abs_edit_distance": 8,
+                "rel_edit_distance": 1.0,
+                "abs_distance": 34509451.0,
+                "rel_distance": 0.9235114309706773
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the result of adding 9108 and 4003?",
+            "response": "[FINAL ANSWER] The result of adding 9108 and 4003 is 13111.",
+            "metrics": {
+                "ground_truth": "13111",
+                "prediction": "13111",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: What is the result of adding 9108 and 4003?",
+            "response": "[FINAL ANSWER] The result of adding 9108 and 4003 is 13111.",
+            "metrics": {
+                "ground_truth": "13111",
+                "prediction": "13111",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Provide the product of 6613 and 7794.",
+            "response": "[FINAL ANSWER] The product of 6613 and 7794 is 51,515,622.",
+            "metrics": {
+                "ground_truth": "51541722",
+                "prediction": "51515622",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 26100.0,
+                "rel_distance": 0.0005063858751168616
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Bernhard Riemann. As Bernhard Riemann answer the following problem: Provide the product of 6613 and 7794.",
+            "response": "[FINAL ANSWER] As Bernhard Riemann, I would approach this problem by multiplying the two given numbers, 6613 and 7794. \n\nTo calculate the product, I would start by multiplying the units digits of both numbers, which are 3 and 4, resulting in 12. I would write down the 2 and carry over the 1 to the next step.\n\nNext, I would multiply the tens digits, which are 1 and 9, resulting in 9. Since there is a carried-over 1 from the previous step, I would add it to the 9, giving me 10. I would write down the 0 and carry over the 1 to the next step.\n\nThen, I would multiply the hundreds digits, which are 6 and 7, resulting in 42. Since there is a carried-over 1 from the previous step, I would add it to the 42, giving me 43. I would write down the 3 and carry over the 4 to the next step.\n\nContinuing, I would multiply the thousands digits, which are 6 and 7, resulting in 42. Since there is a carried-over 4 from the previous step, I would add it to the 42, giving me 46. I would write down the 6 and carry over the 4 to the next step.\n\nFinally, I would multiply the ten-thousands digits, which are 6 and 7, resulting in 42. Since there is a carried-over 4 from the previous step, I would add it to the 42, giving me 46. I would write down the 6.\n\nPutting all the digits together, the product of 6613 and 7794 is 51,504,222. Therefore, [FINAL ANSWER] the product of 6613 and 7794 is 51,504,222.",
+            "metrics": {
+                "ground_truth": "51541722",
+                "prediction": "51504222",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 37500.0,
+                "rel_distance": 0.0007275659125242265
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What do you get when you multiply 7829 and 8670?",
+            "response": "[FINAL ANSWER] When you multiply 7829 and 8670, you get 67,819,830.",
+            "metrics": {
+                "ground_truth": "67877430",
+                "prediction": "67819830",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 57600.0,
+                "rel_distance": 0.0008485884041278522
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Carl Friedrich Gauss. As Carl Friedrich Gauss answer the following problem: What do you get when you multiply 7829 and 8670?",
+            "response": "[FINAL ANSWER] When you multiply 7829 and 8670, the result is 67,860,930.",
+            "metrics": {
+                "ground_truth": "67877430",
+                "prediction": "67860930",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 16500.0,
+                "rel_distance": 0.00024308521993245767
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Find the result of adding 3050 and 1786.",
+            "response": "[FINAL ANSWER] The result of adding 3050 and 1786 is 4836.",
+            "metrics": {
+                "ground_truth": "4836",
+                "prediction": "4836",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Isaac Newton. As Isaac Newton answer the following problem: Find the result of adding 3050 and 1786.",
+            "response": "[FINAL ANSWER] The result of adding 3050 and 1786 is 4836.",
+            "metrics": {
+                "ground_truth": "4836",
+                "prediction": "4836",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Provide the sum of 1704 and 2126.",
+            "response": "[FINAL ANSWER] The sum of 1704 and 2126 is 3830.",
+            "metrics": {
+                "ground_truth": "3830",
+                "prediction": "3830",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Sophie Germain. As Sophie Germain answer the following problem: Provide the sum of 1704 and 2126.",
+            "response": "[FINAL ANSWER] Dear reader,\n\nAs the mathematician Sophie Germain, I am delighted to solve the problem you have presented. To find the sum of 1704 and 2126, we simply add these two numbers together.\n\n1704\n+ 2126\n_______\n\nTo begin, we add the units column, which gives us 4 + 6 = 10. Since 10 is a two-digit number, we write down the 0 in the units column and carry the 1 to the tens column.\n\n1704\n+ 2126\n_______\n     0\n\nNext, we add the tens column, taking into account the carried 1. We have 0 + 0 + 1 = 1.\n\n1704\n+ 2126\n______\n    10\n\nFinally, we add the thousands column, which gives us 1 + 1 = 2.\n\n1704\n+ 2126\n______\n   3380\n\nTherefore, the sum of 1704 and 2126 is 3380.\n\nI hope this explanation clarifies the solution for you. If you have any further questions or need assistance with any other mathematical problems, please do not hesitate to ask.\n\nSincerely,\nSophie Germain",
+            "metrics": {
+                "ground_truth": "3830",
+                "prediction": "3380",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.5,
+                "abs_distance": 450.0,
+                "rel_distance": 0.1174934725848564
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the result of adding 1519 and 5077?",
+            "response": "[FINAL ANSWER] The result of adding 1519 and 5077 is 6596.",
+            "metrics": {
+                "ground_truth": "6596",
+                "prediction": "6596",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: What is the result of adding 1519 and 5077?",
+            "response": "[FINAL ANSWER] As Ada Lovelace, I have calculated the result of adding 1519 and 5077. The sum of these two numbers is 6596.",
+            "metrics": {
+                "ground_truth": "6596",
+                "prediction": "6596",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Multiply 3766 and 5254.",
+            "response": "[FINAL ANSWER] The product of 3766 and 5254 is 19,799,564.",
+            "metrics": {
+                "ground_truth": "19786564",
+                "prediction": "19799564",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.25,
+                "abs_distance": 13000.0,
+                "rel_distance": 0.0006570114952752787
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Bernhard Riemann. As Bernhard Riemann answer the following problem: Multiply 3766 and 5254.",
+            "response": "[FINAL ANSWER] To multiply 3766 and 5254, we can use the standard multiplication algorithm. Let's break it down step by step:\n\n         3766\n    \u00d7    5254\n    __________\n\nFirst, we multiply 6 (the units digit of 3766) by each digit of 5254:\n\n         3766\n    \u00d7    5254\n    __________\n       22524   (6 multiplied by 4)\n      15024    (6 multiplied by 5, shifted one place to the left)\n     11256     (6 multiplied by 2, shifted two places to the left)\n\nNext, we multiply 6 (the tens digit of 3766) by each digit of 5254:\n\n         3766\n    \u00d7    5254\n    __________\n       22524   (6 multiplied by 4)\n      15024    (6 multiplied by 5, shifted one place to the left)\n     11256     (6 multiplied by 2, shifted two places to the left)\n+  225240    (6 multiplied by 5, shifted three places to the left)\n\nFinally, we multiply 7 (the hundreds digit of 3766) by each digit of 5254:\n\n         3766\n    \u00d7    5254\n    __________\n       22524   (6 multiplied by 4)\n      15024    (6 multiplied by 5, shifted one place to the left)\n     11256     (6 multiplied by 2, shifted two places to the left)\n+  225240    (6 multiplied by 5, shifted three places to the left)\n+ 263180    (7 multiplied by 4, shifted two places to the left)\n\nNow, we add up all the partial products:\n\n         3766\n    \u00d7    5254\n    __________\n       22524   (6 multiplied by 4)\n      15024    (6 multiplied by 5, shifted one place to the left)\n     11256     (6 multiplied by 2, shifted two places to the left)\n+  225240    (6 multiplied by 5, shifted three places to the left)\n+ 263180    (7 multiplied by 4, shifted two places to the left)\n___________\n   19795084\n\nTherefore,",
+            "metrics": {
+                "ground_truth": "19786564",
+                "prediction": "19795084",
+                "abs_edit_distance": 4,
+                "rel_edit_distance": 0.5,
+                "abs_distance": 8520.0,
+                "rel_distance": 0.00043059522613425957
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the result of multiplying 8709 and 3427?",
+            "response": "[FINAL ANSWER] The result of multiplying 8709 and 3427 is 29,868,843.",
+            "metrics": {
+                "ground_truth": "29845743",
+                "prediction": "29868843",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 23100.0,
+                "rel_distance": 0.0007739797263549445
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Carl Friedrich Gauss. As Carl Friedrich Gauss answer the following problem: What is the result of multiplying 8709 and 3427?",
+            "response": "[FINAL ANSWER] As Carl Friedrich Gauss, I would solve the problem by using the method of long multiplication. \n\nFirst, I would write down the two numbers vertically:\n\n        8709\n    \u00d7  3427\n    _______\n\nNext, I would start multiplying each digit of the second number (3427) with the first number (8709) from right to left. \n\nStarting with the rightmost digit, 7, I would multiply it with each digit of the first number:\n\n        8709\n    \u00d7  3427\n    _______\n      60963\n\nThen, I would move to the next digit, 2, and multiply it with each digit of the first number, shifting one place to the left:\n\n        8709\n    \u00d7  3427\n    _______\n     17418\n    _______\n\nContinuing this process, I would multiply the next digit, 4, with each digit of the first number, shifting two places to the left:\n\n        8709\n    \u00d7  3427\n    _______\n    34836\n   _______\n\nFinally, I would multiply the leftmost digit, 3, with each digit of the first number, shifting three places to the left:\n\n        8709\n    \u00d7  3427\n    _______\n   26127\n  _______\n\nNow, I would add up all the partial products:\n\n        8709\n    \u00d7  3427\n    _______\n   26127\n  34836\n 17418\n60963\n _______\n29818043\n\nTherefore, as Carl Friedrich Gauss, the result of multiplying 8709 and 3427 is 29,818,043.",
+            "metrics": {
+                "ground_truth": "29845743",
+                "prediction": "29818043",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 27700.0,
+                "rel_distance": 0.0009281055593087429
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Provide the product of 6413 and 9422.",
+            "response": "[FINAL ANSWER] The product of 6413 and 9422 is 60,381,686.",
+            "metrics": {
+                "ground_truth": "60423286",
+                "prediction": "60381686",
+                "abs_edit_distance": 4,
+                "rel_edit_distance": 0.5,
+                "abs_distance": 41600.0,
+                "rel_distance": 0.000688476293725568
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Isaac Newton. As Isaac Newton answer the following problem: Provide the product of 6413 and 9422.",
+            "response": "[FINAL ANSWER] The product of 6413 and 9422 is 60,391,786.",
+            "metrics": {
+                "ground_truth": "60423286",
+                "prediction": "60391786",
+                "abs_edit_distance": 4,
+                "rel_edit_distance": 0.5,
+                "abs_distance": 31500.0,
+                "rel_distance": 0.0005213221935662354
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the result of adding 2675 and 2063?",
+            "response": "[FINAL ANSWER] The result of adding 2675 and 2063 is 4738.",
+            "metrics": {
+                "ground_truth": "4738",
+                "prediction": "4738",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Sophie Germain. As Sophie Germain answer the following problem: What is the result of adding 2675 and 2063?",
+            "response": "[FINAL ANSWER] The result of adding 2675 and 2063 is 4738.",
+            "metrics": {
+                "ground_truth": "4738",
+                "prediction": "4738",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Provide the product of 6234 and 6202.",
+            "response": "[FINAL ANSWER] The product of 6234 and 6202 is 38,641,868.",
+            "metrics": {
+                "ground_truth": "38663268",
+                "prediction": "38641868",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 21400.0,
+                "rel_distance": 0.0005534969263332835
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: Provide the product of 6234 and 6202.",
+            "response": "[FINAL ANSWER] The product of 6234 and 6202 is 38,625,468.",
+            "metrics": {
+                "ground_truth": "38663268",
+                "prediction": "38625468",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 37800.0,
+                "rel_distance": 0.0009776721409064542
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the product of numbers 7095 and 5010?",
+            "response": "[FINAL ANSWER] The product of numbers 7095 and 5010 is 35,514,450.",
+            "metrics": {
+                "ground_truth": "35545950",
+                "prediction": "35514450",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 31500.0,
+                "rel_distance": 0.0008861769062298236
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Bernhard Riemann. As Bernhard Riemann answer the following problem: What is the product of numbers 7095 and 5010?",
+            "response": "[FINAL ANSWER] As Bernhard Riemann, I would approach this problem by multiplying the numbers 7095 and 5010. \n\nTo find the product, I would start by multiplying the units digits of both numbers, which are 5 and 0. The product of 5 and 0 is 0.\n\nNext, I would multiply the tens digits, which are 9 and 1. The product of 9 and 1 is 9.\n\nThen, I would multiply the hundreds digits, which are 0 and 0. The product of 0 and 0 is 0.\n\nAfter that, I would multiply the thousands digits, which are 7 and 5. The product of 7 and 5 is 35.\n\nFinally, I would multiply the ten thousands digits, which are 0 and 0. The product of 0 and 0 is 0.\n\nNow, I would arrange the products obtained in the previous steps, taking into account their place values. The product of 7095 and 5010 is 0 (ten thousands place), 0 (thousands place), 0 (hundreds place), 35 (tens place), and 0 (units place).\n\nTherefore, as Bernhard Riemann, I would conclude that the product of numbers 7095 and 5010 is 3,500,000.",
+            "metrics": {
+                "ground_truth": "35545950",
+                "prediction": "3500000",
+                "abs_edit_distance": 5,
+                "rel_edit_distance": 0.625,
+                "abs_distance": 32045950.0,
+                "rel_distance": 0.9015358993077973
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Multiply 6449 and 2521.",
+            "response": "[FINAL ANSWER] The product of 6449 and 2521 is 16,256,729.",
+            "metrics": {
+                "ground_truth": "16257929",
+                "prediction": "16256729",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.25,
+                "abs_distance": 1200.0,
+                "rel_distance": 7.38101390404645e-05
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Carl Friedrich Gauss. As Carl Friedrich Gauss answer the following problem: Multiply 6449 and 2521.",
+            "response": "[FINAL ANSWER] To multiply 6449 and 2521, we can use the standard multiplication method. Let's start by multiplying the units digits: 9 multiplied by 1 equals 9. \n\nNext, we multiply the tens digits: 4 multiplied by 1 equals 4. \n\nNow, we multiply the units digit of the first number (9) by the tens digit of the second number (2), which gives us 9 multiplied by 2 equals 18. \n\nSimilarly, we multiply the tens digit of the first number (4) by the units digit of the second number (1), which gives us 4 multiplied by 1 equals 4. \n\nFinally, we multiply the hundreds digit of the first number (6) by the units digit of the second number (1), which gives us 6 multiplied by 1 equals 6. \n\nNow, we add up all the results: 9 + 4 + 18 + 4 + 6 equals 41. \n\nTherefore, the product of 6449 and 2521 is 41.",
+            "metrics": {
+                "ground_truth": "16257929",
+                "prediction": "6449",
+                "abs_edit_distance": 6,
+                "rel_edit_distance": 0.75,
+                "abs_distance": 16251480.0,
+                "rel_distance": 0.9996033320111067
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Add 5094 and 2235.",
+            "response": "[FINAL ANSWER] The sum of 5094 and 2235 is 7329.",
+            "metrics": {
+                "ground_truth": "7329",
+                "prediction": "7329",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Isaac Newton. As Isaac Newton answer the following problem: Add 5094 and 2235.",
+            "response": "[FINAL ANSWER] The sum of 5094 and 2235 is 7329.",
+            "metrics": {
+                "ground_truth": "7329",
+                "prediction": "7329",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the sum of 2349 and 3387?",
+            "response": "[FINAL ANSWER] The sum of 2349 and 3387 is 5736.",
+            "metrics": {
+                "ground_truth": "5736",
+                "prediction": "5736",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Sophie Germain. As Sophie Germain answer the following problem: What is the sum of 2349 and 3387?",
+            "response": "[FINAL ANSWER] As Sophie Germain, I would solve the problem by adding the two numbers together. \n\n2349\n+ 3387\n-------\n5736\n\nTherefore, the sum of 2349 and 3387 is 5736.",
+            "metrics": {
+                "ground_truth": "5736",
+                "prediction": "5736",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What do you get when you add 9178 and 6102?",
+            "response": "[FINAL ANSWER] When you add 9178 and 6102, you get 15280.",
+            "metrics": {
+                "ground_truth": "15280",
+                "prediction": "15280",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: What do you get when you add 9178 and 6102?",
+            "response": "[FINAL ANSWER] When you add 9178 and 6102, the sum is 15280.",
+            "metrics": {
+                "ground_truth": "15280",
+                "prediction": "15280",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Multiply 2249 and 4807.",
+            "response": "[FINAL ANSWER] The product of 2249 and 4807 is 10,811,843.",
+            "metrics": {
+                "ground_truth": "10810943",
+                "prediction": "10811843",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.25,
+                "abs_distance": 900.0,
+                "rel_distance": 8.32489820730717e-05
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Bernhard Riemann. As Bernhard Riemann answer the following problem: Multiply 2249 and 4807.",
+            "response": "[FINAL ANSWER] To multiply 2249 and 4807, we can use the standard multiplication algorithm. Let's break it down step by step:\n\n          2249\n     \u00d7    4807\n    __________\n        15743    (2249 \u00d7 7)\n      44980     (2249 \u00d7 0, shifted one place to the left)\n   67470       (2249 \u00d7 8, shifted two places to the left)\n+17992       (2249 \u00d7 4, shifted three places to the left)\n____________\n  10807243\n\nTherefore, the product of 2249 and 4807 is 10,807,243.",
+            "metrics": {
+                "ground_truth": "10810943",
+                "prediction": "10807243",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 3700.0,
+                "rel_distance": 0.0003422458151892948
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the product of numbers 7627 and 6402?",
+            "response": "[FINAL ANSWER] The product of numbers 7627 and 6402 is 48,856,854.",
+            "metrics": {
+                "ground_truth": "48828054",
+                "prediction": "48856854",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 28800.0,
+                "rel_distance": 0.000589824857652529
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Carl Friedrich Gauss. As Carl Friedrich Gauss answer the following problem: What is the product of numbers 7627 and 6402?",
+            "response": "[FINAL ANSWER] The product of numbers 7627 and 6402 is 48,880,254.",
+            "metrics": {
+                "ground_truth": "48828054",
+                "prediction": "48880254",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.25,
+                "abs_distance": 52200.0,
+                "rel_distance": 0.0010690575544952089
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the sum of numbers 5401 and 6362?",
+            "response": "[FINAL ANSWER] The sum of numbers 5401 and 6362 is 11,763.",
+            "metrics": {
+                "ground_truth": "11763",
+                "prediction": "11763",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Isaac Newton. As Isaac Newton answer the following problem: What is the sum of numbers 5401 and 6362?",
+            "response": "[FINAL ANSWER] As Isaac Newton, I would solve the problem by adding the numbers 5401 and 6362 together. \n\n5401\n+ 6362\n-------\n11763\n\nTherefore, the sum of the numbers 5401 and 6362 is 11,763.",
+            "metrics": {
+                "ground_truth": "11763",
+                "prediction": "11763",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What do you get when you add 3624 and 8725?",
+            "response": "[FINAL ANSWER] The sum of 3624 and 8725 is 12349.",
+            "metrics": {
+                "ground_truth": "12349",
+                "prediction": "12349",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Sophie Germain. As Sophie Germain answer the following problem: What do you get when you add 3624 and 8725?",
+            "response": "[FINAL ANSWER] When you add 3624 and 8725, the sum is 12349.",
+            "metrics": {
+                "ground_truth": "12349",
+                "prediction": "12349",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the product of numbers 2002 and 7425?",
+            "response": "[FINAL ANSWER] The product of numbers 2002 and 7425 is 14,879,850.",
+            "metrics": {
+                "ground_truth": "14864850",
+                "prediction": "14879850",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.25,
+                "abs_distance": 15000.0,
+                "rel_distance": 0.0010090919181828272
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: What is the product of numbers 2002 and 7425?",
+            "response": "[FINAL ANSWER] As Ada Lovelace, I would approach this problem by multiplying the two numbers, 2002 and 7425. \n\n2002 multiplied by 7425 equals 14,865,450.",
+            "metrics": {
+                "ground_truth": "14864850",
+                "prediction": "14865450",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.25,
+                "abs_distance": 600.0,
+                "rel_distance": 4.036367672731309e-05
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the sum of numbers 8550 and 3078?",
+            "response": "[FINAL ANSWER] The sum of 8550 and 3078 is 11628.",
+            "metrics": {
+                "ground_truth": "11628",
+                "prediction": "11628",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Bernhard Riemann. As Bernhard Riemann answer the following problem: What is the sum of numbers 8550 and 3078?",
+            "response": "[FINAL ANSWER] As Bernhard Riemann, I would approach this problem by adding the two numbers together. \n\n8550 + 3078 = 11628.\n\nTherefore, the sum of numbers 8550 and 3078 is 11628.",
+            "metrics": {
+                "ground_truth": "11628",
+                "prediction": "11628",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Find the result of multiplying 9875 and 2383.",
+            "response": "[FINAL ANSWER] The result of multiplying 9875 and 2383 is 23,533,125.",
+            "metrics": {
+                "ground_truth": "23532125",
+                "prediction": "23533125",
+                "abs_edit_distance": 1,
+                "rel_edit_distance": 0.125,
+                "abs_distance": 1000.0,
+                "rel_distance": 4.249509978380618e-05
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Carl Friedrich Gauss. As Carl Friedrich Gauss answer the following problem: Find the result of multiplying 9875 and 2383.",
+            "response": "[FINAL ANSWER] The result of multiplying 9875 and 2383 is 23,532,125.",
+            "metrics": {
+                "ground_truth": "23532125",
+                "prediction": "23532125",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the product of numbers 5285 and 3088?",
+            "response": "[FINAL ANSWER] The product of numbers 5285 and 3088 is 16,309,680.",
+            "metrics": {
+                "ground_truth": "16320080",
+                "prediction": "16309680",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 10400.0,
+                "rel_distance": 0.0006372517781775579
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Isaac Newton. As Isaac Newton answer the following problem: What is the product of numbers 5285 and 3088?",
+            "response": "[FINAL ANSWER] As Isaac Newton, I would approach this problem by multiplying the numbers 5285 and 3088. \n\nTo do so, I would start by multiplying the ones place digits, which are 5 and 8. The product of 5 and 8 is 40. \n\nNext, I would multiply the tens place digits, which are 8 and 8. The product of 8 and 8 is 64. \n\nThen, I would multiply the hundreds place digits, which are 2 and 0. The product of 2 and 0 is 0. \n\nAfter that, I would multiply the thousands place digits, which are 5 and 3. The product of 5 and 3 is 15. \n\nFinally, I would multiply the ten thousands place digits, which are 5 and 0. The product of 5 and 0 is 0. \n\nNow, I would arrange these products in their respective places, considering the place value. \n\nThe product of 5285 and 3088 is 16,332,080.",
+            "metrics": {
+                "ground_truth": "16320080",
+                "prediction": "16332080",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.25,
+                "abs_distance": 12000.0,
+                "rel_distance": 0.0007352905132817976
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Provide the sum of 3636 and 3103.",
+            "response": "[FINAL ANSWER] The sum of 3636 and 3103 is 6739.",
+            "metrics": {
+                "ground_truth": "6739",
+                "prediction": "6739",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Sophie Germain. As Sophie Germain answer the following problem: Provide the sum of 3636 and 3103.",
+            "response": "[FINAL ANSWER] The sum of 3636 and 3103 is 6739.",
+            "metrics": {
+                "ground_truth": "6739",
+                "prediction": "6739",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the sum of 5926 and 2013?",
+            "response": "[FINAL ANSWER] The sum of 5926 and 2013 is 7939.",
+            "metrics": {
+                "ground_truth": "7939",
+                "prediction": "7939",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: What is the sum of 5926 and 2013?",
+            "response": "[FINAL ANSWER] As Ada Lovelace, I would approach this problem by adding the two numbers together. \n\nStarting with the units place, 6 plus 3 equals 9. Moving to the tens place, 2 plus 1 equals 3. In the hundreds place, we have 9 plus 0, which equals 9. Finally, in the thousands place, 5 plus 2 equals 7. \n\nTherefore, the sum of 5926 and 2013 is 7939.",
+            "metrics": {
+                "ground_truth": "7939",
+                "prediction": "7939",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the sum of 6882 and 1449?",
+            "response": "[FINAL ANSWER] The sum of 6882 and 1449 is 8331.",
+            "metrics": {
+                "ground_truth": "8331",
+                "prediction": "8331",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Bernhard Riemann. As Bernhard Riemann answer the following problem: What is the sum of 6882 and 1449?",
+            "response": "[FINAL ANSWER] As Bernhard Riemann, I would approach this problem by adding the two numbers together. \n\n6882\n+ 1449\n-------\n  8331\n\nTherefore, the sum of 6882 and 1449 is 8331.",
+            "metrics": {
+                "ground_truth": "8331",
+                "prediction": "8331",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What do you get when you add 8767 and 9888?",
+            "response": "[FINAL ANSWER] The sum of 8767 and 9888 is 18655.",
+            "metrics": {
+                "ground_truth": "18655",
+                "prediction": "18655",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Carl Friedrich Gauss. As Carl Friedrich Gauss answer the following problem: What do you get when you add 8767 and 9888?",
+            "response": "[FINAL ANSWER] When you add 8767 and 9888, the sum is 18655.",
+            "metrics": {
+                "ground_truth": "18655",
+                "prediction": "18655",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the product of numbers 3603 and 3737?",
+            "response": "[FINAL ANSWER] The product of numbers 3603 and 3737 is 13,464,411.",
+            "metrics": {
+                "ground_truth": "13464411",
+                "prediction": "13464411",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Isaac Newton. As Isaac Newton answer the following problem: What is the product of numbers 3603 and 3737?",
+            "response": "[FINAL ANSWER] As Isaac Newton, I would approach this problem by multiplying the two numbers, 3603 and 3737. \n\nTo do this, I would start by multiplying the ones place digits, which are 3 and 7. The product of 3 and 7 is 21. \n\nNext, I would move on to the tens place digits, which are 0 and 3. The product of 0 and 3 is 0. \n\nThen, I would multiply the hundreds place digits, which are 6 and 7. The product of 6 and 7 is 42. \n\nFinally, I would multiply the thousands place digits, which are 3 and 3. The product of 3 and 3 is 9. \n\nNow, I would arrange these products in their respective places, considering the place value. \n\nThe product of 3603 and 3737 is 9,042,621.",
+            "metrics": {
+                "ground_truth": "13464411",
+                "prediction": "9042621",
+                "abs_edit_distance": 6,
+                "rel_edit_distance": 0.75,
+                "abs_distance": 4421790.0,
+                "rel_distance": 0.32840575053747245
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What do you get when you multiply 6859 and 3301?",
+            "response": "[FINAL ANSWER] The product of 6859 and 3301 is 22,643,459.",
+            "metrics": {
+                "ground_truth": "22641559",
+                "prediction": "22643459",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.25,
+                "abs_distance": 1900.0,
+                "rel_distance": 8.391648295949939e-05
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Sophie Germain. As Sophie Germain answer the following problem: What do you get when you multiply 6859 and 3301?",
+            "response": "[FINAL ANSWER] When you multiply 6859 and 3301, you get 22,641,359.",
+            "metrics": {
+                "ground_truth": "22641559",
+                "prediction": "22641359",
+                "abs_edit_distance": 1,
+                "rel_edit_distance": 0.125,
+                "abs_distance": 200.0,
+                "rel_distance": 8.833313995736777e-06
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Give the product of 9877 and 7079.",
+            "response": "[FINAL ANSWER] The product of 9877 and 7079 is 69,903,883.",
+            "metrics": {
+                "ground_truth": "69919283",
+                "prediction": "69903883",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 15400.0,
+                "rel_distance": 0.00022025397485840923
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: Give the product of 9877 and 7079.",
+            "response": "[FINAL ANSWER] As Ada Lovelace, I would approach this problem by multiplying the two given numbers, 9877 and 7079. \n\n9877 multiplied by 7079 equals 69,875,183. \n\nTherefore, the product of 9877 and 7079 is 69,875,183.",
+            "metrics": {
+                "ground_truth": "69919283",
+                "prediction": "69875183",
+                "abs_edit_distance": 4,
+                "rel_edit_distance": 0.5,
+                "abs_distance": 44100.0,
+                "rel_distance": 0.00063072729163999
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Give the product of 9623 and 8360.",
+            "response": "[FINAL ANSWER] The product of 9623 and 8360 is 80,413,880.",
+            "metrics": {
+                "ground_truth": "80448280",
+                "prediction": "80413880",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 34400.0,
+                "rel_distance": 0.0004276039214262878
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Bernhard Riemann. As Bernhard Riemann answer the following problem: Give the product of 9623 and 8360.",
+            "response": "[FINAL ANSWER] As Bernhard Riemann, I would approach this problem by using long multiplication. \n\nFirst, I would write down the two numbers vertically:\n\n       9623\n    \u00d7 8360\n    _______\n\nNext, I would start multiplying the digits from right to left, just like in regular multiplication. \n\nStarting with the rightmost digit of 8360, which is 0, I would multiply it by each digit of 9623:\n\n       9623\n    \u00d7 8360\n    _______\n         0\n\nMoving to the next digit of 8360, which is 6, I would multiply it by each digit of 9623:\n\n       9623\n    \u00d7 8360\n    _______\n         0\n       3 8\n     5 7 3\n\nContinuing this process for the remaining digits of 8360, which are 3 and 8, I would multiply them by each digit of 9623:\n\n       9623\n    \u00d7 8360\n    _______\n         0\n       3 8\n     5 7 3\n   2 8 8 6\n  3 8 4 9 2\n\nFinally, I would add up the partial products to obtain the final answer:\n\n       9623\n    \u00d7 8360\n    _______\n   8 0 3 9 2 8 8 0\n\nTherefore, as Bernhard Riemann, I would conclude that the product of 9623 and 8360 is 80,392,880.",
+            "metrics": {
+                "ground_truth": "80448280",
+                "prediction": "80392880",
+                "abs_edit_distance": 4,
+                "rel_edit_distance": 0.5,
+                "abs_distance": 55400.0,
+                "rel_distance": 0.0006886411990411728
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the sum of 8599 and 1323?",
+            "response": "[FINAL ANSWER] The sum of 8599 and 1323 is 9922.",
+            "metrics": {
+                "ground_truth": "9922",
+                "prediction": "9922",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Carl Friedrich Gauss. As Carl Friedrich Gauss answer the following problem: What is the sum of 8599 and 1323?",
+            "response": "[FINAL ANSWER] The sum of 8599 and 1323 is 9922.",
+            "metrics": {
+                "ground_truth": "9922",
+                "prediction": "9922",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Find the result of adding 7304 and 3679.",
+            "response": "[FINAL ANSWER] The result of adding 7304 and 3679 is 10983.",
+            "metrics": {
+                "ground_truth": "10983",
+                "prediction": "10983",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Isaac Newton. As Isaac Newton answer the following problem: Find the result of adding 7304 and 3679.",
+            "response": "[FINAL ANSWER] The result of adding 7304 and 3679 is 10983.",
+            "metrics": {
+                "ground_truth": "10983",
+                "prediction": "10983",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Find the result of adding 4632 and 8932.",
+            "response": "[FINAL ANSWER] The result of adding 4632 and 8932 is 13564.",
+            "metrics": {
+                "ground_truth": "13564",
+                "prediction": "13564",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Sophie Germain. As Sophie Germain answer the following problem: Find the result of adding 4632 and 8932.",
+            "response": "[FINAL ANSWER] The result of adding 4632 and 8932 is 13,564.",
+            "metrics": {
+                "ground_truth": "13564",
+                "prediction": "13564",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Give the sum of 9154 and 5970.",
+            "response": "[FINAL ANSWER] The sum of 9154 and 5970 is 15,124.",
+            "metrics": {
+                "ground_truth": "15124",
+                "prediction": "15124",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: Give the sum of 9154 and 5970.",
+            "response": "[FINAL ANSWER] The sum of 9154 and 5970 is 15,124.",
+            "metrics": {
+                "ground_truth": "15124",
+                "prediction": "15124",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the product of 2304 and 3514?",
+            "response": "[FINAL ANSWER] The product of 2304 and 3514 is 8,096,256.",
+            "metrics": {
+                "ground_truth": "8096256",
+                "prediction": "8096256",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Bernhard Riemann. As Bernhard Riemann answer the following problem: What is the product of 2304 and 3514?",
+            "response": "[FINAL ANSWER] As Bernhard Riemann, I would approach this problem by multiplying the two numbers together. \n\nTo find the product of 2304 and 3514, I would start by multiplying the units digits: 4 multiplied by 4 equals 16. Therefore, the units digit of the product is 6.\n\nNext, I would multiply the tens digits: 0 multiplied by 4 equals 0. Since there is no carryover from the units digit, the tens digit of the product remains 0.\n\nMoving on to the hundreds digits: 3 multiplied by 4 equals 12. Again, there is no carryover from the previous step, so the hundreds digit of the product is 2.\n\nFinally, I would multiply the thousands digits: 2 multiplied by 4 equals 8. Since there is no carryover from the previous step, the thousands digit of the product remains 8.\n\nPutting it all together, the product of 2304 and 3514 is 8,128,256.",
+            "metrics": {
+                "ground_truth": "8096256",
+                "prediction": "8128256",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.42857142857142855,
+                "abs_distance": 32000.0,
+                "rel_distance": 0.003952444191488016
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What do you get when you multiply 8402 and 7503?",
+            "response": "[FINAL ANSWER] When you multiply 8402 and 7503, you get 63,046,806.",
+            "metrics": {
+                "ground_truth": "63040206",
+                "prediction": "63046806",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.25,
+                "abs_distance": 6600.0,
+                "rel_distance": 0.00010469508935297578
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Carl Friedrich Gauss. As Carl Friedrich Gauss answer the following problem: What do you get when you multiply 8402 and 7503?",
+            "response": "[FINAL ANSWER] When you multiply 8402 and 7503, the result is 63,048,006.",
+            "metrics": {
+                "ground_truth": "63040206",
+                "prediction": "63048006",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.25,
+                "abs_distance": 7800.0,
+                "rel_distance": 0.00012373056014442592
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the result of adding 6959 and 3588?",
+            "response": "[FINAL ANSWER] The result of adding 6959 and 3588 is 10547.",
+            "metrics": {
+                "ground_truth": "10547",
+                "prediction": "10547",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Isaac Newton. As Isaac Newton answer the following problem: What is the result of adding 6959 and 3588?",
+            "response": "[FINAL ANSWER] As Isaac Newton, I have calculated the result of adding 6959 and 3588. After careful computation, I have determined that the sum of these two numbers is 10,547.",
+            "metrics": {
+                "ground_truth": "10547",
+                "prediction": "10547",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Give the sum of 8208 and 8869.",
+            "response": "[FINAL ANSWER] The sum of 8208 and 8869 is 17077.",
+            "metrics": {
+                "ground_truth": "17077",
+                "prediction": "17077",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Sophie Germain. As Sophie Germain answer the following problem: Give the sum of 8208 and 8869.",
+            "response": "[FINAL ANSWER] The sum of 8208 and 8869 is 17077.",
+            "metrics": {
+                "ground_truth": "17077",
+                "prediction": "17077",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the result of adding 1006 and 2075?",
+            "response": "[FINAL ANSWER] The result of adding 1006 and 2075 is 3081.",
+            "metrics": {
+                "ground_truth": "3081",
+                "prediction": "3081",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: What is the result of adding 1006 and 2075?",
+            "response": "[FINAL ANSWER] As Ada Lovelace, I would approach this problem by performing the addition of 1006 and 2075. \n\nStarting with the units place, we have 6 + 5, which equals 11. Since 11 is a two-digit number, I carry over the tens place value of 1 to the next column.\n\nMoving on to the tens place, we add 0 (from 1006) and 7 (from 2075), along with the carried over 1. This gives us a sum of 8.\n\nFinally, in the hundreds place, we add 1 (from 1006) and 2 (from 2075), resulting in 3.\n\nTherefore, the final answer to the addition of 1006 and 2075 is 3081.",
+            "metrics": {
+                "ground_truth": "3081",
+                "prediction": "3081",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the result of multiplying 3875 and 5598?",
+            "response": "[FINAL ANSWER] The result of multiplying 3875 and 5598 is 21,674,250.",
+            "metrics": {
+                "ground_truth": "21692250",
+                "prediction": "21674250",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.25,
+                "abs_distance": 18000.0,
+                "rel_distance": 0.0008297894409293641
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Bernhard Riemann. As Bernhard Riemann answer the following problem: What is the result of multiplying 3875 and 5598?",
+            "response": "[FINAL ANSWER] As Bernhard Riemann, I would approach this problem by using the standard multiplication algorithm. Let's multiply 3875 by 5598:\n\n            3875\n        \u00d7 5598\n    ______________\n          19375    (3875 \u00d7 5)\n    + 19375      (3875 \u00d7 5, shifted one place to the left)\n    + 11625      (3875 \u00d7 3, shifted two places to the left)\n+ 19375        (3875 \u00d7 5, shifted three places to the left)\n    ______________\n    21661500\n\nTherefore, the result of multiplying 3875 and 5598 is 21,661,500.",
+            "metrics": {
+                "ground_truth": "21692250",
+                "prediction": "21661500",
+                "abs_edit_distance": 4,
+                "rel_edit_distance": 0.5,
+                "abs_distance": 30750.0,
+                "rel_distance": 0.0014175569615876638
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Provide the sum of 6368 and 6947.",
+            "response": "[FINAL ANSWER] The sum of 6368 and 6947 is 13,315.",
+            "metrics": {
+                "ground_truth": "13315",
+                "prediction": "13315",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Carl Friedrich Gauss. As Carl Friedrich Gauss answer the following problem: Provide the sum of 6368 and 6947.",
+            "response": "[FINAL ANSWER] The sum of 6368 and 6947 is 13315.",
+            "metrics": {
+                "ground_truth": "13315",
+                "prediction": "13315",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Give the product of 8781 and 7624.",
+            "response": "[FINAL ANSWER] The product of 8781 and 7624 is 66,943,844.",
+            "metrics": {
+                "ground_truth": "66946344",
+                "prediction": "66943844",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.25,
+                "abs_distance": 2500.0,
+                "rel_distance": 3.734333871913902e-05
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Isaac Newton. As Isaac Newton answer the following problem: Give the product of 8781 and 7624.",
+            "response": "[FINAL ANSWER] The product of 8781 and 7624 is 66,982,844.",
+            "metrics": {
+                "ground_truth": "66946344",
+                "prediction": "66982844",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 36500.0,
+                "rel_distance": 0.0005452127452994296
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Provide the sum of 7238 and 3324.",
+            "response": "[FINAL ANSWER] The sum of 7238 and 3324 is 10562.",
+            "metrics": {
+                "ground_truth": "10562",
+                "prediction": "10562",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Sophie Germain. As Sophie Germain answer the following problem: Provide the sum of 7238 and 3324.",
+            "response": "[FINAL ANSWER] The sum of 7238 and 3324 is 10562.",
+            "metrics": {
+                "ground_truth": "10562",
+                "prediction": "10562",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Multiply 3713 and 1449.",
+            "response": "[FINAL ANSWER] The product of 3713 and 1449 is 5,380,737.",
+            "metrics": {
+                "ground_truth": "5380137",
+                "prediction": "5380737",
+                "abs_edit_distance": 1,
+                "rel_edit_distance": 0.14285714285714285,
+                "abs_distance": 600.0,
+                "rel_distance": 0.00011152132371350395
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: Multiply 3713 and 1449.",
+            "response": "[FINAL ANSWER] As Ada Lovelace, I would approach the problem of multiplying 3713 and 1449 using long multiplication. \n\nFirst, I would write down the numbers vertically:\n\n        3713\n    \u00d7 1449\n\nNext, I would start multiplying the digits from right to left. \n\nStarting with the rightmost digit of 1449, which is 9, I would multiply it by each digit of 3713:\n\n        3713\n    \u00d7 1449\n    ---------\n        3713\n       33417\n\nThen, I would move to the next digit of 1449, which is 4, and multiply it by each digit of 3713, shifting one place to the left:\n\n        3713\n    \u00d7 1449\n    ---------\n        3713\n       33417\n      14852\n\nFinally, I would move to the leftmost digit of 1449, which is 1, and multiply it by each digit of 3713, shifting two places to the left:\n\n        3713\n    \u00d7 1449\n    ---------\n        3713\n       33417\n      14852\n    + 3713\n    ---------\n    = 5381937\n\nTherefore, as Ada Lovelace, the final answer to multiplying 3713 and 1449 is:\n\n[FINAL ANSWER] 3713 multiplied by 1449 equals 5381937.",
+            "metrics": {
+                "ground_truth": "5380137",
+                "prediction": "5381937",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.2857142857142857,
+                "abs_distance": 1800.0,
+                "rel_distance": 0.0003345639711405118
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the product of numbers 4683 and 1598?",
+            "response": "[FINAL ANSWER] The product of numbers 4683 and 1598 is 7,485,534.",
+            "metrics": {
+                "ground_truth": "7483434",
+                "prediction": "7485534",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.2857142857142857,
+                "abs_distance": 2100.0,
+                "rel_distance": 0.00028061983308732327
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Bernhard Riemann. As Bernhard Riemann answer the following problem: What is the product of numbers 4683 and 1598?",
+            "response": "[FINAL ANSWER] As Bernhard Riemann, I would approach this problem by multiplying the numbers 4683 and 1598. \n\nTo begin, I would set up the multiplication as follows:\n\n       4683\n    \u00d7 1598\n    _______\n\nNext, I would multiply the units digit of the second number (8) by the first number (4683), which gives me 37464. I would write down the result under the line, aligning it with the units digit of the first number.\n\n       4683\n    \u00d7 1598\n    _______\n      37464\n\nThen, I would multiply the tens digit of the second number (9) by the first number (4683), which gives me 42147. However, since this is the tens digit, I would shift it one place to the left and write it down, aligning it with the tens digit of the first number.\n\n       4683\n    \u00d7 1598\n    _______\n     42147\n    _______\n\nNext, I would multiply the hundreds digit of the second number (5) by the first number (4683), which gives me 23415. Similarly, I would shift this result two places to the left and write it down, aligning it with the hundreds digit of the first number.\n\n       4683\n    \u00d7 1598\n    _______\n    23415\n   _______\n   42147\n  _______\n\nFinally, I would multiply the thousands digit of the second number (1) by the first number (4683), which gives me 4683. I would shift this result three places to the left and write it down, aligning it with the thousands digit of the first number.\n\n       4683\n    \u00d7 1598\n    _______\n   4683\n  _______\n  23415\n _______\n 42147\n________\n\nNow, I would add up all the partial products:\n\n       4683\n    \u00d7 1598\n    _______\n   4683\n  _______\n  23415\n _______\n 42147\n________\n\nThe final answer, as Bernhard Riemann, would be 7,487,634.",
+            "metrics": {
+                "ground_truth": "7483434",
+                "prediction": "7487634",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.2857142857142857,
+                "abs_distance": 4200.0,
+                "rel_distance": 0.0005612396661746465
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the sum of 9670 and 3094?",
+            "response": "[FINAL ANSWER] The sum of 9670 and 3094 is 12764.",
+            "metrics": {
+                "ground_truth": "12764",
+                "prediction": "12764",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Carl Friedrich Gauss. As Carl Friedrich Gauss answer the following problem: What is the sum of 9670 and 3094?",
+            "response": "[FINAL ANSWER] The sum of 9670 and 3094 is 12764.",
+            "metrics": {
+                "ground_truth": "12764",
+                "prediction": "12764",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the product of 6422 and 2905?",
+            "response": "[FINAL ANSWER] The product of 6422 and 2905 is 18,643,610.",
+            "metrics": {
+                "ground_truth": "18655910",
+                "prediction": "18643610",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 12300.0,
+                "rel_distance": 0.0006593084979505154
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Isaac Newton. As Isaac Newton answer the following problem: What is the product of 6422 and 2905?",
+            "response": "[FINAL ANSWER] The product of 6422 and 2905 is 18,644,610.",
+            "metrics": {
+                "ground_truth": "18655910",
+                "prediction": "18644610",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 11300.0,
+                "rel_distance": 0.0006057061810439694
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Provide the product of 7619 and 1746.",
+            "response": "[FINAL ANSWER] The product of 7619 and 1746 is 13,296,774.",
+            "metrics": {
+                "ground_truth": "13302774",
+                "prediction": "13296774",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 6000.0,
+                "rel_distance": 0.000451033746795969
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Sophie Germain. As Sophie Germain answer the following problem: Provide the product of 7619 and 1746.",
+            "response": "[FINAL ANSWER] The product of 7619 and 1746 is 13,296,774.",
+            "metrics": {
+                "ground_truth": "13302774",
+                "prediction": "13296774",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 6000.0,
+                "rel_distance": 0.000451033746795969
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Give the sum of 5184 and 3341.",
+            "response": "[FINAL ANSWER] The sum of 5184 and 3341 is 8525.",
+            "metrics": {
+                "ground_truth": "8525",
+                "prediction": "8525",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: Give the sum of 5184 and 3341.",
+            "response": "[FINAL ANSWER] The sum of 5184 and 3341 is 8525.",
+            "metrics": {
+                "ground_truth": "8525",
+                "prediction": "8525",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Provide the sum of 1290 and 2956.",
+            "response": "[FINAL ANSWER] The sum of 1290 and 2956 is 4246.",
+            "metrics": {
+                "ground_truth": "4246",
+                "prediction": "4246",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Bernhard Riemann. As Bernhard Riemann answer the following problem: Provide the sum of 1290 and 2956.",
+            "response": "[FINAL ANSWER] As Bernhard Riemann, I would approach this problem by adding the two numbers together. \n\n1290\n+ 2956\n-------\n  4246\n\nTherefore, the sum of 1290 and 2956 is 4246.",
+            "metrics": {
+                "ground_truth": "4246",
+                "prediction": "4246",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the sum of 1866 and 2026?",
+            "response": "[FINAL ANSWER] The sum of 1866 and 2026 is 3892.",
+            "metrics": {
+                "ground_truth": "3892",
+                "prediction": "3892",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Carl Friedrich Gauss. As Carl Friedrich Gauss answer the following problem: What is the sum of 1866 and 2026?",
+            "response": "[FINAL ANSWER] The sum of 1866 and 2026 is 3892.",
+            "metrics": {
+                "ground_truth": "3892",
+                "prediction": "3892",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Add 4922 and 9191.",
+            "response": "[FINAL ANSWER] The sum of 4922 and 9191 is 14113.",
+            "metrics": {
+                "ground_truth": "14113",
+                "prediction": "14113",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Isaac Newton. As Isaac Newton answer the following problem: Add 4922 and 9191.",
+            "response": "[FINAL ANSWER] The sum of 4922 and 9191 is 14113.",
+            "metrics": {
+                "ground_truth": "14113",
+                "prediction": "14113",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Find the result of multiplying 3894 and 2141.",
+            "response": "[FINAL ANSWER] The result of multiplying 3894 and 2141 is 8,340,654.",
+            "metrics": {
+                "ground_truth": "8337054",
+                "prediction": "8340654",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.42857142857142855,
+                "abs_distance": 3600.0,
+                "rel_distance": 0.0004318072067183444
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Sophie Germain. As Sophie Germain answer the following problem: Find the result of multiplying 3894 and 2141.",
+            "response": "[FINAL ANSWER] Dear reader,\n\nAs the mathematician Sophie Germain, I am delighted to solve the problem you have presented. To find the result of multiplying 3894 and 2141, I will perform the multiplication using the traditional method.\n\n            3894\n        \u00d7 2141\n    ______________\n          7788     (3894 \u00d7 1)\n+    7788       (3894 \u00d7 4)\n+  11682       (3894 \u00d7 1)\n+ 31176       (3894 \u00d7 2)\n________________\n= 8337154\n\nHence, the result of multiplying 3894 and 2141 is 8,337,154.\n\nI hope this answer satisfies your query. Should you have any further mathematical inquiries, please do not hesitate to ask.\n\nYours sincerely,\nSophie Germain",
+            "metrics": {
+                "ground_truth": "8337054",
+                "prediction": "8337154",
+                "abs_edit_distance": 1,
+                "rel_edit_distance": 0.14285714285714285,
+                "abs_distance": 100.0,
+                "rel_distance": 1.1994644631065122e-05
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the product of numbers 2557 and 6112?",
+            "response": "[FINAL ANSWER] The product of numbers 2557 and 6112 is 15,638,784.",
+            "metrics": {
+                "ground_truth": "15628384",
+                "prediction": "15638784",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.25,
+                "abs_distance": 10400.0,
+                "rel_distance": 0.0006654558782277169
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: What is the product of numbers 2557 and 6112?",
+            "response": "[FINAL ANSWER] As Ada Lovelace, I would approach this problem by multiplying the two numbers, 2557 and 6112, together. \n\n2557 multiplied by 6112 equals 15,643,984.",
+            "metrics": {
+                "ground_truth": "15628384",
+                "prediction": "15643984",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 15600.0,
+                "rel_distance": 0.0009981838173415754
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What do you get when you add 8088 and 3226?",
+            "response": "[FINAL ANSWER] When you add 8088 and 3226, you get 11314.",
+            "metrics": {
+                "ground_truth": "11314",
+                "prediction": "11314",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Bernhard Riemann. As Bernhard Riemann answer the following problem: What do you get when you add 8088 and 3226?",
+            "response": "[FINAL ANSWER] As Bernhard Riemann, I would approach this problem by performing the addition of 8088 and 3226. \n\nAdding the two numbers, we get:\n\n8088\n+ 3226\n-------\n11314\n\nTherefore, the final answer is 11314.",
+            "metrics": {
+                "ground_truth": "11314",
+                "prediction": "11314",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Give the sum of 8269 and 3722.",
+            "response": "[FINAL ANSWER] The sum of 8269 and 3722 is 11,991.",
+            "metrics": {
+                "ground_truth": "11991",
+                "prediction": "11991",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Carl Friedrich Gauss. As Carl Friedrich Gauss answer the following problem: Give the sum of 8269 and 3722.",
+            "response": "[FINAL ANSWER] The sum of 8269 and 3722 is 11,991.",
+            "metrics": {
+                "ground_truth": "11991",
+                "prediction": "11991",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the product of 2599 and 6637?",
+            "response": "[FINAL ANSWER] The product of 2599 and 6637 is 17,220,763.",
+            "metrics": {
+                "ground_truth": "17249563",
+                "prediction": "17220763",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 28800.0,
+                "rel_distance": 0.0016696075141149952
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Isaac Newton. As Isaac Newton answer the following problem: What is the product of 2599 and 6637?",
+            "response": "[FINAL ANSWER] As Isaac Newton, I would approach this problem by multiplying the two numbers together. \n\n2599 multiplied by 6637 equals 17,233,363.",
+            "metrics": {
+                "ground_truth": "17249563",
+                "prediction": "17233363",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 16200.0,
+                "rel_distance": 0.0009391542266896848
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the sum of 7201 and 3177?",
+            "response": "[FINAL ANSWER] The sum of 7201 and 3177 is 10378.",
+            "metrics": {
+                "ground_truth": "10378",
+                "prediction": "10378",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Sophie Germain. As Sophie Germain answer the following problem: What is the sum of 7201 and 3177?",
+            "response": "[FINAL ANSWER] The sum of 7201 and 3177 is 10378.",
+            "metrics": {
+                "ground_truth": "10378",
+                "prediction": "10378",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Give the sum of 1102 and 7767.",
+            "response": "[FINAL ANSWER] The sum of 1102 and 7767 is 8869.",
+            "metrics": {
+                "ground_truth": "8869",
+                "prediction": "8869",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: Give the sum of 1102 and 7767.",
+            "response": "[FINAL ANSWER] The sum of 1102 and 7767 is 8869.",
+            "metrics": {
+                "ground_truth": "8869",
+                "prediction": "8869",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the result of adding 4988 and 6981?",
+            "response": "[FINAL ANSWER] The result of adding 4988 and 6981 is 11,969.",
+            "metrics": {
+                "ground_truth": "11969",
+                "prediction": "11969",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Bernhard Riemann. As Bernhard Riemann answer the following problem: What is the result of adding 4988 and 6981?",
+            "response": "[FINAL ANSWER] As Bernhard Riemann, I would approach this problem by adding the two numbers, 4988 and 6981. \n\nStarting with the units place, 8 plus 1 equals 9. Moving to the tens place, 8 plus 8 equals 16. Since 16 is a two-digit number, I carry the 1 to the hundreds place. In the hundreds place, 1 plus 9 plus 9 equals 19. Again, since 19 is a two-digit number, I carry the 1 to the thousands place. \n\nIn the thousands place, 1 plus 8 plus 6 equals 15. Once again, I carry the 1 to the ten thousands place. Finally, in the ten thousands place, 1 plus 4 plus 6 equals 11. \n\nTherefore, the result of adding 4988 and 6981 is 11,969.",
+            "metrics": {
+                "ground_truth": "11969",
+                "prediction": "11969",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the sum of 6111 and 8671?",
+            "response": "[FINAL ANSWER] The sum of 6111 and 8671 is 14782.",
+            "metrics": {
+                "ground_truth": "14782",
+                "prediction": "14782",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Carl Friedrich Gauss. As Carl Friedrich Gauss answer the following problem: What is the sum of 6111 and 8671?",
+            "response": "[FINAL ANSWER] The sum of 6111 and 8671 is 14782.",
+            "metrics": {
+                "ground_truth": "14782",
+                "prediction": "14782",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the product of numbers 9686 and 5894?",
+            "response": "[FINAL ANSWER] The product of numbers 9686 and 5894 is 57,098,684.",
+            "metrics": {
+                "ground_truth": "57089284",
+                "prediction": "57098684",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 9400.0,
+                "rel_distance": 0.00016465436841001544
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Isaac Newton. As Isaac Newton answer the following problem: What is the product of numbers 9686 and 5894?",
+            "response": "[FINAL ANSWER] As Isaac Newton, I would approach this problem by multiplying the two numbers, 9686 and 5894, together. \n\nTo do this, I would start by multiplying the ones place of 9686 (which is 6) with each digit of 5894. \n\n6 multiplied by 4 equals 24, so I would write down 4 and carry over the 2 to the tens place. \n\n6 multiplied by 9 equals 54, plus the carried over 2 equals 56. I would write down 6 and carry over the 5 to the hundreds place. \n\n6 multiplied by 8 equals 48, plus the carried over 5 equals 53. I would write down 3 and carry over the 5 to the thousands place. \n\nFinally, 6 multiplied by 5 equals 30, plus the carried over 5 equals 35. I would write down 5 and carry over the 3 to the ten thousands place. \n\nAdding up all the results, I get 35 in the ten thousands place, 3 in the thousands place, 6 in the hundreds place, 4 in the tens place, and 4 in the ones place. \n\nTherefore, the product of 9686 and 5894 is 35,364,44.",
+            "metrics": {
+                "ground_truth": "57089284",
+                "prediction": "3536444",
+                "abs_edit_distance": 7,
+                "rel_edit_distance": 0.875,
+                "abs_distance": 53552840.0,
+                "rel_distance": 0.9380541539109161
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the result of adding 2393 and 2832?",
+            "response": "[FINAL ANSWER] The result of adding 2393 and 2832 is 5225.",
+            "metrics": {
+                "ground_truth": "5225",
+                "prediction": "5225",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Sophie Germain. As Sophie Germain answer the following problem: What is the result of adding 2393 and 2832?",
+            "response": "[FINAL ANSWER] As Sophie Germain, I have calculated the sum of 2393 and 2832 to be 5225.",
+            "metrics": {
+                "ground_truth": "5225",
+                "prediction": "5225",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Add 1750 and 8717.",
+            "response": "[FINAL ANSWER] The sum of 1750 and 8717 is 10467.",
+            "metrics": {
+                "ground_truth": "10467",
+                "prediction": "10467",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: Add 1750 and 8717.",
+            "response": "[FINAL ANSWER] As Ada Lovelace, I would solve the problem by adding 1750 and 8717. \n\nStarting with the units place, 0 plus 7 equals 7. Moving to the tens place, 5 plus 1 equals 6. In the hundreds place, 7 plus 7 equals 14. Since 14 is a two-digit number, I carry the 1 to the thousands place. Adding 1 to 1 equals 2 in the thousands place. Finally, in the ten thousands place, I add 1 to 8, which equals 9.\n\nTherefore, the final answer is 9,467.",
+            "metrics": {
+                "ground_truth": "10467",
+                "prediction": "9467",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.4,
+                "abs_distance": 1000.0,
+                "rel_distance": 0.09553835865099837
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the product of 1039 and 9080?",
+            "response": "[FINAL ANSWER] The product of 1039 and 9080 is 9,423,320.",
+            "metrics": {
+                "ground_truth": "9434120",
+                "prediction": "9423320",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.42857142857142855,
+                "abs_distance": 10800.0,
+                "rel_distance": 0.0011447808592640332
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Bernhard Riemann. As Bernhard Riemann answer the following problem: What is the product of 1039 and 9080?",
+            "response": "[FINAL ANSWER] As Bernhard Riemann, I would approach this problem by using my mathematical knowledge and techniques. To find the product of 1039 and 9080, I would multiply these two numbers together.\n\n1039 multiplied by 9080 can be calculated as follows:\n\n       1039\n    \u00d7 9080\n    _______\n      8312    (9 multiplied by 1039)\n+  83120   (8 multiplied by 1039, shifted one place to the left)\n_________\n   9433520\n\nTherefore, the product of 1039 and 9080 is 9,433,520.",
+            "metrics": {
+                "ground_truth": "9434120",
+                "prediction": "9433520",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.2857142857142857,
+                "abs_distance": 600.0,
+                "rel_distance": 6.359893662577962e-05
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Give the product of 1433 and 2197.",
+            "response": "[FINAL ANSWER] The product of 1433 and 2197 is 3,147,401.",
+            "metrics": {
+                "ground_truth": "3148301",
+                "prediction": "3147401",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.2857142857142857,
+                "abs_distance": 900.0,
+                "rel_distance": 0.00028586847318601364
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Carl Friedrich Gauss. As Carl Friedrich Gauss answer the following problem: Give the product of 1433 and 2197.",
+            "response": "[FINAL ANSWER] The product of 1433 and 2197 is 3,147,401.",
+            "metrics": {
+                "ground_truth": "3148301",
+                "prediction": "3147401",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.2857142857142857,
+                "abs_distance": 900.0,
+                "rel_distance": 0.00028586847318601364
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What do you get when you multiply 1720 and 3330?",
+            "response": "[FINAL ANSWER] When you multiply 1720 and 3330, you get 5,728,400.",
+            "metrics": {
+                "ground_truth": "5727600",
+                "prediction": "5728400",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.2857142857142857,
+                "abs_distance": 800.0,
+                "rel_distance": 0.00013967455827920943
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Isaac Newton. As Isaac Newton answer the following problem: What do you get when you multiply 1720 and 3330?",
+            "response": "[FINAL ANSWER] When you multiply 1720 and 3330, the result is 5,724,600.",
+            "metrics": {
+                "ground_truth": "5727600",
+                "prediction": "5724600",
+                "abs_edit_distance": 1,
+                "rel_edit_distance": 0.14285714285714285,
+                "abs_distance": 3000.0,
+                "rel_distance": 0.0005237795935470355
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the sum of 9336 and 6393?",
+            "response": "[FINAL ANSWER] The sum of 9336 and 6393 is 15729.",
+            "metrics": {
+                "ground_truth": "15729",
+                "prediction": "15729",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Sophie Germain. As Sophie Germain answer the following problem: What is the sum of 9336 and 6393?",
+            "response": "[FINAL ANSWER] As Sophie Germain, I would approach this problem by adding the two numbers together. \n\n9336\n+ 6393\n-------\n15729\n\nTherefore, the sum of 9336 and 6393 is 15729.",
+            "metrics": {
+                "ground_truth": "15729",
+                "prediction": "15729",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What do you get when you multiply 9130 and 4996?",
+            "response": "[FINAL ANSWER] When you multiply 9130 and 4996, you get 45,607,880.",
+            "metrics": {
+                "ground_truth": "45613480",
+                "prediction": "45607880",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 5600.0,
+                "rel_distance": 0.0001227707247945125
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: What do you get when you multiply 9130 and 4996?",
+            "response": "[FINAL ANSWER] As Ada Lovelace, I would approach this problem by performing the multiplication of 9130 and 4996. \n\nTo multiply these two numbers, I would start by multiplying the units digit of 9130 (which is 0) with each digit of 4996. This gives us:\n\n0 * 6 = 0\n0 * 9 = 0\n0 * 9 = 0\n0 * 4 = 0\n\nNext, I would multiply the tens digit of 9130 (which is 3) with each digit of 4996, but shifted one place to the left. This gives us:\n\n3 * 6 = 18\n3 * 9 = 27\n3 * 9 = 27\n3 * 4 = 12\n\nNow, I would multiply the hundreds digit of 9130 (which is 1) with each digit of 4996, but shifted two places to the left. This gives us:\n\n1 * 6 = 6\n1 * 9 = 9\n1 * 9 = 9\n1 * 4 = 4\n\nFinally, I would multiply the thousands digit of 9130 (which is 9) with each digit of 4996, but shifted three places to the left. This gives us:\n\n9 * 6 = 54\n9 * 9 = 81\n9 * 9 = 81\n9 * 4 = 36\n\nNow, I would add up all the partial products to obtain the final answer:\n\n0 + 0 + 0 + 0 = 0 (units digit)\n8 + 2 + 6 + 5 = 21 (tens digit)\n4 + 7 + 1 + 3 = 15 (hundreds digit)\n5 + 1 + 8 + 3 = 17 (thousands digit)\n\nTherefore, when you multiply 9130 and 4996, the final answer is 17,015,520.",
+            "metrics": {
+                "ground_truth": "45613480",
+                "prediction": "17015520",
+                "abs_edit_distance": 6,
+                "rel_edit_distance": 0.75,
+                "abs_distance": 28597960.0,
+                "rel_distance": 0.6269629065793708
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Find the result of multiplying 9822 and 5285.",
+            "response": "[FINAL ANSWER] The result of multiplying 9822 and 5285 is 51,853,070.",
+            "metrics": {
+                "ground_truth": "51909270",
+                "prediction": "51853070",
+                "abs_edit_distance": 4,
+                "rel_edit_distance": 0.5,
+                "abs_distance": 56200.0,
+                "rel_distance": 0.001082658261231568
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Bernhard Riemann. As Bernhard Riemann answer the following problem: Find the result of multiplying 9822 and 5285.",
+            "response": "[FINAL ANSWER] As Bernhard Riemann, I would approach this problem by using long multiplication. Let's begin:\n\n             9822\n        \u00d7  5285\n    ______________\n           49110    (9822 \u00d7 5)\n      + 49110      (9822 \u00d7 8, shifted one place to the left)\n    + 29466        (9822 \u00d7 2, shifted two places to the left)\n+ 49110           (9822 \u00d7 5, shifted three places to the left)\n    ______________\n    51857970\n\nTherefore, the result of multiplying 9822 and 5285 is 51,857,970.",
+            "metrics": {
+                "ground_truth": "51909270",
+                "prediction": "51857970",
+                "abs_edit_distance": 4,
+                "rel_edit_distance": 0.5,
+                "abs_distance": 51300.0,
+                "rel_distance": 0.0009882627900565737
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Provide the product of 7157 and 9000.",
+            "response": "[FINAL ANSWER] The product of 7157 and 9000 is 64,413,000.",
+            "metrics": {
+                "ground_truth": "64413000",
+                "prediction": "64413000",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Carl Friedrich Gauss. As Carl Friedrich Gauss answer the following problem: Provide the product of 7157 and 9000.",
+            "response": "[FINAL ANSWER] The product of 7157 and 9000 is 64,413,000.",
+            "metrics": {
+                "ground_truth": "64413000",
+                "prediction": "64413000",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the sum of 8381 and 6119?",
+            "response": "[FINAL ANSWER] The sum of 8381 and 6119 is 14500.",
+            "metrics": {
+                "ground_truth": "14500",
+                "prediction": "14500",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Isaac Newton. As Isaac Newton answer the following problem: What is the sum of 8381 and 6119?",
+            "response": "[FINAL ANSWER] The sum of 8381 and 6119 is 14500.",
+            "metrics": {
+                "ground_truth": "14500",
+                "prediction": "14500",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Find the result of multiplying 6837 and 9626.",
+            "response": "[FINAL ANSWER] The result of multiplying 6837 and 9626 is 65,874,462.",
+            "metrics": {
+                "ground_truth": "65812962",
+                "prediction": "65874462",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 61500.0,
+                "rel_distance": 0.0009344663745722309
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Sophie Germain. As Sophie Germain answer the following problem: Find the result of multiplying 6837 and 9626.",
+            "response": "[FINAL ANSWER] Dear problem solver,\n\nAs Sophie Germain, I am delighted to assist you in finding the result of multiplying 6837 and 9626. Let's proceed with the calculation:\n\n       6837\n    \u00d7 9626\n    _______\n   41022    (6837 \u00d7 6)\n+ 20548     (6837 \u00d7 2, shifted one place to the left)\n+ 41022     (6837 \u00d7 6, shifted two places to the left)\n+ 13674     (6837 \u00d7 2, shifted three places to the left)\n_________\n= 65825662\n\nTherefore, the result of multiplying 6837 and 9626 is 65,825,662.\n\nI hope this solution satisfies your query. Should you have any further mathematical inquiries, please do not hesitate to reach out.\n\nYours sincerely,\nSophie Germain",
+            "metrics": {
+                "ground_truth": "65812962",
+                "prediction": "65825662",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 12700.0,
+                "rel_distance": 0.00019297110499296477
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Add 3957 and 7819.",
+            "response": "[FINAL ANSWER] The sum of 3957 and 7819 is 11776.",
+            "metrics": {
+                "ground_truth": "11776",
+                "prediction": "11776",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: Add 3957 and 7819.",
+            "response": "[FINAL ANSWER] The sum of 3957 and 7819 is 11,776.",
+            "metrics": {
+                "ground_truth": "11776",
+                "prediction": "11776",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Multiply 5784 and 6406.",
+            "response": "[FINAL ANSWER] The product of 5784 and 6406 is 37,057,704.",
+            "metrics": {
+                "ground_truth": "37052304",
+                "prediction": "37057704",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.25,
+                "abs_distance": 5400.0,
+                "rel_distance": 0.00014573992483706276
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Bernhard Riemann. As Bernhard Riemann answer the following problem: Multiply 5784 and 6406.",
+            "response": "[FINAL ANSWER] As Bernhard Riemann, I would approach the multiplication of 5784 and 6406 using the standard long multiplication method. \n\n          5784\n       \u00d7 6406\n    __________\n         34704   (5784 \u00d7 6)\n+   34656      (5784 \u00d7 4, shifted one place to the left)\n+ 23136        (5784 \u00d7 0, shifted two places to the left)\n+ 23136        (5784 \u00d7 0, shifted three places to the left)\n    __________\n    37064204\n\nTherefore, the product of 5784 and 6406 is 37,064,204.",
+            "metrics": {
+                "ground_truth": "37052304",
+                "prediction": "37064204",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 11900.0,
+                "rel_distance": 0.0003211676121409346
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the result of multiplying 2239 and 4427?",
+            "response": "[FINAL ANSWER] The result of multiplying 2239 and 4427 is 9,909,953.",
+            "metrics": {
+                "ground_truth": "9912053",
+                "prediction": "9909953",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.42857142857142855,
+                "abs_distance": 2100.0,
+                "rel_distance": 0.00021186327393527858
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Carl Friedrich Gauss. As Carl Friedrich Gauss answer the following problem: What is the result of multiplying 2239 and 4427?",
+            "response": "[FINAL ANSWER] The result of multiplying 2239 and 4427 is 9,913,753.",
+            "metrics": {
+                "ground_truth": "9912053",
+                "prediction": "9913753",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.2857142857142857,
+                "abs_distance": 1700.0,
+                "rel_distance": 0.00017150836461427314
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the sum of 5461 and 7259?",
+            "response": "[FINAL ANSWER] The sum of 5461 and 7259 is 12,720.",
+            "metrics": {
+                "ground_truth": "12720",
+                "prediction": "12720",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Isaac Newton. As Isaac Newton answer the following problem: What is the sum of 5461 and 7259?",
+            "response": "[FINAL ANSWER] The sum of 5461 and 7259 is 12720.",
+            "metrics": {
+                "ground_truth": "12720",
+                "prediction": "12720",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the result of adding 1129 and 6309?",
+            "response": "[FINAL ANSWER] The result of adding 1129 and 6309 is 7438.",
+            "metrics": {
+                "ground_truth": "7438",
+                "prediction": "7438",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Sophie Germain. As Sophie Germain answer the following problem: What is the result of adding 1129 and 6309?",
+            "response": "[FINAL ANSWER] The result of adding 1129 and 6309 is 7438.",
+            "metrics": {
+                "ground_truth": "7438",
+                "prediction": "7438",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    }
+]

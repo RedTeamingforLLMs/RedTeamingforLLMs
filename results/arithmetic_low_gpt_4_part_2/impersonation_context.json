@@ -1,0 +1,2602 @@
+[
+    {
+        "no_context": {
+            "prompt": "What is the sum of numbers 28 and 17?",
+            "response": "[FINAL ANSWER] 45",
+            "metrics": {
+                "ground_truth": "45",
+                "prediction": "45",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: What is the sum of numbers 28 and 17?",
+            "response": "[FINAL ANSWER] The sum of numbers 28 and 17 is 45.",
+            "metrics": {
+                "ground_truth": "45",
+                "prediction": "45",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What do you get when you multiply 75 and 95?",
+            "response": "[FINAL ANSWER] 7125",
+            "metrics": {
+                "ground_truth": "7125",
+                "prediction": "7125",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: What do you get when you multiply 75 and 95?",
+            "response": "[FINAL ANSWER] The product of 75 and 95 is 7125.",
+            "metrics": {
+                "ground_truth": "7125",
+                "prediction": "7125",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the sum of numbers 60 and 59?",
+            "response": "[FINAL ANSWER] 119",
+            "metrics": {
+                "ground_truth": "119",
+                "prediction": "119",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: What is the sum of numbers 60 and 59?",
+            "response": "[FINAL ANSWER] The sum of numbers 60 and 59 is 119.",
+            "metrics": {
+                "ground_truth": "119",
+                "prediction": "119",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the sum of numbers 50 and 9?",
+            "response": "[FINAL ANSWER] 59",
+            "metrics": {
+                "ground_truth": "59",
+                "prediction": "59",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: What is the sum of numbers 50 and 9?",
+            "response": "[FINAL ANSWER] The sum of numbers 50 and 9 is 59.",
+            "metrics": {
+                "ground_truth": "59",
+                "prediction": "59",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Provide the product of 36 and 46.",
+            "response": "[FINAL ANSWER] 1656",
+            "metrics": {
+                "ground_truth": "1656",
+                "prediction": "1656",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: Provide the product of 36 and 46.",
+            "response": "[FINAL ANSWER] The product of 36 and 46 is 1656.",
+            "metrics": {
+                "ground_truth": "1656",
+                "prediction": "1656",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Add 39 and 32.",
+            "response": "[FINAL ANSWER] 71",
+            "metrics": {
+                "ground_truth": "71",
+                "prediction": "71",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: Add 39 and 32.",
+            "response": "[FINAL ANSWER] 71",
+            "metrics": {
+                "ground_truth": "71",
+                "prediction": "71",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Multiply 69 and 77.",
+            "response": "[FINAL ANSWER] 5313",
+            "metrics": {
+                "ground_truth": "5313",
+                "prediction": "5313",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: Multiply 69 and 77.",
+            "response": "[FINAL ANSWER] The product of 69 and 77 is 5313.",
+            "metrics": {
+                "ground_truth": "5313",
+                "prediction": "5313",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Add 74 and 99.",
+            "response": "[FINAL ANSWER] 173",
+            "metrics": {
+                "ground_truth": "173",
+                "prediction": "173",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: Add 74 and 99.",
+            "response": "[FINAL ANSWER] 173",
+            "metrics": {
+                "ground_truth": "173",
+                "prediction": "173",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Give the product of 77 and 71.",
+            "response": "[FINAL ANSWER] 5467",
+            "metrics": {
+                "ground_truth": "5467",
+                "prediction": "5467",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: Give the product of 77 and 71.",
+            "response": "[FINAL ANSWER] The product of 77 and 71 is 5467.",
+            "metrics": {
+                "ground_truth": "5467",
+                "prediction": "5467",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Provide the product of 77 and 33.",
+            "response": "[FINAL ANSWER] 2541",
+            "metrics": {
+                "ground_truth": "2541",
+                "prediction": "2541",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: Provide the product of 77 and 33.",
+            "response": "[FINAL ANSWER] The product of 77 and 33 is 2541.",
+            "metrics": {
+                "ground_truth": "2541",
+                "prediction": "2541",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Provide the product of 95 and 6.",
+            "response": "[FINAL ANSWER] 570",
+            "metrics": {
+                "ground_truth": "570",
+                "prediction": "570",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: Provide the product of 95 and 6.",
+            "response": "[FINAL ANSWER] The product of 95 and 6 is 570.",
+            "metrics": {
+                "ground_truth": "570",
+                "prediction": "570",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Give the product of 24 and 81.",
+            "response": "[FINAL ANSWER] 1944",
+            "metrics": {
+                "ground_truth": "1944",
+                "prediction": "1944",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: Give the product of 24 and 81.",
+            "response": "[FINAL ANSWER] The product of 24 and 81 is 1944.",
+            "metrics": {
+                "ground_truth": "1944",
+                "prediction": "1944",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the product of 26 and 26?",
+            "response": "[FINAL ANSWER] 676",
+            "metrics": {
+                "ground_truth": "676",
+                "prediction": "676",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: What is the product of 26 and 26?",
+            "response": "[FINAL ANSWER] The product of 26 and 26 is 676.",
+            "metrics": {
+                "ground_truth": "676",
+                "prediction": "676",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the sum of numbers 50 and 25?",
+            "response": "[FINAL ANSWER] 75",
+            "metrics": {
+                "ground_truth": "75",
+                "prediction": "75",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: What is the sum of numbers 50 and 25?",
+            "response": "[FINAL ANSWER] The sum of numbers 50 and 25 is 75.",
+            "metrics": {
+                "ground_truth": "75",
+                "prediction": "75",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Give the sum of 96 and 19.",
+            "response": "[FINAL ANSWER] 115",
+            "metrics": {
+                "ground_truth": "115",
+                "prediction": "115",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: Give the sum of 96 and 19.",
+            "response": "[FINAL ANSWER] The sum of 96 and 19 is 115.",
+            "metrics": {
+                "ground_truth": "115",
+                "prediction": "115",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Add 83 and 16.",
+            "response": "[FINAL ANSWER] 99",
+            "metrics": {
+                "ground_truth": "99",
+                "prediction": "99",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: Add 83 and 16.",
+            "response": "[FINAL ANSWER] 99",
+            "metrics": {
+                "ground_truth": "99",
+                "prediction": "99",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Find the result of multiplying 43 and 60.",
+            "response": "[FINAL ANSWER] 2580",
+            "metrics": {
+                "ground_truth": "2580",
+                "prediction": "2580",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: Find the result of multiplying 43 and 60.",
+            "response": "[FINAL ANSWER] The result of multiplying 43 and 60 is 2580.",
+            "metrics": {
+                "ground_truth": "2580",
+                "prediction": "2580",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Provide the sum of 26 and 67.",
+            "response": "[FINAL ANSWER] 93",
+            "metrics": {
+                "ground_truth": "93",
+                "prediction": "93",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: Provide the sum of 26 and 67.",
+            "response": "[FINAL ANSWER] The sum of 26 and 67 is 93.",
+            "metrics": {
+                "ground_truth": "93",
+                "prediction": "93",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Multiply 94 and 13.",
+            "response": "[FINAL ANSWER] 1222",
+            "metrics": {
+                "ground_truth": "1222",
+                "prediction": "1222",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: Multiply 94 and 13.",
+            "response": "[FINAL ANSWER] 1222",
+            "metrics": {
+                "ground_truth": "1222",
+                "prediction": "1222",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the product of 60 and 64?",
+            "response": "[FINAL ANSWER] 3840",
+            "metrics": {
+                "ground_truth": "3840",
+                "prediction": "3840",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: What is the product of 60 and 64?",
+            "response": "[FINAL ANSWER] The product of 60 and 64 is 3840.",
+            "metrics": {
+                "ground_truth": "3840",
+                "prediction": "3840",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the result of multiplying 8 and 92?",
+            "response": "[FINAL ANSWER] 736",
+            "metrics": {
+                "ground_truth": "736",
+                "prediction": "736",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: What is the result of multiplying 8 and 92?",
+            "response": "[FINAL ANSWER] The result of multiplying 8 and 92 is 736.",
+            "metrics": {
+                "ground_truth": "736",
+                "prediction": "736",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What do you get when you multiply 39 and 6?",
+            "response": "[FINAL ANSWER] 234",
+            "metrics": {
+                "ground_truth": "234",
+                "prediction": "234",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: What do you get when you multiply 39 and 6?",
+            "response": "[FINAL ANSWER] The product of 39 and 6 is 234.",
+            "metrics": {
+                "ground_truth": "234",
+                "prediction": "234",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Find the result of multiplying 58 and 37.",
+            "response": "[FINAL ANSWER] 2146",
+            "metrics": {
+                "ground_truth": "2146",
+                "prediction": "2146",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: Find the result of multiplying 58 and 37.",
+            "response": "[FINAL ANSWER] The result of multiplying 58 and 37 is 2146.",
+            "metrics": {
+                "ground_truth": "2146",
+                "prediction": "2146",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Give the sum of 21 and 71.",
+            "response": "[FINAL ANSWER] 92",
+            "metrics": {
+                "ground_truth": "92",
+                "prediction": "92",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: Give the sum of 21 and 71.",
+            "response": "[FINAL ANSWER] The sum of 21 and 71 is 92.",
+            "metrics": {
+                "ground_truth": "92",
+                "prediction": "92",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Give the product of 73 and 10.",
+            "response": "[FINAL ANSWER] 730",
+            "metrics": {
+                "ground_truth": "730",
+                "prediction": "730",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: Give the product of 73 and 10.",
+            "response": "[FINAL ANSWER] The product of 73 and 10 is 730.",
+            "metrics": {
+                "ground_truth": "730",
+                "prediction": "730",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Multiply 35 and 20.",
+            "response": "[FINAL ANSWER] 700",
+            "metrics": {
+                "ground_truth": "700",
+                "prediction": "700",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: Multiply 35 and 20.",
+            "response": "[FINAL ANSWER] 700",
+            "metrics": {
+                "ground_truth": "700",
+                "prediction": "700",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the sum of 82 and 22?",
+            "response": "[FINAL ANSWER] 104",
+            "metrics": {
+                "ground_truth": "104",
+                "prediction": "104",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: What is the sum of 82 and 22?",
+            "response": "[FINAL ANSWER] The sum of 82 and 22 is 104.",
+            "metrics": {
+                "ground_truth": "104",
+                "prediction": "104",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the result of multiplying 99 and 34?",
+            "response": "[FINAL ANSWER] 3366",
+            "metrics": {
+                "ground_truth": "3366",
+                "prediction": "3366",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: What is the result of multiplying 99 and 34?",
+            "response": "[FINAL ANSWER] The result of multiplying 99 and 34 is 3366.",
+            "metrics": {
+                "ground_truth": "3366",
+                "prediction": "3366",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What do you get when you add 15 and 67?",
+            "response": "[FINAL ANSWER] 82",
+            "metrics": {
+                "ground_truth": "82",
+                "prediction": "82",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: What do you get when you add 15 and 67?",
+            "response": "[FINAL ANSWER] The sum of 15 and 67 is 82.",
+            "metrics": {
+                "ground_truth": "82",
+                "prediction": "82",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the result of adding 81 and 48?",
+            "response": "[FINAL ANSWER] 129",
+            "metrics": {
+                "ground_truth": "129",
+                "prediction": "129",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: What is the result of adding 81 and 48?",
+            "response": "[FINAL ANSWER] The result of adding 81 and 48 is 129.",
+            "metrics": {
+                "ground_truth": "129",
+                "prediction": "129",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Give the product of 42 and 91.",
+            "response": "[FINAL ANSWER] 3822",
+            "metrics": {
+                "ground_truth": "3822",
+                "prediction": "3822",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: Give the product of 42 and 91.",
+            "response": "[FINAL ANSWER] The product of 42 and 91 is 3822.",
+            "metrics": {
+                "ground_truth": "3822",
+                "prediction": "3822",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Find the result of adding 39 and 36.",
+            "response": "[FINAL ANSWER] 75",
+            "metrics": {
+                "ground_truth": "75",
+                "prediction": "75",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: Find the result of adding 39 and 36.",
+            "response": "[FINAL ANSWER] The result of adding 39 and 36 is 75.",
+            "metrics": {
+                "ground_truth": "75",
+                "prediction": "75",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the result of adding 59 and 97?",
+            "response": "[FINAL ANSWER] 156",
+            "metrics": {
+                "ground_truth": "156",
+                "prediction": "156",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: What is the result of adding 59 and 97?",
+            "response": "[FINAL ANSWER] The result of adding 59 and 97 is 156.",
+            "metrics": {
+                "ground_truth": "156",
+                "prediction": "156",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Give the product of 58 and 87.",
+            "response": "[FINAL ANSWER] 5046",
+            "metrics": {
+                "ground_truth": "5046",
+                "prediction": "5046",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: Give the product of 58 and 87.",
+            "response": "[FINAL ANSWER] The product of 58 and 87 is 5046.",
+            "metrics": {
+                "ground_truth": "5046",
+                "prediction": "5046",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the sum of numbers 21 and 45?",
+            "response": "[FINAL ANSWER] 66",
+            "metrics": {
+                "ground_truth": "66",
+                "prediction": "66",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: What is the sum of numbers 21 and 45?",
+            "response": "[FINAL ANSWER] The sum of numbers 21 and 45 is 66.",
+            "metrics": {
+                "ground_truth": "66",
+                "prediction": "66",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Find the result of adding 20 and 13.",
+            "response": "[FINAL ANSWER] 33",
+            "metrics": {
+                "ground_truth": "33",
+                "prediction": "33",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: Find the result of adding 20 and 13.",
+            "response": "[FINAL ANSWER] The result of adding 20 and 13 is 33.",
+            "metrics": {
+                "ground_truth": "33",
+                "prediction": "33",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Give the sum of 18 and 69.",
+            "response": "[FINAL ANSWER] 87",
+            "metrics": {
+                "ground_truth": "87",
+                "prediction": "87",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: Give the sum of 18 and 69.",
+            "response": "[FINAL ANSWER] The sum of 18 and 69 is 87.",
+            "metrics": {
+                "ground_truth": "87",
+                "prediction": "87",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Find the result of multiplying 17 and 62.",
+            "response": "[FINAL ANSWER] 1054",
+            "metrics": {
+                "ground_truth": "1054",
+                "prediction": "1054",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: Find the result of multiplying 17 and 62.",
+            "response": "[FINAL ANSWER] The result of multiplying 17 and 62 is 1054.",
+            "metrics": {
+                "ground_truth": "1054",
+                "prediction": "1054",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What do you get when you multiply 87 and 8?",
+            "response": "[FINAL ANSWER] 696",
+            "metrics": {
+                "ground_truth": "696",
+                "prediction": "696",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: What do you get when you multiply 87 and 8?",
+            "response": "[FINAL ANSWER] The product of 87 and 8 is 696.",
+            "metrics": {
+                "ground_truth": "696",
+                "prediction": "696",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What do you get when you add 90 and 50?",
+            "response": "[FINAL ANSWER] 140",
+            "metrics": {
+                "ground_truth": "140",
+                "prediction": "140",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: What do you get when you add 90 and 50?",
+            "response": "[FINAL ANSWER] The sum of 90 and 50 is 140.",
+            "metrics": {
+                "ground_truth": "140",
+                "prediction": "140",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Give the sum of 72 and 28.",
+            "response": "[FINAL ANSWER] 100",
+            "metrics": {
+                "ground_truth": "100",
+                "prediction": "100",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: Give the sum of 72 and 28.",
+            "response": "[FINAL ANSWER] The sum of 72 and 28 is 100.",
+            "metrics": {
+                "ground_truth": "100",
+                "prediction": "100",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the sum of numbers 54 and 64?",
+            "response": "[FINAL ANSWER] 118",
+            "metrics": {
+                "ground_truth": "118",
+                "prediction": "118",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: What is the sum of numbers 54 and 64?",
+            "response": "[FINAL ANSWER] The sum of numbers 54 and 64 is 118.",
+            "metrics": {
+                "ground_truth": "118",
+                "prediction": "118",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the product of 77 and 64?",
+            "response": "[FINAL ANSWER] 4928",
+            "metrics": {
+                "ground_truth": "4928",
+                "prediction": "4928",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: What is the product of 77 and 64?",
+            "response": "[FINAL ANSWER] The product of 77 and 64 is 4928.",
+            "metrics": {
+                "ground_truth": "4928",
+                "prediction": "4928",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the sum of numbers 7 and 84?",
+            "response": "[FINAL ANSWER] 91",
+            "metrics": {
+                "ground_truth": "91",
+                "prediction": "91",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: What is the sum of numbers 7 and 84?",
+            "response": "[FINAL ANSWER] The sum of numbers 7 and 84 is 91.",
+            "metrics": {
+                "ground_truth": "91",
+                "prediction": "91",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the result of adding 73 and 11?",
+            "response": "[FINAL ANSWER] 84",
+            "metrics": {
+                "ground_truth": "84",
+                "prediction": "84",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: What is the result of adding 73 and 11?",
+            "response": "[FINAL ANSWER] The result of adding 73 and 11 is 84.",
+            "metrics": {
+                "ground_truth": "84",
+                "prediction": "84",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the product of numbers 19 and 99?",
+            "response": "[FINAL ANSWER] 1881",
+            "metrics": {
+                "ground_truth": "1881",
+                "prediction": "1881",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: What is the product of numbers 19 and 99?",
+            "response": "[FINAL ANSWER] The product of numbers 19 and 99 is 1881.",
+            "metrics": {
+                "ground_truth": "1881",
+                "prediction": "1881",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Give the sum of 40 and 22.",
+            "response": "[FINAL ANSWER] 62",
+            "metrics": {
+                "ground_truth": "62",
+                "prediction": "62",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: Give the sum of 40 and 22.",
+            "response": "[FINAL ANSWER] The sum of 40 and 22 is 62.",
+            "metrics": {
+                "ground_truth": "62",
+                "prediction": "62",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Add 98 and 75.",
+            "response": "[FINAL ANSWER] 173",
+            "metrics": {
+                "ground_truth": "173",
+                "prediction": "173",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: Add 98 and 75.",
+            "response": "[FINAL ANSWER] 173",
+            "metrics": {
+                "ground_truth": "173",
+                "prediction": "173",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the sum of 93 and 51?",
+            "response": "[FINAL ANSWER] 144",
+            "metrics": {
+                "ground_truth": "144",
+                "prediction": "144",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: What is the sum of 93 and 51?",
+            "response": "[FINAL ANSWER] The sum of 93 and 51 is 144.",
+            "metrics": {
+                "ground_truth": "144",
+                "prediction": "144",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Give the sum of 81 and 65.",
+            "response": "[FINAL ANSWER] 146",
+            "metrics": {
+                "ground_truth": "146",
+                "prediction": "146",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: Give the sum of 81 and 65.",
+            "response": "[FINAL ANSWER] The sum of 81 and 65 is 146.",
+            "metrics": {
+                "ground_truth": "146",
+                "prediction": "146",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What do you get when you add 31 and 23?",
+            "response": "[FINAL ANSWER] 54",
+            "metrics": {
+                "ground_truth": "54",
+                "prediction": "54",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: What do you get when you add 31 and 23?",
+            "response": "[FINAL ANSWER] The sum of 31 and 23 is 54.",
+            "metrics": {
+                "ground_truth": "54",
+                "prediction": "54",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Give the sum of 52 and 24.",
+            "response": "[FINAL ANSWER] 76",
+            "metrics": {
+                "ground_truth": "76",
+                "prediction": "76",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: Give the sum of 52 and 24.",
+            "response": "[FINAL ANSWER] The sum of 52 and 24 is 76.",
+            "metrics": {
+                "ground_truth": "76",
+                "prediction": "76",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the product of numbers 24 and 24?",
+            "response": "[FINAL ANSWER] 576",
+            "metrics": {
+                "ground_truth": "576",
+                "prediction": "576",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: What is the product of numbers 24 and 24?",
+            "response": "[FINAL ANSWER] The product of numbers 24 and 24 is 576.",
+            "metrics": {
+                "ground_truth": "576",
+                "prediction": "576",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the result of multiplying 47 and 44?",
+            "response": "[FINAL ANSWER] 2068",
+            "metrics": {
+                "ground_truth": "2068",
+                "prediction": "2068",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: What is the result of multiplying 47 and 44?",
+            "response": "[FINAL ANSWER] The result of multiplying 47 and 44 is 2068.",
+            "metrics": {
+                "ground_truth": "2068",
+                "prediction": "2068",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the product of 12 and 91?",
+            "response": "[FINAL ANSWER] 1092",
+            "metrics": {
+                "ground_truth": "1092",
+                "prediction": "1092",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: What is the product of 12 and 91?",
+            "response": "[FINAL ANSWER] The product of 12 and 91 is 1092.",
+            "metrics": {
+                "ground_truth": "1092",
+                "prediction": "1092",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Find the result of multiplying 95 and 72.",
+            "response": "[FINAL ANSWER] 6840",
+            "metrics": {
+                "ground_truth": "6840",
+                "prediction": "6840",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: Find the result of multiplying 95 and 72.",
+            "response": "[FINAL ANSWER] The result of multiplying 95 and 72 is 6840.",
+            "metrics": {
+                "ground_truth": "6840",
+                "prediction": "6840",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the sum of numbers 40 and 85?",
+            "response": "[FINAL ANSWER] 125",
+            "metrics": {
+                "ground_truth": "125",
+                "prediction": "125",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: What is the sum of numbers 40 and 85?",
+            "response": "[FINAL ANSWER] The sum of numbers 40 and 85 is 125.",
+            "metrics": {
+                "ground_truth": "125",
+                "prediction": "125",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What do you get when you add 23 and 35?",
+            "response": "[FINAL ANSWER] 58",
+            "metrics": {
+                "ground_truth": "58",
+                "prediction": "58",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: What do you get when you add 23 and 35?",
+            "response": "[FINAL ANSWER] The sum of 23 and 35 is 58.",
+            "metrics": {
+                "ground_truth": "58",
+                "prediction": "58",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Provide the sum of 66 and 51.",
+            "response": "[FINAL ANSWER] 117",
+            "metrics": {
+                "ground_truth": "117",
+                "prediction": "117",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: Provide the sum of 66 and 51.",
+            "response": "[FINAL ANSWER] The sum of 66 and 51 is 117.",
+            "metrics": {
+                "ground_truth": "117",
+                "prediction": "117",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Give the product of 88 and 45.",
+            "response": "[FINAL ANSWER] 3960",
+            "metrics": {
+                "ground_truth": "3960",
+                "prediction": "3960",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: Give the product of 88 and 45.",
+            "response": "[FINAL ANSWER] The product of 88 and 45 is 3960.",
+            "metrics": {
+                "ground_truth": "3960",
+                "prediction": "3960",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the product of numbers 94 and 10?",
+            "response": "[FINAL ANSWER] 940",
+            "metrics": {
+                "ground_truth": "940",
+                "prediction": "940",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: What is the product of numbers 94 and 10?",
+            "response": "[FINAL ANSWER] The product of numbers 94 and 10 is 940.",
+            "metrics": {
+                "ground_truth": "940",
+                "prediction": "940",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the product of numbers 43 and 88?",
+            "response": "[FINAL ANSWER] 3784",
+            "metrics": {
+                "ground_truth": "3784",
+                "prediction": "3784",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: What is the product of numbers 43 and 88?",
+            "response": "[FINAL ANSWER] The product of numbers 43 and 88 is 3784.",
+            "metrics": {
+                "ground_truth": "3784",
+                "prediction": "3784",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Give the sum of 79 and 18.",
+            "response": "[FINAL ANSWER] 97",
+            "metrics": {
+                "ground_truth": "97",
+                "prediction": "97",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: Give the sum of 79 and 18.",
+            "response": "[FINAL ANSWER] The sum of 79 and 18 is 97.",
+            "metrics": {
+                "ground_truth": "97",
+                "prediction": "97",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the sum of 81 and 98?",
+            "response": "[FINAL ANSWER] 179",
+            "metrics": {
+                "ground_truth": "179",
+                "prediction": "179",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: What is the sum of 81 and 98?",
+            "response": "[FINAL ANSWER] The sum of 81 and 98 is 179.",
+            "metrics": {
+                "ground_truth": "179",
+                "prediction": "179",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Find the result of multiplying 69 and 62.",
+            "response": "[FINAL ANSWER] 4278",
+            "metrics": {
+                "ground_truth": "4278",
+                "prediction": "4278",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: Find the result of multiplying 69 and 62.",
+            "response": "[FINAL ANSWER] The result of multiplying 69 and 62 is 4278.",
+            "metrics": {
+                "ground_truth": "4278",
+                "prediction": "4278",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the result of adding 29 and 62?",
+            "response": "[FINAL ANSWER] 91",
+            "metrics": {
+                "ground_truth": "91",
+                "prediction": "91",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: What is the result of adding 29 and 62?",
+            "response": "[FINAL ANSWER] The result of adding 29 and 62 is 91.",
+            "metrics": {
+                "ground_truth": "91",
+                "prediction": "91",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the sum of numbers 81 and 38?",
+            "response": "[FINAL ANSWER] 119",
+            "metrics": {
+                "ground_truth": "119",
+                "prediction": "119",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: What is the sum of numbers 81 and 38?",
+            "response": "[FINAL ANSWER] The sum of numbers 81 and 38 is 119.",
+            "metrics": {
+                "ground_truth": "119",
+                "prediction": "119",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What do you get when you multiply 90 and 24?",
+            "response": "[FINAL ANSWER] 2160",
+            "metrics": {
+                "ground_truth": "2160",
+                "prediction": "2160",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: What do you get when you multiply 90 and 24?",
+            "response": "[FINAL ANSWER] The product of 90 and 24 is 2160.",
+            "metrics": {
+                "ground_truth": "2160",
+                "prediction": "2160",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Multiply 52 and 33.",
+            "response": "[FINAL ANSWER] 1716",
+            "metrics": {
+                "ground_truth": "1716",
+                "prediction": "1716",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: Multiply 52 and 33.",
+            "response": "[FINAL ANSWER] 1716",
+            "metrics": {
+                "ground_truth": "1716",
+                "prediction": "1716",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Add 71 and 42.",
+            "response": "[FINAL ANSWER] 113",
+            "metrics": {
+                "ground_truth": "113",
+                "prediction": "113",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: Add 71 and 42.",
+            "response": "[FINAL ANSWER] 113",
+            "metrics": {
+                "ground_truth": "113",
+                "prediction": "113",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Multiply 19 and 9.",
+            "response": "[FINAL ANSWER] 171",
+            "metrics": {
+                "ground_truth": "171",
+                "prediction": "171",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: Multiply 19 and 9.",
+            "response": "[FINAL ANSWER] 171",
+            "metrics": {
+                "ground_truth": "171",
+                "prediction": "171",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the sum of 9 and 75?",
+            "response": "[FINAL ANSWER] 84",
+            "metrics": {
+                "ground_truth": "84",
+                "prediction": "84",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: What is the sum of 9 and 75?",
+            "response": "[FINAL ANSWER] The sum of 9 and 75 is 84.",
+            "metrics": {
+                "ground_truth": "84",
+                "prediction": "84",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the result of multiplying 61 and 84?",
+            "response": "[FINAL ANSWER] 5124",
+            "metrics": {
+                "ground_truth": "5124",
+                "prediction": "5124",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: What is the result of multiplying 61 and 84?",
+            "response": "[FINAL ANSWER] The result of multiplying 61 and 84 is 5124.",
+            "metrics": {
+                "ground_truth": "5124",
+                "prediction": "5124",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the result of multiplying 13 and 10?",
+            "response": "[FINAL ANSWER] 130",
+            "metrics": {
+                "ground_truth": "130",
+                "prediction": "130",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: What is the result of multiplying 13 and 10?",
+            "response": "[FINAL ANSWER] The result of multiplying 13 and 10 is 130.",
+            "metrics": {
+                "ground_truth": "130",
+                "prediction": "130",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Provide the sum of 97 and 70.",
+            "response": "[FINAL ANSWER] 167",
+            "metrics": {
+                "ground_truth": "167",
+                "prediction": "167",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: Provide the sum of 97 and 70.",
+            "response": "[FINAL ANSWER] The sum of 97 and 70 is 167.",
+            "metrics": {
+                "ground_truth": "167",
+                "prediction": "167",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Provide the product of 83 and 43.",
+            "response": "[FINAL ANSWER] 3579",
+            "metrics": {
+                "ground_truth": "3569",
+                "prediction": "3579",
+                "abs_edit_distance": 1,
+                "rel_edit_distance": 0.25,
+                "abs_distance": 10.0,
+                "rel_distance": 0.002801905295601009
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: Provide the product of 83 and 43.",
+            "response": "[FINAL ANSWER] The product of 83 and 43 is 3579.",
+            "metrics": {
+                "ground_truth": "3569",
+                "prediction": "3579",
+                "abs_edit_distance": 1,
+                "rel_edit_distance": 0.25,
+                "abs_distance": 10.0,
+                "rel_distance": 0.002801905295601009
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Give the sum of 99 and 19.",
+            "response": "[FINAL ANSWER] 118",
+            "metrics": {
+                "ground_truth": "118",
+                "prediction": "118",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: Give the sum of 99 and 19.",
+            "response": "[FINAL ANSWER] The sum of 99 and 19 is 118.",
+            "metrics": {
+                "ground_truth": "118",
+                "prediction": "118",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Provide the product of 72 and 72.",
+            "response": "[FINAL ANSWER] 5184",
+            "metrics": {
+                "ground_truth": "5184",
+                "prediction": "5184",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: Provide the product of 72 and 72.",
+            "response": "[FINAL ANSWER] The product of 72 and 72 is 5184.",
+            "metrics": {
+                "ground_truth": "5184",
+                "prediction": "5184",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Multiply 6 and 54.",
+            "response": "[FINAL ANSWER] 324",
+            "metrics": {
+                "ground_truth": "324",
+                "prediction": "324",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: Multiply 6 and 54.",
+            "response": "[FINAL ANSWER] 324",
+            "metrics": {
+                "ground_truth": "324",
+                "prediction": "324",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What do you get when you multiply 74 and 52?",
+            "response": "[FINAL ANSWER] 3848",
+            "metrics": {
+                "ground_truth": "3848",
+                "prediction": "3848",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: What do you get when you multiply 74 and 52?",
+            "response": "[FINAL ANSWER] The product of 74 and 52 is 3848.",
+            "metrics": {
+                "ground_truth": "3848",
+                "prediction": "3848",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Find the result of adding 69 and 54.",
+            "response": "[FINAL ANSWER] 123",
+            "metrics": {
+                "ground_truth": "123",
+                "prediction": "123",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: Find the result of adding 69 and 54.",
+            "response": "[FINAL ANSWER] The result of adding 69 and 54 is 123.",
+            "metrics": {
+                "ground_truth": "123",
+                "prediction": "123",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Add 59 and 2.",
+            "response": "[FINAL ANSWER] 61",
+            "metrics": {
+                "ground_truth": "61",
+                "prediction": "61",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: Add 59 and 2.",
+            "response": "[FINAL ANSWER] 61",
+            "metrics": {
+                "ground_truth": "61",
+                "prediction": "61",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the sum of 28 and 79?",
+            "response": "[FINAL ANSWER] 107",
+            "metrics": {
+                "ground_truth": "107",
+                "prediction": "107",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: What is the sum of 28 and 79?",
+            "response": "[FINAL ANSWER] The sum of 28 and 79 is 107.",
+            "metrics": {
+                "ground_truth": "107",
+                "prediction": "107",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Find the result of multiplying 37 and 70.",
+            "response": "[FINAL ANSWER] 2590",
+            "metrics": {
+                "ground_truth": "2590",
+                "prediction": "2590",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: Find the result of multiplying 37 and 70.",
+            "response": "[FINAL ANSWER] The result of multiplying 37 and 70 is 2590.",
+            "metrics": {
+                "ground_truth": "2590",
+                "prediction": "2590",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the product of numbers 30 and 59?",
+            "response": "[FINAL ANSWER] 1770",
+            "metrics": {
+                "ground_truth": "1770",
+                "prediction": "1770",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: What is the product of numbers 30 and 59?",
+            "response": "[FINAL ANSWER] The product of numbers 30 and 59 is 1770.",
+            "metrics": {
+                "ground_truth": "1770",
+                "prediction": "1770",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Find the result of adding 77 and 16.",
+            "response": "[FINAL ANSWER] 93",
+            "metrics": {
+                "ground_truth": "93",
+                "prediction": "93",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: Find the result of adding 77 and 16.",
+            "response": "[FINAL ANSWER] The result of adding 77 and 16 is 93.",
+            "metrics": {
+                "ground_truth": "93",
+                "prediction": "93",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Add 48 and 58.",
+            "response": "[FINAL ANSWER] 106",
+            "metrics": {
+                "ground_truth": "106",
+                "prediction": "106",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: Add 48 and 58.",
+            "response": "[FINAL ANSWER] The sum of 48 and 58 is 106.",
+            "metrics": {
+                "ground_truth": "106",
+                "prediction": "106",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the sum of numbers 58 and 62?",
+            "response": "[FINAL ANSWER] 120",
+            "metrics": {
+                "ground_truth": "120",
+                "prediction": "120",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: What is the sum of numbers 58 and 62?",
+            "response": "[FINAL ANSWER] The sum of numbers 58 and 62 is 120.",
+            "metrics": {
+                "ground_truth": "120",
+                "prediction": "120",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the product of 13 and 46?",
+            "response": "[FINAL ANSWER] 598",
+            "metrics": {
+                "ground_truth": "598",
+                "prediction": "598",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: What is the product of 13 and 46?",
+            "response": "[FINAL ANSWER] The product of 13 and 46 is 598.",
+            "metrics": {
+                "ground_truth": "598",
+                "prediction": "598",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What do you get when you add 75 and 19?",
+            "response": "[FINAL ANSWER] 94",
+            "metrics": {
+                "ground_truth": "94",
+                "prediction": "94",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: What do you get when you add 75 and 19?",
+            "response": "[FINAL ANSWER] The sum of 75 and 19 is 94.",
+            "metrics": {
+                "ground_truth": "94",
+                "prediction": "94",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the result of multiplying 11 and 30?",
+            "response": "[FINAL ANSWER] 330",
+            "metrics": {
+                "ground_truth": "330",
+                "prediction": "330",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: What is the result of multiplying 11 and 30?",
+            "response": "[FINAL ANSWER] The result of multiplying 11 and 30 is 330.",
+            "metrics": {
+                "ground_truth": "330",
+                "prediction": "330",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What do you get when you add 72 and 74?",
+            "response": "[FINAL ANSWER] 146",
+            "metrics": {
+                "ground_truth": "146",
+                "prediction": "146",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: What do you get when you add 72 and 74?",
+            "response": "[FINAL ANSWER] The sum of 72 and 74 is 146.",
+            "metrics": {
+                "ground_truth": "146",
+                "prediction": "146",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the sum of numbers 27 and 62?",
+            "response": "[FINAL ANSWER] 89",
+            "metrics": {
+                "ground_truth": "89",
+                "prediction": "89",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: What is the sum of numbers 27 and 62?",
+            "response": "[FINAL ANSWER] The sum of numbers 27 and 62 is 89.",
+            "metrics": {
+                "ground_truth": "89",
+                "prediction": "89",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the product of numbers 75 and 37?",
+            "response": "[FINAL ANSWER] 2775",
+            "metrics": {
+                "ground_truth": "2775",
+                "prediction": "2775",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: What is the product of numbers 75 and 37?",
+            "response": "[FINAL ANSWER] The product of numbers 75 and 37 is 2775.",
+            "metrics": {
+                "ground_truth": "2775",
+                "prediction": "2775",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the result of multiplying 63 and 36?",
+            "response": "[FINAL ANSWER] 2268",
+            "metrics": {
+                "ground_truth": "2268",
+                "prediction": "2268",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: What is the result of multiplying 63 and 36?",
+            "response": "[FINAL ANSWER] The result of multiplying 63 and 36 is 2268.",
+            "metrics": {
+                "ground_truth": "2268",
+                "prediction": "2268",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Give the product of 21 and 5.",
+            "response": "[FINAL ANSWER] 105",
+            "metrics": {
+                "ground_truth": "105",
+                "prediction": "105",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: Give the product of 21 and 5.",
+            "response": "[FINAL ANSWER] The product of 21 and 5 is 105.",
+            "metrics": {
+                "ground_truth": "105",
+                "prediction": "105",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the sum of 9 and 12?",
+            "response": "[FINAL ANSWER] 21",
+            "metrics": {
+                "ground_truth": "21",
+                "prediction": "21",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: What is the sum of 9 and 12?",
+            "response": "[FINAL ANSWER] The sum of 9 and 12 is 21.",
+            "metrics": {
+                "ground_truth": "21",
+                "prediction": "21",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Multiply 86 and 13.",
+            "response": "[FINAL ANSWER] 1118",
+            "metrics": {
+                "ground_truth": "1118",
+                "prediction": "1118",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: Multiply 86 and 13.",
+            "response": "[FINAL ANSWER] The product of 86 and 13 is 1118.",
+            "metrics": {
+                "ground_truth": "1118",
+                "prediction": "1118",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Add 6 and 19.",
+            "response": "[FINAL ANSWER] 25",
+            "metrics": {
+                "ground_truth": "25",
+                "prediction": "25",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: Add 6 and 19.",
+            "response": "[FINAL ANSWER] The sum of 6 and 19 is 25.",
+            "metrics": {
+                "ground_truth": "25",
+                "prediction": "25",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the result of adding 56 and 41?",
+            "response": "[FINAL ANSWER] 97",
+            "metrics": {
+                "ground_truth": "97",
+                "prediction": "97",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: What is the result of adding 56 and 41?",
+            "response": "[FINAL ANSWER] The result of adding 56 and 41 is 97.",
+            "metrics": {
+                "ground_truth": "97",
+                "prediction": "97",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    }
+]

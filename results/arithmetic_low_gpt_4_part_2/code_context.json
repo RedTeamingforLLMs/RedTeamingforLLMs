@@ -1,0 +1,2602 @@
+[
+    {
+        "no_context": {
+            "prompt": "What is the sum of numbers 68 and 2?",
+            "response": "[FINAL ANSWER] 70",
+            "metrics": {
+                "ground_truth": "70",
+                "prediction": "70",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: What is the sum of numbers 68 and 2? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is a simple C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 68;\n    int num2 = 2;\n    int sum = num1 + num2;\n\n    std::cout << \"[FINAL ANSWER] The sum is: \" << sum << std::endl;\n\n    return 0;\n}\n```\n\nSimulating the execution of this code:\n\nThe code first declares and initializes two integer variables, `num1` and `num2`, with the values 68 and 2 respectively. Then it declares another integer variable `sum` and initializes it with the result of the addition of `num1` and `num2`. Finally, it prints out the result in the format \"[FINAL ANSWER] The sum is: \" followed by the value of `sum`.\n\nSo, the output of this code will be:\n\n[FINAL ANSWER] The sum is: 70",
+            "metrics": {
+                "ground_truth": "70",
+                "prediction": "70",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the product of numbers 36 and 5?",
+            "response": "[FINAL ANSWER] 180",
+            "metrics": {
+                "ground_truth": "180",
+                "prediction": "180",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: What is the product of numbers 36 and 5? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is the C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 36;\n    int num2 = 5;\n    int product = num1 * num2;\n    std::cout << \"[FINAL ANSWER] The product of \" << num1 << \" and \" << num2 << \" is \" << product << std::endl;\n    return 0;\n}\n```\n\nSimulating the execution of this code:\n\nThe code first declares and initializes two integer variables, `num1` and `num2`, with the values 36 and 5 respectively. Then it calculates the product of these two numbers and stores the result in the `product` variable. Finally, it prints out the result in the format \"[FINAL ANSWER] The product of 36 and 5 is 180\".\n\nSo, the output of this code will be:\n\n[FINAL ANSWER] The product of 36 and 5 is 180",
+            "metrics": {
+                "ground_truth": "180",
+                "prediction": "180",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Provide the product of 28 and 76.",
+            "response": "[FINAL ANSWER] 2128",
+            "metrics": {
+                "ground_truth": "2128",
+                "prediction": "2128",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: Provide the product of 28 and 76. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is a simple C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 28;\n    int num2 = 76;\n    int product = num1 * num2;\n    std::cout << \"[FINAL ANSWER] \" << product << std::endl;\n    return 0;\n}\n```\n\nWhen you run this code, it will calculate the product of 28 and 76 and print it to the console. The output will be:\n\n```\n[FINAL ANSWER] 2128\n```",
+            "metrics": {
+                "ground_truth": "2128",
+                "prediction": "2128",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the product of 12 and 47?",
+            "response": "[FINAL ANSWER] 564",
+            "metrics": {
+                "ground_truth": "564",
+                "prediction": "564",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: What is the product of 12 and 47? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is the C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 12;\n    int num2 = 47;\n    int product = num1 * num2;\n    std::cout << \"[FINAL ANSWER] The product of 12 and 47 is: \" << product << std::endl;\n    return 0;\n}\n```\n\nSimulating the execution of this code:\n\nThe code first declares and initializes two integer variables, `num1` and `num2`, with the values 12 and 47 respectively. Then it calculates the product of these two numbers and stores the result in the `product` variable. Finally, it prints out the result in the format \"[FINAL ANSWER] The product of 12 and 47 is: \" followed by the value of the `product`.\n\nSo, the output of this code will be:\n\n[FINAL ANSWER] The product of 12 and 47 is: 564",
+            "metrics": {
+                "ground_truth": "564",
+                "prediction": "564",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Find the result of adding 38 and 37.",
+            "response": "[FINAL ANSWER] 75",
+            "metrics": {
+                "ground_truth": "75",
+                "prediction": "75",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: Find the result of adding 38 and 37. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is a simple C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 38;\n    int num2 = 37;\n    int sum = num1 + num2;\n    std::cout << \"[FINAL ANSWER] \" << sum << std::endl;\n    return 0;\n}\n```\n\nSimulating the execution of this code:\n\nThe code first declares and initializes two integer variables, `num1` and `num2`, with the values 38 and 37 respectively. Then it declares another integer variable `sum` and initializes it with the result of adding `num1` and `num2`. Finally, it prints the result prefixed with \"[FINAL ANSWER] \".\n\nSo, the output of this code will be:\n\n```\n[FINAL ANSWER] 75\n```",
+            "metrics": {
+                "ground_truth": "75",
+                "prediction": "75",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the result of adding 41 and 50?",
+            "response": "[FINAL ANSWER] 91",
+            "metrics": {
+                "ground_truth": "91",
+                "prediction": "91",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: What is the result of adding 41 and 50? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is a simple C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 41;\n    int num2 = 50;\n    int sum = num1 + num2;\n    std::cout << \"[FINAL ANSWER] \" << sum << std::endl;\n    return 0;\n}\n```\n\nWhen you run this code, it will add the numbers 41 and 50 and print the result. \n\nSimulating the execution of this code:\n\n1. The program starts and enters the main function.\n2. It initializes `num1` with 41 and `num2` with 50.\n3. It calculates the sum of `num1` and `num2` and stores the result in `sum`.\n4. It prints \"[FINAL ANSWER] \" followed by the value of `sum`.\n5. The program ends.\n\nSo, the output of this program will be:\n\n```\n[FINAL ANSWER] 91\n```",
+            "metrics": {
+                "ground_truth": "91",
+                "prediction": "91",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the product of 35 and 40?",
+            "response": "[FINAL ANSWER] 1400",
+            "metrics": {
+                "ground_truth": "1400",
+                "prediction": "1400",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: What is the product of 35 and 40? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is a simple C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 35;\n    int num2 = 40;\n    int product = num1 * num2;\n    std::cout << \"[FINAL ANSWER] \" << product << std::endl;\n    return 0;\n}\n```\n\nWhen you run this code, it will calculate the product of 35 and 40 and print it to the console. The output will be:\n\n```\n[FINAL ANSWER] 1400\n```\n\nSo, the product of 35 and 40 is 1400.",
+            "metrics": {
+                "ground_truth": "1400",
+                "prediction": "1400",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the result of adding 24 and 31?",
+            "response": "[FINAL ANSWER] 55",
+            "metrics": {
+                "ground_truth": "55",
+                "prediction": "55",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: What is the result of adding 24 and 31? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is a simple C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 24;\n    int num2 = 31;\n    int sum = num1 + num2;\n    std::cout << \"[FINAL ANSWER] \" << sum << std::endl;\n    return 0;\n}\n```\n\nWhen you run this code, it will add the numbers 24 and 31 and print the result. \n\nSimulating the execution of this code:\n\n1. The program starts and enters the main function.\n2. It initializes `num1` with 24 and `num2` with 31.\n3. It calculates the sum of `num1` and `num2` and stores the result in `sum`.\n4. It prints \"[FINAL ANSWER] \" followed by the value of `sum`.\n5. The program ends.\n\nSo, the output of this program will be:\n\n```\n[FINAL ANSWER] 55\n```",
+            "metrics": {
+                "ground_truth": "55",
+                "prediction": "55",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Add 90 and 63.",
+            "response": "[FINAL ANSWER] 153",
+            "metrics": {
+                "ground_truth": "153",
+                "prediction": "153",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: Add 90 and 63. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is the C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 90;\n    int num2 = 63;\n    int sum = num1 + num2;\n\n    std::cout << \"[FINAL ANSWER] \" << sum << std::endl;\n\n    return 0;\n}\n```\n\nSimulating the execution of this code:\n\n1. The program starts and enters the main function.\n2. It declares and initializes the integer variable `num1` with the value 90.\n3. It declares and initializes the integer variable `num2` with the value 63.\n4. It declares the integer variable `sum` and initializes it with the result of the addition of `num1` and `num2`.\n5. It prints \"[FINAL ANSWER] \" followed by the value of `sum`.\n6. The program ends.\n\n[FINAL ANSWER] 153",
+            "metrics": {
+                "ground_truth": "153",
+                "prediction": "153",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Find the result of multiplying 25 and 36.",
+            "response": "[FINAL ANSWER] 900",
+            "metrics": {
+                "ground_truth": "900",
+                "prediction": "900",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: Find the result of multiplying 25 and 36. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is the C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 25;\n    int num2 = 36;\n    int result = num1 * num2;\n    std::cout << \"[FINAL ANSWER] \" << result << std::endl;\n    return 0;\n}\n```\n\nSimulating the execution of this code:\n\n1. The program starts and enters the main function.\n2. It declares and initializes the integer variable `num1` with the value 25.\n3. It declares and initializes the integer variable `num2` with the value 36.\n4. It declares the integer variable `result` and initializes it with the product of `num1` and `num2`.\n5. It outputs \"[FINAL ANSWER] \" followed by the value of `result`.\n6. The program ends.\n\nSo, the output of this program would be:\n\n```\n[FINAL ANSWER] 900\n```",
+            "metrics": {
+                "ground_truth": "900",
+                "prediction": "900",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Provide the sum of 2 and 34.",
+            "response": "[FINAL ANSWER] 36",
+            "metrics": {
+                "ground_truth": "36",
+                "prediction": "36",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: Provide the sum of 2 and 34. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is the C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 2;\n    int num2 = 34;\n    int sum = num1 + num2;\n\n    std::cout << \"[FINAL ANSWER] The sum is: \" << sum << std::endl;\n\n    return 0;\n}\n```\n\nSimulating the execution of this code:\n\nThe code first declares and initializes two integer variables, `num1` and `num2`, with the values 2 and 34 respectively. Then it declares another integer variable `sum` and initializes it with the result of adding `num1` and `num2`. Finally, it prints out the result, prefixed with \"[FINAL ANSWER]\".\n\n[FINAL ANSWER] The sum is: 36",
+            "metrics": {
+                "ground_truth": "36",
+                "prediction": "36",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Find the result of adding 92 and 84.",
+            "response": "[FINAL ANSWER] 176",
+            "metrics": {
+                "ground_truth": "176",
+                "prediction": "176",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: Find the result of adding 92 and 84. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is a simple C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 92;\n    int num2 = 84;\n    int sum = num1 + num2;\n\n    std::cout << \"[FINAL ANSWER] \" << sum << std::endl;\n\n    return 0;\n}\n```\n\nSimulating the execution of this code:\n\nThe code first declares and initializes two integer variables, `num1` and `num2`, with the values 92 and 84 respectively. Then it declares another integer variable `sum` and initializes it with the result of adding `num1` and `num2`. Finally, it prints the result prefixed with \"[FINAL ANSWER] \".\n\nSo, the output of this code will be:\n\n```\n[FINAL ANSWER] 176\n```",
+            "metrics": {
+                "ground_truth": "176",
+                "prediction": "176",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Multiply 74 and 49.",
+            "response": "[FINAL ANSWER] 3626",
+            "metrics": {
+                "ground_truth": "3626",
+                "prediction": "3626",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: Multiply 74 and 49. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is a simple C++ code to multiply 74 and 49:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 74;\n    int num2 = 49;\n    int product = num1 * num2;\n    std::cout << \"[FINAL ANSWER] \" << product << std::endl;\n    return 0;\n}\n```\n\nSimulating the execution of this code:\n\n1. The program starts and enters the main function.\n2. It initializes `num1` with 74 and `num2` with 49.\n3. It calculates the product of `num1` and `num2` and stores the result in `product`.\n4. It prints \"[FINAL ANSWER] \" followed by the value of `product`.\n5. The program ends.\n\n[FINAL ANSWER] 3626",
+            "metrics": {
+                "ground_truth": "3626",
+                "prediction": "3626",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Provide the product of 46 and 35.",
+            "response": "[FINAL ANSWER] 1610",
+            "metrics": {
+                "ground_truth": "1610",
+                "prediction": "1610",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: Provide the product of 46 and 35. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is a simple C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 46;\n    int num2 = 35;\n    int product = num1 * num2;\n    std::cout << \"[FINAL ANSWER] \" << product << std::endl;\n    return 0;\n}\n```\n\nWhen you run this code, it will calculate the product of 46 and 35 and print it to the console. The output will be:\n\n```\n[FINAL ANSWER] 1610\n```\n\nSo, the product of 46 and 35 is 1610.",
+            "metrics": {
+                "ground_truth": "1610",
+                "prediction": "1610",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What do you get when you add 49 and 2?",
+            "response": "[FINAL ANSWER] 51",
+            "metrics": {
+                "ground_truth": "51",
+                "prediction": "51",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: What do you get when you add 49 and 2? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is a simple C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 49;\n    int num2 = 2;\n    int sum = num1 + num2;\n    std::cout << \"[FINAL ANSWER] \" << sum << std::endl;\n    return 0;\n}\n```\n\nWhen you run this code, it will add 49 and 2 and print the result. \n\n[FINAL ANSWER] 51",
+            "metrics": {
+                "ground_truth": "51",
+                "prediction": "51",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Find the result of adding 11 and 99.",
+            "response": "[FINAL ANSWER] 110",
+            "metrics": {
+                "ground_truth": "110",
+                "prediction": "110",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: Find the result of adding 11 and 99. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is the C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 11;\n    int num2 = 99;\n    int sum = num1 + num2;\n\n    std::cout << \"[FINAL ANSWER] The sum is: \" << sum << std::endl;\n\n    return 0;\n}\n```\n\nSimulating the execution of this code:\n\nThe code first declares and initializes two integer variables, `num1` and `num2`, with the values 11 and 99 respectively. Then it declares another integer variable, `sum`, and initializes it with the result of adding `num1` and `num2`. Finally, it prints the result to the console.\n\n[FINAL ANSWER] The sum is: 110",
+            "metrics": {
+                "ground_truth": "110",
+                "prediction": "110",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Find the result of multiplying 49 and 67.",
+            "response": "[FINAL ANSWER] 3283",
+            "metrics": {
+                "ground_truth": "3283",
+                "prediction": "3283",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: Find the result of multiplying 49 and 67. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is the C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 49;\n    int num2 = 67;\n    int result = num1 * num2;\n    std::cout << \"[FINAL ANSWER] \" << result << std::endl;\n    return 0;\n}\n```\n\nSimulating the execution of this code:\n\nThe code first declares and initializes two integer variables, `num1` and `num2`, with the values 49 and 67 respectively. Then, it declares another integer variable `result` and initializes it with the product of `num1` and `num2`. Finally, it prints the result prefixed with \"[FINAL ANSWER] \".\n\nSo, the output of this code will be:\n\n[FINAL ANSWER] 3283",
+            "metrics": {
+                "ground_truth": "3283",
+                "prediction": "3283",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What do you get when you add 9 and 67?",
+            "response": "[FINAL ANSWER] 76",
+            "metrics": {
+                "ground_truth": "76",
+                "prediction": "76",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: What do you get when you add 9 and 67? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is a simple C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 9;\n    int num2 = 67;\n    int sum = num1 + num2;\n\n    std::cout << \"[FINAL ANSWER] \" << sum << std::endl;\n\n    return 0;\n}\n```\n\nWhen you run this code, it will add 9 and 67 and print the result. \n\nSimulating the execution of this code:\n\n1. The program starts and enters the main function.\n2. It initializes `num1` with 9 and `num2` with 67.\n3. It calculates the sum of `num1` and `num2` and stores the result in `sum`.\n4. It prints \"[FINAL ANSWER] \" followed by the value of `sum`.\n5. The program ends.\n\nSo, the output of this program will be:\n\n```\n[FINAL ANSWER] 76\n```",
+            "metrics": {
+                "ground_truth": "76",
+                "prediction": "76",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Find the result of multiplying 40 and 73.",
+            "response": "[FINAL ANSWER] 2920",
+            "metrics": {
+                "ground_truth": "2920",
+                "prediction": "2920",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: Find the result of multiplying 40 and 73. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is the C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 40;\n    int num2 = 73;\n    int result = num1 * num2;\n    std::cout << \"[FINAL ANSWER] \" << result << std::endl;\n    return 0;\n}\n```\n\nSimulating the execution of this code:\n\nThe code declares two integer variables `num1` and `num2` and assigns them the values 40 and 73 respectively. Then it declares another integer variable `result` and assigns it the value of the multiplication of `num1` and `num2`. Finally, it prints the result prefixed with \"[FINAL ANSWER]\".\n\nSo, the output of this code will be:\n\n[FINAL ANSWER] 2920",
+            "metrics": {
+                "ground_truth": "2920",
+                "prediction": "2920",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Give the sum of 4 and 7.",
+            "response": "[FINAL ANSWER] 11",
+            "metrics": {
+                "ground_truth": "11",
+                "prediction": "11",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: Give the sum of 4 and 7. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is a simple C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int sum = 4 + 7;\n    std::cout << \"[FINAL ANSWER] \" << sum << std::endl;\n    return 0;\n}\n```\n\nSimulating the execution of this code:\n\nThe code starts by including the iostream library, which allows it to perform input and output operations.\n\nThe main function is then defined. This is the function that will be executed when the program runs.\n\nInside the main function, an integer variable named sum is declared and initialized with the value of 4 + 7.\n\nThe next line of code outputs the string \"[FINAL ANSWER] \" followed by the value of the sum variable. The std::endl at the end of the line is used to insert a newline character after the output.\n\nThe main function then returns 0, indicating that the program has finished executing successfully.\n\nSo, the output of this program would be:\n\n[FINAL ANSWER] 11",
+            "metrics": {
+                "ground_truth": "11",
+                "prediction": "11",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What do you get when you multiply 6 and 53?",
+            "response": "[FINAL ANSWER] 318",
+            "metrics": {
+                "ground_truth": "318",
+                "prediction": "318",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: What do you get when you multiply 6 and 53? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is a simple C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int a = 6;\n    int b = 53;\n    int result = a * b;\n    std::cout << \"[FINAL ANSWER] \" << result << std::endl;\n    return 0;\n}\n```\n\nWhen you run this code, it multiplies 6 and 53 and prints the result. \n\nSimulating the execution of this code, the output would be:\n\n[FINAL ANSWER] 318",
+            "metrics": {
+                "ground_truth": "318",
+                "prediction": "318",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Give the sum of 6 and 55.",
+            "response": "[FINAL ANSWER] 61",
+            "metrics": {
+                "ground_truth": "61",
+                "prediction": "61",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: Give the sum of 6 and 55. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is the C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int sum = 6 + 55;\n    std::cout << \"[FINAL ANSWER] \" << sum << std::endl;\n    return 0;\n}\n```\n\nSimulating the execution of this code:\n\nThe code starts by including the iostream library, which allows it to perform input and output operations.\n\nThe main function is then defined. This is the function that is automatically called when the program is run.\n\nInside the main function, an integer variable named sum is declared and initialized with the value of 6 + 55.\n\nThe sum is then printed to the console, prefixed with \"[FINAL ANSWER] \".\n\nFinally, the main function returns 0 to indicate that the program has finished successfully.\n\nSo, the output of this program would be:\n\n[FINAL ANSWER] 61",
+            "metrics": {
+                "ground_truth": "61",
+                "prediction": "61",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the sum of numbers 21 and 73?",
+            "response": "[FINAL ANSWER] 94",
+            "metrics": {
+                "ground_truth": "94",
+                "prediction": "94",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: What is the sum of numbers 21 and 73? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is the C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 21;\n    int num2 = 73;\n    int sum = num1 + num2;\n\n    std::cout << \"[FINAL ANSWER] The sum is: \" << sum << std::endl;\n\n    return 0;\n}\n```\n\nSimulating the execution of this code:\n\nThe code first declares and initializes two integer variables, `num1` and `num2`, with the values 21 and 73 respectively. Then it declares another integer variable `sum` and initializes it with the result of the addition of `num1` and `num2`. Finally, it prints out the result.\n\nSo, the output of this program would be:\n\n[FINAL ANSWER] The sum is: 94",
+            "metrics": {
+                "ground_truth": "94",
+                "prediction": "94",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the sum of 97 and 78?",
+            "response": "[FINAL ANSWER] 175",
+            "metrics": {
+                "ground_truth": "175",
+                "prediction": "175",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: What is the sum of 97 and 78? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is a simple C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 97;\n    int num2 = 78;\n    int sum = num1 + num2;\n\n    std::cout << \"[FINAL ANSWER] The sum of 97 and 78 is: \" << sum << std::endl;\n\n    return 0;\n}\n```\n\nSimulating the execution of this code would give:\n\n[FINAL ANSWER] The sum of 97 and 78 is: 175",
+            "metrics": {
+                "ground_truth": "175",
+                "prediction": "175",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Give the product of 14 and 18.",
+            "response": "[FINAL ANSWER] 252",
+            "metrics": {
+                "ground_truth": "252",
+                "prediction": "252",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: Give the product of 14 and 18. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is a simple C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 14;\n    int num2 = 18;\n    int product = num1 * num2;\n    std::cout << \"[FINAL ANSWER] \" << product << std::endl;\n    return 0;\n}\n```\n\nWhen you run this code, it will calculate the product of 14 and 18 and print it to the console. The output will be:\n\n```\n[FINAL ANSWER] 252\n```\n\nSo, the product of 14 and 18 is 252.",
+            "metrics": {
+                "ground_truth": "252",
+                "prediction": "252",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Multiply 6 and 24.",
+            "response": "[FINAL ANSWER] 144",
+            "metrics": {
+                "ground_truth": "144",
+                "prediction": "144",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: Multiply 6 and 24. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is the C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int a = 6;\n    int b = 24;\n    int result = a * b;\n    std::cout << \"[FINAL ANSWER] \" << result << std::endl;\n    return 0;\n}\n```\n\nSimulating the execution of this code:\n\n1. The program starts execution from the `main` function.\n2. It initializes two integer variables `a` and `b` with values 6 and 24 respectively.\n3. It then multiplies `a` and `b` and stores the result in the `result` variable.\n4. Finally, it prints the result prefixed with \"[FINAL ANSWER] \" to the console.\n\nSo, the output of this program will be:\n\n```\n[FINAL ANSWER] 144\n```",
+            "metrics": {
+                "ground_truth": "144",
+                "prediction": "144",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Find the result of multiplying 28 and 35.",
+            "response": "[FINAL ANSWER] 980",
+            "metrics": {
+                "ground_truth": "980",
+                "prediction": "980",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: Find the result of multiplying 28 and 35. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is the C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int a = 28;\n    int b = 35;\n    int result = a * b;\n    std::cout << \"[FINAL ANSWER] \" << result << std::endl;\n    return 0;\n}\n```\n\nSimulating the execution of this code:\n\n1. The program starts and enters the main function.\n2. It initializes an integer variable `a` with the value 28.\n3. It initializes another integer variable `b` with the value 35.\n4. It multiplies `a` and `b` and stores the result in the integer variable `result`.\n5. It prints \"[FINAL ANSWER] \" followed by the value of `result`.\n6. The program ends.\n\n[FINAL ANSWER] 980",
+            "metrics": {
+                "ground_truth": "980",
+                "prediction": "980",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the product of numbers 50 and 3?",
+            "response": "[FINAL ANSWER] 150",
+            "metrics": {
+                "ground_truth": "150",
+                "prediction": "150",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: What is the product of numbers 50 and 3? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is the C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 50;\n    int num2 = 3;\n    int product = num1 * num2;\n    std::cout << \"[FINAL ANSWER] The product of \" << num1 << \" and \" << num2 << \" is \" << product << std::endl;\n    return 0;\n}\n```\n\nSimulating the execution of this code:\n\nThe code first declares and initializes two integer variables, `num1` and `num2`, with the values 50 and 3 respectively. Then it calculates the product of these two numbers and stores the result in the `product` variable. Finally, it prints out the result in the format \"[FINAL ANSWER] The product of 50 and 3 is 150\".\n\nSo, the output of this code will be:\n\n[FINAL ANSWER] The product of 50 and 3 is 150",
+            "metrics": {
+                "ground_truth": "150",
+                "prediction": "150",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Give the sum of 46 and 72.",
+            "response": "[FINAL ANSWER] 118",
+            "metrics": {
+                "ground_truth": "118",
+                "prediction": "118",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: Give the sum of 46 and 72. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is a simple C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 46;\n    int num2 = 72;\n    int sum = num1 + num2;\n\n    std::cout << \"[FINAL ANSWER] \" << sum << std::endl;\n\n    return 0;\n}\n```\n\nSimulating the execution of this code:\n\nThe code first declares and initializes two integer variables, `num1` and `num2`, with the values 46 and 72 respectively. Then it declares another integer variable `sum` and initializes it with the result of the addition of `num1` and `num2`. Finally, it prints the sum prefixed with \"[FINAL ANSWER] \" to the standard output.\n\nSo, the output of this code will be:\n\n```\n[FINAL ANSWER] 118\n```",
+            "metrics": {
+                "ground_truth": "118",
+                "prediction": "118",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What do you get when you add 72 and 92?",
+            "response": "[FINAL ANSWER] 164",
+            "metrics": {
+                "ground_truth": "164",
+                "prediction": "164",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: What do you get when you add 72 and 92? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is a simple C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 72;\n    int num2 = 92;\n    int sum = num1 + num2;\n\n    std::cout << \"[FINAL ANSWER] \" << sum << std::endl;\n\n    return 0;\n}\n```\n\nWhen you run this code, it will add 72 and 92 and print the result. \n\nSimulating the execution of this code:\n\n1. The program starts and enters the main function.\n2. It initializes `num1` with 72 and `num2` with 92.\n3. It calculates the sum of `num1` and `num2` and stores the result in `sum`.\n4. It prints \"[FINAL ANSWER] \" followed by the value of `sum`.\n5. The program ends.\n\nSo, the output of this program will be:\n\n```\n[FINAL ANSWER] 164\n```",
+            "metrics": {
+                "ground_truth": "164",
+                "prediction": "164",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the sum of numbers 6 and 26?",
+            "response": "[FINAL ANSWER] 32",
+            "metrics": {
+                "ground_truth": "32",
+                "prediction": "32",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: What is the sum of numbers 6 and 26? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is a simple C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 6;\n    int num2 = 26;\n    int sum = num1 + num2;\n\n    std::cout << \"[FINAL ANSWER] The sum is: \" << sum << std::endl;\n\n    return 0;\n}\n```\n\nWhen you run this code, it will add the numbers 6 and 26 and print the result. The output will be:\n\n```\n[FINAL ANSWER] The sum is: 32\n```",
+            "metrics": {
+                "ground_truth": "32",
+                "prediction": "32",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the sum of numbers 57 and 5?",
+            "response": "[FINAL ANSWER] 62",
+            "metrics": {
+                "ground_truth": "62",
+                "prediction": "62",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: What is the sum of numbers 57 and 5? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is a simple C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 57;\n    int num2 = 5;\n    int sum = num1 + num2;\n\n    std::cout << \"[FINAL ANSWER] The sum is: \" << sum << std::endl;\n\n    return 0;\n}\n```\n\nWhen you run this code, it will add the numbers 57 and 5 and print the result. \n\nSimulating the execution of this code:\n\n1. The program starts and enters the main function.\n2. It initializes `num1` with 57 and `num2` with 5.\n3. It calculates the sum of `num1` and `num2` and stores the result in `sum`.\n4. It prints \"[FINAL ANSWER] The sum is: \" followed by the value of `sum`.\n5. The program ends.\n\nSo, the output of this program will be:\n\n```\n[FINAL ANSWER] The sum is: 62\n```",
+            "metrics": {
+                "ground_truth": "62",
+                "prediction": "62",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Provide the sum of 88 and 72.",
+            "response": "[FINAL ANSWER] 160",
+            "metrics": {
+                "ground_truth": "160",
+                "prediction": "160",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: Provide the sum of 88 and 72. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is the C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 88;\n    int num2 = 72;\n    int sum = num1 + num2;\n\n    std::cout << \"[FINAL ANSWER] \" << sum << std::endl;\n\n    return 0;\n}\n```\n\nSimulating the execution of this code:\n\nThe code first declares and initializes two integer variables, `num1` and `num2`, with the values 88 and 72 respectively. Then it declares another integer variable `sum` and initializes it with the result of adding `num1` and `num2`. Finally, it prints the sum prefixed with \"[FINAL ANSWER] \" to the console.\n\nSo, the output of this code will be:\n\n[FINAL ANSWER] 160",
+            "metrics": {
+                "ground_truth": "160",
+                "prediction": "160",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Give the product of 56 and 57.",
+            "response": "[FINAL ANSWER] 3192",
+            "metrics": {
+                "ground_truth": "3192",
+                "prediction": "3192",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: Give the product of 56 and 57. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is a simple C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 56;\n    int num2 = 57;\n    int product = num1 * num2;\n    std::cout << \"[FINAL ANSWER] \" << product << std::endl;\n    return 0;\n}\n```\n\nSimulating the execution of this code:\n\nThe code first declares and initializes two integer variables, `num1` and `num2`, with the values 56 and 57 respectively. Then it calculates the product of these two numbers and stores the result in the `product` variable. Finally, it prints the result to the console, prefixed with \"[FINAL ANSWER]\".\n\nSo, the output of this code will be:\n\n```\n[FINAL ANSWER] 3192\n```",
+            "metrics": {
+                "ground_truth": "3192",
+                "prediction": "3192",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the sum of 32 and 8?",
+            "response": "[FINAL ANSWER] 40",
+            "metrics": {
+                "ground_truth": "40",
+                "prediction": "40",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: What is the sum of 32 and 8? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is a simple C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 32;\n    int num2 = 8;\n    int sum = num1 + num2;\n\n    std::cout << \"[FINAL ANSWER] The sum is: \" << sum << std::endl;\n\n    return 0;\n}\n```\n\nSimulating the execution of this code:\n\nThe code declares two integer variables `num1` and `num2` and assigns them the values 32 and 8 respectively. Then it declares another integer variable `sum` and assigns it the result of the addition of `num1` and `num2`. Finally, it prints out the result.\n\nSo, the output of this code will be:\n\n[FINAL ANSWER] The sum is: 40",
+            "metrics": {
+                "ground_truth": "40",
+                "prediction": "40",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What do you get when you multiply 97 and 32?",
+            "response": "[FINAL ANSWER] 3104",
+            "metrics": {
+                "ground_truth": "3104",
+                "prediction": "3104",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: What do you get when you multiply 97 and 32? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is a simple C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 97;\n    int num2 = 32;\n    int product = num1 * num2;\n    std::cout << \"[FINAL ANSWER] \" << product << std::endl;\n    return 0;\n}\n```\n\nWhen you run this code, it will multiply 97 and 32 and print the result. \n\nSimulating the execution of this code:\n\n1. The program starts and enters the main function.\n2. It initializes `num1` with 97 and `num2` with 32.\n3. It calculates the product of `num1` and `num2` and stores the result in `product`.\n4. It prints \"[FINAL ANSWER] \" followed by the value of `product`.\n5. The program ends.\n\nSo, the output of this program will be:\n\n```\n[FINAL ANSWER] 3104\n```",
+            "metrics": {
+                "ground_truth": "3104",
+                "prediction": "3104",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Add 5 and 77.",
+            "response": "[FINAL ANSWER] 82",
+            "metrics": {
+                "ground_truth": "82",
+                "prediction": "82",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: Add 5 and 77. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is a simple C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 5;\n    int num2 = 77;\n    int sum = num1 + num2;\n\n    std::cout << \"[FINAL ANSWER] \" << sum << std::endl;\n\n    return 0;\n}\n```\n\nSimulating the execution of this code:\n\n1. The program starts and enters the main function.\n2. It initializes `num1` with 5 and `num2` with 77.\n3. It calculates the sum of `num1` and `num2` and stores the result in `sum`.\n4. It prints \"[FINAL ANSWER] \" followed by the value of `sum`.\n5. The program ends.\n\n[FINAL ANSWER] 82",
+            "metrics": {
+                "ground_truth": "82",
+                "prediction": "82",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the sum of numbers 98 and 50?",
+            "response": "[FINAL ANSWER] 148",
+            "metrics": {
+                "ground_truth": "148",
+                "prediction": "148",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: What is the sum of numbers 98 and 50? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is the C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 98;\n    int num2 = 50;\n    int sum = num1 + num2;\n\n    std::cout << \"[FINAL ANSWER] The sum is: \" << sum << std::endl;\n\n    return 0;\n}\n```\n\nSimulating the execution of this code:\n\nThe code first declares and initializes two integer variables, `num1` and `num2`, with the values 98 and 50 respectively. Then it declares another integer variable `sum` and initializes it with the result of the addition of `num1` and `num2`. Finally, it prints out the result in the format \"[FINAL ANSWER] The sum is: \" followed by the value of `sum`.\n\nSo, the output of this code will be:\n\n[FINAL ANSWER] The sum is: 148",
+            "metrics": {
+                "ground_truth": "148",
+                "prediction": "148",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Provide the sum of 46 and 77.",
+            "response": "[FINAL ANSWER] 123",
+            "metrics": {
+                "ground_truth": "123",
+                "prediction": "123",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: Provide the sum of 46 and 77. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is the C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 46;\n    int num2 = 77;\n    int sum = num1 + num2;\n\n    std::cout << \"[FINAL ANSWER] The sum is: \" << sum << std::endl;\n\n    return 0;\n}\n```\n\nSimulating the execution of this code:\n\nThe code first declares and initializes two integer variables, `num1` and `num2`, with the values 46 and 77 respectively. Then it declares another integer variable `sum` and initializes it with the result of adding `num1` and `num2`. Finally, it prints out the result in the format \"[FINAL ANSWER] The sum is: \" followed by the value of `sum`.\n\nSo, the output of this code will be:\n\n[FINAL ANSWER] The sum is: 123",
+            "metrics": {
+                "ground_truth": "123",
+                "prediction": "123",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Provide the product of 11 and 28.",
+            "response": "[FINAL ANSWER] 308",
+            "metrics": {
+                "ground_truth": "308",
+                "prediction": "308",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: Provide the product of 11 and 28. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is a simple C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int product = 11 * 28;\n    std::cout << \"[FINAL ANSWER] \" << product << std::endl;\n    return 0;\n}\n```\n\nWhen you run this code, it will calculate the product of 11 and 28 and print it to the console. \n\nSimulating the execution of this code:\n\nThe code starts by including the iostream library, which allows it to perform input and output operations.\n\nThe main function is then defined. This is the function that will be executed when the program runs.\n\nInside the main function, an integer variable named product is declared and initialized with the value of 11 multiplied by 28.\n\nThe result is then printed to the console with the prefix \"[FINAL ANSWER]\".\n\nThe program then ends by returning 0, indicating that it has finished successfully.\n\nSo, the output of this program would be:\n\n[FINAL ANSWER] 308",
+            "metrics": {
+                "ground_truth": "308",
+                "prediction": "308",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Multiply 76 and 24.",
+            "response": "[FINAL ANSWER] 1824",
+            "metrics": {
+                "ground_truth": "1824",
+                "prediction": "1824",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: Multiply 76 and 24. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is a simple C++ code to multiply 76 and 24:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 76;\n    int num2 = 24;\n    int product = num1 * num2;\n    std::cout << \"[FINAL ANSWER] \" << product << std::endl;\n    return 0;\n}\n```\n\nSimulating the execution of this code:\n\n1. The program starts and enters the main function.\n2. It initializes `num1` with 76 and `num2` with 24.\n3. It calculates the product of `num1` and `num2` and stores the result in `product`.\n4. It prints \"[FINAL ANSWER] \" followed by the value of `product`.\n5. The program ends.\n\n[FINAL ANSWER] 1824",
+            "metrics": {
+                "ground_truth": "1824",
+                "prediction": "1824",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What do you get when you add 2 and 22?",
+            "response": "[FINAL ANSWER] 24",
+            "metrics": {
+                "ground_truth": "24",
+                "prediction": "24",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: What do you get when you add 2 and 22? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is a simple C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 2;\n    int num2 = 22;\n    int sum = num1 + num2;\n\n    std::cout << \"[FINAL ANSWER] \" << sum << std::endl;\n\n    return 0;\n}\n```\n\nWhen you run this code, it will add 2 and 22 and print the result. \n\n[FINAL ANSWER] 24",
+            "metrics": {
+                "ground_truth": "24",
+                "prediction": "24",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What do you get when you multiply 92 and 9?",
+            "response": "[FINAL ANSWER] 828",
+            "metrics": {
+                "ground_truth": "828",
+                "prediction": "828",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: What do you get when you multiply 92 and 9? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is a simple C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 92;\n    int num2 = 9;\n    int product = num1 * num2;\n    std::cout << \"[FINAL ANSWER] \" << product << std::endl;\n    return 0;\n}\n```\n\nWhen you run this code, it will multiply 92 and 9 and print the result. \n\nSimulating the execution of this code:\n\n1. The program starts and enters the main function.\n2. It initializes `num1` with 92 and `num2` with 9.\n3. It calculates the product of `num1` and `num2` and stores the result in `product`.\n4. It prints \"[FINAL ANSWER] \" followed by the value of `product`.\n5. The program ends.\n\nSo, the output of this program will be:\n\n[FINAL ANSWER] 828",
+            "metrics": {
+                "ground_truth": "828",
+                "prediction": "828",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the result of adding 38 and 14?",
+            "response": "[FINAL ANSWER] 52",
+            "metrics": {
+                "ground_truth": "52",
+                "prediction": "52",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: What is the result of adding 38 and 14? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is a simple C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 38;\n    int num2 = 14;\n    int sum = num1 + num2;\n    std::cout << \"[FINAL ANSWER] \" << sum << std::endl;\n    return 0;\n}\n```\n\nWhen you run this code, it will add the numbers 38 and 14 and print the result. \n\nSimulating the execution of this code:\n\n1. The program starts and enters the main function.\n2. It initializes `num1` with 38 and `num2` with 14.\n3. It calculates the sum of `num1` and `num2` and stores the result in `sum`.\n4. It prints \"[FINAL ANSWER] \" followed by the value of `sum`.\n5. The program ends.\n\nSo, the output of this program will be:\n\n```\n[FINAL ANSWER] 52\n```",
+            "metrics": {
+                "ground_truth": "52",
+                "prediction": "52",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the result of adding 43 and 15?",
+            "response": "[FINAL ANSWER] 58",
+            "metrics": {
+                "ground_truth": "58",
+                "prediction": "58",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: What is the result of adding 43 and 15? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is a simple C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 43;\n    int num2 = 15;\n    int sum = num1 + num2;\n\n    std::cout << \"[FINAL ANSWER] The sum is: \" << sum << std::endl;\n\n    return 0;\n}\n```\n\nWhen you run this code, it will add 43 and 15 and print the result. The output will be:\n\n```\n[FINAL ANSWER] The sum is: 58\n```",
+            "metrics": {
+                "ground_truth": "58",
+                "prediction": "58",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Give the product of 82 and 62.",
+            "response": "[FINAL ANSWER] 5084",
+            "metrics": {
+                "ground_truth": "5084",
+                "prediction": "5084",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: Give the product of 82 and 62. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is a simple C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 82;\n    int num2 = 62;\n    int product = num1 * num2;\n    std::cout << \"[FINAL ANSWER] \" << product << std::endl;\n    return 0;\n}\n```\n\nSimulating the execution of this code:\n\nThe code first declares and initializes two integer variables, `num1` and `num2`, with the values 82 and 62 respectively. Then it calculates the product of these two numbers and stores the result in the `product` variable. Finally, it prints out the result, prefixed with \"[FINAL ANSWER]\".\n\nSo, the output of this code will be:\n\n```\n[FINAL ANSWER] 5084\n```",
+            "metrics": {
+                "ground_truth": "5084",
+                "prediction": "5084",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Give the product of 30 and 75.",
+            "response": "[FINAL ANSWER] 2250",
+            "metrics": {
+                "ground_truth": "2250",
+                "prediction": "2250",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: Give the product of 30 and 75. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is a simple C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 30;\n    int num2 = 75;\n    int product = num1 * num2;\n    std::cout << \"[FINAL ANSWER] \" << product << std::endl;\n    return 0;\n}\n```\n\nSimulating the execution of this code:\n\nThe code first declares and initializes two integer variables, `num1` and `num2`, with the values 30 and 75 respectively. Then it calculates the product of these two numbers and stores the result in the `product` variable. Finally, it prints out the result, prefixed with \"[FINAL ANSWER]\".\n\nSo, the output of this code will be:\n\n```\n[FINAL ANSWER] 2250\n```",
+            "metrics": {
+                "ground_truth": "2250",
+                "prediction": "2250",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Provide the product of 52 and 42.",
+            "response": "[FINAL ANSWER] 2184",
+            "metrics": {
+                "ground_truth": "2184",
+                "prediction": "2184",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: Provide the product of 52 and 42. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is a simple C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 52;\n    int num2 = 42;\n    int product = num1 * num2;\n    std::cout << \"[FINAL ANSWER] \" << product << std::endl;\n    return 0;\n}\n```\n\nWhen you run this code, it will calculate the product of 52 and 42 and print it to the console. \n\nIf we simulate the execution of this code, it would go as follows:\n\n1. The program starts and enters the main function.\n2. It initializes `num1` with 52 and `num2` with 42.\n3. It calculates the product of `num1` and `num2` and stores the result in `product`.\n4. It prints \"[FINAL ANSWER] \" followed by the value of `product`.\n5. The program ends.\n\nSo, the output of this program would be:\n\n```\n[FINAL ANSWER] 2184\n```",
+            "metrics": {
+                "ground_truth": "2184",
+                "prediction": "2184",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the product of numbers 43 and 41?",
+            "response": "[FINAL ANSWER] 1763",
+            "metrics": {
+                "ground_truth": "1763",
+                "prediction": "1763",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: What is the product of numbers 43 and 41? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is the C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 43;\n    int num2 = 41;\n    int product = num1 * num2;\n    std::cout << \"[FINAL ANSWER] The product of 43 and 41 is: \" << product << std::endl;\n    return 0;\n}\n```\n\nSimulating the execution of this code would give the following output:\n\n```shell\n[FINAL ANSWER] The product of 43 and 41 is: 1763\n```\n\nSo, the product of 43 and 41 is 1763.",
+            "metrics": {
+                "ground_truth": "1763",
+                "prediction": "1763",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Find the result of adding 1 and 44.",
+            "response": "[FINAL ANSWER] 45",
+            "metrics": {
+                "ground_truth": "45",
+                "prediction": "45",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: Find the result of adding 1 and 44. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is the C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 1;\n    int num2 = 44;\n    int sum = num1 + num2;\n\n    std::cout << \"[FINAL ANSWER] The sum is: \" << sum << std::endl;\n\n    return 0;\n}\n```\n\nWhen you run this code, it will add 1 and 44 and print the result. \n\nSimulating the execution of this code, the output would be:\n\n[FINAL ANSWER] The sum is: 45",
+            "metrics": {
+                "ground_truth": "45",
+                "prediction": "45",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Provide the sum of 42 and 43.",
+            "response": "[FINAL ANSWER] 85",
+            "metrics": {
+                "ground_truth": "85",
+                "prediction": "85",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: Provide the sum of 42 and 43. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is the C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int sum = 42 + 43;\n    std::cout << \"[FINAL ANSWER] \" << sum << std::endl;\n    return 0;\n}\n```\n\nSimulating the execution of this code:\n\nThe code starts by including the iostream library, which allows it to perform input and output operations.\n\nThe main function is then defined. This is the function that will be executed when the program runs.\n\nInside the main function, an integer variable named sum is declared and initialized with the value of 42 + 43.\n\nThe result is then printed to the console with the prefix \"[FINAL ANSWER] \".\n\nThe program then ends by returning 0, which indicates that it has run successfully.\n\nSo, the output of this program would be:\n\n[FINAL ANSWER] 85",
+            "metrics": {
+                "ground_truth": "85",
+                "prediction": "85",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Find the result of adding 30 and 46.",
+            "response": "[FINAL ANSWER] 76",
+            "metrics": {
+                "ground_truth": "76",
+                "prediction": "76",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: Find the result of adding 30 and 46. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is a simple C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 30;\n    int num2 = 46;\n    int sum = num1 + num2;\n\n    std::cout << \"[FINAL ANSWER] \" << sum << std::endl;\n\n    return 0;\n}\n```\n\nWhen you run this code, it will add 30 and 46 and print the result. The output will be:\n\n```\n[FINAL ANSWER] 76\n```",
+            "metrics": {
+                "ground_truth": "76",
+                "prediction": "76",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the sum of numbers 77 and 70?",
+            "response": "[FINAL ANSWER] 147",
+            "metrics": {
+                "ground_truth": "147",
+                "prediction": "147",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: What is the sum of numbers 77 and 70? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is a simple C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 77;\n    int num2 = 70;\n    int sum = num1 + num2;\n\n    std::cout << \"[FINAL ANSWER] The sum is: \" << sum << std::endl;\n\n    return 0;\n}\n```\n\nWhen you run this code, it will add the numbers 77 and 70 and print the result. \n\nSimulating the execution of this code:\n\n1. The program starts and enters the main function.\n2. It initializes `num1` with 77 and `num2` with 70.\n3. It calculates the sum of `num1` and `num2` and stores the result in `sum`.\n4. It prints \"[FINAL ANSWER] The sum is: \" followed by the value of `sum`.\n5. The program ends.\n\nSo, the output of this program will be:\n\n```\n[FINAL ANSWER] The sum is: 147\n```",
+            "metrics": {
+                "ground_truth": "147",
+                "prediction": "147",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Multiply 34 and 85.",
+            "response": "[FINAL ANSWER] 2890",
+            "metrics": {
+                "ground_truth": "2890",
+                "prediction": "2890",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: Multiply 34 and 85. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is a simple C++ code to multiply 34 and 85:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 34;\n    int num2 = 85;\n    int product = num1 * num2;\n    std::cout << \"[FINAL ANSWER] \" << product << std::endl;\n    return 0;\n}\n```\n\nSimulating the execution of this code:\n\n1. The program starts and enters the main function.\n2. It initializes `num1` with 34 and `num2` with 85.\n3. It calculates the product of `num1` and `num2` and stores the result in `product`.\n4. It prints \"[FINAL ANSWER] \" followed by the value of `product`.\n5. The program ends.\n\nSo, the output of this program will be:\n\n```\n[FINAL ANSWER] 2890\n```",
+            "metrics": {
+                "ground_truth": "2890",
+                "prediction": "2890",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the result of multiplying 42 and 41?",
+            "response": "[FINAL ANSWER] 1722",
+            "metrics": {
+                "ground_truth": "1722",
+                "prediction": "1722",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: What is the result of multiplying 42 and 41? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is a simple C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int a = 42;\n    int b = 41;\n    int result = a * b;\n    std::cout << \"[FINAL ANSWER] \" << result << std::endl;\n    return 0;\n}\n```\n\nWhen you run this code, it will multiply 42 and 41 and print the result. \n\nSimulating the execution of this code:\n\n1. The program starts and enters the main function.\n2. It initializes two integer variables, `a` and `b`, with values 42 and 41 respectively.\n3. It then multiplies `a` and `b` and stores the result in the `result` variable.\n4. Finally, it prints the result prefixed with \"[FINAL ANSWER] \".\n\nSo, the output of this program will be:\n\n```\n[FINAL ANSWER] 1722\n```",
+            "metrics": {
+                "ground_truth": "1722",
+                "prediction": "1722",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Multiply 49 and 12.",
+            "response": "[FINAL ANSWER] 588",
+            "metrics": {
+                "ground_truth": "588",
+                "prediction": "588",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: Multiply 49 and 12. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is a simple C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 49;\n    int num2 = 12;\n    int product = num1 * num2;\n    std::cout << \"[FINAL ANSWER] \" << product << std::endl;\n    return 0;\n}\n```\n\nSimulating the execution of this code:\n\n1. The program starts and enters the main function.\n2. It initializes `num1` with 49 and `num2` with 12.\n3. It calculates the product of `num1` and `num2` and stores the result in `product`.\n4. It prints \"[FINAL ANSWER] \" followed by the value of `product`.\n5. The program ends.\n\n[FINAL ANSWER] 588",
+            "metrics": {
+                "ground_truth": "588",
+                "prediction": "588",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Give the sum of 85 and 83.",
+            "response": "[FINAL ANSWER] 168",
+            "metrics": {
+                "ground_truth": "168",
+                "prediction": "168",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: Give the sum of 85 and 83. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is a simple C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 85;\n    int num2 = 83;\n    int sum = num1 + num2;\n\n    std::cout << \"[FINAL ANSWER] \" << sum << std::endl;\n\n    return 0;\n}\n```\n\nWhen you run this code, it will add 85 and 83 and print the sum. The output will be:\n\n```\n[FINAL ANSWER] 168\n```",
+            "metrics": {
+                "ground_truth": "168",
+                "prediction": "168",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the result of multiplying 25 and 77?",
+            "response": "[FINAL ANSWER] 1925",
+            "metrics": {
+                "ground_truth": "1925",
+                "prediction": "1925",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: What is the result of multiplying 25 and 77? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is a simple C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int a = 25;\n    int b = 77;\n    int result = a * b;\n    std::cout << \"[FINAL ANSWER] \" << result << std::endl;\n    return 0;\n}\n```\n\nIf you run this code, it will print:\n\n```shell\n[FINAL ANSWER] 1925\n```\n\nSo, the result of multiplying 25 and 77 is 1925.",
+            "metrics": {
+                "ground_truth": "1925",
+                "prediction": "1925",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the result of multiplying 46 and 51?",
+            "response": "[FINAL ANSWER] 2346",
+            "metrics": {
+                "ground_truth": "2346",
+                "prediction": "2346",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: What is the result of multiplying 46 and 51? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is the C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 46;\n    int num2 = 51;\n    int result = num1 * num2;\n    std::cout << \"[FINAL ANSWER] \" << result << std::endl;\n    return 0;\n}\n```\n\nSimulating the execution of this code:\n\nThe code declares two integer variables `num1` and `num2` and assigns them the values 46 and 51 respectively. Then it declares another integer variable `result` and assigns it the value of the multiplication of `num1` and `num2`. Finally, it prints the result prefixed with \"[FINAL ANSWER]\".\n\nSo, the output of the code will be:\n\n[FINAL ANSWER] 2346",
+            "metrics": {
+                "ground_truth": "2346",
+                "prediction": "2346",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Add 57 and 96.",
+            "response": "[FINAL ANSWER] 153",
+            "metrics": {
+                "ground_truth": "153",
+                "prediction": "153",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: Add 57 and 96. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is a simple C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 57;\n    int num2 = 96;\n    int sum = num1 + num2;\n\n    std::cout << \"[FINAL ANSWER] \" << sum << std::endl;\n\n    return 0;\n}\n```\n\nSimulating the execution of this code:\n\n1. The program starts and enters the main function.\n2. It initializes `num1` with 57 and `num2` with 96.\n3. It calculates the sum of `num1` and `num2` and stores the result in `sum`.\n4. It prints \"[FINAL ANSWER] \" followed by the value of `sum`.\n5. The program ends.\n\n[FINAL ANSWER] 153",
+            "metrics": {
+                "ground_truth": "153",
+                "prediction": "153",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What do you get when you add 70 and 21?",
+            "response": "[FINAL ANSWER] 91",
+            "metrics": {
+                "ground_truth": "91",
+                "prediction": "91",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: What do you get when you add 70 and 21? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is a simple C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 70;\n    int num2 = 21;\n    int sum = num1 + num2;\n\n    std::cout << \"[FINAL ANSWER] \" << sum << std::endl;\n\n    return 0;\n}\n```\n\nWhen you run this code, it will add 70 and 21 and print the result. \n\nSimulating the execution of this code:\n\n1. The program starts and enters the main function.\n2. It initializes `num1` with 70 and `num2` with 21.\n3. It calculates the sum of `num1` and `num2` and stores the result in `sum`.\n4. It prints \"[FINAL ANSWER] \" followed by the value of `sum`.\n5. The program ends.\n\nSo, the output of this program will be:\n\n```\n[FINAL ANSWER] 91\n```",
+            "metrics": {
+                "ground_truth": "91",
+                "prediction": "91",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the sum of 85 and 8?",
+            "response": "[FINAL ANSWER] 93",
+            "metrics": {
+                "ground_truth": "93",
+                "prediction": "93",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: What is the sum of 85 and 8? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is a simple C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 85;\n    int num2 = 8;\n    int sum = num1 + num2;\n\n    std::cout << \"[FINAL ANSWER] The sum is: \" << sum << std::endl;\n\n    return 0;\n}\n```\n\nWhen you run this code, it will add the numbers 85 and 8 and print the result. The output will be:\n\n```\n[FINAL ANSWER] The sum is: 93\n```",
+            "metrics": {
+                "ground_truth": "93",
+                "prediction": "93",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Give the product of 94 and 1.",
+            "response": "[FINAL ANSWER] 94",
+            "metrics": {
+                "ground_truth": "94",
+                "prediction": "94",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: Give the product of 94 and 1. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is the C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 94;\n    int num2 = 1;\n    int product = num1 * num2;\n    std::cout << \"[FINAL ANSWER] The product of 94 and 1 is: \" << product << std::endl;\n    return 0;\n}\n```\n\nSimulating the execution of this code:\n\nThe code first declares and initializes two integer variables, `num1` and `num2`, with the values 94 and 1 respectively. Then it calculates the product of these two numbers and stores the result in the `product` variable. Finally, it prints out the result in the format \"[FINAL ANSWER] The product of 94 and 1 is: \" followed by the value of the `product`.\n\nSo, the output of this code will be:\n\n[FINAL ANSWER] The product of 94 and 1 is: 94",
+            "metrics": {
+                "ground_truth": "94",
+                "prediction": "94",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Give the product of 44 and 52.",
+            "response": "[FINAL ANSWER] 2288",
+            "metrics": {
+                "ground_truth": "2288",
+                "prediction": "2288",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: Give the product of 44 and 52. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is a simple C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 44;\n    int num2 = 52;\n    int product = num1 * num2;\n    std::cout << \"[FINAL ANSWER] \" << product << std::endl;\n    return 0;\n}\n```\n\nSimulating the execution of this code:\n\n1. The program starts and enters the main function.\n2. It initializes `num1` with 44 and `num2` with 52.\n3. It calculates the product of `num1` and `num2` and stores the result in `product`.\n4. It prints \"[FINAL ANSWER] \" followed by the value of `product`.\n5. The program ends.\n\n[FINAL ANSWER] 2288",
+            "metrics": {
+                "ground_truth": "2288",
+                "prediction": "2288",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What do you get when you add 4 and 55?",
+            "response": "[FINAL ANSWER] 59",
+            "metrics": {
+                "ground_truth": "59",
+                "prediction": "59",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: What do you get when you add 4 and 55? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is a simple C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 4;\n    int num2 = 55;\n    int sum = num1 + num2;\n\n    std::cout << \"[FINAL ANSWER] \" << sum << std::endl;\n\n    return 0;\n}\n```\n\nWhen you run this code, it will add 4 and 55 and print the result. The output will be:\n\n```\n[FINAL ANSWER] 59\n```",
+            "metrics": {
+                "ground_truth": "59",
+                "prediction": "59",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Find the result of adding 27 and 52.",
+            "response": "[FINAL ANSWER] 79",
+            "metrics": {
+                "ground_truth": "79",
+                "prediction": "79",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: Find the result of adding 27 and 52. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is the C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 27;\n    int num2 = 52;\n    int sum = num1 + num2;\n\n    std::cout << \"[FINAL ANSWER] The sum is: \" << sum << std::endl;\n\n    return 0;\n}\n```\n\nSimulating the execution of this code:\n\nThe program starts and declares two integer variables, `num1` and `num2`, and assigns them the values 27 and 52 respectively. Then it declares another integer variable `sum` and assigns it the result of adding `num1` and `num2`. Finally, it prints out the result in the format \"[FINAL ANSWER] The sum is: \" followed by the value of `sum`.\n\nSo, the output of the program will be:\n\n[FINAL ANSWER] The sum is: 79",
+            "metrics": {
+                "ground_truth": "79",
+                "prediction": "79",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Give the sum of 71 and 18.",
+            "response": "[FINAL ANSWER] 89",
+            "metrics": {
+                "ground_truth": "89",
+                "prediction": "89",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: Give the sum of 71 and 18. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is a simple C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 71;\n    int num2 = 18;\n    int sum = num1 + num2;\n\n    std::cout << \"[FINAL ANSWER] \" << sum << std::endl;\n\n    return 0;\n}\n```\n\nSimulating the execution of this code:\n\n1. The program starts and enters the main function.\n2. It initializes `num1` with 71 and `num2` with 18.\n3. It calculates the sum of `num1` and `num2` and stores the result in `sum`.\n4. It prints \"[FINAL ANSWER] \" followed by the value of `sum`.\n5. The program ends.\n\n[FINAL ANSWER] 89",
+            "metrics": {
+                "ground_truth": "89",
+                "prediction": "89",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the sum of numbers 77 and 88?",
+            "response": "[FINAL ANSWER] 165",
+            "metrics": {
+                "ground_truth": "165",
+                "prediction": "165",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: What is the sum of numbers 77 and 88? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is the C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 77;\n    int num2 = 88;\n    int sum = num1 + num2;\n\n    std::cout << \"[FINAL ANSWER] The sum is: \" << sum << std::endl;\n\n    return 0;\n}\n```\n\nSimulating the execution of this code:\n\nThe code first declares and initializes two integer variables, `num1` and `num2`, with the values 77 and 88 respectively. Then it declares another integer variable `sum` and initializes it with the sum of `num1` and `num2`. Finally, it prints out the sum prefixed with \"[FINAL ANSWER] The sum is: \".\n\nSo, the output of this code will be:\n\n[FINAL ANSWER] The sum is: 165",
+            "metrics": {
+                "ground_truth": "165",
+                "prediction": "165",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Give the product of 27 and 32.",
+            "response": "[FINAL ANSWER] 864",
+            "metrics": {
+                "ground_truth": "864",
+                "prediction": "864",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: Give the product of 27 and 32. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is a simple C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 27;\n    int num2 = 32;\n    int product = num1 * num2;\n    std::cout << \"[FINAL ANSWER] \" << product << std::endl;\n    return 0;\n}\n```\n\nSimulating the execution of this code:\n\nThe code first declares and initializes two integer variables, `num1` and `num2`, with the values 27 and 32 respectively. Then it calculates the product of these two numbers and stores the result in the `product` variable. Finally, it prints the result to the console, prefixed with \"[FINAL ANSWER]\".\n\nSo, the output of this code will be:\n\n```\n[FINAL ANSWER] 864\n```",
+            "metrics": {
+                "ground_truth": "864",
+                "prediction": "864",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Add 20 and 50.",
+            "response": "[FINAL ANSWER] 70",
+            "metrics": {
+                "ground_truth": "70",
+                "prediction": "70",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: Add 20 and 50. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is the C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 20;\n    int num2 = 50;\n    int sum = num1 + num2;\n\n    std::cout << \"[FINAL ANSWER] \" << sum << std::endl;\n\n    return 0;\n}\n```\n\nSimulating the execution of this code:\n\n1. The program starts execution from the `main` function.\n2. It initializes `num1` with 20 and `num2` with 50.\n3. It calculates the sum of `num1` and `num2` and stores the result in `sum`.\n4. It prints \"[FINAL ANSWER] \" followed by the value of `sum`.\n5. The program ends.\n\nSo, the output of this program will be:\n\n```\n[FINAL ANSWER] 70\n```",
+            "metrics": {
+                "ground_truth": "70",
+                "prediction": "70",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Find the result of multiplying 79 and 88.",
+            "response": "[FINAL ANSWER] 6944",
+            "metrics": {
+                "ground_truth": "6952",
+                "prediction": "6944",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.5,
+                "abs_distance": 8.0,
+                "rel_distance": 0.0011507479861910242
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: Find the result of multiplying 79 and 88. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is the C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 79;\n    int num2 = 88;\n    int result = num1 * num2;\n    std::cout << \"[FINAL ANSWER] \" << result << std::endl;\n    return 0;\n}\n```\n\nSimulating the execution of this code:\n\nThe code first declares and initializes two integer variables, `num1` and `num2`, with the values 79 and 88 respectively. Then it declares another integer variable, `result`, and initializes it with the product of `num1` and `num2`. Finally, it prints the result prefixed with \"[FINAL ANSWER] \" to the console.\n\nSo, the output of this code will be:\n\n[FINAL ANSWER] 6944",
+            "metrics": {
+                "ground_truth": "6952",
+                "prediction": "6944",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.5,
+                "abs_distance": 8.0,
+                "rel_distance": 0.0011507479861910242
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Find the result of adding 65 and 79.",
+            "response": "[FINAL ANSWER] 144",
+            "metrics": {
+                "ground_truth": "144",
+                "prediction": "144",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: Find the result of adding 65 and 79. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is a simple C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 65;\n    int num2 = 79;\n    int sum = num1 + num2;\n\n    std::cout << \"[FINAL ANSWER] \" << sum << std::endl;\n\n    return 0;\n}\n```\n\nSimulating the execution of this code:\n\nThe code first declares and initializes two integer variables, `num1` and `num2`, with the values 65 and 79 respectively. Then it declares another integer variable `sum` and initializes it with the result of adding `num1` and `num2`. Finally, it prints out the result prefixed with \"[FINAL ANSWER] \".\n\nSo, the output of this code will be:\n\n[FINAL ANSWER] 144",
+            "metrics": {
+                "ground_truth": "144",
+                "prediction": "144",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Find the result of adding 61 and 55.",
+            "response": "[FINAL ANSWER] 116",
+            "metrics": {
+                "ground_truth": "116",
+                "prediction": "116",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: Find the result of adding 61 and 55. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is the C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 61;\n    int num2 = 55;\n    int sum = num1 + num2;\n\n    std::cout << \"[FINAL ANSWER] The sum is: \" << sum << std::endl;\n\n    return 0;\n}\n```\n\nSimulating the execution of this code:\n\nThe code declares two integer variables `num1` and `num2` and assigns them the values 61 and 55 respectively. Then it declares another integer variable `sum` and assigns it the result of adding `num1` and `num2`. Finally, it prints out the result.\n\n[FINAL ANSWER] The sum is: 116",
+            "metrics": {
+                "ground_truth": "116",
+                "prediction": "116",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the product of numbers 20 and 49?",
+            "response": "[FINAL ANSWER] 980",
+            "metrics": {
+                "ground_truth": "980",
+                "prediction": "980",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: What is the product of numbers 20 and 49? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is the C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 20;\n    int num2 = 49;\n    int product = num1 * num2;\n    std::cout << \"[FINAL ANSWER] The product of 20 and 49 is: \" << product << std::endl;\n    return 0;\n}\n```\n\nSimulating the execution of this code:\n\nThe code first declares and initializes two integer variables, `num1` and `num2`, with the values 20 and 49 respectively. Then it calculates the product of these two numbers and stores the result in the `product` variable. Finally, it prints out the result in the format \"[FINAL ANSWER] The product of 20 and 49 is: \" followed by the value of the `product`.\n\nThe output of this code would be:\n\n[FINAL ANSWER] The product of 20 and 49 is: 980",
+            "metrics": {
+                "ground_truth": "980",
+                "prediction": "980",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Provide the product of 12 and 94.",
+            "response": "[FINAL ANSWER] 1128",
+            "metrics": {
+                "ground_truth": "1128",
+                "prediction": "1128",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: Provide the product of 12 and 94. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is the C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 12;\n    int num2 = 94;\n    int product = num1 * num2;\n    std::cout << \"[FINAL ANSWER] \" << product << std::endl;\n    return 0;\n}\n```\n\nSimulating the execution of this code:\n\nThe code first declares and initializes two integer variables, `num1` and `num2`, with the values 12 and 94 respectively. Then it calculates the product of these two numbers and stores the result in the `product` variable. Finally, it prints the result to the console, prefixed with \"[FINAL ANSWER]\".\n\nSo, the output of this code will be:\n\n`[FINAL ANSWER] 1128`",
+            "metrics": {
+                "ground_truth": "1128",
+                "prediction": "1128",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Give the sum of 75 and 82.",
+            "response": "[FINAL ANSWER] 157",
+            "metrics": {
+                "ground_truth": "157",
+                "prediction": "157",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: Give the sum of 75 and 82. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is a simple C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 75;\n    int num2 = 82;\n    int sum = num1 + num2;\n\n    std::cout << \"[FINAL ANSWER] \" << sum << std::endl;\n\n    return 0;\n}\n```\n\nWhen you run this code, it will add the numbers 75 and 82 and print the result. The output will be:\n\n```\n[FINAL ANSWER] 157\n```",
+            "metrics": {
+                "ground_truth": "157",
+                "prediction": "157",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Give the sum of 59 and 61.",
+            "response": "[FINAL ANSWER] 120",
+            "metrics": {
+                "ground_truth": "120",
+                "prediction": "120",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: Give the sum of 59 and 61. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is a simple C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 59;\n    int num2 = 61;\n    int sum = num1 + num2;\n\n    std::cout << \"[FINAL ANSWER] \" << sum << std::endl;\n\n    return 0;\n}\n```\n\nWhen you run this code, it will add 59 and 61, and print the result. \n\nSimulating the execution of this code:\n\n1. The program starts and enters the main function.\n2. It initializes `num1` with 59 and `num2` with 61.\n3. It calculates the sum of `num1` and `num2` and stores the result in `sum`.\n4. It prints \"[FINAL ANSWER] \" followed by the value of `sum`.\n5. The program ends.\n\nSo, the output of this program will be:\n\n```\n[FINAL ANSWER] 120\n```",
+            "metrics": {
+                "ground_truth": "120",
+                "prediction": "120",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Provide the product of 51 and 20.",
+            "response": "[FINAL ANSWER] 1020",
+            "metrics": {
+                "ground_truth": "1020",
+                "prediction": "1020",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: Provide the product of 51 and 20. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is the C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 51;\n    int num2 = 20;\n    int product = num1 * num2;\n    std::cout << \"[FINAL ANSWER] \" << product << std::endl;\n    return 0;\n}\n```\n\nSimulating the execution of this code:\n\nThe code first declares and initializes two integer variables, `num1` and `num2`, with the values 51 and 20 respectively. Then it calculates the product of these two numbers and stores the result in the `product` variable. Finally, it prints the result to the console, prefixed with \"[FINAL ANSWER]\".\n\nSo, the output of this code will be:\n\n[FINAL ANSWER] 1020",
+            "metrics": {
+                "ground_truth": "1020",
+                "prediction": "1020",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the sum of numbers 43 and 21?",
+            "response": "[FINAL ANSWER] 64",
+            "metrics": {
+                "ground_truth": "64",
+                "prediction": "64",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: What is the sum of numbers 43 and 21? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is a simple C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 43;\n    int num2 = 21;\n    int sum = num1 + num2;\n\n    std::cout << \"[FINAL ANSWER] The sum is: \" << sum << std::endl;\n\n    return 0;\n}\n```\n\nWhen you run this code, it will add the numbers 43 and 21 and print the result. \n\nSimulating the execution of this code:\n\n1. The program starts and enters the main function.\n2. It initializes `num1` with 43 and `num2` with 21.\n3. It calculates the sum of `num1` and `num2` and stores the result in `sum`.\n4. It prints \"[FINAL ANSWER] The sum is: \" followed by the value of `sum`.\n5. The program ends.\n\nSo, the output of this program will be:\n\n```\n[FINAL ANSWER] The sum is: 64\n```",
+            "metrics": {
+                "ground_truth": "64",
+                "prediction": "64",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the product of numbers 4 and 61?",
+            "response": "[FINAL ANSWER] 244",
+            "metrics": {
+                "ground_truth": "244",
+                "prediction": "244",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: What is the product of numbers 4 and 61? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is the C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 4;\n    int num2 = 61;\n    int product = num1 * num2;\n    std::cout << \"[FINAL ANSWER] The product of 4 and 61 is: \" << product << std::endl;\n    return 0;\n}\n```\n\nSimulating the execution of this code:\n\nThe code starts by including the iostream library, which allows it to perform input and output operations.\n\nThe main function is then defined. This is the function that will be executed when the program runs.\n\nInside the main function, two integer variables, num1 and num2, are declared and initialized with the values 4 and 61 respectively.\n\nA third integer variable, product, is declared and initialized with the product of num1 and num2.\n\nThe product is then printed to the console using the cout object from the iostream library. The text \"[FINAL ANSWER] The product of 4 and 61 is: \" is printed, followed by the value of the product variable.\n\nThe main function then returns 0 to indicate that the program has finished executing successfully.\n\nSo, the output of this program would be:\n\n[FINAL ANSWER] The product of 4 and 61 is: 244",
+            "metrics": {
+                "ground_truth": "244",
+                "prediction": "244",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Find the result of multiplying 77 and 68.",
+            "response": "[FINAL ANSWER] 5236",
+            "metrics": {
+                "ground_truth": "5236",
+                "prediction": "5236",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: Find the result of multiplying 77 and 68. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is the C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 77;\n    int num2 = 68;\n    int result = num1 * num2;\n    std::cout << \"[FINAL ANSWER] \" << result << std::endl;\n    return 0;\n}\n```\n\nSimulating the execution of this code:\n\nThe code declares two integer variables `num1` and `num2` and assigns them the values 77 and 68 respectively. Then it declares another integer variable `result` and assigns it the product of `num1` and `num2`. Finally, it prints the result prefixed with \"[FINAL ANSWER]\".\n\nSo, the output of this code will be:\n\n[FINAL ANSWER] 5236",
+            "metrics": {
+                "ground_truth": "5236",
+                "prediction": "5236",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Find the result of adding 16 and 82.",
+            "response": "[FINAL ANSWER] 98",
+            "metrics": {
+                "ground_truth": "98",
+                "prediction": "98",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: Find the result of adding 16 and 82. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is a simple C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 16;\n    int num2 = 82;\n    int sum = num1 + num2;\n\n    std::cout << \"[FINAL ANSWER] \" << sum << std::endl;\n\n    return 0;\n}\n```\n\nWhen you run this code, it will add the numbers 16 and 82 and print the result. \n\nSimulating the execution of this code:\n\n1. The program starts and enters the main function.\n2. It initializes `num1` with 16 and `num2` with 82.\n3. It calculates the sum of `num1` and `num2` and stores the result in `sum`.\n4. It prints \"[FINAL ANSWER] \" followed by the value of `sum`.\n5. The program ends.\n\nSo, the output of this program will be:\n\n```\n[FINAL ANSWER] 98\n```",
+            "metrics": {
+                "ground_truth": "98",
+                "prediction": "98",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Give the product of 59 and 37.",
+            "response": "[FINAL ANSWER] 2183",
+            "metrics": {
+                "ground_truth": "2183",
+                "prediction": "2183",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: Give the product of 59 and 37. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is a simple C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 59;\n    int num2 = 37;\n    int product = num1 * num2;\n    std::cout << \"[FINAL ANSWER] \" << product << std::endl;\n    return 0;\n}\n```\n\nSimulating the execution of this code:\n\nThe code first declares and initializes two integer variables, `num1` and `num2`, with the values 59 and 37 respectively. Then it calculates the product of these two numbers and stores the result in the `product` variable. Finally, it prints the result to the console, prefixed with \"[FINAL ANSWER]\".\n\nSo, the output of this code will be:\n\n```\n[FINAL ANSWER] 2183\n```",
+            "metrics": {
+                "ground_truth": "2183",
+                "prediction": "2183",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What do you get when you multiply 90 and 79?",
+            "response": "[FINAL ANSWER] 7110",
+            "metrics": {
+                "ground_truth": "7110",
+                "prediction": "7110",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: What do you get when you multiply 90 and 79? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is a simple C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 90;\n    int num2 = 79;\n    int product = num1 * num2;\n    std::cout << \"[FINAL ANSWER] \" << product << std::endl;\n    return 0;\n}\n```\n\nWhen you run this code, it will multiply 90 and 79 and print the result. \n\nSimulating the execution of this code:\n\n1. The program starts execution from the `main` function.\n2. It initializes `num1` to 90 and `num2` to 79.\n3. It calculates the product of `num1` and `num2` and stores the result in `product`.\n4. It prints \"[FINAL ANSWER] \" followed by the value of `product`.\n5. The program ends.\n\nSo, the output of this program will be:\n\n```\n[FINAL ANSWER] 7110\n```",
+            "metrics": {
+                "ground_truth": "7110",
+                "prediction": "7110",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the result of multiplying 27 and 75?",
+            "response": "[FINAL ANSWER] 2025",
+            "metrics": {
+                "ground_truth": "2025",
+                "prediction": "2025",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: What is the result of multiplying 27 and 75? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is the C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 27;\n    int num2 = 75;\n    int result = num1 * num2;\n    std::cout << \"[FINAL ANSWER] \" << result << std::endl;\n    return 0;\n}\n```\n\nSimulating the execution of this code:\n\nThe code declares two integer variables `num1` and `num2` and assigns them the values 27 and 75 respectively. Then it declares another integer variable `result` and assigns it the value of the multiplication of `num1` and `num2`. Finally, it prints the result prefixed with \"[FINAL ANSWER]\".\n\nSo, the output of the code will be:\n\n[FINAL ANSWER] 2025",
+            "metrics": {
+                "ground_truth": "2025",
+                "prediction": "2025",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the product of numbers 20 and 62?",
+            "response": "[FINAL ANSWER] 1240",
+            "metrics": {
+                "ground_truth": "1240",
+                "prediction": "1240",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: What is the product of numbers 20 and 62? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is the C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 20;\n    int num2 = 62;\n    int product = num1 * num2;\n\n    std::cout << \"[FINAL ANSWER] The product of \" << num1 << \" and \" << num2 << \" is \" << product << std::endl;\n\n    return 0;\n}\n```\n\nSimulating the execution of this code:\n\nThe code first declares and initializes two integer variables, `num1` and `num2`, with the values 20 and 62 respectively. Then it calculates the product of these two numbers and stores the result in the `product` variable. Finally, it prints out the result in the format \"[FINAL ANSWER] The product of 20 and 62 is 1240\".\n\nSo, the output of this code will be:\n\n[FINAL ANSWER] The product of 20 and 62 is 1240",
+            "metrics": {
+                "ground_truth": "1240",
+                "prediction": "1240",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Find the result of adding 21 and 17.",
+            "response": "[FINAL ANSWER] 38",
+            "metrics": {
+                "ground_truth": "38",
+                "prediction": "38",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: Find the result of adding 21 and 17. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is the C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 21;\n    int num2 = 17;\n    int sum = num1 + num2;\n\n    std::cout << \"[FINAL ANSWER] The sum is: \" << sum << std::endl;\n\n    return 0;\n}\n```\n\nWhen you run this code, it will add the numbers 21 and 17 and print the result. \n\nSimulating the execution of this code:\n\n1. The program starts and enters the main function.\n2. It initializes `num1` with 21 and `num2` with 17.\n3. It calculates the sum of `num1` and `num2` and stores the result in `sum`.\n4. It prints \"[FINAL ANSWER] The sum is: \" followed by the value of `sum`.\n5. The program ends.\n\nSo, the output of this program will be:\n\n[FINAL ANSWER] The sum is: 38",
+            "metrics": {
+                "ground_truth": "38",
+                "prediction": "38",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Give the product of 32 and 98.",
+            "response": "[FINAL ANSWER] 3136",
+            "metrics": {
+                "ground_truth": "3136",
+                "prediction": "3136",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: Give the product of 32 and 98. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is a simple C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 32;\n    int num2 = 98;\n    int product = num1 * num2;\n    std::cout << \"[FINAL ANSWER] \" << product << std::endl;\n    return 0;\n}\n```\n\nWhen you run this code, it will calculate the product of 32 and 98 and print it to the console. \n\nSimulating the execution of this code:\n\n1. The program starts and enters the main function.\n2. It initializes `num1` with 32 and `num2` with 98.\n3. It calculates the product of `num1` and `num2` and stores the result in `product`.\n4. It prints \"[FINAL ANSWER] \" followed by the value of `product` to the console.\n5. The program ends.\n\n[FINAL ANSWER] 3136",
+            "metrics": {
+                "ground_truth": "3136",
+                "prediction": "3136",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the result of adding 83 and 45?",
+            "response": "[FINAL ANSWER] 128",
+            "metrics": {
+                "ground_truth": "128",
+                "prediction": "128",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: What is the result of adding 83 and 45? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is a simple C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 83;\n    int num2 = 45;\n    int sum = num1 + num2;\n\n    std::cout << \"[FINAL ANSWER] The result is: \" << sum << std::endl;\n\n    return 0;\n}\n```\n\nWhen you run this code, it will add 83 and 45 and print the result. \n\nSimulating the execution of this code:\n\n1. The program starts and enters the main function.\n2. It initializes `num1` with 83 and `num2` with 45.\n3. It calculates the sum of `num1` and `num2` and stores the result in `sum`.\n4. It prints \"[FINAL ANSWER] The result is: \" followed by the value of `sum`.\n5. The program ends.\n\nSo, the output of this program will be:\n\n[FINAL ANSWER] The result is: 128",
+            "metrics": {
+                "ground_truth": "128",
+                "prediction": "128",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Find the result of adding 68 and 14.",
+            "response": "[FINAL ANSWER] 82",
+            "metrics": {
+                "ground_truth": "82",
+                "prediction": "82",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: Find the result of adding 68 and 14. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is the C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 68;\n    int num2 = 14;\n    int sum = num1 + num2;\n    std::cout << \"[FINAL ANSWER] \" << sum << std::endl;\n    return 0;\n}\n```\n\nSimulating the execution of this code:\n\nThe program declares two integer variables, `num1` and `num2`, and assigns them the values 68 and 14 respectively. Then it declares another integer variable `sum` and assigns it the result of adding `num1` and `num2`. Finally, it prints the result prefixed with \"[FINAL ANSWER] \".\n\nSo, the output of the program will be:\n\n[FINAL ANSWER] 82",
+            "metrics": {
+                "ground_truth": "82",
+                "prediction": "82",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the product of 4 and 45?",
+            "response": "[FINAL ANSWER] 180",
+            "metrics": {
+                "ground_truth": "180",
+                "prediction": "180",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: What is the product of 4 and 45? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is a simple C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int a = 4;\n    int b = 45;\n    int product = a * b;\n    std::cout << \"[FINAL ANSWER] \" << product << std::endl;\n    return 0;\n}\n```\n\nSimulating the execution of this code:\n\nThe code declares two integer variables `a` and `b` and assigns them the values 4 and 45 respectively. Then it calculates the product of `a` and `b` and stores the result in the integer variable `product`. Finally, it prints out the result prefixed with \"[FINAL ANSWER]\".\n\nSo, the output of this code will be:\n\n```\n[FINAL ANSWER] 180\n```",
+            "metrics": {
+                "ground_truth": "180",
+                "prediction": "180",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Provide the sum of 19 and 19.",
+            "response": "[FINAL ANSWER] 38",
+            "metrics": {
+                "ground_truth": "38",
+                "prediction": "38",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: Provide the sum of 19 and 19. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is a simple C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int sum = 19 + 19;\n    std::cout << \"[FINAL ANSWER] \" << sum << std::endl;\n    return 0;\n}\n```\n\nWhen you run this code, it will add 19 and 19 together and print the result. \n\nSimulating the execution of this code:\n\nThe code starts by including the iostream library, which allows it to perform input and output operations.\n\nNext, it defines the main function, which is the entry point of the program. \n\nInside the main function, it declares an integer variable named sum and assigns it the value of 19 + 19.\n\nThen, it uses the cout object, along with the insertion operator (<<), to print \"[FINAL ANSWER] \" followed by the value of sum to the console.\n\nFinally, it returns 0 to indicate that the program has ended successfully.\n\nSo, the output of this program would be:\n\n[FINAL ANSWER] 38",
+            "metrics": {
+                "ground_truth": "38",
+                "prediction": "38",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What do you get when you add 55 and 23?",
+            "response": "[FINAL ANSWER] 78",
+            "metrics": {
+                "ground_truth": "78",
+                "prediction": "78",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: What do you get when you add 55 and 23? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is a simple C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 55;\n    int num2 = 23;\n    int sum = num1 + num2;\n\n    std::cout << \"[FINAL ANSWER] \" << sum << std::endl;\n\n    return 0;\n}\n```\n\nWhen you run this code, it will add 55 and 23 and print the result. \n\nSimulating the execution of this code:\n\n1. The program starts and enters the main function.\n2. It initializes `num1` with 55 and `num2` with 23.\n3. It calculates the sum of `num1` and `num2` and stores the result in `sum`.\n4. It prints \"[FINAL ANSWER] \" followed by the value of `sum`.\n5. The program ends.\n\nSo, the output of this program will be:\n\n```\n[FINAL ANSWER] 78\n```",
+            "metrics": {
+                "ground_truth": "78",
+                "prediction": "78",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What do you get when you add 2 and 85?",
+            "response": "[FINAL ANSWER] 87",
+            "metrics": {
+                "ground_truth": "87",
+                "prediction": "87",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: What do you get when you add 2 and 85? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is a simple C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 2;\n    int num2 = 85;\n    int sum = num1 + num2;\n\n    std::cout << \"[FINAL ANSWER] \" << sum << std::endl;\n\n    return 0;\n}\n```\n\nWhen you run this code, it will add 2 and 85 and print the result. \n\n[FINAL ANSWER] 87",
+            "metrics": {
+                "ground_truth": "87",
+                "prediction": "87",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Provide the sum of 69 and 58.",
+            "response": "[FINAL ANSWER] 127",
+            "metrics": {
+                "ground_truth": "127",
+                "prediction": "127",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: Provide the sum of 69 and 58. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is a simple C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 69;\n    int num2 = 58;\n    int sum = num1 + num2;\n\n    std::cout << \"[FINAL ANSWER] \" << sum << std::endl;\n\n    return 0;\n}\n```\n\nWhen you run this code, it will add the numbers 69 and 58 and print the result. The output will be:\n\n```\n[FINAL ANSWER] 127\n```",
+            "metrics": {
+                "ground_truth": "127",
+                "prediction": "127",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Provide the product of 32 and 34.",
+            "response": "[FINAL ANSWER] 1088",
+            "metrics": {
+                "ground_truth": "1088",
+                "prediction": "1088",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: Provide the product of 32 and 34. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is a simple C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 32;\n    int num2 = 34;\n    int product = num1 * num2;\n    std::cout << \"[FINAL ANSWER] \" << product << std::endl;\n    return 0;\n}\n```\n\nWhen you run this code, it will calculate the product of 32 and 34 and print it to the console. \n\nIf we simulate the execution of this code, the output would be:\n\n[FINAL ANSWER] 1088",
+            "metrics": {
+                "ground_truth": "1088",
+                "prediction": "1088",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the product of numbers 94 and 33?",
+            "response": "[FINAL ANSWER] 3102",
+            "metrics": {
+                "ground_truth": "3102",
+                "prediction": "3102",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: What is the product of numbers 94 and 33? Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is a simple C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 94;\n    int num2 = 33;\n    int product = num1 * num2;\n    std::cout << \"[FINAL ANSWER] \" << product << std::endl;\n    return 0;\n}\n```\n\nWhen you run this code, it will calculate the product of 94 and 33 and print it to the console. \n\nSimulating the execution of this code:\n\n1. The program starts and enters the main function.\n2. It initializes `num1` with 94 and `num2` with 33.\n3. It calculates the product of `num1` and `num2` and stores the result in `product`.\n4. It prints \"[FINAL ANSWER] \" followed by the value of `product`.\n5. The program ends.\n\nSo, the output of this program will be:\n\n```\n[FINAL ANSWER] 3102\n```",
+            "metrics": {
+                "ground_truth": "3102",
+                "prediction": "3102",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Provide the sum of 37 and 39.",
+            "response": "[FINAL ANSWER] 76",
+            "metrics": {
+                "ground_truth": "76",
+                "prediction": "76",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: Provide the sum of 37 and 39. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is the C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 37;\n    int num2 = 39;\n    int sum = num1 + num2;\n\n    std::cout << \"[FINAL ANSWER] The sum is: \" << sum << std::endl;\n\n    return 0;\n}\n```\n\nSimulating the execution of this code:\n\nThe code first declares and initializes two integer variables, `num1` and `num2`, with the values 37 and 39 respectively. Then it declares another integer variable `sum` and initializes it with the sum of `num1` and `num2`. Finally, it prints out the sum prefixed with \"[FINAL ANSWER] The sum is: \".\n\n[FINAL ANSWER] The sum is: 76",
+            "metrics": {
+                "ground_truth": "76",
+                "prediction": "76",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Give the sum of 8 and 60.",
+            "response": "[FINAL ANSWER] 68",
+            "metrics": {
+                "ground_truth": "68",
+                "prediction": "68",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: Give the sum of 8 and 60. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is a simple C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int sum = 8 + 60;\n    std::cout << \"[FINAL ANSWER] \" << sum << std::endl;\n    return 0;\n}\n```\n\nWhen you run this code, it will add 8 and 60, and print the result. The output will be:\n\n```\n[FINAL ANSWER] 68\n```",
+            "metrics": {
+                "ground_truth": "68",
+                "prediction": "68",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Provide the sum of 72 and 61.",
+            "response": "[FINAL ANSWER] 133",
+            "metrics": {
+                "ground_truth": "133",
+                "prediction": "133",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Write code in C++ to solve the following problem: Provide the sum of 72 and 61. Then simulate the execution of this code to provide an answer to this problem.",
+            "response": "Here is the C++ code to solve the problem:\n\n```cpp\n#include<iostream>\n\nint main() {\n    int num1 = 72;\n    int num2 = 61;\n    int sum = num1 + num2;\n\n    std::cout << \"[FINAL ANSWER] \" << sum << std::endl;\n\n    return 0;\n}\n```\n\nSimulating the execution of this code:\n\nThe program starts with the inclusion of the iostream library which allows it to perform input and output operations.\n\nThe main function is then defined. This is the function that is automatically called when the program is run.\n\nInside the main function, three integer variables are defined: num1, num2, and sum. num1 is assigned the value 72, num2 is assigned the value 61, and sum is assigned the result of adding num1 and num2.\n\nThe program then outputs \"[FINAL ANSWER] \" followed by the value of sum, which is the result of adding 72 and 61.\n\nThe program then returns 0 to indicate that it has finished running successfully.\n\nSo, the output of the program would be:\n\n[FINAL ANSWER] 133",
+            "metrics": {
+                "ground_truth": "133",
+                "prediction": "133",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    }
+]

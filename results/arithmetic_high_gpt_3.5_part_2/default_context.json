@@ -1,0 +1,2602 @@
+[
+    {
+        "no_context": {
+            "prompt": "Find the result of multiplying 6364 and 1142.",
+            "response": "[FINAL ANSWER] The result of multiplying 6364 and 1142 is 7,273,288.",
+            "metrics": {
+                "ground_truth": "7267688",
+                "prediction": "7273288",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.42857142857142855,
+                "abs_distance": 5600.0,
+                "rel_distance": 0.0007705339029413481
+            }
+        },
+        "context": {
+            "prompt": "Find the result of multiplying 6364 and 1142.",
+            "response": "[FINAL ANSWER] The result of multiplying 6364 and 1142 is 7,270,888.",
+            "metrics": {
+                "ground_truth": "7267688",
+                "prediction": "7270888",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.42857142857142855,
+                "abs_distance": 3200.0,
+                "rel_distance": 0.00044030508739505603
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Give the product of 7902 and 9835.",
+            "response": "[FINAL ANSWER] The product of 7902 and 9835 is 77,648,670.",
+            "metrics": {
+                "ground_truth": "77716170",
+                "prediction": "77648670",
+                "abs_edit_distance": 4,
+                "rel_edit_distance": 0.5,
+                "abs_distance": 67500.0,
+                "rel_distance": 0.0008685451174446708
+            }
+        },
+        "context": {
+            "prompt": "Give the product of 7902 and 9835.",
+            "response": "[FINAL ANSWER] The product of 7902 and 9835 is 77,660,670.",
+            "metrics": {
+                "ground_truth": "77716170",
+                "prediction": "77660670",
+                "abs_edit_distance": 4,
+                "rel_edit_distance": 0.5,
+                "abs_distance": 55500.0,
+                "rel_distance": 0.0007141370965656182
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the result of multiplying 4062 and 3484?",
+            "response": "[FINAL ANSWER] The result of multiplying 4062 and 3484 is 14,146,008.",
+            "metrics": {
+                "ground_truth": "14152008",
+                "prediction": "14146008",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.25,
+                "abs_distance": 6000.0,
+                "rel_distance": 0.0004239681040315975
+            }
+        },
+        "context": {
+            "prompt": "What is the result of multiplying 4062 and 3484?",
+            "response": "[FINAL ANSWER] The result of multiplying 4062 and 3484 is 14,141,208.",
+            "metrics": {
+                "ground_truth": "14152008",
+                "prediction": "14141208",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 10800.0,
+                "rel_distance": 0.0007631425872568755
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the result of adding 3567 and 1667?",
+            "response": "[FINAL ANSWER] The result of adding 3567 and 1667 is 5234.",
+            "metrics": {
+                "ground_truth": "5234",
+                "prediction": "5234",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "What is the result of adding 3567 and 1667?",
+            "response": "[FINAL ANSWER] The result of adding 3567 and 1667 is 5234.",
+            "metrics": {
+                "ground_truth": "5234",
+                "prediction": "5234",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Provide the sum of 6765 and 9640.",
+            "response": "[FINAL ANSWER] The sum of 6765 and 9640 is 16405.",
+            "metrics": {
+                "ground_truth": "16405",
+                "prediction": "16405",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Provide the sum of 6765 and 9640.",
+            "response": "[FINAL ANSWER] The sum of 6765 and 9640 is 16405.",
+            "metrics": {
+                "ground_truth": "16405",
+                "prediction": "16405",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Find the result of adding 2187 and 8185.",
+            "response": "[FINAL ANSWER] The result of adding 2187 and 8185 is 10372.",
+            "metrics": {
+                "ground_truth": "10372",
+                "prediction": "10372",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Find the result of adding 2187 and 8185.",
+            "response": "[FINAL ANSWER] The result of adding 2187 and 8185 is 10372.",
+            "metrics": {
+                "ground_truth": "10372",
+                "prediction": "10372",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Give the sum of 9553 and 5453.",
+            "response": "[FINAL ANSWER] The sum of 9553 and 5453 is 15006.",
+            "metrics": {
+                "ground_truth": "15006",
+                "prediction": "15006",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Give the sum of 9553 and 5453.",
+            "response": "[FINAL ANSWER] The sum of 9553 and 5453 is 15006.",
+            "metrics": {
+                "ground_truth": "15006",
+                "prediction": "15006",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Multiply 1116 and 9573.",
+            "response": "[FINAL ANSWER] The product of 1116 and 9573 is 10,674,468.",
+            "metrics": {
+                "ground_truth": "10683468",
+                "prediction": "10674468",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.25,
+                "abs_distance": 9000.0,
+                "rel_distance": 0.000842423078348716
+            }
+        },
+        "context": {
+            "prompt": "Multiply 1116 and 9573.",
+            "response": "[FINAL ANSWER] The product of 1116 and 9573 is 10,674,468.",
+            "metrics": {
+                "ground_truth": "10683468",
+                "prediction": "10674468",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.25,
+                "abs_distance": 9000.0,
+                "rel_distance": 0.000842423078348716
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Give the product of 4028 and 8110.",
+            "response": "[FINAL ANSWER] The product of 4028 and 8110 is 32,652,280.",
+            "metrics": {
+                "ground_truth": "32667080",
+                "prediction": "32652280",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 14800.0,
+                "rel_distance": 0.00045305549195091816
+            }
+        },
+        "context": {
+            "prompt": "Give the product of 4028 and 8110.",
+            "response": "[FINAL ANSWER] The product of 4028 and 8110 is 32,674,680.",
+            "metrics": {
+                "ground_truth": "32667080",
+                "prediction": "32674680",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 7600.0,
+                "rel_distance": 0.00023265011748830933
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Provide the sum of 7812 and 8269.",
+            "response": "[FINAL ANSWER] The sum of 7812 and 8269 is 16081.",
+            "metrics": {
+                "ground_truth": "16081",
+                "prediction": "16081",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Provide the sum of 7812 and 8269.",
+            "response": "[FINAL ANSWER] The sum of 7812 and 8269 is 16081.",
+            "metrics": {
+                "ground_truth": "16081",
+                "prediction": "16081",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the product of numbers 5952 and 7744?",
+            "response": "[FINAL ANSWER] The product of numbers 5952 and 7744 is 46,067,328.",
+            "metrics": {
+                "ground_truth": "46092288",
+                "prediction": "46067328",
+                "abs_edit_distance": 4,
+                "rel_edit_distance": 0.5,
+                "abs_distance": 24960.0,
+                "rel_distance": 0.0005415222607304718
+            }
+        },
+        "context": {
+            "prompt": "What is the product of numbers 5952 and 7744?",
+            "response": "[FINAL ANSWER] The product of numbers 5952 and 7744 is 46,084,288.",
+            "metrics": {
+                "ground_truth": "46092288",
+                "prediction": "46084288",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.25,
+                "abs_distance": 8000.0,
+                "rel_distance": 0.00017356482715720253
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Give the product of 8688 and 1129.",
+            "response": "[FINAL ANSWER] The product of 8688 and 1129 is 9,802,592.",
+            "metrics": {
+                "ground_truth": "9808752",
+                "prediction": "9802592",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.42857142857142855,
+                "abs_distance": 6160.0,
+                "rel_distance": 0.000628010576676829
+            }
+        },
+        "context": {
+            "prompt": "Give the product of 8688 and 1129.",
+            "response": "[FINAL ANSWER] The product of 8688 and 1129 is 9,800,592.",
+            "metrics": {
+                "ground_truth": "9808752",
+                "prediction": "9800592",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.42857142857142855,
+                "abs_distance": 8160.0,
+                "rel_distance": 0.0008319101145589163
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Provide the product of 2354 and 5570.",
+            "response": "[FINAL ANSWER] The product of 2354 and 5570 is 13,107,380.",
+            "metrics": {
+                "ground_truth": "13111780",
+                "prediction": "13107380",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 4400.0,
+                "rel_distance": 0.00033557610027013874
+            }
+        },
+        "context": {
+            "prompt": "Provide the product of 2354 and 5570.",
+            "response": "[FINAL ANSWER] The product of 2354 and 5570 is 13,105,180.",
+            "metrics": {
+                "ground_truth": "13111780",
+                "prediction": "13105180",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 6600.0,
+                "rel_distance": 0.0005033641504052081
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Provide the product of 1278 and 1557.",
+            "response": "[FINAL ANSWER] The product of 1278 and 1557 is 1,988,046.",
+            "metrics": {
+                "ground_truth": "1989846",
+                "prediction": "1988046",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.2857142857142857,
+                "abs_distance": 1800.0,
+                "rel_distance": 0.0009045926167150623
+            }
+        },
+        "context": {
+            "prompt": "Provide the product of 1278 and 1557.",
+            "response": "[FINAL ANSWER] The product of 1278 and 1557 is 1,988,046.",
+            "metrics": {
+                "ground_truth": "1989846",
+                "prediction": "1988046",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.2857142857142857,
+                "abs_distance": 1800.0,
+                "rel_distance": 0.0009045926167150623
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Multiply 4920 and 5898.",
+            "response": "[FINAL ANSWER] The product of 4920 and 5898 is 29,003,760.",
+            "metrics": {
+                "ground_truth": "29018160",
+                "prediction": "29003760",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 14400.0,
+                "rel_distance": 0.0004962409746172742
+            }
+        },
+        "context": {
+            "prompt": "Multiply 4920 and 5898.",
+            "response": "[FINAL ANSWER] The product of 4920 and 5898 is 29,007,360.",
+            "metrics": {
+                "ground_truth": "29018160",
+                "prediction": "29007360",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 10800.0,
+                "rel_distance": 0.0003721807309629556
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What do you get when you add 1061 and 2500?",
+            "response": "[FINAL ANSWER] The sum of 1061 and 2500 is 3561.",
+            "metrics": {
+                "ground_truth": "3561",
+                "prediction": "3561",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "What do you get when you add 1061 and 2500?",
+            "response": "[FINAL ANSWER] The sum of 1061 and 2500 is 3561.",
+            "metrics": {
+                "ground_truth": "3561",
+                "prediction": "3561",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Provide the sum of 5043 and 8828.",
+            "response": "[FINAL ANSWER] The sum of 5043 and 8828 is 13871.",
+            "metrics": {
+                "ground_truth": "13871",
+                "prediction": "13871",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Provide the sum of 5043 and 8828.",
+            "response": "[FINAL ANSWER] The sum of 5043 and 8828 is 13871.",
+            "metrics": {
+                "ground_truth": "13871",
+                "prediction": "13871",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Multiply 8222 and 1584.",
+            "response": "[FINAL ANSWER] The product of 8222 and 1584 is 13,027,648.",
+            "metrics": {
+                "ground_truth": "13023648",
+                "prediction": "13027648",
+                "abs_edit_distance": 1,
+                "rel_edit_distance": 0.125,
+                "abs_distance": 4000.0,
+                "rel_distance": 0.00030713360803363236
+            }
+        },
+        "context": {
+            "prompt": "Multiply 8222 and 1584.",
+            "response": "[FINAL ANSWER] The product of 8222 and 1584 is 13,024,448.",
+            "metrics": {
+                "ground_truth": "13023648",
+                "prediction": "13024448",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.25,
+                "abs_distance": 800.0,
+                "rel_distance": 6.142672160672647e-05
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the sum of numbers 7318 and 3770?",
+            "response": "[FINAL ANSWER] The sum of numbers 7318 and 3770 is 11088.",
+            "metrics": {
+                "ground_truth": "11088",
+                "prediction": "11088",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "What is the sum of numbers 7318 and 3770?",
+            "response": "[FINAL ANSWER] The sum of numbers 7318 and 3770 is 11088.",
+            "metrics": {
+                "ground_truth": "11088",
+                "prediction": "11088",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Give the product of 8997 and 5086.",
+            "response": "[FINAL ANSWER] The product of 8997 and 5086 is 45,741,642.",
+            "metrics": {
+                "ground_truth": "45758742",
+                "prediction": "45741642",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 17100.0,
+                "rel_distance": 0.0003736990846470386
+            }
+        },
+        "context": {
+            "prompt": "Give the product of 8997 and 5086.",
+            "response": "[FINAL ANSWER] The product of 8997 and 5086 is 45,718,842.",
+            "metrics": {
+                "ground_truth": "45758742",
+                "prediction": "45718842",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.25,
+                "abs_distance": 39900.0,
+                "rel_distance": 0.00087196453084309
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Find the result of multiplying 1752 and 7910.",
+            "response": "[FINAL ANSWER] The result of multiplying 1752 and 7910 is 13,848,720.",
+            "metrics": {
+                "ground_truth": "13858320",
+                "prediction": "13848720",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.25,
+                "abs_distance": 9600.0,
+                "rel_distance": 0.0006927246592660582
+            }
+        },
+        "context": {
+            "prompt": "Find the result of multiplying 1752 and 7910.",
+            "response": "[FINAL ANSWER] The result of multiplying 1752 and 7910 is 13,857,120.",
+            "metrics": {
+                "ground_truth": "13858320",
+                "prediction": "13857120",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.25,
+                "abs_distance": 1200.0,
+                "rel_distance": 8.659058240825728e-05
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the sum of numbers 3918 and 4756?",
+            "response": "[FINAL ANSWER] The sum of numbers 3918 and 4756 is 8674.",
+            "metrics": {
+                "ground_truth": "8674",
+                "prediction": "8674",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "What is the sum of numbers 3918 and 4756?",
+            "response": "[FINAL ANSWER] The sum of numbers 3918 and 4756 is 8674.",
+            "metrics": {
+                "ground_truth": "8674",
+                "prediction": "8674",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What do you get when you add 6231 and 2733?",
+            "response": "[FINAL ANSWER] The sum of 6231 and 2733 is 8964.",
+            "metrics": {
+                "ground_truth": "8964",
+                "prediction": "8964",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "What do you get when you add 6231 and 2733?",
+            "response": "[FINAL ANSWER] The sum of 6231 and 2733 is 8964.",
+            "metrics": {
+                "ground_truth": "8964",
+                "prediction": "8964",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Find the result of multiplying 3872 and 1502.",
+            "response": "[FINAL ANSWER] The result of multiplying 3872 and 1502 is 5,815,744.",
+            "metrics": {
+                "ground_truth": "5815744",
+                "prediction": "5815744",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Find the result of multiplying 3872 and 1502.",
+            "response": "[FINAL ANSWER] The result of multiplying 3872 and 1502 is 5,815,744.",
+            "metrics": {
+                "ground_truth": "5815744",
+                "prediction": "5815744",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Give the sum of 5025 and 5366.",
+            "response": "[FINAL ANSWER] The sum of 5025 and 5366 is 10,391.",
+            "metrics": {
+                "ground_truth": "10391",
+                "prediction": "10391",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Give the sum of 5025 and 5366.",
+            "response": "[FINAL ANSWER] The sum of 5025 and 5366 is 10,391.",
+            "metrics": {
+                "ground_truth": "10391",
+                "prediction": "10391",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Give the product of 2243 and 5252.",
+            "response": "[FINAL ANSWER] The product of 2243 and 5252 is 11,782,036.",
+            "metrics": {
+                "ground_truth": "11780236",
+                "prediction": "11782036",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.25,
+                "abs_distance": 1800.0,
+                "rel_distance": 0.00015279829707995663
+            }
+        },
+        "context": {
+            "prompt": "Give the product of 2243 and 5252.",
+            "response": "[FINAL ANSWER] The product of 2243 and 5252 is 11,785,036.",
+            "metrics": {
+                "ground_truth": "11780236",
+                "prediction": "11785036",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.25,
+                "abs_distance": 4800.0,
+                "rel_distance": 0.000407462125546551
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Multiply 9898 and 4562.",
+            "response": "[FINAL ANSWER] The product of 9898 and 4562 is 45,124,276.",
+            "metrics": {
+                "ground_truth": "45154676",
+                "prediction": "45124276",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.25,
+                "abs_distance": 30400.0,
+                "rel_distance": 0.0006732414600871015
+            }
+        },
+        "context": {
+            "prompt": "Multiply 9898 and 4562.",
+            "response": "[FINAL ANSWER] The product of 9898 and 4562 is 45,108,676.",
+            "metrics": {
+                "ground_truth": "45154676",
+                "prediction": "45108676",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.25,
+                "abs_distance": 46000.0,
+                "rel_distance": 0.0010187206303949562
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the product of numbers 5908 and 8552?",
+            "response": "[FINAL ANSWER] The product of numbers 5908 and 8552 is 50,473,216.",
+            "metrics": {
+                "ground_truth": "50525216",
+                "prediction": "50473216",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 52000.0,
+                "rel_distance": 0.0010291890686820616
+            }
+        },
+        "context": {
+            "prompt": "What is the product of numbers 5908 and 8552?",
+            "response": "[FINAL ANSWER] The product of numbers 5908 and 8552 is 50,480,416.",
+            "metrics": {
+                "ground_truth": "50525216",
+                "prediction": "50480416",
+                "abs_edit_distance": 4,
+                "rel_edit_distance": 0.5,
+                "abs_distance": 44800.0,
+                "rel_distance": 0.0008866859668645455
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the product of 1262 and 2291?",
+            "response": "[FINAL ANSWER] The product of 1262 and 2291 is 2,892,842.",
+            "metrics": {
+                "ground_truth": "2891242",
+                "prediction": "2892842",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.2857142857142857,
+                "abs_distance": 1600.0,
+                "rel_distance": 0.0005533953920149196
+            }
+        },
+        "context": {
+            "prompt": "What is the product of 1262 and 2291?",
+            "response": "[FINAL ANSWER] The product of 1262 and 2291 is 2,892,842.",
+            "metrics": {
+                "ground_truth": "2891242",
+                "prediction": "2892842",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.2857142857142857,
+                "abs_distance": 1600.0,
+                "rel_distance": 0.0005533953920149196
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the product of 9663 and 6082?",
+            "response": "[FINAL ANSWER] The product of 9663 and 6082 is 58,829,466.",
+            "metrics": {
+                "ground_truth": "58770366",
+                "prediction": "58829466",
+                "abs_edit_distance": 4,
+                "rel_edit_distance": 0.5,
+                "abs_distance": 59100.0,
+                "rel_distance": 0.0010056088471526619
+            }
+        },
+        "context": {
+            "prompt": "What is the product of 9663 and 6082?",
+            "response": "[FINAL ANSWER] The product of 9663 and 6082 is 58,823,766.",
+            "metrics": {
+                "ground_truth": "58770366",
+                "prediction": "58823766",
+                "abs_edit_distance": 4,
+                "rel_edit_distance": 0.5,
+                "abs_distance": 53400.0,
+                "rel_distance": 0.0009086211918435219
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Provide the product of 6666 and 1733.",
+            "response": "[FINAL ANSWER] The product of 6666 and 1733 is 11,538,378.",
+            "metrics": {
+                "ground_truth": "11552178",
+                "prediction": "11538378",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 13800.0,
+                "rel_distance": 0.001194579931161033
+            }
+        },
+        "context": {
+            "prompt": "Provide the product of 6666 and 1733.",
+            "response": "[FINAL ANSWER] The product of 6666 and 1733 is 11,538,378.",
+            "metrics": {
+                "ground_truth": "11552178",
+                "prediction": "11538378",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 13800.0,
+                "rel_distance": 0.001194579931161033
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Add 2410 and 2670.",
+            "response": "[FINAL ANSWER] The sum of 2410 and 2670 is 5080.",
+            "metrics": {
+                "ground_truth": "5080",
+                "prediction": "5080",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Add 2410 and 2670.",
+            "response": "[FINAL ANSWER] The sum of 2410 and 2670 is 5080.",
+            "metrics": {
+                "ground_truth": "5080",
+                "prediction": "5080",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Provide the product of 4604 and 1350.",
+            "response": "[FINAL ANSWER] The product of 4604 and 1350 is 6,218,400.",
+            "metrics": {
+                "ground_truth": "6215400",
+                "prediction": "6218400",
+                "abs_edit_distance": 1,
+                "rel_edit_distance": 0.14285714285714285,
+                "abs_distance": 3000.0,
+                "rel_distance": 0.0004826720725938797
+            }
+        },
+        "context": {
+            "prompt": "Provide the product of 4604 and 1350.",
+            "response": "[FINAL ANSWER] The product of 4604 and 1350 is 6,218,400.",
+            "metrics": {
+                "ground_truth": "6215400",
+                "prediction": "6218400",
+                "abs_edit_distance": 1,
+                "rel_edit_distance": 0.14285714285714285,
+                "abs_distance": 3000.0,
+                "rel_distance": 0.0004826720725938797
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the sum of numbers 4732 and 5926?",
+            "response": "[FINAL ANSWER] The sum of numbers 4732 and 5926 is 10,658.",
+            "metrics": {
+                "ground_truth": "10658",
+                "prediction": "10658",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "What is the sum of numbers 4732 and 5926?",
+            "response": "[FINAL ANSWER] The sum of 4732 and 5926 is 10,658.",
+            "metrics": {
+                "ground_truth": "10658",
+                "prediction": "10658",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What do you get when you multiply 5704 and 7256?",
+            "response": "[FINAL ANSWER] When you multiply 5704 and 7256, you get 41,366,024.",
+            "metrics": {
+                "ground_truth": "41388224",
+                "prediction": "41366024",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 22200.0,
+                "rel_distance": 0.0005363844556364631
+            }
+        },
+        "context": {
+            "prompt": "What do you get when you multiply 5704 and 7256?",
+            "response": "[FINAL ANSWER] When you multiply 5704 and 7256, you get 41,365,024.",
+            "metrics": {
+                "ground_truth": "41388224",
+                "prediction": "41365024",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 23200.0,
+                "rel_distance": 0.0005605459176020696
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the sum of 2133 and 1213?",
+            "response": "[FINAL ANSWER] The sum of 2133 and 1213 is 3346.",
+            "metrics": {
+                "ground_truth": "3346",
+                "prediction": "3346",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "What is the sum of 2133 and 1213?",
+            "response": "[FINAL ANSWER] The sum of 2133 and 1213 is 3346.",
+            "metrics": {
+                "ground_truth": "3346",
+                "prediction": "3346",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Give the product of 9417 and 7464.",
+            "response": "[FINAL ANSWER] The product of 9417 and 7464 is 70,243,688.",
+            "metrics": {
+                "ground_truth": "70288488",
+                "prediction": "70243688",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 44800.0,
+                "rel_distance": 0.0006373732210600405
+            }
+        },
+        "context": {
+            "prompt": "Give the product of 9417 and 7464.",
+            "response": "[FINAL ANSWER] The product of 9417 and 7464 is 70,256,488.",
+            "metrics": {
+                "ground_truth": "70288488",
+                "prediction": "70256488",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.25,
+                "abs_distance": 32000.0,
+                "rel_distance": 0.00045526658647145746
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Provide the sum of 6051 and 8626.",
+            "response": "[FINAL ANSWER] The sum of 6051 and 8626 is 14677.",
+            "metrics": {
+                "ground_truth": "14677",
+                "prediction": "14677",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Provide the sum of 6051 and 8626.",
+            "response": "[FINAL ANSWER] The sum of 6051 and 8626 is 14677.",
+            "metrics": {
+                "ground_truth": "14677",
+                "prediction": "14677",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Multiply 9326 and 7726.",
+            "response": "[FINAL ANSWER] The product of 9326 and 7726 is 72,034,276.",
+            "metrics": {
+                "ground_truth": "72052676",
+                "prediction": "72034276",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 18400.0,
+                "rel_distance": 0.0002553687249589453
+            }
+        },
+        "context": {
+            "prompt": "Multiply 9326 and 7726.",
+            "response": "[FINAL ANSWER] The product of 9326 and 7726 is 72,007,476.",
+            "metrics": {
+                "ground_truth": "72052676",
+                "prediction": "72007476",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 45200.0,
+                "rel_distance": 0.00062731882435567
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the sum of 6412 and 7009?",
+            "response": "[FINAL ANSWER] The sum of 6412 and 7009 is 13421.",
+            "metrics": {
+                "ground_truth": "13421",
+                "prediction": "13421",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "What is the sum of 6412 and 7009?",
+            "response": "[FINAL ANSWER] The sum of 6412 and 7009 is 13421.",
+            "metrics": {
+                "ground_truth": "13421",
+                "prediction": "13421",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the product of 4767 and 2342?",
+            "response": "[FINAL ANSWER] The product of 4767 and 2342 is 11,165,314.",
+            "metrics": {
+                "ground_truth": "11164314",
+                "prediction": "11165314",
+                "abs_edit_distance": 1,
+                "rel_edit_distance": 0.125,
+                "abs_distance": 1000.0,
+                "rel_distance": 8.95711102357028e-05
+            }
+        },
+        "context": {
+            "prompt": "What is the product of 4767 and 2342?",
+            "response": "[FINAL ANSWER] The product of 4767 and 2342 is 11,160,114.",
+            "metrics": {
+                "ground_truth": "11164314",
+                "prediction": "11160114",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.25,
+                "abs_distance": 4200.0,
+                "rel_distance": 0.00037619866298995174
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Provide the product of 5787 and 3507.",
+            "response": "[FINAL ANSWER] The product of 5787 and 3507 is 20,267,209.",
+            "metrics": {
+                "ground_truth": "20295009",
+                "prediction": "20267209",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 27800.0,
+                "rel_distance": 0.0013697949086891265
+            }
+        },
+        "context": {
+            "prompt": "Provide the product of 5787 and 3507.",
+            "response": "[FINAL ANSWER] The product of 5787 and 3507 is 20,271,009.",
+            "metrics": {
+                "ground_truth": "20295009",
+                "prediction": "20271009",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.25,
+                "abs_distance": 24000.0,
+                "rel_distance": 0.001182556755702843
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the product of numbers 5437 and 4669?",
+            "response": "[FINAL ANSWER] The product of numbers 5437 and 4669 is 25,366,253.",
+            "metrics": {
+                "ground_truth": "25385353",
+                "prediction": "25366253",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 19100.0,
+                "rel_distance": 0.0007524023794351018
+            }
+        },
+        "context": {
+            "prompt": "What is the product of numbers 5437 and 4669?",
+            "response": "[FINAL ANSWER] The product of numbers 5437 and 4669 is 25,375,853.",
+            "metrics": {
+                "ground_truth": "25385353",
+                "prediction": "25375853",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.25,
+                "abs_distance": 9500.0,
+                "rel_distance": 0.0003742315499808098
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Provide the product of 6315 and 6107.",
+            "response": "[FINAL ANSWER] The product of 6315 and 6107 is 38,548,005.",
+            "metrics": {
+                "ground_truth": "38565705",
+                "prediction": "38548005",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 17700.0,
+                "rel_distance": 0.000458956993007129
+            }
+        },
+        "context": {
+            "prompt": "Provide the product of 6315 and 6107.",
+            "response": "[FINAL ANSWER] The product of 6315 and 6107 is 38,541,105.",
+            "metrics": {
+                "ground_truth": "38565705",
+                "prediction": "38541105",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 24600.0,
+                "rel_distance": 0.0006378724309590607
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Give the product of 7091 and 9719.",
+            "response": "[FINAL ANSWER] The product of 7091 and 9719 is 68,944,429.",
+            "metrics": {
+                "ground_truth": "68917429",
+                "prediction": "68944429",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.25,
+                "abs_distance": 27000.0,
+                "rel_distance": 0.000391773175403859
+            }
+        },
+        "context": {
+            "prompt": "Give the product of 7091 and 9719.",
+            "response": "[FINAL ANSWER] The product of 7091 and 9719 is 68,936,429.",
+            "metrics": {
+                "ground_truth": "68917429",
+                "prediction": "68936429",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.25,
+                "abs_distance": 19000.0,
+                "rel_distance": 0.00027569223454345634
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the product of 3561 and 5525?",
+            "response": "[FINAL ANSWER] The product of 3561 and 5525 is 19,662,525.",
+            "metrics": {
+                "ground_truth": "19674525",
+                "prediction": "19662525",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.25,
+                "abs_distance": 12000.0,
+                "rel_distance": 0.000609925779656688
+            }
+        },
+        "context": {
+            "prompt": "What is the product of 3561 and 5525?",
+            "response": "[FINAL ANSWER] The product of 3561 and 5525 is 19,671,525.",
+            "metrics": {
+                "ground_truth": "19674525",
+                "prediction": "19671525",
+                "abs_edit_distance": 1,
+                "rel_edit_distance": 0.125,
+                "abs_distance": 3000.0,
+                "rel_distance": 0.000152481444914172
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Find the result of adding 9055 and 1738.",
+            "response": "[FINAL ANSWER] The result of adding 9055 and 1738 is 10793.",
+            "metrics": {
+                "ground_truth": "10793",
+                "prediction": "10793",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Find the result of adding 9055 and 1738.",
+            "response": "[FINAL ANSWER] The result of adding 9055 and 1738 is 10793.",
+            "metrics": {
+                "ground_truth": "10793",
+                "prediction": "10793",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Add 7866 and 6172.",
+            "response": "[FINAL ANSWER] The sum of 7866 and 6172 is 14,038.",
+            "metrics": {
+                "ground_truth": "14038",
+                "prediction": "14038",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Add 7866 and 6172.",
+            "response": "[FINAL ANSWER] The sum of 7866 and 6172 is 14,038.",
+            "metrics": {
+                "ground_truth": "14038",
+                "prediction": "14038",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Find the result of multiplying 5732 and 8284.",
+            "response": "[FINAL ANSWER] The result of multiplying 5732 and 8284 is 47,508,088.",
+            "metrics": {
+                "ground_truth": "47483888",
+                "prediction": "47508088",
+                "abs_edit_distance": 4,
+                "rel_edit_distance": 0.5,
+                "abs_distance": 24200.0,
+                "rel_distance": 0.0005096465563224309
+            }
+        },
+        "context": {
+            "prompt": "Find the result of multiplying 5732 and 8284.",
+            "response": "[FINAL ANSWER] The result of multiplying 5732 and 8284 is 47,511,088.",
+            "metrics": {
+                "ground_truth": "47483888",
+                "prediction": "47511088",
+                "abs_edit_distance": 4,
+                "rel_edit_distance": 0.5,
+                "abs_distance": 27200.0,
+                "rel_distance": 0.0005728258814863686
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the sum of 5341 and 8302?",
+            "response": "[FINAL ANSWER] The sum of 5341 and 8302 is 13,643.",
+            "metrics": {
+                "ground_truth": "13643",
+                "prediction": "13643",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "What is the sum of 5341 and 8302?",
+            "response": "[FINAL ANSWER] The sum of 5341 and 8302 is 13,643.",
+            "metrics": {
+                "ground_truth": "13643",
+                "prediction": "13643",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the product of numbers 4511 and 5844?",
+            "response": "[FINAL ANSWER] The product of numbers 4511 and 5844 is 26,366,884.",
+            "metrics": {
+                "ground_truth": "26362284",
+                "prediction": "26366884",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.25,
+                "abs_distance": 4600.0,
+                "rel_distance": 0.00017449170944368856
+            }
+        },
+        "context": {
+            "prompt": "What is the product of numbers 4511 and 5844?",
+            "response": "[FINAL ANSWER] The product of numbers 4511 and 5844 is 26,366,884.",
+            "metrics": {
+                "ground_truth": "26362284",
+                "prediction": "26366884",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.25,
+                "abs_distance": 4600.0,
+                "rel_distance": 0.00017449170944368856
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the product of 9935 and 6052?",
+            "response": "[FINAL ANSWER] The product of 9935 and 6052 is 60,095,420.",
+            "metrics": {
+                "ground_truth": "60126620",
+                "prediction": "60095420",
+                "abs_edit_distance": 4,
+                "rel_edit_distance": 0.5,
+                "abs_distance": 31200.0,
+                "rel_distance": 0.0005189049376133234
+            }
+        },
+        "context": {
+            "prompt": "What is the product of 9935 and 6052?",
+            "response": "[FINAL ANSWER] The product of 9935 and 6052 is 60,085,420.",
+            "metrics": {
+                "ground_truth": "60126620",
+                "prediction": "60085420",
+                "abs_edit_distance": 4,
+                "rel_edit_distance": 0.5,
+                "abs_distance": 41200.0,
+                "rel_distance": 0.0006852206227457988
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What do you get when you multiply 7632 and 2197?",
+            "response": "[FINAL ANSWER] The product of 7632 and 2197 is 16,760,904.",
+            "metrics": {
+                "ground_truth": "16767504",
+                "prediction": "16760904",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.25,
+                "abs_distance": 6600.0,
+                "rel_distance": 0.0003936185135247321
+            }
+        },
+        "context": {
+            "prompt": "What do you get when you multiply 7632 and 2197?",
+            "response": "[FINAL ANSWER] The product of 7632 and 2197 is 16,760,904.",
+            "metrics": {
+                "ground_truth": "16767504",
+                "prediction": "16760904",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.25,
+                "abs_distance": 6600.0,
+                "rel_distance": 0.0003936185135247321
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Give the product of 9068 and 6802.",
+            "response": "[FINAL ANSWER] The product of 9068 and 6802 is 61,671,736.",
+            "metrics": {
+                "ground_truth": "61680536",
+                "prediction": "61671736",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 8800.0,
+                "rel_distance": 0.0001426706149246174
+            }
+        },
+        "context": {
+            "prompt": "Give the product of 9068 and 6802.",
+            "response": "[FINAL ANSWER] The product of 9068 and 6802 is 61,648,536.",
+            "metrics": {
+                "ground_truth": "61680536",
+                "prediction": "61648536",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.25,
+                "abs_distance": 32000.0,
+                "rel_distance": 0.0005188022360895178
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the product of numbers 7097 and 8967?",
+            "response": "[FINAL ANSWER] The product of numbers 7097 and 8967 is 63,609,699.",
+            "metrics": {
+                "ground_truth": "63638799",
+                "prediction": "63609699",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 29100.0,
+                "rel_distance": 0.0004572682146311404
+            }
+        },
+        "context": {
+            "prompt": "What is the product of numbers 7097 and 8967?",
+            "response": "[FINAL ANSWER] The product of numbers 7097 and 8967 is 63,595,799.",
+            "metrics": {
+                "ground_truth": "63638799",
+                "prediction": "63595799",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 43000.0,
+                "rel_distance": 0.0006756884271181799
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Find the result of adding 1326 and 9148.",
+            "response": "[FINAL ANSWER] The result of adding 1326 and 9148 is 10474.",
+            "metrics": {
+                "ground_truth": "10474",
+                "prediction": "10474",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Find the result of adding 1326 and 9148.",
+            "response": "[FINAL ANSWER] The result of adding 1326 and 9148 is 10474.",
+            "metrics": {
+                "ground_truth": "10474",
+                "prediction": "10474",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What do you get when you add 9899 and 9008?",
+            "response": "[FINAL ANSWER] The sum of 9899 and 9008 is 18907.",
+            "metrics": {
+                "ground_truth": "18907",
+                "prediction": "18907",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "What do you get when you add 9899 and 9008?",
+            "response": "[FINAL ANSWER] The sum of 9899 and 9008 is 18907.",
+            "metrics": {
+                "ground_truth": "18907",
+                "prediction": "18907",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Provide the sum of 6518 and 3347.",
+            "response": "[FINAL ANSWER] The sum of 6518 and 3347 is 9865.",
+            "metrics": {
+                "ground_truth": "9865",
+                "prediction": "9865",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Provide the sum of 6518 and 3347.",
+            "response": "[FINAL ANSWER] The sum of 6518 and 3347 is 9865.",
+            "metrics": {
+                "ground_truth": "9865",
+                "prediction": "9865",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Find the result of adding 8303 and 8904.",
+            "response": "[FINAL ANSWER] The result of adding 8303 and 8904 is 17,207.",
+            "metrics": {
+                "ground_truth": "17207",
+                "prediction": "17207",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Find the result of adding 8303 and 8904.",
+            "response": "[FINAL ANSWER] The result of adding 8303 and 8904 is 17,207.",
+            "metrics": {
+                "ground_truth": "17207",
+                "prediction": "17207",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What do you get when you multiply 9499 and 3988?",
+            "response": "[FINAL ANSWER] The product of 9499 and 3988 is 37,895,012.",
+            "metrics": {
+                "ground_truth": "37882012",
+                "prediction": "37895012",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.25,
+                "abs_distance": 13000.0,
+                "rel_distance": 0.00034317079040046763
+            }
+        },
+        "context": {
+            "prompt": "What do you get when you multiply 9499 and 3988?",
+            "response": "[FINAL ANSWER] The product of 9499 and 3988 is 37,899,412.",
+            "metrics": {
+                "ground_truth": "37882012",
+                "prediction": "37899412",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 17400.0,
+                "rel_distance": 0.00045932090407447206
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Find the result of multiplying 1897 and 1257.",
+            "response": "[FINAL ANSWER] The result of multiplying 1897 and 1257 is 2,384,929.",
+            "metrics": {
+                "ground_truth": "2384529",
+                "prediction": "2384929",
+                "abs_edit_distance": 1,
+                "rel_edit_distance": 0.14285714285714285,
+                "abs_distance": 400.0,
+                "rel_distance": 0.00016774801229089685
+            }
+        },
+        "context": {
+            "prompt": "Find the result of multiplying 1897 and 1257.",
+            "response": "[FINAL ANSWER] The result of multiplying 1897 and 1257 is 2,384,929.",
+            "metrics": {
+                "ground_truth": "2384529",
+                "prediction": "2384929",
+                "abs_edit_distance": 1,
+                "rel_edit_distance": 0.14285714285714285,
+                "abs_distance": 400.0,
+                "rel_distance": 0.00016774801229089685
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Give the product of 7632 and 2642.",
+            "response": "[FINAL ANSWER] The product of 7632 and 2642 is 20,174,944.",
+            "metrics": {
+                "ground_truth": "20163744",
+                "prediction": "20174944",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 11200.0,
+                "rel_distance": 0.0005554524001098208
+            }
+        },
+        "context": {
+            "prompt": "Give the product of 7632 and 2642.",
+            "response": "[FINAL ANSWER] The product of 7632 and 2642 is 20,170,944.",
+            "metrics": {
+                "ground_truth": "20163744",
+                "prediction": "20170944",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 7200.0,
+                "rel_distance": 0.000357076542927742
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What do you get when you add 3545 and 4230?",
+            "response": "[FINAL ANSWER] When you add 3545 and 4230, you get 7775.",
+            "metrics": {
+                "ground_truth": "7775",
+                "prediction": "7775",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "What do you get when you add 3545 and 4230?",
+            "response": "[FINAL ANSWER] The sum of 3545 and 4230 is 7775.",
+            "metrics": {
+                "ground_truth": "7775",
+                "prediction": "7775",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the product of numbers 9517 and 4869?",
+            "response": "[FINAL ANSWER] The product of numbers 9517 and 4869 is 46,369,173.",
+            "metrics": {
+                "ground_truth": "46338273",
+                "prediction": "46369173",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 30900.0,
+                "rel_distance": 0.0006668353824925672
+            }
+        },
+        "context": {
+            "prompt": "What is the product of numbers 9517 and 4869?",
+            "response": "[FINAL ANSWER] The product of numbers 9517 and 4869 is 46,392,573.",
+            "metrics": {
+                "ground_truth": "46338273",
+                "prediction": "46392573",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 54300.0,
+                "rel_distance": 0.0011718175168073269
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Add 8381 and 4106.",
+            "response": "[FINAL ANSWER] The sum of 8381 and 4106 is 12487.",
+            "metrics": {
+                "ground_truth": "12487",
+                "prediction": "12487",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Add 8381 and 4106.",
+            "response": "[FINAL ANSWER] The sum of 8381 and 4106 is 12487.",
+            "metrics": {
+                "ground_truth": "12487",
+                "prediction": "12487",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the sum of 4973 and 6387?",
+            "response": "[FINAL ANSWER] The sum of 4973 and 6387 is 11360.",
+            "metrics": {
+                "ground_truth": "11360",
+                "prediction": "11360",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "What is the sum of 4973 and 6387?",
+            "response": "[FINAL ANSWER] The sum of 4973 and 6387 is 11360.",
+            "metrics": {
+                "ground_truth": "11360",
+                "prediction": "11360",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the sum of 5980 and 4630?",
+            "response": "[FINAL ANSWER] The sum of 5980 and 4630 is 10,610.",
+            "metrics": {
+                "ground_truth": "10610",
+                "prediction": "10610",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "What is the sum of 5980 and 4630?",
+            "response": "[FINAL ANSWER] The sum of 5980 and 4630 is 10,610.",
+            "metrics": {
+                "ground_truth": "10610",
+                "prediction": "10610",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the product of 9867 and 7305?",
+            "response": "[FINAL ANSWER] The product of 9867 and 7305 is 72,032,835.",
+            "metrics": {
+                "ground_truth": "72078435",
+                "prediction": "72032835",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 45600.0,
+                "rel_distance": 0.0006326441466161134
+            }
+        },
+        "context": {
+            "prompt": "What is the product of 9867 and 7305?",
+            "response": "[FINAL ANSWER] The product of 9867 and 7305 is 72,033,135.",
+            "metrics": {
+                "ground_truth": "72078435",
+                "prediction": "72033135",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 45300.0,
+                "rel_distance": 0.0006284820140725864
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What do you get when you add 6870 and 4293?",
+            "response": "[FINAL ANSWER] When you add 6870 and 4293, you get 11,163.",
+            "metrics": {
+                "ground_truth": "11163",
+                "prediction": "11163",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "What do you get when you add 6870 and 4293?",
+            "response": "[FINAL ANSWER] When you add 6870 and 4293, you get 11,163.",
+            "metrics": {
+                "ground_truth": "11163",
+                "prediction": "11163",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the product of numbers 9366 and 7368?",
+            "response": "[FINAL ANSWER] The product of numbers 9366 and 7368 is 68,986,688.",
+            "metrics": {
+                "ground_truth": "69008688",
+                "prediction": "68986688",
+                "abs_edit_distance": 4,
+                "rel_edit_distance": 0.5,
+                "abs_distance": 22000.0,
+                "rel_distance": 0.00031880043857666153
+            }
+        },
+        "context": {
+            "prompt": "What is the product of numbers 9366 and 7368?",
+            "response": "[FINAL ANSWER] The product of numbers 9366 and 7368 is 68,978,688.",
+            "metrics": {
+                "ground_truth": "69008688",
+                "prediction": "68978688",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 30000.0,
+                "rel_distance": 0.00043472787078635664
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Provide the product of 4233 and 5578.",
+            "response": "[FINAL ANSWER] The product of 4233 and 5578 is 23,628,774.",
+            "metrics": {
+                "ground_truth": "23611674",
+                "prediction": "23628774",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 17100.0,
+                "rel_distance": 0.0007242180287598414
+            }
+        },
+        "context": {
+            "prompt": "Provide the product of 4233 and 5578.",
+            "response": "[FINAL ANSWER] The product of 4233 and 5578 is 23,614,074.",
+            "metrics": {
+                "ground_truth": "23611674",
+                "prediction": "23614074",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.25,
+                "abs_distance": 2400.0,
+                "rel_distance": 0.00010164463561541634
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the product of numbers 2460 and 9086?",
+            "response": "[FINAL ANSWER] The product of numbers 2460 and 9086 is 22,369,560.",
+            "metrics": {
+                "ground_truth": "22351560",
+                "prediction": "22369560",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.25,
+                "abs_distance": 18000.0,
+                "rel_distance": 0.0008053129177560761
+            }
+        },
+        "context": {
+            "prompt": "What is the product of numbers 2460 and 9086?",
+            "response": "[FINAL ANSWER] The product of numbers 2460 and 9086 is 22,371,960.",
+            "metrics": {
+                "ground_truth": "22351560",
+                "prediction": "22371960",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.25,
+                "abs_distance": 20400.0,
+                "rel_distance": 0.0009126879734568862
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Add 3559 and 3325.",
+            "response": "[FINAL ANSWER] The sum of 3559 and 3325 is 6884.",
+            "metrics": {
+                "ground_truth": "6884",
+                "prediction": "6884",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Add 3559 and 3325.",
+            "response": "[FINAL ANSWER] The sum of 3559 and 3325 is 6884.",
+            "metrics": {
+                "ground_truth": "6884",
+                "prediction": "6884",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Give the sum of 3786 and 7296.",
+            "response": "[FINAL ANSWER] The sum of 3786 and 7296 is 11082.",
+            "metrics": {
+                "ground_truth": "11082",
+                "prediction": "11082",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Give the sum of 3786 and 7296.",
+            "response": "[FINAL ANSWER] The sum of 3786 and 7296 is 11082.",
+            "metrics": {
+                "ground_truth": "11082",
+                "prediction": "11082",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Provide the product of 8918 and 5567.",
+            "response": "[FINAL ANSWER] The product of 8918 and 5567 is 49,677,206.",
+            "metrics": {
+                "ground_truth": "49646506",
+                "prediction": "49677206",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 30700.0,
+                "rel_distance": 0.0006183718145240674
+            }
+        },
+        "context": {
+            "prompt": "Provide the product of 8918 and 5567.",
+            "response": "[FINAL ANSWER] The product of 8918 and 5567 is 49,668,506.",
+            "metrics": {
+                "ground_truth": "49646506",
+                "prediction": "49668506",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.25,
+                "abs_distance": 22000.0,
+                "rel_distance": 0.00044313289640161185
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Provide the sum of 6427 and 4782.",
+            "response": "[FINAL ANSWER] The sum of 6427 and 4782 is 11209.",
+            "metrics": {
+                "ground_truth": "11209",
+                "prediction": "11209",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Provide the sum of 6427 and 4782.",
+            "response": "[FINAL ANSWER] The sum of 6427 and 4782 is 11209.",
+            "metrics": {
+                "ground_truth": "11209",
+                "prediction": "11209",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Provide the product of 4676 and 1558.",
+            "response": "[FINAL ANSWER] The product of 4676 and 1558 is 7,277,768.",
+            "metrics": {
+                "ground_truth": "7285208",
+                "prediction": "7277768",
+                "abs_edit_distance": 4,
+                "rel_edit_distance": 0.5714285714285714,
+                "abs_distance": 7440.0,
+                "rel_distance": 0.001021247437272896
+            }
+        },
+        "context": {
+            "prompt": "Provide the product of 4676 and 1558.",
+            "response": "[FINAL ANSWER] The product of 4676 and 1558 is 7,277,768.",
+            "metrics": {
+                "ground_truth": "7285208",
+                "prediction": "7277768",
+                "abs_edit_distance": 4,
+                "rel_edit_distance": 0.5714285714285714,
+                "abs_distance": 7440.0,
+                "rel_distance": 0.001021247437272896
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the result of adding 3253 and 7238?",
+            "response": "[FINAL ANSWER] The result of adding 3253 and 7238 is 10491.",
+            "metrics": {
+                "ground_truth": "10491",
+                "prediction": "10491",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "What is the result of adding 3253 and 7238?",
+            "response": "[FINAL ANSWER] The result of adding 3253 and 7238 is 10491.",
+            "metrics": {
+                "ground_truth": "10491",
+                "prediction": "10491",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Give the sum of 6541 and 5154.",
+            "response": "[FINAL ANSWER] The sum of 6541 and 5154 is 11695.",
+            "metrics": {
+                "ground_truth": "11695",
+                "prediction": "11695",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Give the sum of 6541 and 5154.",
+            "response": "[FINAL ANSWER] The sum of 6541 and 5154 is 11695.",
+            "metrics": {
+                "ground_truth": "11695",
+                "prediction": "11695",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Find the result of adding 7811 and 7198.",
+            "response": "[FINAL ANSWER] The result of adding 7811 and 7198 is 15009.",
+            "metrics": {
+                "ground_truth": "15009",
+                "prediction": "15009",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Find the result of adding 7811 and 7198.",
+            "response": "[FINAL ANSWER] The result of adding 7811 and 7198 is 15009.",
+            "metrics": {
+                "ground_truth": "15009",
+                "prediction": "15009",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What do you get when you add 2950 and 2157?",
+            "response": "[FINAL ANSWER] The sum of 2950 and 2157 is 5107.",
+            "metrics": {
+                "ground_truth": "5107",
+                "prediction": "5107",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "What do you get when you add 2950 and 2157?",
+            "response": "[FINAL ANSWER] The sum of 2950 and 2157 is 5107.",
+            "metrics": {
+                "ground_truth": "5107",
+                "prediction": "5107",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Provide the sum of 1735 and 5685.",
+            "response": "[FINAL ANSWER] The sum of 1735 and 5685 is 7420.",
+            "metrics": {
+                "ground_truth": "7420",
+                "prediction": "7420",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Provide the sum of 1735 and 5685.",
+            "response": "[FINAL ANSWER] The sum of 1735 and 5685 is 7420.",
+            "metrics": {
+                "ground_truth": "7420",
+                "prediction": "7420",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What do you get when you multiply 1928 and 8712?",
+            "response": "[FINAL ANSWER] When you multiply 1928 and 8712, you get 16,805,536.",
+            "metrics": {
+                "ground_truth": "16796736",
+                "prediction": "16805536",
+                "abs_edit_distance": 4,
+                "rel_edit_distance": 0.5,
+                "abs_distance": 8800.0,
+                "rel_distance": 0.0005239113122930551
+            }
+        },
+        "context": {
+            "prompt": "What do you get when you multiply 1928 and 8712?",
+            "response": "[FINAL ANSWER] When you multiply 1928 and 8712, you get 16,803,936.",
+            "metrics": {
+                "ground_truth": "16796736",
+                "prediction": "16803936",
+                "abs_edit_distance": 4,
+                "rel_edit_distance": 0.5,
+                "abs_distance": 7200.0,
+                "rel_distance": 0.0004286547100579541
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Add 8309 and 6082.",
+            "response": "[FINAL ANSWER] The sum of 8309 and 6082 is 14391.",
+            "metrics": {
+                "ground_truth": "14391",
+                "prediction": "14391",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Add 8309 and 6082.",
+            "response": "[FINAL ANSWER] The sum of 8309 and 6082 is 14391.",
+            "metrics": {
+                "ground_truth": "14391",
+                "prediction": "14391",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Give the product of 8482 and 7106.",
+            "response": "[FINAL ANSWER] The product of 8482 and 7106 is 60,230,692.",
+            "metrics": {
+                "ground_truth": "60273092",
+                "prediction": "60230692",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.25,
+                "abs_distance": 42400.0,
+                "rel_distance": 0.0007034648230756106
+            }
+        },
+        "context": {
+            "prompt": "Give the product of 8482 and 7106.",
+            "response": "[FINAL ANSWER] The product of 8482 and 7106 is 60,234,692.",
+            "metrics": {
+                "ground_truth": "60273092",
+                "prediction": "60234692",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 38400.0,
+                "rel_distance": 0.0006371002171250813
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Give the product of 6729 and 6552.",
+            "response": "[FINAL ANSWER] The product of 6729 and 6552 is 44,086,808.",
+            "metrics": {
+                "ground_truth": "44088408",
+                "prediction": "44086808",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.25,
+                "abs_distance": 1600.0,
+                "rel_distance": 3.629071841287624e-05
+            }
+        },
+        "context": {
+            "prompt": "Give the product of 6729 and 6552.",
+            "response": "[FINAL ANSWER] The product of 6729 and 6552 is 44,080,808.",
+            "metrics": {
+                "ground_truth": "44088408",
+                "prediction": "44080808",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.25,
+                "abs_distance": 7600.0,
+                "rel_distance": 0.00017238091246116213
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Multiply 4676 and 7377.",
+            "response": "[FINAL ANSWER] The product of 4676 and 7377 is 34,484,652.",
+            "metrics": {
+                "ground_truth": "34494852",
+                "prediction": "34484652",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.25,
+                "abs_distance": 10200.0,
+                "rel_distance": 0.00029569629694309167
+            }
+        },
+        "context": {
+            "prompt": "Multiply 4676 and 7377.",
+            "response": "[FINAL ANSWER] The product of 4676 and 7377 is 34,498,452.",
+            "metrics": {
+                "ground_truth": "34494852",
+                "prediction": "34498452",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.25,
+                "abs_distance": 3600.0,
+                "rel_distance": 0.00010436339892109118
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What do you get when you multiply 2766 and 8072?",
+            "response": "[FINAL ANSWER] The product of 2766 and 8072 is 22,332,432.",
+            "metrics": {
+                "ground_truth": "22327152",
+                "prediction": "22332432",
+                "abs_edit_distance": 4,
+                "rel_edit_distance": 0.5,
+                "abs_distance": 5280.0,
+                "rel_distance": 0.00023648336339538513
+            }
+        },
+        "context": {
+            "prompt": "What do you get when you multiply 2766 and 8072?",
+            "response": "[FINAL ANSWER] The product of 2766 and 8072 is 22,343,152.",
+            "metrics": {
+                "ground_truth": "22327152",
+                "prediction": "22343152",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.25,
+                "abs_distance": 16000.0,
+                "rel_distance": 0.0007166162527132883
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the product of numbers 3731 and 7907?",
+            "response": "[FINAL ANSWER] The product of numbers 3731 and 7907 is 29,506,417.",
+            "metrics": {
+                "ground_truth": "29501017",
+                "prediction": "29506417",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.25,
+                "abs_distance": 5400.0,
+                "rel_distance": 0.00018304453707477272
+            }
+        },
+        "context": {
+            "prompt": "What is the product of numbers 3731 and 7907?",
+            "response": "[FINAL ANSWER] The product of numbers 3731 and 7907 is 29,491,417.",
+            "metrics": {
+                "ground_truth": "29501017",
+                "prediction": "29491417",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 9600.0,
+                "rel_distance": 0.0003254125103551515
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the product of 7212 and 8312?",
+            "response": "[FINAL ANSWER] The product of 7212 and 8312 is 59,932,144.",
+            "metrics": {
+                "ground_truth": "59946144",
+                "prediction": "59932144",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.25,
+                "abs_distance": 14000.0,
+                "rel_distance": 0.00023354296149557177
+            }
+        },
+        "context": {
+            "prompt": "What is the product of 7212 and 8312?",
+            "response": "[FINAL ANSWER] The product of 7212 and 8312 is 59,939,744.",
+            "metrics": {
+                "ground_truth": "59946144",
+                "prediction": "59939744",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 6400.0,
+                "rel_distance": 0.00010676249668368995
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Provide the product of 1546 and 4584.",
+            "response": "[FINAL ANSWER] The product of 1546 and 4584 is 7,091,664.",
+            "metrics": {
+                "ground_truth": "7086864",
+                "prediction": "7091664",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.42857142857142855,
+                "abs_distance": 4800.0,
+                "rel_distance": 0.0006773094559173141
+            }
+        },
+        "context": {
+            "prompt": "Provide the product of 1546 and 4584.",
+            "response": "[FINAL ANSWER] The product of 1546 and 4584 is 7,090,664.",
+            "metrics": {
+                "ground_truth": "7086864",
+                "prediction": "7090664",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.42857142857142855,
+                "abs_distance": 3800.0,
+                "rel_distance": 0.0005362033192678736
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Provide the product of 8513 and 3487.",
+            "response": "[FINAL ANSWER] The product of 8513 and 3487 is 29,674,431.",
+            "metrics": {
+                "ground_truth": "29684831",
+                "prediction": "29674431",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.25,
+                "abs_distance": 10400.0,
+                "rel_distance": 0.0003503472868011275
+            }
+        },
+        "context": {
+            "prompt": "Provide the product of 8513 and 3487.",
+            "response": "[FINAL ANSWER] The product of 8513 and 3487 is 29,692,431.",
+            "metrics": {
+                "ground_truth": "29684831",
+                "prediction": "29692431",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 7600.0,
+                "rel_distance": 0.000256023017277747
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What do you get when you add 3080 and 5853?",
+            "response": "[FINAL ANSWER] When you add 3080 and 5853, you get 8933.",
+            "metrics": {
+                "ground_truth": "8933",
+                "prediction": "8933",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "What do you get when you add 3080 and 5853?",
+            "response": "[FINAL ANSWER] When you add 3080 and 5853, you get 8933.",
+            "metrics": {
+                "ground_truth": "8933",
+                "prediction": "8933",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What do you get when you multiply 6010 and 9328?",
+            "response": "[FINAL ANSWER] When you multiply 6010 and 9328, you get 56,048,480.",
+            "metrics": {
+                "ground_truth": "56061280",
+                "prediction": "56048480",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 12800.0,
+                "rel_distance": 0.0002283215795286872
+            }
+        },
+        "context": {
+            "prompt": "What do you get when you multiply 6010 and 9328?",
+            "response": "[FINAL ANSWER] When you multiply 6010 and 9328, you get 56,072,480.",
+            "metrics": {
+                "ground_truth": "56061280",
+                "prediction": "56072480",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 11200.0,
+                "rel_distance": 0.00019978138208760128
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Find the result of multiplying 7927 and 9443.",
+            "response": "[FINAL ANSWER] The result of multiplying 7927 and 9443 is 74,843,861.",
+            "metrics": {
+                "ground_truth": "74854661",
+                "prediction": "74843861",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 10800.0,
+                "rel_distance": 0.00014427959268962557
+            }
+        },
+        "context": {
+            "prompt": "Find the result of multiplying 7927 and 9443.",
+            "response": "[FINAL ANSWER] The result of multiplying 7927 and 9443 is 74,826,461.",
+            "metrics": {
+                "ground_truth": "74854661",
+                "prediction": "74826461",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 28200.0,
+                "rel_distance": 0.00037673004757846675
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Provide the product of 5833 and 1364.",
+            "response": "[FINAL ANSWER] The product of 5833 and 1364 is 7,961,612.",
+            "metrics": {
+                "ground_truth": "7956212",
+                "prediction": "7961612",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.42857142857142855,
+                "abs_distance": 5400.0,
+                "rel_distance": 0.0006787149462583451
+            }
+        },
+        "context": {
+            "prompt": "Provide the product of 5833 and 1364.",
+            "response": "[FINAL ANSWER] The product of 5833 and 1364 is 7,958,612.",
+            "metrics": {
+                "ground_truth": "7956212",
+                "prediction": "7958612",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.2857142857142857,
+                "abs_distance": 2400.0,
+                "rel_distance": 0.0003016510872259311
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Find the result of multiplying 9570 and 6511.",
+            "response": "[FINAL ANSWER] The result of multiplying 9570 and 6511 is 62,258,470.",
+            "metrics": {
+                "ground_truth": "62310270",
+                "prediction": "62258470",
+                "abs_edit_distance": 4,
+                "rel_edit_distance": 0.5,
+                "abs_distance": 51800.0,
+                "rel_distance": 0.0008313236325247828
+            }
+        },
+        "context": {
+            "prompt": "Find the result of multiplying 9570 and 6511.",
+            "response": "[FINAL ANSWER] The result of multiplying 9570 and 6511 is 62,258,470.",
+            "metrics": {
+                "ground_truth": "62310270",
+                "prediction": "62258470",
+                "abs_edit_distance": 4,
+                "rel_edit_distance": 0.5,
+                "abs_distance": 51800.0,
+                "rel_distance": 0.0008313236325247828
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the product of 5570 and 3047?",
+            "response": "[FINAL ANSWER] The product of 5570 and 3047 is 16,974,890.",
+            "metrics": {
+                "ground_truth": "16971790",
+                "prediction": "16974890",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.25,
+                "abs_distance": 3100.0,
+                "rel_distance": 0.0001826560427627257
+            }
+        },
+        "context": {
+            "prompt": "What is the product of 5570 and 3047?",
+            "response": "[FINAL ANSWER] The product of 5570 and 3047 is 16,971,190.",
+            "metrics": {
+                "ground_truth": "16971790",
+                "prediction": "16971190",
+                "abs_edit_distance": 1,
+                "rel_edit_distance": 0.125,
+                "abs_distance": 600.0,
+                "rel_distance": 3.535278247020497e-05
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the product of numbers 2069 and 8227?",
+            "response": "[FINAL ANSWER] The product of numbers 2069 and 8227 is 17,014,363.",
+            "metrics": {
+                "ground_truth": "17021663",
+                "prediction": "17014363",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 7300.0,
+                "rel_distance": 0.0004288652642224206
+            }
+        },
+        "context": {
+            "prompt": "What is the product of numbers 2069 and 8227?",
+            "response": "[FINAL ANSWER] The product of numbers 2069 and 8227 is 17,020,363.",
+            "metrics": {
+                "ground_truth": "17021663",
+                "prediction": "17020363",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.25,
+                "abs_distance": 1300.0,
+                "rel_distance": 7.637326623138997e-05
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Provide the product of 4832 and 7193.",
+            "response": "[FINAL ANSWER] The product of 4832 and 7193 is 34,798,976.",
+            "metrics": {
+                "ground_truth": "34756576",
+                "prediction": "34798976",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.375,
+                "abs_distance": 42400.0,
+                "rel_distance": 0.0012199130317094525
+            }
+        },
+        "context": {
+            "prompt": "Provide the product of 4832 and 7193.",
+            "response": "[FINAL ANSWER] The product of 4832 and 7193 is 34,802,976.",
+            "metrics": {
+                "ground_truth": "34756576",
+                "prediction": "34802976",
+                "abs_edit_distance": 4,
+                "rel_edit_distance": 0.5,
+                "abs_distance": 46400.0,
+                "rel_distance": 0.0013349991667763821
+            }
+        }
+    }
+]

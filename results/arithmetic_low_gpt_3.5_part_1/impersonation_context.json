@@ -1,0 +1,2602 @@
+[
+    {
+        "no_context": {
+            "prompt": "Provide the sum of 34 and 79.",
+            "response": "[FINAL ANSWER] The sum of 34 and 79 is 113.",
+            "metrics": {
+                "ground_truth": "113",
+                "prediction": "113",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: Provide the sum of 34 and 79.",
+            "response": "[FINAL ANSWER] The sum of 34 and 79 is 113.",
+            "metrics": {
+                "ground_truth": "113",
+                "prediction": "113",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Find the result of adding 57 and 46.",
+            "response": "[FINAL ANSWER] The result of adding 57 and 46 is 103.",
+            "metrics": {
+                "ground_truth": "103",
+                "prediction": "103",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Bernhard Riemann. As Bernhard Riemann answer the following problem: Find the result of adding 57 and 46.",
+            "response": "[FINAL ANSWER] As Bernhard Riemann, I would approach this problem by performing the addition of 57 and 46. \n\nTo add these two numbers, I would start by aligning them vertically:\n\n   57\n+ 46\n_____\n\nNext, I would add the digits in the rightmost column, which are 7 and 6. Their sum is 13. Since 13 is a two-digit number, I would write down the digit 3 in the rightmost column and carry over the digit 1 to the next column.\n\n   57\n+ 46\n_____\n   3\n\nMoving to the next column, I would add the carried-over digit 1 to the digits in the second column, which are 5 and 4. Their sum is 10. I would write down the digit 0 in the second column and carry over the digit 1 to the next column.\n\n   57\n+ 46\n_____\n  30\n\nFinally, in the leftmost column, I would add the carried-over digit 1 to the digits 5 and 4. Their sum is 10. I would write down the digit 0 in the leftmost column.\n\n   57\n+ 46\n_____\n  30\n+ 1\n_____\n  103\n\nTherefore, as Bernhard Riemann, I would conclude that the result of adding 57 and 46 is 103.",
+            "metrics": {
+                "ground_truth": "103",
+                "prediction": "103",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Provide the product of 2 and 67.",
+            "response": "[FINAL ANSWER] The product of 2 and 67 is 134.",
+            "metrics": {
+                "ground_truth": "134",
+                "prediction": "134",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Carl Friedrich Gauss. As Carl Friedrich Gauss answer the following problem: Provide the product of 2 and 67.",
+            "response": "[FINAL ANSWER] The product of 2 and 67 is 134.",
+            "metrics": {
+                "ground_truth": "134",
+                "prediction": "134",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What do you get when you multiply 41 and 74?",
+            "response": "[FINAL ANSWER] When you multiply 41 and 74, you get 3034.",
+            "metrics": {
+                "ground_truth": "3034",
+                "prediction": "3034",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Isaac Newton. As Isaac Newton answer the following problem: What do you get when you multiply 41 and 74?",
+            "response": "[FINAL ANSWER] When you multiply 41 and 74, you get the product of 3034.",
+            "metrics": {
+                "ground_truth": "3034",
+                "prediction": "3034",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Give the product of 82 and 31.",
+            "response": "[FINAL ANSWER] The product of 82 and 31 is 2542.",
+            "metrics": {
+                "ground_truth": "2542",
+                "prediction": "2542",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Sophie Germain. As Sophie Germain answer the following problem: Give the product of 82 and 31.",
+            "response": "[FINAL ANSWER] The product of 82 and 31 is 2542.",
+            "metrics": {
+                "ground_truth": "2542",
+                "prediction": "2542",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the product of 7 and 21?",
+            "response": "[FINAL ANSWER] The product of 7 and 21 is 147.",
+            "metrics": {
+                "ground_truth": "147",
+                "prediction": "147",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: What is the product of 7 and 21?",
+            "response": "[FINAL ANSWER] The product of 7 and 21 is 147.",
+            "metrics": {
+                "ground_truth": "147",
+                "prediction": "147",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the product of 33 and 5?",
+            "response": "[FINAL ANSWER] The product of 33 and 5 is 165.",
+            "metrics": {
+                "ground_truth": "165",
+                "prediction": "165",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Bernhard Riemann. As Bernhard Riemann answer the following problem: What is the product of 33 and 5?",
+            "response": "[FINAL ANSWER] The product of 33 and 5 is 165.",
+            "metrics": {
+                "ground_truth": "165",
+                "prediction": "165",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Find the result of adding 94 and 21.",
+            "response": "[FINAL ANSWER] The result of adding 94 and 21 is 115.",
+            "metrics": {
+                "ground_truth": "115",
+                "prediction": "115",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Carl Friedrich Gauss. As Carl Friedrich Gauss answer the following problem: Find the result of adding 94 and 21.",
+            "response": "[FINAL ANSWER] The result of adding 94 and 21 is 115.",
+            "metrics": {
+                "ground_truth": "115",
+                "prediction": "115",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the sum of numbers 2 and 8?",
+            "response": "[FINAL ANSWER] The sum of numbers 2 and 8 is 10.",
+            "metrics": {
+                "ground_truth": "10",
+                "prediction": "10",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Isaac Newton. As Isaac Newton answer the following problem: What is the sum of numbers 2 and 8?",
+            "response": "[FINAL ANSWER] The sum of numbers 2 and 8 is 10.",
+            "metrics": {
+                "ground_truth": "10",
+                "prediction": "10",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Give the sum of 11 and 29.",
+            "response": "[FINAL ANSWER] The sum of 11 and 29 is 40.",
+            "metrics": {
+                "ground_truth": "40",
+                "prediction": "40",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Sophie Germain. As Sophie Germain answer the following problem: Give the sum of 11 and 29.",
+            "response": "[FINAL ANSWER] The sum of 11 and 29 is 40.",
+            "metrics": {
+                "ground_truth": "40",
+                "prediction": "40",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Find the result of adding 57 and 81.",
+            "response": "[FINAL ANSWER] The result of adding 57 and 81 is 138.",
+            "metrics": {
+                "ground_truth": "138",
+                "prediction": "138",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: Find the result of adding 57 and 81.",
+            "response": "[FINAL ANSWER] As Ada Lovelace, I have calculated the result of adding 57 and 81. The sum of 57 and 81 is 138.",
+            "metrics": {
+                "ground_truth": "138",
+                "prediction": "138",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the result of multiplying 92 and 44?",
+            "response": "[FINAL ANSWER] The result of multiplying 92 and 44 is 4,048.",
+            "metrics": {
+                "ground_truth": "4048",
+                "prediction": "4048",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Bernhard Riemann. As Bernhard Riemann answer the following problem: What is the result of multiplying 92 and 44?",
+            "response": "[FINAL ANSWER] As Bernhard Riemann, I would approach this multiplication problem by using the standard algorithm. \n\nFirst, I would multiply the ones digit of 92 (which is 2) by each digit of 44. \n\n2 multiplied by 4 equals 8, and 2 multiplied by 4 equals 8 again. \n\nNext, I would multiply the tens digit of 92 (which is 9) by each digit of 44. \n\n9 multiplied by 4 equals 36, and 9 multiplied by 4 equals 36 again. \n\nThen, I would add the two partial products together. \n\n8 plus 0 (since there is no ones digit in the second partial product) equals 8, 8 plus 6 equals 14, and 3 plus 3 equals 6. \n\nFinally, I would combine the results to obtain the final answer. \n\nThe result of multiplying 92 and 44 is 4,048.",
+            "metrics": {
+                "ground_truth": "4048",
+                "prediction": "4048",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Give the product of 45 and 72.",
+            "response": "[FINAL ANSWER] The product of 45 and 72 is 3,240.",
+            "metrics": {
+                "ground_truth": "3240",
+                "prediction": "3240",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Carl Friedrich Gauss. As Carl Friedrich Gauss answer the following problem: Give the product of 45 and 72.",
+            "response": "[FINAL ANSWER] The product of 45 and 72 is 3,240.",
+            "metrics": {
+                "ground_truth": "3240",
+                "prediction": "3240",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Give the product of 94 and 86.",
+            "response": "[FINAL ANSWER] The product of 94 and 86 is 8104.",
+            "metrics": {
+                "ground_truth": "8084",
+                "prediction": "8104",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.5,
+                "abs_distance": 20.0,
+                "rel_distance": 0.002474022761009401
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Isaac Newton. As Isaac Newton answer the following problem: Give the product of 94 and 86.",
+            "response": "[FINAL ANSWER] The product of 94 and 86 is 8104.",
+            "metrics": {
+                "ground_truth": "8084",
+                "prediction": "8104",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.5,
+                "abs_distance": 20.0,
+                "rel_distance": 0.002474022761009401
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Find the result of adding 39 and 68.",
+            "response": "[FINAL ANSWER] The result of adding 39 and 68 is 107.",
+            "metrics": {
+                "ground_truth": "107",
+                "prediction": "107",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Sophie Germain. As Sophie Germain answer the following problem: Find the result of adding 39 and 68.",
+            "response": "[FINAL ANSWER] As Sophie Germain, I have calculated the sum of 39 and 68 to be 107.",
+            "metrics": {
+                "ground_truth": "107",
+                "prediction": "107",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Provide the product of 34 and 56.",
+            "response": "[FINAL ANSWER] The product of 34 and 56 is 1904.",
+            "metrics": {
+                "ground_truth": "1904",
+                "prediction": "1904",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: Provide the product of 34 and 56.",
+            "response": "[FINAL ANSWER] The product of 34 and 56 is 1904.",
+            "metrics": {
+                "ground_truth": "1904",
+                "prediction": "1904",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Find the result of adding 39 and 43.",
+            "response": "[FINAL ANSWER] The result of adding 39 and 43 is 82.",
+            "metrics": {
+                "ground_truth": "82",
+                "prediction": "82",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Bernhard Riemann. As Bernhard Riemann answer the following problem: Find the result of adding 39 and 43.",
+            "response": "[FINAL ANSWER] As Bernhard Riemann, I would approach this problem by adding 39 and 43 using basic arithmetic. \n\n39 + 43 = 82. \n\nTherefore, the final answer is 82.",
+            "metrics": {
+                "ground_truth": "82",
+                "prediction": "82",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the product of numbers 19 and 69?",
+            "response": "[FINAL ANSWER] The product of numbers 19 and 69 is 1,311.",
+            "metrics": {
+                "ground_truth": "1311",
+                "prediction": "1311",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Carl Friedrich Gauss. As Carl Friedrich Gauss answer the following problem: What is the product of numbers 19 and 69?",
+            "response": "[FINAL ANSWER] The product of numbers 19 and 69 is 1311.",
+            "metrics": {
+                "ground_truth": "1311",
+                "prediction": "1311",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the result of adding 28 and 58?",
+            "response": "[FINAL ANSWER] The result of adding 28 and 58 is 86.",
+            "metrics": {
+                "ground_truth": "86",
+                "prediction": "86",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Isaac Newton. As Isaac Newton answer the following problem: What is the result of adding 28 and 58?",
+            "response": "[FINAL ANSWER] The result of adding 28 and 58 is 86.",
+            "metrics": {
+                "ground_truth": "86",
+                "prediction": "86",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Find the result of adding 60 and 51.",
+            "response": "[FINAL ANSWER] The result of adding 60 and 51 is 111.",
+            "metrics": {
+                "ground_truth": "111",
+                "prediction": "111",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Sophie Germain. As Sophie Germain answer the following problem: Find the result of adding 60 and 51.",
+            "response": "[FINAL ANSWER] The result of adding 60 and 51 is 111.",
+            "metrics": {
+                "ground_truth": "111",
+                "prediction": "111",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Add 86 and 55.",
+            "response": "[FINAL ANSWER] The sum of 86 and 55 is 141.",
+            "metrics": {
+                "ground_truth": "141",
+                "prediction": "141",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: Add 86 and 55.",
+            "response": "[FINAL ANSWER] As Ada Lovelace, I would approach this problem by adding the two numbers together. \n\n86\n+ 55\n------\n  141\n\nTherefore, the final answer is 141.",
+            "metrics": {
+                "ground_truth": "141",
+                "prediction": "141",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the product of 95 and 37?",
+            "response": "[FINAL ANSWER] The product of 95 and 37 is 3,515.",
+            "metrics": {
+                "ground_truth": "3515",
+                "prediction": "3515",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Bernhard Riemann. As Bernhard Riemann answer the following problem: What is the product of 95 and 37?",
+            "response": "[FINAL ANSWER] As Bernhard Riemann, I would approach this problem by using my mathematical knowledge and techniques. To find the product of 95 and 37, I would multiply these two numbers together. \n\n95 multiplied by 37 equals 3,515. \n\nTherefore, the product of 95 and 37 is 3,515.",
+            "metrics": {
+                "ground_truth": "3515",
+                "prediction": "3515",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the sum of 15 and 4?",
+            "response": "[FINAL ANSWER] The sum of 15 and 4 is 19.",
+            "metrics": {
+                "ground_truth": "19",
+                "prediction": "19",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Carl Friedrich Gauss. As Carl Friedrich Gauss answer the following problem: What is the sum of 15 and 4?",
+            "response": "[FINAL ANSWER] The sum of 15 and 4 is 19.",
+            "metrics": {
+                "ground_truth": "19",
+                "prediction": "19",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Provide the sum of 80 and 24.",
+            "response": "[FINAL ANSWER] The sum of 80 and 24 is 104.",
+            "metrics": {
+                "ground_truth": "104",
+                "prediction": "104",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Isaac Newton. As Isaac Newton answer the following problem: Provide the sum of 80 and 24.",
+            "response": "[FINAL ANSWER] The sum of 80 and 24 is 104.",
+            "metrics": {
+                "ground_truth": "104",
+                "prediction": "104",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the product of numbers 54 and 69?",
+            "response": "[FINAL ANSWER] The product of numbers 54 and 69 is 3,726.",
+            "metrics": {
+                "ground_truth": "3726",
+                "prediction": "3726",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Sophie Germain. As Sophie Germain answer the following problem: What is the product of numbers 54 and 69?",
+            "response": "[FINAL ANSWER] As Sophie Germain, I would approach this problem by multiplying the numbers 54 and 69. \n\nTo find the product, I would start by multiplying the units digits of both numbers, which are 4 and 9. The product of 4 and 9 is 36. \n\nNext, I would multiply the tens digits, which are 5 and 6. The product of 5 and 6 is 30. \n\nFinally, I would multiply the hundreds digit of 54, which is 5, with the units digit of 69, which is 9. The product of 5 and 9 is 45. \n\nNow, I would add up the partial products: 36, 30, and 45. \n\nAdding these together, I get 36 + 30 + 45 = 111. \n\nTherefore, as Sophie Germain, I can confidently say that the product of 54 and 69 is 111.",
+            "metrics": {
+                "ground_truth": "3726",
+                "prediction": "111",
+                "abs_edit_distance": 4,
+                "rel_edit_distance": 1.0,
+                "abs_distance": 3615.0,
+                "rel_distance": 0.9702093397745571
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Provide the product of 43 and 76.",
+            "response": "[FINAL ANSWER] The product of 43 and 76 is 3268.",
+            "metrics": {
+                "ground_truth": "3268",
+                "prediction": "3268",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: Provide the product of 43 and 76.",
+            "response": "[FINAL ANSWER] The product of 43 and 76 is 3268.",
+            "metrics": {
+                "ground_truth": "3268",
+                "prediction": "3268",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the product of 24 and 61?",
+            "response": "[FINAL ANSWER] The product of 24 and 61 is 1,464.",
+            "metrics": {
+                "ground_truth": "1464",
+                "prediction": "1464",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Bernhard Riemann. As Bernhard Riemann answer the following problem: What is the product of 24 and 61?",
+            "response": "[FINAL ANSWER] As Bernhard Riemann, I would approach this problem by multiplying 24 and 61. \n\n24 multiplied by 61 equals 1,464.",
+            "metrics": {
+                "ground_truth": "1464",
+                "prediction": "1464",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Provide the product of 40 and 30.",
+            "response": "[FINAL ANSWER] The product of 40 and 30 is 1200.",
+            "metrics": {
+                "ground_truth": "1200",
+                "prediction": "1200",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Carl Friedrich Gauss. As Carl Friedrich Gauss answer the following problem: Provide the product of 40 and 30.",
+            "response": "[FINAL ANSWER] The product of 40 and 30 is 1200.",
+            "metrics": {
+                "ground_truth": "1200",
+                "prediction": "1200",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Provide the product of 77 and 87.",
+            "response": "[FINAL ANSWER] The product of 77 and 87 is 6699.",
+            "metrics": {
+                "ground_truth": "6699",
+                "prediction": "6699",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Isaac Newton. As Isaac Newton answer the following problem: Provide the product of 77 and 87.",
+            "response": "[FINAL ANSWER] The product of 77 and 87 is 6699.",
+            "metrics": {
+                "ground_truth": "6699",
+                "prediction": "6699",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the sum of numbers 75 and 14?",
+            "response": "[FINAL ANSWER] The sum of numbers 75 and 14 is 89.",
+            "metrics": {
+                "ground_truth": "89",
+                "prediction": "89",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Sophie Germain. As Sophie Germain answer the following problem: What is the sum of numbers 75 and 14?",
+            "response": "[FINAL ANSWER] The sum of numbers 75 and 14 is 89.",
+            "metrics": {
+                "ground_truth": "89",
+                "prediction": "89",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the sum of 62 and 50?",
+            "response": "[FINAL ANSWER] The sum of 62 and 50 is 112.",
+            "metrics": {
+                "ground_truth": "112",
+                "prediction": "112",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: What is the sum of 62 and 50?",
+            "response": "[FINAL ANSWER] The sum of 62 and 50 is 112.",
+            "metrics": {
+                "ground_truth": "112",
+                "prediction": "112",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Provide the product of 25 and 80.",
+            "response": "[FINAL ANSWER] The product of 25 and 80 is 2000.",
+            "metrics": {
+                "ground_truth": "2000",
+                "prediction": "2000",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Bernhard Riemann. As Bernhard Riemann answer the following problem: Provide the product of 25 and 80.",
+            "response": "[FINAL ANSWER] The product of 25 and 80 is 2000.",
+            "metrics": {
+                "ground_truth": "2000",
+                "prediction": "2000",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the sum of 71 and 60?",
+            "response": "[FINAL ANSWER] The sum of 71 and 60 is 131.",
+            "metrics": {
+                "ground_truth": "131",
+                "prediction": "131",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Carl Friedrich Gauss. As Carl Friedrich Gauss answer the following problem: What is the sum of 71 and 60?",
+            "response": "[FINAL ANSWER] The sum of 71 and 60 is 131.",
+            "metrics": {
+                "ground_truth": "131",
+                "prediction": "131",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Find the result of adding 37 and 6.",
+            "response": "[FINAL ANSWER] The result of adding 37 and 6 is 43.",
+            "metrics": {
+                "ground_truth": "43",
+                "prediction": "43",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Isaac Newton. As Isaac Newton answer the following problem: Find the result of adding 37 and 6.",
+            "response": "[FINAL ANSWER] The result of adding 37 and 6 is 43.",
+            "metrics": {
+                "ground_truth": "43",
+                "prediction": "43",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What do you get when you add 86 and 85?",
+            "response": "[FINAL ANSWER] When you add 86 and 85, you get 171.",
+            "metrics": {
+                "ground_truth": "171",
+                "prediction": "171",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Sophie Germain. As Sophie Germain answer the following problem: What do you get when you add 86 and 85?",
+            "response": "[FINAL ANSWER] When you add 86 and 85, the sum is 171.",
+            "metrics": {
+                "ground_truth": "171",
+                "prediction": "171",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Find the result of adding 85 and 66.",
+            "response": "[FINAL ANSWER] The result of adding 85 and 66 is 151.",
+            "metrics": {
+                "ground_truth": "151",
+                "prediction": "151",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: Find the result of adding 85 and 66.",
+            "response": "[FINAL ANSWER] As Ada Lovelace, I have calculated the result of adding 85 and 66 to be 151.",
+            "metrics": {
+                "ground_truth": "151",
+                "prediction": "151",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What do you get when you multiply 99 and 57?",
+            "response": "[FINAL ANSWER] When you multiply 99 and 57, you get 5643.",
+            "metrics": {
+                "ground_truth": "5643",
+                "prediction": "5643",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Bernhard Riemann. As Bernhard Riemann answer the following problem: What do you get when you multiply 99 and 57?",
+            "response": "[FINAL ANSWER] As Bernhard Riemann, I would approach this problem by utilizing my mathematical knowledge. To multiply 99 and 57, I would employ the standard multiplication algorithm. \n\nStarting with the units digit, multiplying 9 by 7 gives 63. Therefore, I write down 3 and carry over 6 to the tens digit. \n\nNext, multiplying 9 by 5 gives 45, and adding the carried over 6 gives 51. Hence, I write down 1 and carry over 5 to the hundreds digit. \n\nFinally, multiplying 9 by 5 gives 45, and adding the carried over 5 gives 50. Thus, I write down 50 as the hundreds digit. \n\nCombining all the digits, the final answer is 5,643. Therefore, [FINAL ANSWER] when you multiply 99 and 57 is 5,643.",
+            "metrics": {
+                "ground_truth": "5643",
+                "prediction": "5643",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What do you get when you multiply 67 and 50?",
+            "response": "[FINAL ANSWER] When you multiply 67 and 50, you get 3350.",
+            "metrics": {
+                "ground_truth": "3350",
+                "prediction": "3350",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Carl Friedrich Gauss. As Carl Friedrich Gauss answer the following problem: What do you get when you multiply 67 and 50?",
+            "response": "[FINAL ANSWER] When you multiply 67 and 50, you get 3350.",
+            "metrics": {
+                "ground_truth": "3350",
+                "prediction": "3350",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the product of numbers 32 and 98?",
+            "response": "[FINAL ANSWER] The product of numbers 32 and 98 is 3136.",
+            "metrics": {
+                "ground_truth": "3136",
+                "prediction": "3136",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Isaac Newton. As Isaac Newton answer the following problem: What is the product of numbers 32 and 98?",
+            "response": "[FINAL ANSWER] As Isaac Newton, I would calculate the product of 32 and 98 using my mathematical knowledge. To find the product, I would simply multiply the two numbers together. Therefore, the product of 32 and 98 is 3,136.",
+            "metrics": {
+                "ground_truth": "3136",
+                "prediction": "3136",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Add 43 and 33.",
+            "response": "[FINAL ANSWER] The sum of 43 and 33 is 76.",
+            "metrics": {
+                "ground_truth": "76",
+                "prediction": "76",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Sophie Germain. As Sophie Germain answer the following problem: Add 43 and 33.",
+            "response": "[FINAL ANSWER] As a mathematician, I would solve the problem by adding 43 and 33. \n\n43\n+ 33\n------\n  76\n\nTherefore, the final answer is 76.",
+            "metrics": {
+                "ground_truth": "76",
+                "prediction": "76",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Multiply 8 and 83.",
+            "response": "[FINAL ANSWER] The product of 8 and 83 is 664.",
+            "metrics": {
+                "ground_truth": "664",
+                "prediction": "664",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: Multiply 8 and 83.",
+            "response": "[FINAL ANSWER] As Ada Lovelace, I would approach the problem of multiplying 8 and 83 by using the method of long multiplication. \n\nFirst, I would write down the numbers vertically, aligning them according to their place values:\n\n        8\n    \u00d7  83\n    ______\n\nNext, I would start multiplying the digits from right to left. \n\nStarting with the digit 3 in 83, I would multiply it by 8:\n\n        8\n    \u00d7  83\n    ______\n       24\n\nThen, I would move to the next digit, which is 8, and multiply it by 8:\n\n        8\n    \u00d7  83\n    ______\n      64\n\nNow, I would add a zero to the right of the previous result to account for the place value:\n\n        8\n    \u00d7  83\n    ______\n     640\n\nFinally, I would multiply the digit 8 in 83 by 8:\n\n        8\n    \u00d7  83\n    ______\n    640\n    ______\n\nAdding up the results, we get:\n\n        8\n    \u00d7  83\n    ______\n    664\n\nTherefore, as Ada Lovelace, I would preface the final answer with [FINAL ANSWER] and state that the product of 8 and 83 is 664.",
+            "metrics": {
+                "ground_truth": "664",
+                "prediction": "664",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What do you get when you add 1 and 1?",
+            "response": "[FINAL ANSWER] When you add 1 and 1, you get 2.",
+            "metrics": {
+                "ground_truth": "2",
+                "prediction": "2",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Bernhard Riemann. As Bernhard Riemann answer the following problem: What do you get when you add 1 and 1?",
+            "response": "[FINAL ANSWER] When you add 1 and 1, the result is 2.",
+            "metrics": {
+                "ground_truth": "2",
+                "prediction": "2",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the product of numbers 13 and 20?",
+            "response": "[FINAL ANSWER] The product of numbers 13 and 20 is 260.",
+            "metrics": {
+                "ground_truth": "260",
+                "prediction": "260",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Carl Friedrich Gauss. As Carl Friedrich Gauss answer the following problem: What is the product of numbers 13 and 20?",
+            "response": "[FINAL ANSWER] The product of numbers 13 and 20 is 260.",
+            "metrics": {
+                "ground_truth": "260",
+                "prediction": "260",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Give the sum of 26 and 42.",
+            "response": "[FINAL ANSWER] The sum of 26 and 42 is 68.",
+            "metrics": {
+                "ground_truth": "68",
+                "prediction": "68",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Isaac Newton. As Isaac Newton answer the following problem: Give the sum of 26 and 42.",
+            "response": "[FINAL ANSWER] The sum of 26 and 42 is 68.",
+            "metrics": {
+                "ground_truth": "68",
+                "prediction": "68",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Provide the product of 17 and 34.",
+            "response": "[FINAL ANSWER] The product of 17 and 34 is 578.",
+            "metrics": {
+                "ground_truth": "578",
+                "prediction": "578",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Sophie Germain. As Sophie Germain answer the following problem: Provide the product of 17 and 34.",
+            "response": "[FINAL ANSWER] The product of 17 and 34 is 578.",
+            "metrics": {
+                "ground_truth": "578",
+                "prediction": "578",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Find the result of adding 91 and 14.",
+            "response": "[FINAL ANSWER] The result of adding 91 and 14 is 105.",
+            "metrics": {
+                "ground_truth": "105",
+                "prediction": "105",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: Find the result of adding 91 and 14.",
+            "response": "[FINAL ANSWER] As Ada Lovelace, I have calculated the result of adding 91 and 14. The sum of 91 and 14 is 105.",
+            "metrics": {
+                "ground_truth": "105",
+                "prediction": "105",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Provide the sum of 42 and 88.",
+            "response": "[FINAL ANSWER] The sum of 42 and 88 is 130.",
+            "metrics": {
+                "ground_truth": "130",
+                "prediction": "130",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Bernhard Riemann. As Bernhard Riemann answer the following problem: Provide the sum of 42 and 88.",
+            "response": "[FINAL ANSWER] As Bernhard Riemann, I would approach this problem by adding 42 and 88 together. By performing the addition, I find that the sum of 42 and 88 is 130.",
+            "metrics": {
+                "ground_truth": "130",
+                "prediction": "130",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the sum of 46 and 68?",
+            "response": "[FINAL ANSWER] The sum of 46 and 68 is 114.",
+            "metrics": {
+                "ground_truth": "114",
+                "prediction": "114",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Carl Friedrich Gauss. As Carl Friedrich Gauss answer the following problem: What is the sum of 46 and 68?",
+            "response": "[FINAL ANSWER] The sum of 46 and 68 is 114.",
+            "metrics": {
+                "ground_truth": "114",
+                "prediction": "114",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Give the sum of 70 and 52.",
+            "response": "[FINAL ANSWER] The sum of 70 and 52 is 122.",
+            "metrics": {
+                "ground_truth": "122",
+                "prediction": "122",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Isaac Newton. As Isaac Newton answer the following problem: Give the sum of 70 and 52.",
+            "response": "[FINAL ANSWER] The sum of 70 and 52 is 122.",
+            "metrics": {
+                "ground_truth": "122",
+                "prediction": "122",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What do you get when you multiply 67 and 79?",
+            "response": "[FINAL ANSWER] When you multiply 67 and 79, you get 5,293.",
+            "metrics": {
+                "ground_truth": "5293",
+                "prediction": "5293",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Sophie Germain. As Sophie Germain answer the following problem: What do you get when you multiply 67 and 79?",
+            "response": "[FINAL ANSWER] When you multiply 67 and 79, you get the product 5,293.",
+            "metrics": {
+                "ground_truth": "5293",
+                "prediction": "5293",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Find the result of multiplying 24 and 81.",
+            "response": "[FINAL ANSWER] The result of multiplying 24 and 81 is 1,944.",
+            "metrics": {
+                "ground_truth": "1944",
+                "prediction": "1944",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: Find the result of multiplying 24 and 81.",
+            "response": "[FINAL ANSWER] As Ada Lovelace, I would approach this problem by multiplying 24 and 81. \n\nTo find the result, I would multiply the two numbers together:\n\n24 * 81 = 1944\n\nTherefore, the final answer is 1944.",
+            "metrics": {
+                "ground_truth": "1944",
+                "prediction": "1944",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the product of numbers 35 and 98?",
+            "response": "[FINAL ANSWER] The product of numbers 35 and 98 is 3,430.",
+            "metrics": {
+                "ground_truth": "3430",
+                "prediction": "3430",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Bernhard Riemann. As Bernhard Riemann answer the following problem: What is the product of numbers 35 and 98?",
+            "response": "[FINAL ANSWER] As Bernhard Riemann, I would approach this problem by multiplying the numbers 35 and 98. \n\nTo find the product, I would multiply the units digits first, which are 5 and 8. The product of 5 and 8 is 40. \n\nNext, I would multiply the tens digits, which are 3 and 9. The product of 3 and 9 is 27. \n\nFinally, I would combine the results by placing the product of the tens digits (27) to the left of the product of the units digits (40). \n\nTherefore, the product of 35 and 98 is 2,760.",
+            "metrics": {
+                "ground_truth": "3430",
+                "prediction": "2760",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.75,
+                "abs_distance": 670.0,
+                "rel_distance": 0.19533527696793002
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the product of 65 and 39?",
+            "response": "[FINAL ANSWER] The product of 65 and 39 is 2535.",
+            "metrics": {
+                "ground_truth": "2535",
+                "prediction": "2535",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Carl Friedrich Gauss. As Carl Friedrich Gauss answer the following problem: What is the product of 65 and 39?",
+            "response": "[FINAL ANSWER] The product of 65 and 39 is 2535.",
+            "metrics": {
+                "ground_truth": "2535",
+                "prediction": "2535",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the product of 89 and 93?",
+            "response": "[FINAL ANSWER] The product of 89 and 93 is 8277.",
+            "metrics": {
+                "ground_truth": "8277",
+                "prediction": "8277",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Isaac Newton. As Isaac Newton answer the following problem: What is the product of 89 and 93?",
+            "response": "[FINAL ANSWER] As Isaac Newton, I would approach this problem by multiplying 89 and 93. \n\nTo find the product, I would start by multiplying the ones digit of 89 (which is 9) with the ones digit of 93 (which is also 3). This gives me 27.\n\nNext, I would multiply the tens digit of 89 (which is 8) with the ones digit of 93 (which is 3). This gives me 24.\n\nThen, I would multiply the ones digit of 89 (which is 9) with the tens digit of 93 (which is 9). This gives me 81.\n\nFinally, I would multiply the tens digit of 89 (which is 8) with the tens digit of 93 (which is also 9). This gives me 72.\n\nTo obtain the final answer, I would add up the results of these multiplications: 27 + 24 + 81 + 72 = 204.\n\nTherefore, as Isaac Newton, I would conclude that the product of 89 and 93 is 204.",
+            "metrics": {
+                "ground_truth": "8277",
+                "prediction": "204",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.75,
+                "abs_distance": 8073.0,
+                "rel_distance": 0.975353388909025
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the result of adding 56 and 30?",
+            "response": "[FINAL ANSWER] The result of adding 56 and 30 is 86.",
+            "metrics": {
+                "ground_truth": "86",
+                "prediction": "86",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Sophie Germain. As Sophie Germain answer the following problem: What is the result of adding 56 and 30?",
+            "response": "[FINAL ANSWER] The result of adding 56 and 30 is 86.",
+            "metrics": {
+                "ground_truth": "86",
+                "prediction": "86",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Give the product of 99 and 27.",
+            "response": "[FINAL ANSWER] The product of 99 and 27 is 2673.",
+            "metrics": {
+                "ground_truth": "2673",
+                "prediction": "2673",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: Give the product of 99 and 27.",
+            "response": "[FINAL ANSWER] The product of 99 and 27 is 2673.",
+            "metrics": {
+                "ground_truth": "2673",
+                "prediction": "2673",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Find the result of multiplying 82 and 68.",
+            "response": "[FINAL ANSWER] The result of multiplying 82 and 68 is 5,576.",
+            "metrics": {
+                "ground_truth": "5576",
+                "prediction": "5576",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Bernhard Riemann. As Bernhard Riemann answer the following problem: Find the result of multiplying 82 and 68.",
+            "response": "[FINAL ANSWER] As Bernhard Riemann, I would approach the problem of multiplying 82 and 68 using the traditional long multiplication method. \n\nFirst, I would write down the numbers vertically:\n\n       82\n    \u00d7 68\n    ------\n\nNext, I would start by multiplying the ones digit of 82 (which is 2) by each digit of 68. \n\n       82\n    \u00d7 68\n    ------\n       16\n\nThen, I would multiply the tens digit of 82 (which is 8) by each digit of 68, but shifted one place to the left:\n\n       82\n    \u00d7 68\n    ------\n      48\n    + 560\n    ------\n\nFinally, I would add the two partial products together:\n\n       82\n    \u00d7 68\n    ------\n      48\n    + 560\n    ------\n     5576\n\nTherefore, as Bernhard Riemann, I would conclude that the result of multiplying 82 and 68 is 5576.",
+            "metrics": {
+                "ground_truth": "5576",
+                "prediction": "5576",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Provide the sum of 16 and 11.",
+            "response": "[FINAL ANSWER] The sum of 16 and 11 is 27.",
+            "metrics": {
+                "ground_truth": "27",
+                "prediction": "27",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Carl Friedrich Gauss. As Carl Friedrich Gauss answer the following problem: Provide the sum of 16 and 11.",
+            "response": "[FINAL ANSWER] The sum of 16 and 11 is 27.",
+            "metrics": {
+                "ground_truth": "27",
+                "prediction": "27",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Add 92 and 12.",
+            "response": "[FINAL ANSWER] The sum of 92 and 12 is 104.",
+            "metrics": {
+                "ground_truth": "104",
+                "prediction": "104",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Isaac Newton. As Isaac Newton answer the following problem: Add 92 and 12.",
+            "response": "[FINAL ANSWER] The sum of 92 and 12 is 104.",
+            "metrics": {
+                "ground_truth": "104",
+                "prediction": "104",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Give the product of 11 and 4.",
+            "response": "[FINAL ANSWER] The product of 11 and 4 is 44.",
+            "metrics": {
+                "ground_truth": "44",
+                "prediction": "44",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Sophie Germain. As Sophie Germain answer the following problem: Give the product of 11 and 4.",
+            "response": "[FINAL ANSWER] The product of 11 and 4 is 44.",
+            "metrics": {
+                "ground_truth": "44",
+                "prediction": "44",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Find the result of adding 24 and 48.",
+            "response": "[FINAL ANSWER] The result of adding 24 and 48 is 72.",
+            "metrics": {
+                "ground_truth": "72",
+                "prediction": "72",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: Find the result of adding 24 and 48.",
+            "response": "[FINAL ANSWER] As Ada Lovelace, I have calculated the result of adding 24 and 48. The sum of 24 and 48 is 72.",
+            "metrics": {
+                "ground_truth": "72",
+                "prediction": "72",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Multiply 89 and 54.",
+            "response": "[FINAL ANSWER] The product of 89 and 54 is 4,806.",
+            "metrics": {
+                "ground_truth": "4806",
+                "prediction": "4806",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Bernhard Riemann. As Bernhard Riemann answer the following problem: Multiply 89 and 54.",
+            "response": "[FINAL ANSWER] To multiply 89 and 54, we can use the standard multiplication algorithm. Let's break it down step by step:\n\n       89\n    \u00d7  54\n    ______\n      534   (89 multiplied by 4)\n+  3560   (89 multiplied by 50)\n    ______\n     4806\n\nTherefore, the product of 89 and 54 is 4806.",
+            "metrics": {
+                "ground_truth": "4806",
+                "prediction": "4806",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Give the sum of 7 and 71.",
+            "response": "[FINAL ANSWER] The sum of 7 and 71 is 78.",
+            "metrics": {
+                "ground_truth": "78",
+                "prediction": "78",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Carl Friedrich Gauss. As Carl Friedrich Gauss answer the following problem: Give the sum of 7 and 71.",
+            "response": "[FINAL ANSWER] The sum of 7 and 71 is 78.",
+            "metrics": {
+                "ground_truth": "78",
+                "prediction": "78",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Provide the product of 25 and 54.",
+            "response": "[FINAL ANSWER] The product of 25 and 54 is 1350.",
+            "metrics": {
+                "ground_truth": "1350",
+                "prediction": "1350",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Isaac Newton. As Isaac Newton answer the following problem: Provide the product of 25 and 54.",
+            "response": "[FINAL ANSWER] The product of 25 and 54 is 1350.",
+            "metrics": {
+                "ground_truth": "1350",
+                "prediction": "1350",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Provide the product of 64 and 45.",
+            "response": "[FINAL ANSWER] The product of 64 and 45 is 2880.",
+            "metrics": {
+                "ground_truth": "2880",
+                "prediction": "2880",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Sophie Germain. As Sophie Germain answer the following problem: Provide the product of 64 and 45.",
+            "response": "[FINAL ANSWER] The product of 64 and 45 is 2880.",
+            "metrics": {
+                "ground_truth": "2880",
+                "prediction": "2880",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the result of adding 6 and 62?",
+            "response": "[FINAL ANSWER] The result of adding 6 and 62 is 68.",
+            "metrics": {
+                "ground_truth": "68",
+                "prediction": "68",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: What is the result of adding 6 and 62?",
+            "response": "[FINAL ANSWER] The result of adding 6 and 62 is 68.",
+            "metrics": {
+                "ground_truth": "68",
+                "prediction": "68",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the sum of numbers 23 and 15?",
+            "response": "[FINAL ANSWER] The sum of numbers 23 and 15 is 38.",
+            "metrics": {
+                "ground_truth": "38",
+                "prediction": "38",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Bernhard Riemann. As Bernhard Riemann answer the following problem: What is the sum of numbers 23 and 15?",
+            "response": "[FINAL ANSWER] As Bernhard Riemann, I would approach this problem by adding the numbers 23 and 15. By performing the addition, I find that the sum of 23 and 15 is 38.",
+            "metrics": {
+                "ground_truth": "38",
+                "prediction": "38",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Multiply 80 and 40.",
+            "response": "[FINAL ANSWER] The product of 80 and 40 is 3200.",
+            "metrics": {
+                "ground_truth": "3200",
+                "prediction": "3200",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Carl Friedrich Gauss. As Carl Friedrich Gauss answer the following problem: Multiply 80 and 40.",
+            "response": "[FINAL ANSWER] The product of 80 and 40 is 3200.",
+            "metrics": {
+                "ground_truth": "3200",
+                "prediction": "3200",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Find the result of multiplying 9 and 65.",
+            "response": "[FINAL ANSWER] The result of multiplying 9 and 65 is 585.",
+            "metrics": {
+                "ground_truth": "585",
+                "prediction": "585",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Isaac Newton. As Isaac Newton answer the following problem: Find the result of multiplying 9 and 65.",
+            "response": "[FINAL ANSWER] The result of multiplying 9 and 65 is 585.",
+            "metrics": {
+                "ground_truth": "585",
+                "prediction": "585",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Provide the product of 58 and 15.",
+            "response": "[FINAL ANSWER] The product of 58 and 15 is 870.",
+            "metrics": {
+                "ground_truth": "870",
+                "prediction": "870",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Sophie Germain. As Sophie Germain answer the following problem: Provide the product of 58 and 15.",
+            "response": "[FINAL ANSWER] The product of 58 and 15 is 870.",
+            "metrics": {
+                "ground_truth": "870",
+                "prediction": "870",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the sum of numbers 66 and 49?",
+            "response": "[FINAL ANSWER] The sum of numbers 66 and 49 is 115.",
+            "metrics": {
+                "ground_truth": "115",
+                "prediction": "115",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: What is the sum of numbers 66 and 49?",
+            "response": "[FINAL ANSWER] The sum of numbers 66 and 49 is 115.",
+            "metrics": {
+                "ground_truth": "115",
+                "prediction": "115",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Provide the sum of 73 and 11.",
+            "response": "[FINAL ANSWER] The sum of 73 and 11 is 84.",
+            "metrics": {
+                "ground_truth": "84",
+                "prediction": "84",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Bernhard Riemann. As Bernhard Riemann answer the following problem: Provide the sum of 73 and 11.",
+            "response": "[FINAL ANSWER] The sum of 73 and 11 is 84.",
+            "metrics": {
+                "ground_truth": "84",
+                "prediction": "84",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the sum of numbers 71 and 89?",
+            "response": "[FINAL ANSWER] The sum of numbers 71 and 89 is 160.",
+            "metrics": {
+                "ground_truth": "160",
+                "prediction": "160",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Carl Friedrich Gauss. As Carl Friedrich Gauss answer the following problem: What is the sum of numbers 71 and 89?",
+            "response": "[FINAL ANSWER] The sum of numbers 71 and 89 is 160.",
+            "metrics": {
+                "ground_truth": "160",
+                "prediction": "160",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Find the result of adding 46 and 50.",
+            "response": "[FINAL ANSWER] The result of adding 46 and 50 is 96.",
+            "metrics": {
+                "ground_truth": "96",
+                "prediction": "96",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Isaac Newton. As Isaac Newton answer the following problem: Find the result of adding 46 and 50.",
+            "response": "[FINAL ANSWER] The result of adding 46 and 50 is 96.",
+            "metrics": {
+                "ground_truth": "96",
+                "prediction": "96",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What do you get when you multiply 25 and 79?",
+            "response": "[FINAL ANSWER] When you multiply 25 and 79, you get 1975.",
+            "metrics": {
+                "ground_truth": "1975",
+                "prediction": "1975",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Sophie Germain. As Sophie Germain answer the following problem: What do you get when you multiply 25 and 79?",
+            "response": "[FINAL ANSWER] When you multiply 25 and 79, you get 1975.",
+            "metrics": {
+                "ground_truth": "1975",
+                "prediction": "1975",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Find the result of adding 91 and 90.",
+            "response": "[FINAL ANSWER] The result of adding 91 and 90 is 181.",
+            "metrics": {
+                "ground_truth": "181",
+                "prediction": "181",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: Find the result of adding 91 and 90.",
+            "response": "[FINAL ANSWER] As Ada Lovelace, I have calculated the result of adding 91 and 90. The sum of 91 and 90 is 181.",
+            "metrics": {
+                "ground_truth": "181",
+                "prediction": "181",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the product of numbers 46 and 52?",
+            "response": "[FINAL ANSWER] The product of numbers 46 and 52 is 2392.",
+            "metrics": {
+                "ground_truth": "2392",
+                "prediction": "2392",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Bernhard Riemann. As Bernhard Riemann answer the following problem: What is the product of numbers 46 and 52?",
+            "response": "[FINAL ANSWER] As Bernhard Riemann, I would approach this problem by utilizing my mathematical knowledge and techniques. To find the product of 46 and 52, I would multiply these two numbers together.\n\n46 multiplied by 52 equals 2,392.\n\nTherefore, the product of numbers 46 and 52 is 2,392.",
+            "metrics": {
+                "ground_truth": "2392",
+                "prediction": "2392",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Find the result of multiplying 67 and 86.",
+            "response": "[FINAL ANSWER] The result of multiplying 67 and 86 is 5774.",
+            "metrics": {
+                "ground_truth": "5762",
+                "prediction": "5774",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.5,
+                "abs_distance": 12.0,
+                "rel_distance": 0.0020826102047900035
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Carl Friedrich Gauss. As Carl Friedrich Gauss answer the following problem: Find the result of multiplying 67 and 86.",
+            "response": "[FINAL ANSWER] As Carl Friedrich Gauss, I would solve the problem by using my mathematical skills. To find the result of multiplying 67 and 86, I would perform the following calculations:\n\nFirst, I would multiply the units digits of both numbers, which are 7 and 6. The product of 7 and 6 is 42.\n\nNext, I would multiply the tens digit of the first number, which is 6, by the second number, 86. This gives me 516.\n\nThen, I would multiply the hundreds digit of the first number, which is 6, by the second number, 86. This gives me 5160.\n\nFinally, I would add the three products together: 42 + 516 + 5160 = 5718.\n\nTherefore, as Carl Friedrich Gauss, I would conclude that the result of multiplying 67 and 86 is 5718.",
+            "metrics": {
+                "ground_truth": "5762",
+                "prediction": "5718",
+                "abs_edit_distance": 2,
+                "rel_edit_distance": 0.5,
+                "abs_distance": 44.0,
+                "rel_distance": 0.0076362374175633465
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the sum of numbers 13 and 44?",
+            "response": "[FINAL ANSWER] The sum of numbers 13 and 44 is 57.",
+            "metrics": {
+                "ground_truth": "57",
+                "prediction": "57",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Isaac Newton. As Isaac Newton answer the following problem: What is the sum of numbers 13 and 44?",
+            "response": "[FINAL ANSWER] The sum of numbers 13 and 44 is 57.",
+            "metrics": {
+                "ground_truth": "57",
+                "prediction": "57",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the result of adding 5 and 31?",
+            "response": "[FINAL ANSWER] The result of adding 5 and 31 is 36.",
+            "metrics": {
+                "ground_truth": "36",
+                "prediction": "36",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Sophie Germain. As Sophie Germain answer the following problem: What is the result of adding 5 and 31?",
+            "response": "[FINAL ANSWER] The result of adding 5 and 31 is 36.",
+            "metrics": {
+                "ground_truth": "36",
+                "prediction": "36",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the result of adding 65 and 10?",
+            "response": "[FINAL ANSWER] The result of adding 65 and 10 is 75.",
+            "metrics": {
+                "ground_truth": "75",
+                "prediction": "75",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: What is the result of adding 65 and 10?",
+            "response": "[FINAL ANSWER] The result of adding 65 and 10 is 75.",
+            "metrics": {
+                "ground_truth": "75",
+                "prediction": "75",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Give the sum of 33 and 20.",
+            "response": "[FINAL ANSWER] The sum of 33 and 20 is 53.",
+            "metrics": {
+                "ground_truth": "53",
+                "prediction": "53",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Bernhard Riemann. As Bernhard Riemann answer the following problem: Give the sum of 33 and 20.",
+            "response": "[FINAL ANSWER] The sum of 33 and 20 is 53.",
+            "metrics": {
+                "ground_truth": "53",
+                "prediction": "53",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Add 3 and 76.",
+            "response": "[FINAL ANSWER] The sum of 3 and 76 is 79.",
+            "metrics": {
+                "ground_truth": "79",
+                "prediction": "79",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Carl Friedrich Gauss. As Carl Friedrich Gauss answer the following problem: Add 3 and 76.",
+            "response": "[FINAL ANSWER] The sum of 3 and 76 is 79.",
+            "metrics": {
+                "ground_truth": "79",
+                "prediction": "79",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Find the result of adding 17 and 31.",
+            "response": "[FINAL ANSWER] The result of adding 17 and 31 is 48.",
+            "metrics": {
+                "ground_truth": "48",
+                "prediction": "48",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Isaac Newton. As Isaac Newton answer the following problem: Find the result of adding 17 and 31.",
+            "response": "[FINAL ANSWER] As Isaac Newton, I have calculated the sum of 17 and 31 to be 48.",
+            "metrics": {
+                "ground_truth": "48",
+                "prediction": "48",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Provide the sum of 15 and 11.",
+            "response": "[FINAL ANSWER] The sum of 15 and 11 is 26.",
+            "metrics": {
+                "ground_truth": "26",
+                "prediction": "26",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Sophie Germain. As Sophie Germain answer the following problem: Provide the sum of 15 and 11.",
+            "response": "[FINAL ANSWER] The sum of 15 and 11 is 26.",
+            "metrics": {
+                "ground_truth": "26",
+                "prediction": "26",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Add 11 and 35.",
+            "response": "[FINAL ANSWER] The sum of 11 and 35 is 46.",
+            "metrics": {
+                "ground_truth": "46",
+                "prediction": "46",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: Add 11 and 35.",
+            "response": "[FINAL ANSWER] The sum of 11 and 35 is 46.",
+            "metrics": {
+                "ground_truth": "46",
+                "prediction": "46",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What do you get when you add 76 and 34?",
+            "response": "[FINAL ANSWER] When you add 76 and 34, you get 110.",
+            "metrics": {
+                "ground_truth": "110",
+                "prediction": "110",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Bernhard Riemann. As Bernhard Riemann answer the following problem: What do you get when you add 76 and 34?",
+            "response": "[FINAL ANSWER] As Bernhard Riemann, I would approach this problem by adding 76 and 34. Calculating the sum, I find that 76 + 34 equals 110.",
+            "metrics": {
+                "ground_truth": "110",
+                "prediction": "110",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Give the product of 24 and 81.",
+            "response": "[FINAL ANSWER] The product of 24 and 81 is 1,944.",
+            "metrics": {
+                "ground_truth": "1944",
+                "prediction": "1944",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Carl Friedrich Gauss. As Carl Friedrich Gauss answer the following problem: Give the product of 24 and 81.",
+            "response": "[FINAL ANSWER] The product of 24 and 81 is 1,944.",
+            "metrics": {
+                "ground_truth": "1944",
+                "prediction": "1944",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Add 38 and 41.",
+            "response": "[FINAL ANSWER] The sum of 38 and 41 is 79.",
+            "metrics": {
+                "ground_truth": "79",
+                "prediction": "79",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Isaac Newton. As Isaac Newton answer the following problem: Add 38 and 41.",
+            "response": "[FINAL ANSWER] The sum of 38 and 41 is 79.",
+            "metrics": {
+                "ground_truth": "79",
+                "prediction": "79",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Multiply 16 and 7.",
+            "response": "[FINAL ANSWER] The product of 16 and 7 is 112.",
+            "metrics": {
+                "ground_truth": "112",
+                "prediction": "112",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Sophie Germain. As Sophie Germain answer the following problem: Multiply 16 and 7.",
+            "response": "[FINAL ANSWER] As Sophie Germain, I would approach the problem of multiplying 16 and 7 by using my mathematical knowledge and skills. To find the product of 16 and 7, I would multiply the two numbers together.\n\n16 multiplied by 7 equals 112. Therefore, the final answer is 112.",
+            "metrics": {
+                "ground_truth": "112",
+                "prediction": "112",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Find the result of adding 66 and 32.",
+            "response": "[FINAL ANSWER] The result of adding 66 and 32 is 98.",
+            "metrics": {
+                "ground_truth": "98",
+                "prediction": "98",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: Find the result of adding 66 and 32.",
+            "response": "[FINAL ANSWER] As Ada Lovelace, I have calculated the result of adding 66 and 32 to be 98.",
+            "metrics": {
+                "ground_truth": "98",
+                "prediction": "98",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Give the product of 86 and 87.",
+            "response": "[FINAL ANSWER] The product of 86 and 87 is 7482.",
+            "metrics": {
+                "ground_truth": "7482",
+                "prediction": "7482",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Bernhard Riemann. As Bernhard Riemann answer the following problem: Give the product of 86 and 87.",
+            "response": "[FINAL ANSWER] As Bernhard Riemann, I would approach this problem by using my mathematical knowledge and techniques. To find the product of 86 and 87, I would multiply these two numbers together.\n\n86 multiplied by 87 can be calculated as follows:\n\n86 \u00d7 87 = 7506\n\nTherefore, the product of 86 and 87 is 7506.",
+            "metrics": {
+                "ground_truth": "7482",
+                "prediction": "7506",
+                "abs_edit_distance": 3,
+                "rel_edit_distance": 0.75,
+                "abs_distance": 24.0,
+                "rel_distance": 0.0032076984763432237
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Provide the product of 35 and 57.",
+            "response": "[FINAL ANSWER] The product of 35 and 57 is 1995.",
+            "metrics": {
+                "ground_truth": "1995",
+                "prediction": "1995",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Carl Friedrich Gauss. As Carl Friedrich Gauss answer the following problem: Provide the product of 35 and 57.",
+            "response": "[FINAL ANSWER] The product of 35 and 57 is 1995.",
+            "metrics": {
+                "ground_truth": "1995",
+                "prediction": "1995",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What do you get when you add 68 and 6?",
+            "response": "[FINAL ANSWER] When you add 68 and 6, you get 74.",
+            "metrics": {
+                "ground_truth": "74",
+                "prediction": "74",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Isaac Newton. As Isaac Newton answer the following problem: What do you get when you add 68 and 6?",
+            "response": "[FINAL ANSWER] When you add 68 and 6, the sum is 74.",
+            "metrics": {
+                "ground_truth": "74",
+                "prediction": "74",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "Give the product of 2 and 62.",
+            "response": "[FINAL ANSWER] The product of 2 and 62 is 124.",
+            "metrics": {
+                "ground_truth": "124",
+                "prediction": "124",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Sophie Germain. As Sophie Germain answer the following problem: Give the product of 2 and 62.",
+            "response": "[FINAL ANSWER] The product of 2 and 62 is 124.",
+            "metrics": {
+                "ground_truth": "124",
+                "prediction": "124",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What do you get when you multiply 2 and 67?",
+            "response": "[FINAL ANSWER] When you multiply 2 and 67, you get 134.",
+            "metrics": {
+                "ground_truth": "134",
+                "prediction": "134",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Ada Lovelace. As Ada Lovelace answer the following problem: What do you get when you multiply 2 and 67?",
+            "response": "[FINAL ANSWER] When you multiply 2 and 67, you get the product of 134.",
+            "metrics": {
+                "ground_truth": "134",
+                "prediction": "134",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the product of 19 and 29?",
+            "response": "[FINAL ANSWER] The product of 19 and 29 is 551.",
+            "metrics": {
+                "ground_truth": "551",
+                "prediction": "551",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Bernhard Riemann. As Bernhard Riemann answer the following problem: What is the product of 19 and 29?",
+            "response": "[FINAL ANSWER] As Bernhard Riemann, I would approach this problem by utilizing my mathematical knowledge. To find the product of 19 and 29, I would simply multiply these two numbers together. \n\n19 multiplied by 29 equals 551. Therefore, the product of 19 and 29 is 551.",
+            "metrics": {
+                "ground_truth": "551",
+                "prediction": "551",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the result of multiplying 96 and 64?",
+            "response": "[FINAL ANSWER] The result of multiplying 96 and 64 is 6,144.",
+            "metrics": {
+                "ground_truth": "6144",
+                "prediction": "6144",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Carl Friedrich Gauss. As Carl Friedrich Gauss answer the following problem: What is the result of multiplying 96 and 64?",
+            "response": "[FINAL ANSWER] The result of multiplying 96 and 64 is 6,144.",
+            "metrics": {
+                "ground_truth": "6144",
+                "prediction": "6144",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the sum of 23 and 54?",
+            "response": "[FINAL ANSWER] The sum of 23 and 54 is 77.",
+            "metrics": {
+                "ground_truth": "77",
+                "prediction": "77",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Isaac Newton. As Isaac Newton answer the following problem: What is the sum of 23 and 54?",
+            "response": "[FINAL ANSWER] The sum of 23 and 54 is 77.",
+            "metrics": {
+                "ground_truth": "77",
+                "prediction": "77",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    },
+    {
+        "no_context": {
+            "prompt": "What is the product of 73 and 12?",
+            "response": "[FINAL ANSWER] The product of 73 and 12 is 876.",
+            "metrics": {
+                "ground_truth": "876",
+                "prediction": "876",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        },
+        "context": {
+            "prompt": "Imagine you are the mathematician Sophie Germain. As Sophie Germain answer the following problem: What is the product of 73 and 12?",
+            "response": "[FINAL ANSWER] The product of 73 and 12 is 876.",
+            "metrics": {
+                "ground_truth": "876",
+                "prediction": "876",
+                "abs_edit_distance": 0,
+                "rel_edit_distance": 0.0,
+                "abs_distance": 0.0,
+                "rel_distance": 0.0
+            }
+        }
+    }
+]
