@@ -1,7 +1,7 @@
 
 # Red Teaming for Large Language Models At Scale: Tackling Hallucinations on Mathematics Tasks
 
-This project provides a framework designed for executing positive red-teaming experiments on large language models. More information about the nature of this project can be found in our [paper preprint](https://arxiv.org/abs/2401.00290).
+This project provides a framework designed for executing positive red-teaming experiments on large language models. More information about the nature of this project can be found in our [paper](https://aclanthology.org/2023.artofsafety-1.1/).
 
 ## Prerequisites
 
